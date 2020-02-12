@@ -2,7 +2,7 @@ Jarulf’s Guide
 to  
 Diablo and Hellfire
 
-version 1.62  
+version 1.63  
 by  
 Pedro Faria / Jarulf
 
@@ -361,8 +361,8 @@ Pedro Faria / Jarulf
 # Introduction
 
 This guide is a compilation of all the data I have collected about
-Diablo and Hellfire during the many months of playing those games. It
-has virtually no tactics or strategy but instead contains a wealth of
+Diablo and Hellfire during the many years of playing those games. It has
+virtually no tactics or strategy but instead contains a wealth of
 numerical data and formulas for many aspects of the game. As far as
 possible all data and information has been either collected by me or
 otherwise verified by me. Of course, some information is very hard to
@@ -376,14 +376,6 @@ they are separated by a thicker line. I don’t think there will be any
 problem distinguishing the Hellfire data from the Diablo data. If no
 specific data or information is given for Hellfire, it can be assumed to
 be like in Diablo.
-
-With such a great number of tables and data that is presented in this
-guide, errors are bound to exist. I am grateful for any information
-about errors. If you do want to report such errors or missing
-information, do so by mail to pedro.faria@chemeng.lth.se. But please
-avoid writing me asking about other information, clarifications, and so
-on. All I know and have information about can already be found in this
-guide.
 
 Feel free to use this guide personally in any way you want. If you want
 to give it away to anyone or make it available for others in any way,
@@ -407,7 +399,7 @@ Also note that due to the size of the document and the numerous tables
 in it, it may, especially on slower computers, take quite a while for
 Word to open the document. So please have patience when you open it\!
 
-Patches for Diablo and Hellfire
+1.  Patches for Diablo and Hellfire
 
 The latest patches are 1.09 for Diablo and 1.01 for Hellfire. The
 Playstation version of Diablo should be almost identical to the 1.04
@@ -434,7 +426,13 @@ versions when it may be of importance. In some cases I also refer to
 existing bugs if it may have an effect on the information presented in
 this Guide, but normally bugs are *not* covered. This Guide does in no
 way cover the demo or spawned version (actually the same as the demo) of
-the game.
+the game. Although the Guide covers Battle.net chat, channels and other
+similar aspects, it will usually not be updated to cover changes done
+specifically to Battle.net either due to other games or due to general
+enhancements or changes that are not specific for the game of Diablo. It
+would not be possible to keep this Guide updated due to such changes by
+other games. As such, the chapter about Battle.net (chapter 9), will in
+many cases be outdated.
 
 ## Hidden quests and characters in Hellfire
 
@@ -471,7 +469,7 @@ valid for the whole guide but never explicitly mentioned anywhere else.
 
   - > When doing calculations, you should generally round down any
     > number you get, as that is the way Diablo and Hellfire works.
-    > However, life, mana ,HP, and damage are actually kept track of
+    > However, life, mana, HP, and damage are actually kept track of
     > with higher precision than shown and should not be rounded down.
     > If you are supposed to round down *within* a formula, that will
     > usually be indicated by \[ \].
@@ -594,11 +592,12 @@ Christian (Cormac), Hibiki Sakuru, moe SAINT EverGreen, Claudio Giannini
 Charlie, Jerome Waters, Marcus Malden, Alvin J. Boning Jr.,
 Mithrandir(COD), Aaron Burnell, Wolfspirit, Stu, PKRankin, Henk Morren,
 Tanja\[BWO\], Olivier Flipo, Dr. Zed, Tommi Helminen, Don Bush, Rand’al,
-MMAgCh, Scrape, Gregarious\_Zinn, HowGozit, Heiko Klein, Tom O’Shea, M.,
-Jan Willem Helderman, Vlad Rostovsky, Meshuggah, Chinh Tran, Keith
-Costorf, Renè Naustvik Åsen, Rhydderch Hael, Msalcoryp, Zamal, SoulEdge,
-CebeWee, Layil, Jason Redmond, Maurice van Mil, Jim Thompson (Ji'Dath),
-Waikano, Matt Brown (Eli), Queto Yurlunyur, Regna, FoxBat and a few
+MMAgCh, Coleby Pavlik, Gregarious\_Zinn, HowGozit, Heiko Klein, Tom
+O’Shea, M., Jan Willem Helderman, Vlad Rostovsky, Meshuggah, Chinh
+Tran, Keith Costorf, Renè Naustvik Åsen, Rhydderch Hael, Msalcoryp,
+Zamal, SoulEdge, CebeWee, Layil, Jason Redmond, Maurice van Mil, Jim
+Thompson (Ji'Dath), Waikano, Matt Brown (Eli), Queto Yurlunyur, Regna,
+FoxBat, Virgil Tibbs, LemmingofGlory, Duong Nguyen (KiLLorD) and a few
 unmentioned persons (you know who you are, thanks). The final ”thank
 you” goes to Desslock and his guide. It was that guide that inspired
 me to do my own. Without it, I would probably never have done this one.
@@ -621,8 +620,8 @@ new information to justify a new version. I will, however, continue to
 add, correct and update it, so please feel free to send me mails about
 it.
 
-Things that have been added or changed substantially in 1.60/1.61 over
-previous version:
+Things that have been added or changed substantially in
+1.60/1.61/1.62/1.63 over previous version:
 
   - > Added a massive chapter detailing information about the monster AI
     > scripts and other related information.
@@ -685,16 +684,17 @@ just print the selected pages where changes were made.
 
   - > Updated the Index.
 
-  - > Changed chapter to acknowledge the latest patch for Diablo, v1.08.
+  - > Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+    > v1.08.
 
-  - > Added some information to chapter .
+  - > Added some information to chapter 1.1.
 
-  - > Added one more general remark to chapter 1.2.
+  - > Added one more general remark to chapter 1.3.
 
   - > Added to and corrected the list of acknowledged people in chapter
-    > 1.4.
+    > 1.5.
 
-  - > Added information about what is new in this update to chapter 1.5.
+  - > Added information about what is new in this update to chapter 1.6.
 
   - > Added link about target location under *Hit recovery* in chapter
     > 2.2.1.
@@ -755,9 +755,10 @@ just print the selected pages where changes were made.
 
   - > Added text about opening the document in Word in chapter 1.
 
-  - > Changed chapter to acknowledge the latest patch for Diablo, v1.09.
+  - > Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+    > v1.09.
 
-  - > Added to the list of acknowledged people in chapter 1.4.
+  - > Added to the list of acknowledged people in chapter 1.5.
 
   - > Clarified melee character damage and special ”weapon” damage for
     > the Monk in chapter 2.2.2.
@@ -783,6 +784,50 @@ just print the selected pages where changes were made.
 
   - > Updated chapter 10.7.
 
+Things that have been added or changed in 1.63:
+
+This list contain *all* changes between 1.62 and 1.63. Some changes,
+this page for example, may change the page breaks of the Guide and thus
+push/pull pages forward or backwards but mostly one should be able to
+just print the selected pages where changes were made.
+
+  - > Updated the front page.
+
+  - > Updated the Index.
+
+  - > Removed mail info in chapter 1.
+
+  - > Added some information regarding the Guide and Battle.net in
+    > chapter 1.1.
+
+  - > Added to the list of acknowledged people in chapter 1.5.
+
+  - > Corrected the Bard’s max mana in chapter 2.1.2.
+
+  - > Corrected and updated information about the hit recovery bug in
+    > the table in chapter 2.2.1.
+
+  - > Corrected the Barbarian’s max naked damage with staff in the table
+    > chapter 2.2.2.
+
+  - > Added information about the hit recovery bug in chapter 3.4.
+
+  - > Corrected information about the occurrence of Decapitated bodies
+    > in chapter 3.8.1.
+
+  - > Added information about the hit recovery bug in chapter 3.13.5.
+
+  - > Restructed the spell information tables in chapter 4.1.3, 4.1.4,
+    > 4.2.1 and 4.2.2.
+
+  - > Corrected a typo about Lightning Wall in chapter 4.1.4.
+
+  - > Added refference to chapter 5.5 in chapter 6.
+
+  - > Updated the icon list in chapter 9.4.
+
+  - > Updated chapter 10.7.
+
 # Characters
 
 The most important character in the game is of course you. So this guide
@@ -803,7 +848,7 @@ Barbarian: Hidden test character available in Hellfire, added in the
 1.01 patch.
 
 For information about how to activate the hidden characters, see chapter
-1.1. Note that the Bard uses the same graphics as the Rogue and the
+1.2. Note that the Bard uses the same graphics as the Rogue and the
 Barbarian uses the same graphics as the Warrior.
 
 ## Character stats
@@ -971,7 +1016,7 @@ any life or mana when you gain level 50.
 <td>120</td>
 <td>100</td>
 <td>221</td>
-<td>231</td>
+<td>281</td>
 </tr>
 <tr class="odd">
 <td>Barbarian</td>
@@ -1166,11 +1211,11 @@ To Hit penalty for adjacent quarter damage: 70 - 2·clvl (minimum 30)
     > like Lightning and Fire Wall.
 
   - > A player is immune to its own spells with the exception of Fire
-    > Wall and Flame Wave.
+    > Wall, Flame Wave, Ring of Fire and Lightning Wall.
 
-  - > Fire Wall, Flame Wave and Ring of Fire will check for To Hit like
-    > magical traps against players including the caster (but not
-    > against monsters). See chapters 4.3 and 6.1.2.
+  - > Fire Wall, Flame Wave, Ring of Fire and Lightning Wall will check
+    > for To Hit like magical traps against players including the caster
+    > (but not against monsters). See chapters 4.3 and 6.1.2.
 
   - > Distance is actually a time count. It goes up by 1 twenty times
     > each second. Arrows always have a distance factor, even if they
@@ -1351,7 +1396,7 @@ The main activity in Diablo and Hellfire is fighting. You either fight
 against the monsters or against other players. This chapter will briefly
 explain how your characters stats and the items you wear affect your
 character while fighting. For a more detailed explanation on battle
-between players and monsters, see chapter 5.6.5.
+between players and monsters, see chapter 5.6.56.
 
 ### Getting hit
 
@@ -1381,8 +1426,8 @@ clvl<sub>attacker</sub>) + bonus
 Blocking trap: Dex + bonus
 
   - > There exists a bug so that the bonus is always 0, except during
-    > the first game a character play. For information about what the
-    > bonus should be, see table under To Hit %, chapter 2.1.4.
+    > the first game a character plays. For information about what the
+    > bonus should be, see table under *To Hit* *%*, chapter 2.1.4.
 
   - > You can only block while standing still or while doing a melee
     > attack.
@@ -1425,7 +1470,8 @@ than 7, set slvl to 7) in Hellfire. In addition it will remove mana
 instead of life.
 
 Checks for hit recovery are done between step 4 and 5 and will thus not
-be affected by the use of Mana Shield.
+be affected by the use of Mana Shield. For more information regarding a
+bug and Mana Shield, see chapter 6.1.1.
 
 Hit recovery
 
@@ -1433,7 +1479,7 @@ When you are hit and don’t block it, you will take damage. If the damage
 is big enough, your character will go through a hit recovery animation;
 you are stunned, during which you can’t do anything. If you get hit
 again before you manage to hit back or move this repeats and you are
-stun locked and can’t react away (for information about entering a new
+stun locked and can’t react (for information about entering a new
 location, see chapter 6.1.9). The hit recovery is initiated if the
 following conditions are met:
 
@@ -1443,18 +1489,19 @@ Barbarian: damage \>= 1.25·clvl
 
 It is worth noticing that the check for hit recovery is made prior to
 any damage reduction due to using a Mana Shield. There are also some
-bugs regarding hit recovery while using Mana Shield. So while using a
-Mana Shield, in addition to the requirements above, damage must also be
-below your current life for you to be put into hit recovery:
+bugs regarding hit recovery while using Mana Shield, see chapter 6.1.1.
+So while using a Mana Shield, in addition to the requirements above,
+damage must also be below your current life for you to be put into hit
+recovery:
 
 Any character, except the Barbarian, using Mana Shield: current life \>
 damage \>= clvl
 
 Barbarian using Mana Shield: current life \> damage \>= 1.25·clvl
 
-The table below list the time, in seconds, it takes to block and to do a
-hit recovery for each character class. It also lists the effects of some
-specific suffixes that influence blocking or hit recovery. For more
+The table below lists the time, in seconds, it takes to block and to do
+a hit recovery for each character class. It also lists the effects of
+some specific suffixes that influence blocking or hit recovery. For more
 information on the suffixes, see chapter 3.2.2.
 
 <table>
@@ -1473,8 +1520,8 @@ information on the suffixes, see chapter 3.2.2.
 <td>0.10</td>
 <td>0.10</td>
 <td>0.30</td>
-<td>0.25</td>
-<td>0.20</td>
+<td>0.25<sup>3</sup></td>
+<td>0.20<sup>3</sup></td>
 <td>0.15<sup>3</sup></td>
 </tr>
 <tr class="odd">
@@ -1482,8 +1529,8 @@ information on the suffixes, see chapter 3.2.2.
 <td>0.20</td>
 <td>0.10</td>
 <td>0.35</td>
-<td>0.30</td>
-<td>0.25</td>
+<td>0.30<sup>3</sup></td>
+<td>0.25<sup>3</sup></td>
 <td>0.20<sup>3</sup></td>
 </tr>
 <tr class="even">
@@ -1491,8 +1538,8 @@ information on the suffixes, see chapter 3.2.2.
 <td>0.30</td>
 <td>0.10</td>
 <td>0.40</td>
-<td>0.35</td>
-<td>0.30</td>
+<td>0.35<sup>3</sup></td>
+<td>0.30<sup>3</sup></td>
 <td>0.25<sup>3</sup></td>
 </tr>
 <tr class="odd">
@@ -1534,9 +1581,10 @@ item *of harmony*.
 
 3 In Diablo, but not in Hellfire, equipping three or more items having
 together all of the three suffixes (of balance, of stability, and of
-harmony), will reduce the hit recovery time a further 0.05 seconds to:
-Warrior: 0.10, Rogue: 0.15 and Sorcerer: 0.20. Just equipping two items
-with different suffixes will do no difference.
+harmony), will trigger a bug that will reduce the hit recovery time a
+further 0.05 seconds for the Rogue (to 0.15) and the Sorcerer (to 0.20).
+Just equipping two items with different suffixes will not trigger this
+bug.
 
 ### Damage done
 
@@ -1693,7 +1741,7 @@ either or both character damage and weapon damage.
 <td>245 <sup>2</sup></td>
 <td>245</td>
 <td>21</td>
-<td>202</td>
+<td>127</td>
 </tr>
 </tbody>
 </table>
@@ -1947,7 +1995,8 @@ other factors affecting the speed of an arrow. The actual value is just
 a value given for comparison with other traveling effects, such as
 spells. The higher the number, the faster it will be. Arrows from
 monsters will always have a speed of 32. For the speed of arrows from
-traps, see chapter 4.3.
+traps, see chapter 4.3. For more information regarding arrow and spell
+speed, see chapter 6.1.10.
 
 <table>
 <tbody>
@@ -2174,8 +2223,7 @@ The skill of the Barbarian works in the following way:
 All character classes start the game with some items. These items are
 listed in the table below. Note that the prices for these items
 sometimes differ from the ones of normal items of the same type. The
-sword that the Bard starts with seems not to be available otherwise in
-the game.
+sword that the Bard starts with is not available otherwise in the game.
 
 <table>
 <tbody>
@@ -2853,11 +2901,11 @@ when they apply.
 
 Dungeon levels
 
-In single player you can only enter the church when you start a new
+In single player you can only enter the Church when you start a new
 game. To access the other dungeons you have to work you way down through
-the dungeon levels before the entrances to the catacombs, caves, and
-hell open up. In Hellfire, the game will remember when an area has been
-opened up, and thus it will be open even if you restart a game.
+the dungeon levels before the entrances to the Catacombs, Caves, and
+Hell open up. In Hellfire, the game will remember when an area has been
+opened up, and thus it will be open even if you start a new game.
 
 In multi player, all areas are accessible from town right away, but you
 can go down into them only if you have reached a certain character
@@ -3003,9 +3051,9 @@ all allowed characters.
 
 1 By localized characters are meant characters that are specific for
 various non English languages. Examples are: åäöüâãï, and many others.
-Such localized characters are still possible to enter when you create
-the character, but there will be an error message when you finish typing
-in the name.
+Such localized characters are still possible to enter when you create a
+multi player character, but there will be an error message when you
+finish typing in the name.
 
 # Items
 
@@ -3945,35 +3993,35 @@ new game.
 <td>100</td>
 <td>1</td>
 <td>Casts Fireball</td>
-<td>No requirement</td>
+<td></td>
 </tr>
 <tr class="odd">
 <td>Rune of Lightning</td>
 <td>200</td>
 <td>3</td>
 <td>Casts Lightning Wall</td>
-<td>Requires 13 magic</td>
+<td>13 Mag</td>
 </tr>
 <tr class="even">
 <td>Rune of Stone</td>
 <td>300</td>
 <td>7</td>
 <td>Casts Stone Curse</td>
-<td>Requires 25 magic</td>
+<td>25 Mag</td>
 </tr>
 <tr class="odd">
 <td>Greater Rune of Fire</td>
 <td>400</td>
 <td>7</td>
 <td>Casts Immolation</td>
-<td>Requires 42 magic</td>
+<td>42 Mag</td>
 </tr>
 <tr class="even">
 <td>Greater Rune of Lightning</td>
 <td>500</td>
 <td>7</td>
 <td>Casts Nova</td>
-<td>Requires 42 magic</td>
+<td>42 Mag</td>
 </tr>
 </tbody>
 </table>
@@ -5878,7 +5926,6 @@ will be transformed into a positive increase by 1.
 <td></td>
 <td></td>
 <td></td>
-<td></td>
 </tr>
 <tr class="even">
 <td>Prefix</td>
@@ -5888,7 +5935,6 @@ will be transformed into a positive increase by 1.
 <td>qlvl</td>
 <td>Steps<sup>1</sup></td>
 <td>Base-Max</td>
-<td>Range</td>
 </tr>
 <tr class="odd">
 <td>clumsy</td>
@@ -5896,7 +5942,6 @@ will be transformed into a positive increase by 1.
 <td>-75 - -50</td>
 <td>––WTB–</td>
 <td>5</td>
-<td></td>
 <td></td>
 <td></td>
 </tr>
@@ -5908,7 +5953,6 @@ will be transformed into a positive increase by 1.
 <td>1</td>
 <td></td>
 <td></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td>sharp<sup>2</sup></td>
@@ -5918,7 +5962,6 @@ will be transformed into a positive increase by 1.
 <td>1</td>
 <td>15</td>
 <td>350 - 950</td>
-<td>600</td>
 </tr>
 <tr class="even">
 <td>fine</td>
@@ -5928,7 +5971,6 @@ will be transformed into a positive increase by 1.
 <td>6</td>
 <td>14</td>
 <td>1 100 - 1 700</td>
-<td>600</td>
 </tr>
 <tr class="odd">
 <td>Warrior’s</td>
@@ -5938,7 +5980,6 @@ will be transformed into a positive increase by 1.
 <td>10</td>
 <td>14</td>
 <td>1 850 - 2 450</td>
-<td>600</td>
 </tr>
 <tr class="even">
 <td>soldier’s</td>
@@ -5948,7 +5989,6 @@ will be transformed into a positive increase by 1.
 <td>15</td>
 <td>14</td>
 <td>2 600 - 3 950</td>
-<td>1 350</td>
 </tr>
 <tr class="odd">
 <td>lord’s</td>
@@ -5958,7 +5998,6 @@ will be transformed into a positive increase by 1.
 <td>19</td>
 <td>14</td>
 <td>4 100 - 5 950</td>
-<td>1 850</td>
 </tr>
 <tr class="even">
 <td>knight’s</td>
@@ -5968,7 +6007,6 @@ will be transformed into a positive increase by 1.
 <td>23</td>
 <td>14</td>
 <td>6 100 - 8 450</td>
-<td>2 350</td>
 </tr>
 <tr class="odd">
 <td>master’s</td>
@@ -5978,7 +6016,6 @@ will be transformed into a positive increase by 1.
 <td>28</td>
 <td>14</td>
 <td>8 600 - 13 000</td>
-<td>4 400</td>
 </tr>
 <tr class="even">
 <td>champion’s</td>
@@ -5988,7 +6025,6 @@ will be transformed into a positive increase by 1.
 <td>40</td>
 <td>24</td>
 <td>15 200 - 24 000</td>
-<td>8 800</td>
 </tr>
 <tr class="odd">
 <td>king’s</td>
@@ -5998,7 +6034,6 @@ will be transformed into a positive increase by 1.
 <td>28</td>
 <td>24</td>
 <td>24 100 - 35 000</td>
-<td>10 900</td>
 </tr>
 <tr class="even">
 <td>doppelganger’s<sup>3</sup></td>
@@ -6008,7 +6043,6 @@ will be transformed into a positive increase by 1.
 <td>11</td>
 <td>14</td>
 <td>2 000 - 2 400</td>
-<td>400</td>
 </tr>
 </tbody>
 </table>
@@ -7117,7 +7151,7 @@ the character screen.
 1 Also affects the distance at which you activate monsters. A higher
 value means at a greater distance. There is no additional effect of
 wearing more than +50% or less than -80% light radius. As a curiosity,
-the light radius is always one square less in the catacombs and it is
+the light radius is always one square less in the Catacombs and it is
 always the highest light radius you have had on a level that counts,
 even if you later lower it.
 
@@ -7253,8 +7287,8 @@ patch (1.07).
 
 1 A character only benefits from the fastest one, as they are not
 cumulative. The exception is if you have one of each in which case you
-will, in Diablo only, receive a further reduction in hit recovery time.
-See chapter 2.2.1 for more information.
+will, in Diablo only, trigger a bug and receive a further reduction in
+hit recovery time. See chapter 2.2.1 for more information.
 
 <table>
 <tbody>
@@ -7364,7 +7398,7 @@ See chapter 2.2.1 for more information.
 <table>
 <tbody>
 <tr class="odd">
-<td>Other</td>
+<td>Other<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -7380,7 +7414,7 @@ See chapter 2.2.1 for more information.
 <td>Multiplier</td>
 </tr>
 <tr class="odd">
-<td>the bear<sup>2</sup></td>
+<td>the bear</td>
 <td>knocks target back</td>
 <td>––WTB–</td>
 <td>5</td>
@@ -7388,7 +7422,7 @@ See chapter 2.2.1 for more information.
 <td>2</td>
 </tr>
 <tr class="even">
-<td>blocking<sup>2</sup></td>
+<td>blocking</td>
 <td>fast block</td>
 <td>-S----</td>
 <td>5</td>
@@ -7396,7 +7430,7 @@ See chapter 2.2.1 for more information.
 <td>4</td>
 </tr>
 <tr class="odd">
-<td>thieves<sup>1,2,3</sup></td>
+<td>thieves<sup>2,3</sup></td>
 <td>absorbs half trap damage</td>
 <td>AS–––J</td>
 <td>11</td>
@@ -7404,7 +7438,7 @@ See chapter 2.2.1 for more information.
 <td>2</td>
 </tr>
 <tr class="even">
-<td>thorns<sup>1,2</sup></td>
+<td>thorns<sup>2</sup></td>
 <td>attacker takes 1-3 damage</td>
 <td>AS––––</td>
 <td>1</td>
@@ -7412,7 +7446,7 @@ See chapter 2.2.1 for more information.
 <td>2</td>
 </tr>
 <tr class="odd">
-<td>devastation<sup>1,2,4,5,6</sup></td>
+<td>devastation<sup>2,4,5,6</sup></td>
 <td>5% chance of doing ×3 damage</td>
 <td>––WtB–</td>
 <td>1</td>
@@ -7420,7 +7454,7 @@ See chapter 2.2.1 for more information.
 <td>3</td>
 </tr>
 <tr class="even">
-<td>jester’s<sup>1,2,4,5,7</sup></td>
+<td>jester’s<sup>2,4,5,7</sup></td>
 <td>each swing does ×0-6 damage<sup>9</sup></td>
 <td>––W–––</td>
 <td>7</td>
@@ -7428,7 +7462,7 @@ See chapter 2.2.1 for more information.
 <td>3</td>
 </tr>
 <tr class="odd">
-<td>peril<sup>1,2,4,6,8</sup></td>
+<td>peril<sup>2,4,6,8</sup></td>
 <td>×2 damage to monster, ×1 to user</td>
 <td>––WtB–</td>
 <td>5</td>
@@ -7438,10 +7472,12 @@ See chapter 2.2.1 for more information.
 </tbody>
 </table>
 
-1 Does not work versus players.
+1
 
-2 These effects are not cumulative if you have them more than once. They
+These effects are not cumulative if you have them more than once. They
 are cumulative with other effects though.
+
+2 Does not work versus players.
 
 3 In Hellfire it also absorbs half arrow and magical damage (magic,
 fire, lightning and apocalypse) from monster attacks. It is applied
@@ -8982,7 +9018,7 @@ If the recharge cost is less than 1 gold (can happen if the ratio
 CurDur/MaxDur is less than 1%), Adria will actually recharge the staff
 for free, that is 0 gold.
 
-Just as with the price of magical items, when counting the value of
+Just as with the price of magical items, when calculating the value of
 CurCha/MaxCha you take into account only two digits after the decimal.
 Alternatively one can use the formula below in which case the rounding
 is done automatically:
@@ -9180,6 +9216,8 @@ dlvl will only generate potions and scrolls (and oils in Hellfire). See
 chapter 3.8.1 for more information. Items created with an ilvl = dlvl
 are referred to as *special items* in this chapter.
 
+Level of mini dungeons\!\!\!\!
+
 Special items
 
 Special items appear on those occasions where the item created will not
@@ -9273,7 +9311,7 @@ If the chest is determined to have special items, all possible items
 will drop as special items. For information about items created by
 different ilvl, see chapter 3.8.2.
 
-Chests only exist in church, catacombs, caves and hell.
+Chests only exist in Church, Catacombs, Caves and Hell.
 
 Barrels, pods and urns
 
@@ -9296,7 +9334,7 @@ Item: 3.3%
 
 Nothing: 60%
 
-  - > Barrels can only exist in church, catacombs, caves and hell.
+  - > Barrels can only exist in Church, Catacombs, Caves and Hell.
 
   - > Pods can only exist in the Hive.
 
@@ -9312,15 +9350,16 @@ Item: 7.5%
 
 Nothing: 50%
 
-  - > Sarcophagi can only exist in church and in the crypt.
+  - > Sarcophagi can only exist in Church and in the Crypt.
 
-Decapitated bodies
+Decapitated body
 
 Gold: 75%
 
 Item: 25%
 
-  - > Decapitated bodies can only exist in catacombs, caves and hell.
+  - > Decapitated bodies can exist anywhere except in the Hive and the
+    > Crypt.
 
 Weapon Rack
 
@@ -9332,7 +9371,7 @@ Club: 25%
 
 Sword: 25%
 
-  - > Weapon racks can never exist in church.
+  - > Weapon racks can never exist in Church.
 
 Armor Rack
 
@@ -9344,13 +9383,13 @@ dlvl 10-15: heavy armor
 
   - > See chapter 3.1 for a definition of light, medium and heavy armor.
 
-  - > Armor racks can never exist in church.
+  - > Armor racks can never exist in Church.
 
 Bookcase
 
 Book: 100%
 
-  - > Bookcases can only exist in church and catacombs.
+  - > Bookcases can only exist in Church and Catacombs.
 
 Library book and Skeleton Tome
 
@@ -9361,8 +9400,8 @@ Scroll: 80%
   - > Only scrolls of Apocalypse, Healing, Identify, Infravision, Nova,
     > Mana Shield, Phasing, Teleport, and Town Portal are possible.
 
-  - > Library books and Skeleton Tomes can only exist in church and
-    > catacombs.
+  - > Library books and Skeleton Tomes can only exist in Church and
+    > Catacombs.
     
     1.  ### Item type
 
@@ -9386,6 +9425,9 @@ Other: 1 to ilvl
 
   - > Note that the mlvl is the one modified for difficulty level when
     > the item comes from a monster.
+
+  - > The ilvl for an item from a normal or special monster will equal
+    > the mlvl.
 
 Of all the possible base items, one is chosen at random with an equal
 probability for all items. Bows, however, are actually counted twice if
@@ -9469,7 +9511,7 @@ Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
   - > The Hive levels are numbered 9-12 and the Crypt levels are
     > numbered 13-16.
 
-Furthermore, on any hell dungeon level (dlvl 13-16) or Crypt dungeon
+Furthermore, on any Hell dungeon level (dlvl 13-16) or Crypt dungeon
 level (dlvl 13-16) the amount of gold is increased by:
 
 Hell or Crypt dungeon level: amount · 1.125
@@ -9738,7 +9780,7 @@ a bit differently. For the spell and the prefix they follow the ranges
 below:
 
 Range of qlvl for spell on staves from unique and special monster: 1 to
-\[(ilvl+4/)2\]
+\[(ilvl+4)/2\]
 
 Range of qlvl for spell on staves from all other sources: 1 to ilvl/2
 
@@ -9872,7 +9914,7 @@ numbers. The general procedure is as follows:
 <td>Yes</td>
 <td>21</td>
 <td>Ressurect<sup>3</sup></td>
-<td>-</td>
+<td>No</td>
 <td>Yes</td>
 </tr>
 <tr class="odd">
@@ -9922,7 +9964,7 @@ numbers. The general procedure is as follows:
 <td>Yes</td>
 <td>26</td>
 <td>Mana</td>
-<td>-</td>
+<td>No</td>
 <td>Yes</td>
 </tr>
 <tr class="even">
@@ -9932,7 +9974,7 @@ numbers. The general procedure is as follows:
 <td>Yes</td>
 <td>27</td>
 <td>Magi</td>
-<td>-</td>
+<td>No</td>
 <td>Yes</td>
 </tr>
 <tr class="odd">
@@ -9942,7 +9984,7 @@ numbers. The general procedure is as follows:
 <td>Yes</td>
 <td>28</td>
 <td>Jester</td>
-<td>-</td>
+<td>No</td>
 <td>Yes</td>
 </tr>
 <tr class="even">
@@ -10570,8 +10612,8 @@ why\!
 
 As the highest qlvl of a base item is 25, any monster with an mlvl equal
 to that or above can drop the same items regardless of difficulty. This
-is true for almost all monsters in hell and the Crypt. Thus item drops
-in hell and the Crypt should be the same regardless of difficulty. For
+is true for almost all monsters in Hell and the Crypt. Thus item drops
+in Hell and the Crypt should be the same regardless of difficulty. For
 other dungeons you will find better base items in harder difficulty
 levels, but it should not affect what prefixes and suffixes you find.
 
@@ -13974,7 +14016,7 @@ the character screen.
 1 Also affects the distance at which you activate monsters. A higher
 value means at a greater distance. There is no additional effect of
 wearing more than +50% or less than -80% light radius. As a curiosity,
-the light radius is always one square less in the catacombs and it is
+the light radius is always one square less in the Catacombs and it is
 always the highest light radius you have had on a level that counts,
 even if you later lower it.
 
@@ -13982,8 +14024,8 @@ even if you later lower it.
 
 3 A character only benefits from the fastest one, as they are not
 cumulative. The exception is if you have one of each in which case you
-will, in Diablo only, receive a further reduction in hit recovery time.
-See chapter 2.2.1 for more information.
+will, in Diablo only, trigger a bug and receive a further reduction in
+hit recovery time. See chapter 2.2.1 for more information.
 
 4 Has no effect in Diablo.
 
@@ -13998,44 +14040,44 @@ patch (1.07).
 <table>
 <tbody>
 <tr class="odd">
-<td>Other Prefixes/Suffixes</td>
+<td>Other Prefixes/Suffixes<sup>1</sup></td>
 <td>Magical Effect</td>
 </tr>
 <tr class="even">
-<td>the bear<sup>2</sup></td>
+<td>the bear</td>
 <td>knocks target back</td>
 </tr>
 <tr class="odd">
-<td>blocking<sup>2</sup></td>
+<td>blocking</td>
 <td>fast block</td>
 </tr>
 <tr class="even">
-<td>thieves<sup>1,2,3</sup></td>
+<td>thieves<sup>2,3</sup></td>
 <td>absorbs half of trap damage</td>
 </tr>
 <tr class="odd">
-<td>thorns<sup>1,2</sup></td>
+<td>thorns<sup>2</sup></td>
 <td>attacker takes 1-3 damage</td>
 </tr>
 <tr class="even">
-<td>devastation<sup>1,2,4,5,6</sup></td>
+<td>devastation<sup>2,4,5,6</sup></td>
 <td>5% chance of doing ×3 damage</td>
 </tr>
 <tr class="odd">
-<td>jester’s<sup>1,2,4,5,7</sup></td>
+<td>jester’s<sup>2,4,5,7</sup></td>
 <td>each swing do 0-×6 damage<sup>9</sup></td>
 </tr>
 <tr class="even">
-<td>peril<sup>1,2,4,6,8</sup></td>
+<td>peril<sup>2,4,6,8</sup></td>
 <td>×2 damage to monster, ×1 damage to user</td>
 </tr>
 </tbody>
 </table>
 
-1 Does not work versus players.
-
-2 These effects are not cumulative if you have them more than once. They
+1 These effects are not cumulative if you have them more than once. They
 are cumulative with other effects though.
+
+2 Does not work versus players.
 
 3 In Hellfire it also absorbs half arrow and magical damage (magic,
 fire, lightning and apocalypse) from monster attacks. It is applied
@@ -14625,9 +14667,6 @@ main types and are listed as n/a.
 Damage: Stated damage in spell book (see below for more details), can be
 split up into min. and max. damage where appropriate.
 
-Quick Damage: A quicker way to calculate damage but not as accurate. Can
-be split up into min. and max. damage where appropriate.
-
 Real Damage: The real damage as used by the game. This is not
 necessarily the same as the stated damage, especially for non missile
 spells, as they instead can often attack several times. If no real
@@ -14635,6 +14674,9 @@ damage is stated, it is identical to the damage stated. Also, if the
 real damage distribution is linear within the range given, it is not
 shown either. All this is done to reduce the amount of data presented,
 as it is already extensive.
+
+Quick Damage: A quicker way to calculate the real damage but not as
+accurate. Can be split up into min. and max. damage where appropriate.
 
 Duration: This is how long each spell lasts. The time given is always in
 seconds unless otherwise stated. Moving spells will generally be
@@ -14742,10 +14784,10 @@ slvl0 = Itt(clvl, Rnd\[20\] + 1); clvl=30
 
 This means we should, 30 times, calculate Rnd\[20\] + 1 and add all
 those 30 values together. For each value, a new random number should be
-created, for if the same random number would be used, it would have been
-written as clvl·(Rnd\[20\] + 1) instead. This sum of 30 values, ranging
-from 1 to 20 in the example, is the slvl0 which is then used in the
-recursive formula. It is worth noticing that if there is any random
+created, since if the same random number would be used, it would have
+been written as clvl·(Rnd\[20\] + 1) instead. This sum of 30 values,
+ranging from 1 to 20 in the example, is the slvl0 which is then used in
+the recursive formula. It is worth noticing that if there is any random
 number used in the iterative formula, the result would typically be a
 distribution of the values as in a bell curve.
 
@@ -14769,7 +14811,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Apocalypse</td>
-<td>Blood Star</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
@@ -14777,15 +14819,25 @@ spell can be used by a monster, see chapter .
 <p>Max. Damage: 6·clvl</p>
 <p>Real damage: Itt(clvl, Rnd[6] + 1)</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* Works against all monsters, even triple immune ones.</p>
+<p>* In Diablo, this spell can only occur on staves and scrolls.</p>
+<p>* In Hellfire, this spell only works on monsters you have a line of sight to.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Blood Star</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: magic</p>
 <p>Damage: 3·slvl + [Mag/2] - [Mag/8]</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Works against all monsters, even triple immune ones.</p>
-<p>* In Hellfire, this spell only works on monsters you have a line of sight to.</p></td>
 <td><p>Note:</p>
 <p>* Costs 5 life to cast or 5 extra mana if you use Mana Shield. This cost is applied even if the spell is cast from a staff.</p></td>
 </tr>
@@ -14796,15 +14848,28 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Bone Spirit</td>
-<td>Chain Lightning</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
 <p>Damage against monster: 1/3 of targets HP</p>
 <p>Damage against player: 1/6 of targets life</p>
 <p>Speed: 16</p>
-<p>Blockable: Yes</p>
-<p>* Note that the damage value given above is still subject to reduction due to resistance.</p></td>
+<p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* Costs 6 life to cast or 6 extra mana if you use Mana Shield. This cost is applied even if the spell is cast from a staff.</p>
+<p>* The damage value given is still subject to reduction due to resistance.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Chain Lightning</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: lightning</p>
 <p>Min. Damage: 4</p>
 <p>Max. Damage: 4 + 2·clvl</p>
@@ -14814,10 +14879,6 @@ spell can be used by a monster, see chapter .
 <p>Speed: 32</p>
 <p>Duration: ([slvl/2] + 6)/20 seconds</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Costs 6 life to cast or 6 extra mana if you use Mana Shield. This cost is applied even if the spell is cast from a staff.</p></td>
 <td><p>Note:</p>
 <p>* You get one bolt in the direction where you aim with your mouse and one additional bolt for each monster in range.</p>
 <p>* This spell is well known for causing gaps at high levels and/or when there are many monsters within range.</p>
@@ -14831,7 +14892,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Charged Bolt</td>
-<td>Elemental</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: lightning</p>
@@ -14840,6 +14901,18 @@ spell can be used by a monster, see chapter .
 <p>Number of bolts: 4 + [slvl/2]</p>
 <p>Speed: 8</p>
 <p>Blockable: Yes</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Elemental</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: Rec(slvl, 4 + 2·clvl)</p>
 <p>Max. Damage: Rec(slvl, 40 + 2·clvl)</p>
@@ -14848,9 +14921,6 @@ spell can be used by a monster, see chapter .
 <p>Real Damage: Rec(slvl, 2·(Rnd[10]+Rnd[10]+clvl) + 4)/2</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td></td>
 <td><p>Note:</p>
 <p>* This is basically a fireball that has some homing abilities.</p>
 <p>* It does half the damage of a fireball, but can hit two targets.</p>
@@ -14863,7 +14933,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Fireball</td>
-<td>Firebolt</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: fire</p>
@@ -14874,18 +14944,27 @@ spell can be used by a monster, see chapter .
 <p>Real Damage: Rec(slvl, 2·(Rnd[10]+Rnd[10]+clvl) + 4)</p>
 <p>Speed: 16 + 2·slvl (max 50)</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* A fireball cause splash damage in adjacent hexes as well as in the target hex. Splash damage is equal to the damage of the fireball itself.</p>
+<p>* If the fireball has traveled over some obstacle on its way to its target, the splash damage normally does not occur.</p>
+<p>* You can block either the fireball or the splash, but not both.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Firebolt</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: 1 + slvl + [Mag/8]</p>
 <p>Max. Damage: 10 + slvl + [Mag/8]</p>
 <p>Real Damage: Rnd[10] + slvl + [Mag/8] + 1</p>
 <p>Speed: 16 + 2·slvl</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* A fireball cause splash damage in adjacent hexes as well as in the target hex. Splash damage is equal to the damage of the fireball itself.</p>
-<p>* If the fireball has traveled over some obstacle on its way to its target, the splash damage normally does not occur.</p>
-<p>* You can block either the fireball or the splash, but not both.</p></td>
 <td></td>
 </tr>
 </tbody>
@@ -14895,7 +14974,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Fire Wall</td>
-<td>Flame Wave</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: fire</p>
@@ -14905,6 +14984,22 @@ spell can be used by a monster, see chapter .
 <p>Duration: 8 + 8·slvl seconds (12 + 8·slvl in Hellfire)</p>
 <p>Number of flames: 11</p>
 <p>Blockable: No</p></td>
+<td><p>Note:</p>
+<p>* The central fire wall flame actually consists of two flames on top of each other, with the result of a damage for that ”flame” being double.</p>
+<p>* The Fire Wall will disappear immediately if you gain any level in the spell.</p>
+<p>* Fire Walls are treated as traps against players, including the caster.</p>
+<p>* The flame will try to hit once every 0.05 seconds for a total of 160 + 160·slvl times (240 + 160·slvl times in Hellfire).</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Flame Wave</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: 6 + 6·clvl</p>
 <p>Max. Damage: 60 + 6·clvl</p>
@@ -14912,13 +15007,6 @@ spell can be used by a monster, see chapter .
 <p>Speed: 16</p>
 <p>Number of flames: 5 + [slvl/2]</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* The central fire wall flame actually consists of two flames on top of each other, with the result of a damage for that ”flame” being double.</p>
-<p>* The Fire Wall will disappear immediately if you gain any level in the spell.</p>
-<p>* Fire Walls are treated as traps against players, including the caster.</p>
-<p>* The flame will try to hit once every 0.05 seconds for a total of 160 + 160·slvl times (240 + 160·slvl times in Hellfire).</p></td>
 <td>* Flame Waves are treated as traps against players, including the caster.</td>
 </tr>
 </tbody>
@@ -14928,7 +15016,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Flash</td>
-<td>Golem</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic (but uses same animation as lightning)</p>
@@ -14940,6 +15028,22 @@ spell can be used by a monster, see chapter .
 <p>Real Damage 2: [3·Rec(slvl, Itt(clvl, Rnd[2] + 1))/2]/64</p>
 <p>Duration: 0.95 seconds</p>
 <p>Blockable: No</p></td>
+<td><p>Note:</p>
+<p>* The Flash spell is actually composed of two different effects, the two different Real Damages given are for the two different effects. The first hit in front of you and to the sides, the other behind you.</p>
+<p>* You seem to be able to do two flashes in a row, then you have to wait for them to finish. Don’t know how this affects damage though.</p>
+<p>* While casting Flash, you are temporarily invulnerable and can’t access the normal GUI.</p>
+<p>* The flash will try to hit once every 0.05 seconds for a total of 19 times.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Golem</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: n/a (but uses same animation as fire)</p>
 <p>Stated damage: 11-17 (quite meaningless number)</p>
 <p>The golem has the following stats:</p>
@@ -14952,13 +15056,6 @@ spell can be used by a monster, see chapter .
 <p>HP regeneration: 1.9, 4.1 and 6.6 each second on normal, nightmare and hell difficulty (same as for normal monster)</p>
 <p>Resistances: None</p>
 <p>Immunities: Apocalypse, Stone Curse and Telekinesis</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* The Flash spell is actually composed of two different effects, the two different Real Damages given are for the two different effects. The first hit in front of you and to the sides, the other behind you.</p>
-<p>* You seem to be able to do two flashes in a row, then you have to wait for them to finish. Don’t know how this affects damage though.</p>
-<p>* While casting Flash, you are temporarily invulnerable and can’t access the normal GUI.</p>
-<p>* The flash will try to hit once every 0.05 seconds for a total of 19 times.</p></td>
 <td><p>Note:</p>
 <p>* Each player can have only one golem alive at a time. If you cast the spell again, the first golem will be destroyed.</p>
 <p>* If more than one player casts golem, they will seek each other out and fight until one of them is destroyed.</p>
@@ -14972,7 +15069,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Guardian</td>
-<td>Healing</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: fire</p>
@@ -14983,6 +15080,20 @@ spell can be used by a monster, see chapter .
 <p>Duration: 4·slvl/5 + 2·clvl/5 seconds (maximum 24 seconds, minimum 0.8 seconds)</p>
 <p>Fire frequency: every 0.8 second</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* The fire bolts shot by a Guardian are determined by the slvl of your Firebolt spell, so the shown damage is actually bogus.</p>
+<p>* You will get normal experience for any monster that your guardians kill.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Healing</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: n/a</p>
 <p>Mana Cost: 8 + 2·clvl - 3·slvl</p>
 <p>Min. Healing: bonus·(1 + clvl + slvl)</p>
@@ -14992,11 +15103,6 @@ spell can be used by a monster, see chapter .
 <p>Warrior, Monk and Barbarian: 2.0</p>
 <p>Rogue and Bard: 1.5</p>
 <p>Sorcerer: 1.0</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* The fire bolts shot by a Guardian are determined by the slvl of your Firebolt spell, so the shown damage is actually bogus.</p>
-<p>* You will get normal experience for any monster that your guardians kill.</p></td>
 <td><p>Note:</p>
 <p>* The actual distribution of the healing is bell curve shaped.</p></td>
 </tr>
@@ -15007,7 +15113,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Heal Other</td>
-<td>Holy Bolt</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
@@ -15020,14 +15126,23 @@ spell can be used by a monster, see chapter .
 <p>Warrior and Barbarian: 2.0</p>
 <p>Rogue and Bard: 1.5</p>
 <p>Sorcerer: 1.0</p></td>
+<td><p>Note:</p>
+<p>* The actual distribution of the healing is bell curve shaped.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Holy Bolt</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: n/a</p>
 <p>Min. Damage: 9 + clvl</p>
 <p>Max. Damage: 18 + clvl</p>
 <p>Speed: 16 + 2·slvl</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* The actual distribution of the healing is bell curve shaped.</p></td>
 <td><p>Note:</p>
 <p>* This spell only works on undead monsters and Diablo. See chapter 5.2 for information about which monsters are undead. It does not work against players.</p>
 <p>* In Hellfire, Diablo and Bone Demons are resistant to Holy Bolt.</p></td>
@@ -15039,10 +15154,24 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Identify</td>
-<td>Inferno</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Type: n/a</td>
+<td><p>Note:</p>
+<p>* Identifies magical and unique items.</p>
+<p>* This spell can only occur on scrolls.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Inferno</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: 3</p>
 <p>Max. Damage: 6 + 3·clvl/2</p>
@@ -15050,10 +15179,6 @@ spell can be used by a monster, see chapter .
 <p>Range: 3</p>
 <p>Duration: 1, 1.25 and 1.50 seconds</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Identifies magical and unique items.</p></td>
 <td><p>Note:</p>
 <p>* This spell always affect the same area and has the same duration, regardless of spell level.</p>
 <p>* The three values for duration are for the three target locations starting with the one closest to the caster.</p>
@@ -15066,7 +15191,7 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Infravision</td>
-<td>Lightning</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
@@ -15076,6 +15201,21 @@ spell can be used by a monster, see chapter .
 <p>Catacombs: slvl = 4</p>
 <p>Caves: slvl = 6</p>
 <p>Hell: slvl = 8</p></td>
+<td><p>Note:</p>
+<p>* Lets you see a ”heat” image of monsters and players outside of your normal view and through walls.</p>
+<p>* As far as I know, you will never find Murky Pools in the Hive or in the Crypt.</p>
+<p>* This spell can only occur on scrolls.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Lightning</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: lightning</p>
 <p>Min. Damage: 4</p>
 <p>Max. Damage: 4 + 2·clvl</p>
@@ -15083,11 +15223,6 @@ spell can be used by a monster, see chapter .
 <p>Speed: 32</p>
 <p>Duration: ([slvl/2]+6)/20 seconds</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Lets you see a ”heat” image of monsters and players outside of your normal view and through walls.</p>
-<p>* As far as I know, you will never find Murky Pools in the Hive or in the Crypt.</p></td>
 <td><p>* The lightning is actually a stationary effect, but the initiation will be delayed the further away it appears, thus giving an appearance of moving. This delay ”travels” with a speed of 32.</p>
 <p>* The bolt will try to hit once every 0.05 seconds for a total of [slvl/2]+6 times.</p></td>
 </tr>
@@ -15098,13 +15233,31 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Mana Shield</td>
-<td>Nova</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
 <p>Damage reduction in Diablo: 33%</p>
 <p>Damage reduction in Hellfire: see below</p>
 <p>Duration: until mana reaches 0 or you leave the current dlvl</p></td>
+<td><p>Note for both Diablo and Hellfire:</p>
+<p>* For slvl 0 there is never any reduction of the damage.</p>
+<p>* Due to a bug you will neither be stunned nor pushed back by <em>the bear</em> or Diablo if you receive damage (before modification by the Mana Shield) greater than your current life.</p>
+<p>Note for Hellfire only:</p>
+<p>* A Mana shield decreases the damage taken, but due to a bug the reduction actually decreases as slvl goes up. The damage is reduced by the following amount: 100/(3· slvl)%</p>
+<p>* If slvl is higher than 7, set slvl to 7.</p>
+<p>See chapter 6.1.1 for more information about this spell and about the bug.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Nova</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: lightning</p>
 <p>Min. Damage: 5·Rec(slvl, 2 + [clvl/2])</p>
 <p>Max. Damage: 5·Rec(slvl, 15 + [clvl/2])</p>
@@ -15114,16 +15267,7 @@ spell can be used by a monster, see chapter .
 <p>Number of bolts: 92</p>
 <p>Speed: 16</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note for Hellfire only:</p>
-<p>* A Mana shield decreases the damage taken, but due to a bug the reduction actually decreases as slvl goes up. The damage is reduced by the following amount:</p>
-<p>100/(3· slvl)%</p>
-<p>* If slvl is higher than 7, set slvl to 7.</p>
-<p>Note for both Diablo and Hellfire:</p>
-<p>* For slvl 0 there is never any reduction of the damage.</p>
-<p>* Due to a bug you will neither be stunned nor pushed back by <em>the bear</em> or Diablo if you receive damage (before modification by the Mana Shield) greater than your current life.</p></td>
-<td></td>
+<td>* In Diablo, this spell can only occur on staves and scrolls.</td>
 </tr>
 </tbody>
 </table>
@@ -15132,17 +15276,27 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Phasing</td>
-<td>Resurrect</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Type: n/a</td>
-<td>Type: n/a</td>
-</tr>
-<tr class="odd">
 <td><p>Note:</p>
 <p>* Due to being a non targeting spell, it is slightly faster than Teleport and it may thus be easier to escape with this spell than with Teleport.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Resurrect</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Type: n/a</td>
 <td><p>Note:</p>
-<p>* Brings another player back to life. The player will have 10 life (or his max life if it is less than 10) and 0 mana.</p></td>
+<p>* Brings another player back to life. The player will have 10 life (or his max life if it is less than 10) and 0 mana.</p>
+<p>* This spell can only occur on staves and scrolls.</p></td>
 </tr>
 </tbody>
 </table>
@@ -15151,18 +15305,27 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Stone Curse</td>
-<td>Telekinesis</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
 <p>Duration: 4.8 + 0.8·slvl seconds (max 12 seconds)</p></td>
-<td>Type: n/a</td>
-</tr>
-<tr class="odd">
 <td><p>Note:</p>
 <p>* Stone Curse works on all monsters except Diablo and Na-Krul.</p>
 <p>* Stone Curse does not work on other players.</p>
 <p>* Any monster already stoned, charging, phasing in or phasing out is temporary immune to Stone Curse.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Telekinesis</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Type: n/a</td>
 <td><p>Note:</p>
 <p>* Can be used to open doors, chests, bookcases, shrines etc. from a distance.</p>
 <p>* Can also be used to pick up items from a distance.</p>
@@ -15176,15 +15339,24 @@ spell can be used by a monster, see chapter .
 <tbody>
 <tr class="odd">
 <td>Teleport</td>
-<td>Town Portal</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Type: n/a</td>
-<td>Type: n/a</td>
-</tr>
-<tr class="odd">
 <td><p>Note:</p>
 <p>* You can teleport to anywhere within the screen. I have noticed that if you quickly move your cursor before teleporting you often end up teleporting to where your cursor was just before you moved it.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Town Portal</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Type: n/a</td>
 <td><p>Note:</p>
 <p>* Makes a portal to town and disappears when the caster uses it to go down to the dungeon.</p></td>
 </tr>
@@ -15202,10 +15374,28 @@ about Apocalypse and Nova.
 <tbody>
 <tr class="odd">
 <td>Berserk</td>
-<td>Immolation</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Type: magic</td>
+<td><p>Note:</p>
+<p>* All unique and special monsters are immune to Berserk.</p>
+<p>* Any monster charging, phasing in or phasing out is temporary immune to Berserk.</p>
+<p>* When cast on a monster, it will consider other monsters as possible targets too.</p>
+<p>* It will increase the damage done by the monster by between 20 and 30%, plus the level of the spell (possible problem with overflow if value gets higher than 255).</p>
+<p>* You will not receive any experience for monsters killed by a berserk monster.</p>
+<p>* Monsters resistant to Magic, will have a 50% chance of escaping the spell. Monsters immune to Magic are of course immune to this spell.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Immolation</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: 5·Rec(slvl, 2 + clvl/2)</p>
 <p>Max. Damage: 5·Rec(slvl, 15 + clvl/2)</p>
@@ -15214,15 +15404,6 @@ about Apocalypse and Nova.
 <p>Real Damage: Rec(slvl, (Itt(5, Rnd[6]) + clvl + 5)/2)</p>
 <p>Number of bolts: 92</p>
 <p>Speed: 16 + slvl</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* All unique and special monsters are immune to Berserk.</p>
-<p>* Any monster charging, phasing in or phasing out is temporary immune to Berserk.</p>
-<p>* When cast on a monster, it will consider other monsters as possible targets too.</p>
-<p>* It will increase the damage done by the monster by between 20 and 30%, plus the level of the spell (possible problem with overflow if value gets higher than 255).</p>
-<p>* You will not receive any experience for monsters killed by a berserk monster.</p>
-<p>* Monsters resistant to Magic, will have a 50% chance of escaping the spell. Monsters immune to Magic are of course immune to this spell.</p></td>
 <td><p>Note:</p>
 <p>* Does the same damage as Nova.</p>
 <p>* Immolation will use bolts that are basically fireballs (including splash damage), they just has a different damage and speed compared to normal fireballs.</p></td>
@@ -15234,7 +15415,7 @@ about Apocalypse and Nova.
 <tbody>
 <tr class="odd">
 <td>Jester</td>
-<td>Lightning Wall</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: random</p>
@@ -15248,6 +15429,19 @@ about Apocalypse and Nova.
 <p>Teleport 10%</p>
 <p>Town Portal 10%</p>
 <p>Stone Curse 10%</p></td>
+<td><p>Note:</p>
+<p>* This spell can only occur on staves and casts a random spell.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Lightning Wall</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: lightning</p>
 <p>Min. Damage: 4 + 2·clvl</p>
 <p>Max. Damage: 40 + 2·clvl</p>
@@ -15255,14 +15449,11 @@ about Apocalypse and Nova.
 <p>Duration: 12.75 + 12.75·slvl seconds</p>
 <p>Number of bolts: 11</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* This spell can only occur on staves and casts a random spell.</p></td>
 <td><p>Note:</p>
 <p>* The central lightning wall bolt actually consists of two bolts on top of each other, with the result of a damage for that ”bolt” being double.</p>
 <p>* Does twice the damage of a Fire Wall and lasts longer.</p>
-<p>* The flame will try to hit once every 0.05 seconds for a total of 255 + 255·slvl times.</p></td>
+<p>* Lightning Walls are treated as traps against players, including the caster.</p>
+<p>* The bolt will try to hit once every 0.05 seconds for a total of 255 + 255·slvl times.</p></td>
 </tr>
 </tbody>
 </table>
@@ -15271,10 +15462,24 @@ about Apocalypse and Nova.
 <tbody>
 <tr class="odd">
 <td>Magi</td>
-<td>Mana</td>
+<td></td>
 </tr>
 <tr class="even">
 <td>Type: n/a</td>
+<td><p>Note:</p>
+<p>* Completely restores mana.</p>
+<p>* This spell can only occur on staves.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Mana</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: n/a</p>
 <p>Min. Mana: bonus·(1 + clvl + slvl)</p>
 <p>Max. Mana: bonus·(10 + 4·clvl + 6·slvl)</p>
@@ -15283,13 +15488,10 @@ about Apocalypse and Nova.
 <p>Sorcerer: 2.0</p>
 <p>Rogue and Bard: 1.5</p>
 <p>Warrior, Monk and Barbarian: 1.0</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Completely restores mana.</p></td>
 <td><p>Note:</p>
 <p>* The actual distribution of healing is bell curve shaped.</p>
-<p>* This spell works like Healing but affects your mana instead of your life.</p></td>
+<p>* This spell works like Healing but affects your mana instead of your life.</p>
+<p>* This spell can only occur on staves.</p></td>
 </tr>
 </tbody>
 </table>
@@ -15298,11 +15500,27 @@ about Apocalypse and Nova.
 <tbody>
 <tr class="odd">
 <td>Reflect</td>
-<td>Ring of Fire</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
 <p>Duration: slvl·clvl hits</p></td>
+<td><p>Note:</p>
+<p>* Reduces melee damage by 20-29% and reflects it back to the attacking monster. Spell level determines number of hits it lasts.</p>
+<p>* Even if you block an attack, 20-29% of the damage is reflected back to the attacking monster.</p>
+<p>* An attack counts as a hit even if you block it as it will reflect some damage.</p>
+<p>* The Reflect will be terminated if you die or leave the current dlvl.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Ring of Fire</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Min. Damage: 4 + clvl·2</p>
 <p>Max. Damage: 40 + clvl·2</p>
@@ -15311,17 +15529,10 @@ about Apocalypse and Nova.
 <p>Duration: 8 + 8·slvl seconds (12 + 8·slvl in Hellfire)</p>
 <p>Number of flames: 22</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Reduces melee damage by 20-29% and reflects it back to the attacking monster. Spell level determines number of hits it lasts.</p>
-<p>* Even if you block an attack, 20-29% of the damage is reflected back to the attacking monster.</p>
-<p>* An attack counts as a hit even if you block it as it will reflect some damage.</p>
-<p>* The Reflect will be terminated if you die or leave the current dlvl.</p></td>
 <td><p>Note:</p>
 <p>* Does the same damage as a Fire Wall and lasts the same amount of time.</p>
 <p>* The Ring of Fire will disappear immediately if you gain any level in the spell.</p>
-<p>* Fire Walls are treated as traps against players, including the caster.</p>
+<p>* Rings of Fire are treated as traps against players, including the caster.</p>
 <p>* The flame will try to hit once every 0.05 seconds for a total of 160 + 160·slvl times.</p></td>
 </tr>
 </tbody>
@@ -15331,17 +15542,26 @@ about Apocalypse and Nova.
 <tbody>
 <tr class="odd">
 <td>Search</td>
-<td>Warp</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
 <p>Duration: 12.25 + 10·slvl + clvl seconds</p></td>
-<td>Type: n/a</td>
-</tr>
-<tr class="odd">
 <td><p>Note:</p>
 <p>* Makes items on the ground shine.</p>
 <p>* Makes items show up on the map.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Warp</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>Type: n/a</td>
 <td><p>Note:</p>
 <p>* Teleports you to the nearest stair.</p></td>
 </tr>
@@ -16601,20 +16821,29 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Apocalypse</td>
-<td>Arrow</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: n/a</p>
 <p>Damage: 40</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* Only Diablo can cast apocalypse.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Arrow</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: n/a</p>
 <p>Damage: min - max</p>
 <p>Speed: 32</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* Only Diablo can cast apocalypse.</p></td>
 <td><p>Note:</p>
 <p>* See chapter 5.2.1 for information about min and max damage for monsters.</p>
 <p>* Arrow is of course not a spell, but is in many ways technically handled as a spell (with some special cases) by the game. For ease of use together with other parts of this Guide, it is thus useful to list arrow attacks here.</p></td>
@@ -16626,23 +16855,32 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Blood Star</td>
-<td>Charged Bolt</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* See chapter 5.2.1 for information about min and max damage for monsters.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Charged Bolt</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: lightning</p>
 <p>Damage Magistrate: 15</p>
 <p>Damage Familiars: 1 - 10</p>
 <p>Number of bolts:</p>
 <p>Speed: 8</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* See chapter 5.2.1 for information about min and max damage for monsters.</p></td>
 <td></td>
 </tr>
 </tbody>
@@ -16652,21 +16890,30 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Fireball</td>
-<td>Firebolt</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: fire</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Firebolt</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 </tr>
@@ -16677,7 +16924,7 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Flash</td>
-<td>Inferno</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
@@ -16685,15 +16932,24 @@ chapter 6.1.7 for more information.
 <p>Damage 2: 4/64</p>
 <p>Duration: 0.95 seconds</p>
 <p>Blockable: No</p></td>
+<td><p>* The Flash spell is actually composed of two different effects, the two different Damages given are for the two different effects. The first hit in front of the monster and to the sides, the other behind the monster.</p>
+<p>* The flash will try to hit once every 0.05 seconds for a total of 19 times.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Inferno</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Damage: min/64 - max/64</p>
 <p>Range: 3</p>
 <p>Duration: 1, 1.25 and 1.50 seconds</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>* The Flash spell is actually composed of two different effects, the two different Damages given are for the two different effects. The first hit in front of the monster and to the sides, the other behind the monster.</p>
-<p>* The flash will try to hit once every 0.05 seconds for a total of 19 times.</p></td>
 <td><p>Note:</p>
 <p>* See chapter 5.2.1 for information about min and max damage for monsters.</p>
 <p>* The three values for duration are for the three target locations, starting with the one closest to the caster.</p>
@@ -16706,7 +16962,7 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Lightning</td>
-<td>Magma Ball</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: lightning</p>
@@ -16714,14 +16970,23 @@ chapter 6.1.7 for more information.
 <p>Speed: 32</p>
 <p>Duration: 0.5 seconds</p>
 <p>Blockable: No</p></td>
+<td><p>* The lightning is actually a stationary effect, but the initiation will be delayed the further away it appears, thus giving an appearance of moving. This delay ”travels” with a speed of 32.</p>
+<p>* The bolt will try to hit once every 0.05 seconds for a total of 10 times.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Magma Ball</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: fire</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>* The lightning is actually a stationary effect, but the initiation will be delayed the further away it appears, thus giving an appearance of moving. This delay ”travels” with a speed of 32.</p>
-<p>* The bolt will try to hit once every 0.05 seconds for a total of 10 times.</p></td>
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 </tr>
@@ -16732,7 +16997,7 @@ chapter 6.1.7 for more information.
 <tbody>
 <tr class="odd">
 <td>Spit Attack</td>
-<td>Spit Puddle</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
@@ -16740,17 +17005,26 @@ chapter 6.1.7 for more information.
 <p>Speed: 16</p>
 <p>Duration: 20 + Intf·5</p>
 <p>Blockable: Yes</p></td>
+<td><p>Note:</p>
+<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p>
+<p>* See chapter 5.3.3 for information about intelligence factors (Intf) for monsters.</p>
+<p>* The duration is actually what determines the distance a monster can spit.</p></td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Spit Puddle</td>
+<td></td>
+</tr>
+<tr class="even">
 <td><p>Type: magic</p>
 <p>Damage (spit attack): 1/32</p>
 <p>Damage (dead Acid Beasts): (Intf + 1)/64</p>
 <p>Duration: 2·(Intf + 1) + Rnd[15]/20 seconds</p>
 <p>Blockable: No</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p>
-<p>* See chapter 5.3.3 for information about intelligence factors (Intf) for monsters.</p>
-<p>* The duration is actually what determines the distance a monster can spit.</p></td>
 <td><p>Note:</p>
 <p>* See chapter 5.3.3 for information about intelligence factors (Intf) for monsters.</p>
 <p>* The puddle will try to hit once each 0.05 second for a total of (Intf + 1)·2 + Rnd[15] times.</p></td>
@@ -16769,22 +17043,14 @@ listed for melee damage in chapter 5.
 <table>
 <tbody>
 <tr class="odd">
-<td>Arch Lich attack</td>
 <td>Bone Demon attack</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-<td><p>Type: magic</p>
-<p>Damage: min - max</p>
-<p>Speed: 16</p>
-<p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 </tr>
@@ -16794,22 +17060,14 @@ listed for melee damage in chapter 5.
 <table>
 <tbody>
 <tr class="odd">
-<td>Lich attack</td>
-<td>Necromorb attack</td>
+<td>Lich and Arch Lich attack</td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Type: magic</p>
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-<td><p>Type: magic</p>
-<p>Damage: min - max</p>
-<p>Speed: 16</p>
-<p>Blockable: Yes</p></td>
-</tr>
-<tr class="odd">
-<td><p>Note:</p>
-<p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
 </tr>
@@ -16819,7 +17077,7 @@ listed for melee damage in chapter 5.
 <table>
 <tbody>
 <tr class="odd">
-<td>Psychorb attack</td>
+<td>Necromorb and Psychorb attack</td>
 <td></td>
 </tr>
 <tr class="even">
@@ -16827,12 +17085,8 @@ listed for melee damage in chapter 5.
 <p>Damage: min - max</p>
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
-<td></td>
-</tr>
-<tr class="odd">
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -16869,12 +17123,12 @@ Traps originating from shrines are not covered by this guide.
 <td>skeleton: 20 %</td>
 </tr>
 <tr class="even">
-<td>Barrel, Pods and Urns outside rooms</td>
+<td>Barrel, Pod and Urn outside rooms<sup>6</sup></td>
 <td><p>explosion: 20 % <sup>2</sup></p>
 <p>skeleton: 16 % <sup>3</sup></p></td>
 </tr>
 <tr class="odd">
-<td>Barrels, Pods and Urns inside rooms<sup>6</sup></td>
+<td>Barrel, Pod and Urn inside rooms<sup>6</sup></td>
 <td><p>explosion: 50 %</p>
 <p>skeleton: 0 %</p></td>
 </tr>
@@ -16883,7 +17137,7 @@ Traps originating from shrines are not covered by this guide.
 <td>dlvl 1-2</td>
 </tr>
 <tr class="odd">
-<td>Doors<sup>5</sup></td>
+<td>Door<sup>5</sup></td>
 <td>arrow: 100 %</td>
 </tr>
 </tbody>
@@ -16901,15 +17155,17 @@ exploding barrel.
 3 Skeleton traps are, of course, only available if there are skeletons
 on the same level.
 
-4 Hell and Crypt can’t have traps form doors.
+4 Hell and Crypt can’t have traps from doors.
 
 5 The probabilities for doors apply to doors that *do* have traps. It
 seems that the probability to have traps is linked to the actual dungeon
-layout for doors in that it needs a wall opposite to it.
+layout for doors in that it needs a wall opposite to it. In addition, if
+a trapped door is closed and one leave the level, it can set of the trap
+again next time one visit the level.
 
-6 Rooms also includes the fenced locations in caves. A room does not
-necessarily need to have a door, in cats and especially in hell, many
-rooms just have an opening.
+6 Rooms also includes the fenced locations in Caves. A room does not
+necessarily need to have a door, in the Catacombs and especially in
+Hell, many rooms just have an opening.
 
 For damage and other information about the traps, see below. For damage,
 when two values or formulas are given, the top one is minimum damage and
@@ -16979,7 +17235,7 @@ traps, still deal damage to players.
 <td>Skeleton</td>
 <td>n/a</td>
 <td>n/a</td>
-<td>Will create a random skeleton of those present on the same dlvl.</td>
+<td>Will create a random skeleton of those, if any, present on the same level.</td>
 </tr>
 <tr class="even">
 <td>Ring of Fire</td>
@@ -16991,7 +17247,7 @@ traps, still deal damage to players.
 <td>Mana Drain</td>
 <td>n/a</td>
 <td>n/a</td>
-<td>Will drain you of all current mana. This trap has the ability to affect other players on the same dlvl.</td>
+<td>Will drain you of all current mana. This trap has the ability to affect other players on the same level.</td>
 </tr>
 <tr class="even">
 <td>Disenchant potions</td>
@@ -17004,12 +17260,12 @@ traps, still deal damage to players.
 <p>Mana: destroyed</p>
 <p>Rejuvenation: Healing - 50%</p>
 <p>Mana - 50%</p></td>
-<td>For each potion in your belt, there is a 50% chance that it will be replaced with another potion according to the left. If several possibilities exist, the chance is equal for all possibilities and shown after the potion. This trap has the ability to affect other players on the same dlvl.</td>
+<td>For each potion in your belt, there is a 50% chance that it will be replaced with another potion according to the left. If several possibilities exist, the chance is equal for all possibilities and shown after the potion. This trap has the ability to affect other players on the same level.</td>
 </tr>
 </tbody>
 </table>
 
-1 In caves, hell, the Hive, and the Crypt it will originate form the
+1 In Caves, Hell, the Hive, and the Crypt it will originate form the
 chest, pod or urn.
 
 2 The bolt will try to hit once every 0.05 seconds.
@@ -17036,8 +17292,8 @@ on dungeon level 15: 25%
 
 on dungeon level 16: 30%
 
-  - > magic traps includes Fire Wall, Flame Wave and Ring of Fire
-    > attacks from other players.
+  - > magic traps includes Fire Wall, Flame Wave, Ring of Fire and
+    > Lightning Wall attacks from other players.
 
 # Monsters
 
@@ -17063,11 +17319,11 @@ other monster type.
 
 ## How to calculate monster data
 
-Data for nightmare and hell difficulties is calculated from the data for
+Data for nightmare and hell difficulty is calculated from the data for
 normal difficulty, and here follows information on how that is done as
 well as some description of the actual data. All data in the tables for
-nightmare and hell have been calculated using these formulas. Unique
-monsters generally follow the same formulas but more detailed
+nightmare and hell difficulty have been calculated using these formulas.
+Unique monsters generally follow the same formulas but more detailed
 information about data for unique monsters is found in chapter 5.4.
 
 Monster type
@@ -17156,7 +17412,7 @@ Hellfire and Diablo. In the tables the hit points for single player are
 correct for both Diablo and Hellfire (remember that in Diablo, only
 normal difficulty exists for single player). For multi player, the shown
 hit points are for Diablo; for Hellfire, you need to add 99 and 197 hit
-points in nightmare and hell difficulties respectively.
+points in nightmare and hell difficulty respectively.
 
 All monsters regenerate hit points. The rate is about 10·mlvl/64 hit
 points per second. Some monsters might regenerate it faster in some
@@ -17349,10 +17605,10 @@ presented in chapter 5.4.
 
 In each table, each monster has data in three lines corresponding to the
 three difficulty levels. The top line is for normal, the middle one for
-nightmare and the bottom line for hell. As the resistances and
-immunities are the same for nightmare as for normal they are only given
-once for normal. Dungeon levels are the same regardless of difficulty
-level and are thus only given once for each monster.
+nightmare and the bottom line for hell difficulty. As the resistances
+and immunities are the same for nightmare as for normal they are only
+given once for normal. Dungeon levels are the same regardless of
+difficulty level and are thus only given once for each monster.
 
 Resistances and immunities are given in the following way. In the top of
 the column it says MFL. That corresponds to Magic, Fire, and Lightning,
@@ -18658,8 +18914,8 @@ The Dark Lord.
 
 3 In Hellfire, Diablo is resistant to Holy Bolt.
 
-4 Due to a bug, base To Hit for Diablo will be 44% on nightmare and 84
-on hell.
+4 Due to a bug, base To Hit for Diablo will be 44% on nightmare
+difficulty and 84% on hell difficulty.
 
 ### Monsters in Hellfire
 
@@ -19061,8 +19317,8 @@ doors and follow target around corners, and timing information.
 Each monster type has a size associated with it. That size is used when
 selecting monsters for a specific level of the dungeon. Maximum total
 size of all monsters types on a level is 4000. Most monsters in the
-church, for example, have small sizes, and that is the reason why you
-will see many different monsters on each level. Monsters in hell and the
+Church, for example, have small sizes, and that is the reason why you
+will see many different monsters on each level. Monsters in Hell and the
 Crypt normally have large sizes and thus you will only see two or three
 different monster types at once. In the tables below you can find the
 size of all monster types in the game. Note that golems also have a
@@ -21878,7 +22134,7 @@ it will be noted in a note under the table.
 <td>12 - 25</td>
 </tr>
 <tr class="even">
-<td>Shadowcrow2</td>
+<td>Shadowcrow<sup>2</sup></td>
 <td>Dark One, sword</td>
 <td><em>Hidden</em></td>
 <td>2</td>
@@ -29527,6 +29783,9 @@ follows:
 The update is done once every 0.05 seconds which explains why all timing
 information is given in steps of 0.05 seconds.
 
+Some further infromation about combat, especially by monsters, can be
+found in chapter 5.5.
+
 ## General information
 
 Before we start discussing the actual combat, it is good to know some
@@ -29882,7 +30141,7 @@ Charge attacks.
     > target.
 
 Either intentionally or due to a bug, monsters that are charging, can at
-times cross lava that is otherwise impassable in the caves.
+times cross lava that is otherwise impassable in the Caves.
 
 ### How spells really work
 
@@ -30023,7 +30282,7 @@ target can only be hit in the location it is entering, *none* means that
 it can’t be hit in any of the locations. Monsters attacking players are
 handled in a special way explained below.
 
-2 For the definition of north, see chapter 1.2.
+2 For the definition of north, see chapter 1.3.
 
 3 A monster that attack another monster will always check for To Hit no
 matter where the target is at the time to check for To Hit. A monster
@@ -30054,7 +30313,7 @@ player will be put in the location as indicated in the table above which
 means if you walk downwards, you will in such cases always be ”pushed”
 downwards (regardless of the direction of the attacker) but when walking
 in other directions, you will be ”pushed” back into the location you
-were leaving. Further more, when deciding upon what action to perform,
+were leaving. In addition, when deciding upon what action to perform,
 see chapter 5.5 the distance is similarly always calculated in the same
 way. This result in the situation that when you are walking towards a
 monster it will only initiate a melee attack while you are walking, if
@@ -31144,10 +31403,10 @@ Hit consequences
 
 # Shrines
 
-Shrines are found on levels 1-8 (church and catacombs), cauldrons on
-levels 13-15 (hell), fountains, pools and springs on levels 1-8 and also
+Shrines are found on levels 1-8 (Church and Catacombs), cauldrons on
+levels 13-15 (Hell), fountains, pools and springs on levels 1-8 and also
 on levels 13-16. Rarely you will also see fountains, pools and springs
-on level 9-12 (caves). Goat shrines are possible on any level that has
+on level 9-12 (Caves). Goat shrines are possible on any level that has
 Goat Men or Goat Archers (level 4-9).
 
 <table>
@@ -31245,8 +31504,8 @@ Cauldron or Goat Shrine.
 
 4 Only available in multi player.
 
-5 All spells cast from a shrine will have an slvl of 2 in church, 4 in
-catacombs, 6 in caves and 8 in hell.
+5 All spells cast from a shrine will have an slvl of 2 in Church, 4 in
+Catacombs, 6 in Caves and 8 in Hell.
 
 <table>
 <tbody>
@@ -31281,8 +31540,8 @@ catacombs, 6 in caves and 8 in hell.
 
 2 Thaumaturgic Shrine will never appear as a Cauldron or Goat Shrine.
 
-3 All spells cast from a shrine will have an slvl of 2 in church, 4 in
-catacombs, 6 in caves and 8 in hell.
+3 All spells cast from a shrine will have an slvl of 2 in Church, 4 in
+Catacombs, 6 in Caves and 8 in Hell.
 
 <table>
 <tbody>
@@ -31514,7 +31773,7 @@ this bug.
 This chapter deals with all of the quests present in Diablo and
 Hellfire. It only provides information on what has to be done to fulfill
 each quest. You have to find the best strategy for doing it yourself.
-Two of the quests in Hellfire are hidden quests. Chapter 1.1 provides
+Two of the quests in Hellfire are hidden quests. Chapter 1.2 provides
 information on how to activate them. Most quests are only available in
 single player mode, but some are present in both single and multi
 player. The table below lists each quest and the unique item (if any)
@@ -31722,7 +31981,7 @@ difficulty. The only place where you can see your dots is Battle.net.
 
 4 Not really a quest but appropriate to list here.
 
-5 Hidden quests, see chapter 1.1 for information on how to activate
+5 Hidden quests, see chapter 1.2 for information on how to activate
 them.
 
 6 Never shows up in the Quest Log.
@@ -31773,7 +32032,7 @@ quests from each group are chosen each game.
     
     1.  ### The Butcher
 
-This quest is present if you see a wounded townsman outside the church
+This quest is present if you see a wounded townsman outside the Church
 (in multi player it is always present). You will find The Butcher in a
 special red room on level 2. Killing him rewards you with The Butcher’s
 Cleaver in single player and a random magical item in multi player.
@@ -32020,7 +32279,7 @@ about dots.
     
     1.  ### Farmer’s Orchard
 
-If you have not activated the hidden quests, see chapter 1.1. You will
+If you have not activated the hidden quests, see chapter 1.2. You will
 find Lester the Farmer near the cows in the town. If your character is
 level 15 or above, Lester will give you the Rune Bomb. Take it to the
 bridge adjacent to where you start. Standing on the bridge, drop it on
@@ -32030,7 +32289,7 @@ Amulet.
 
 ### The Jersey’s Jersey
 
-If you have activated the hidden quests (see chapter 1.1), you will not
+If you have activated the hidden quests (see chapter 1.2), you will not
 find Lester the Farmer. Instead, you will find the Complete Nut, also
 standing by the cows. In the Hive you will find one gray suit lying on
 the ground somewhere on level 3, and one brown suit lying on the ground
@@ -32039,7 +32298,7 @@ will give you the Bovine Plate.
 
 ### Little Girl
 
-If you have activated the hidden quests (see chapter 1.1), you will find
+If you have activated the hidden quests (see chapter 1.2), you will find
 a little girl standing close to the bridge just above the one that leads
 to the Hive. She will only appear once you have been to the Hive. When
 you kill the Hork Demon on level 3 of the Nest, he will drop Theodore,
@@ -32718,6 +32977,10 @@ located below Diablo on the icon.
 DiabloII The person is logged on to Battle.net using Diablo II. The II
 is actually located behind Diablo on the icon.
 
+DiabloII<sub>EXPANSION</sub> The person is logged on to Battle.net using
+Diablo II: Lord of Destruction. The EXPANSION is actually located below
+Diablo on the icon.
+
 Gavel The person is the operator of the channel and can use the operator
 commands, see chapter 9.1.
 
@@ -32744,16 +33007,19 @@ WAR<sub>II</sub> The person is logged on to Battle.net using Warcraft II
 Battle.net Edition. The <sub>II</sub> is actually located below WAR on
 the icon.
 
+WAR<sub>III</sub> The person is logged on to Battle.net using Warcraft
+III. The <sub>III</sub> is actually located behind WAR on the icon.
+
 X The BRX (Big Red X) is shown on any person that you have issued a
 /squelch command on.
 
 No icon at all Most likely someone that has hacked his character to have
 a clvl outside the 1-99 range. Of course, unless you cheat, your clvl
 can never be higher than 50. In the shareware version, the theoretical
-maximum clvl, based on what monsters can be found on the first two dlvl
-of the church, is 16. The clvl is no longer shown for people connecting
-with the shareware version (unless one also uses shareware, of course;
-in that case the icon will, in addition, always be grey).
+maximum clvl, based on what monsters can be found on the first two
+levels of the Church, is 16. The clvl is no longer shown for people
+connecting with the shareware version (unless one also uses shareware,
+of course; in that case the icon will, in addition, always be grey).
 
 The list above is only complete if you are using Diablo. Just as Diablo
 has specific icons for various characters, all other games have similar
@@ -33079,7 +33345,7 @@ game you were playing.
 
 An alternative is to rename (or move) the file *Smackw32.dll* found in
 your Diablo folder. It is the file that plays the movies in the game. It
-will also result in that you wwill not be able to see the introduction
+will also result in that you will not be able to see the introduction
 movies though. It seems the game will not be affected in any other way
 if you rename or move this file but be aware that if you get into any
 trouble, you may have to reinstall the game. If you do this, pay
@@ -33095,229 +33361,99 @@ printer, paper size and format used.
 <table>
 <tbody>
 <tr class="odd">
+<td>Information about each version</td>
+</tr>
+<tr class="even">
 <td>Version</td>
-<td>Pages</td>
-<td>Paragraphs</td>
-<td>Lines</td>
-<td>Words</td>
-<td>Characters</td>
-<td>Bytes</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.00</td>
-<td>68</td>
-<td>10 757</td>
-<td>13 399</td>
-<td>26 238</td>
-<td>104 883</td>
-<td>594 432</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.10</td>
-<td>71</td>
-<td>12 040</td>
-<td>14 434</td>
-<td>30 358</td>
-<td>121 563</td>
-<td>676 864</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.20</td>
-<td>91</td>
-<td>13 611</td>
-<td>16 119</td>
-<td>41 978</td>
-<td>172 594</td>
-<td>786 944</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.30</td>
-<td>101</td>
-<td>14 506</td>
-<td>17 280</td>
-<td>46 973</td>
-<td>193 806</td>
-<td>846 336</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.31</td>
-<td>101</td>
-<td>14 596</td>
-<td>17 390</td>
-<td>47 863</td>
-<td>197 838</td>
-<td>859 136</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.40</td>
-<td>124</td>
-<td>17 749</td>
-<td>22 206</td>
-<td>58 865</td>
-<td>244 474</td>
-<td>1 084 416</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.50</td>
-<td>146</td>
-<td>18 745</td>
-<td>23 662</td>
-<td>74 267</td>
-<td>306 580</td>
-<td>1 199 104</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.51</td>
-<td>147</td>
-<td>18 886</td>
-<td>23 837</td>
-<td>75 006</td>
-<td>310 256</td>
-<td>1 210 880</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.52</td>
-<td>147</td>
-<td>18 953</td>
-<td>23 929</td>
-<td>75 864</td>
-<td>314 175</td>
-<td>1 219 584</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.60</td>
-<td>169</td>
-<td>21 510</td>
-<td>26 996</td>
-<td>88 915</td>
-<td>370 027</td>
-<td>1 367 040</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.61</td>
-<td>171</td>
-<td>21 563</td>
-<td>27 093</td>
-<td>90 371</td>
-<td>376 459</td>
-<td>1 381 840</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.62</td>
-<td>172</td>
-<td>21 597</td>
-<td>27 136</td>
-<td>90 792</td>
-<td>378 298</td>
-<td>1 384 448</td>
+</tr>
+<tr class="odd">
+<td>1.63</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr class="odd">
+<td>Information about changes between versions</td>
 </tr>
 <tr class="even">
+<td>Version</td>
+</tr>
+<tr class="odd">
 <td>1.00 to 1.10</td>
-<td>3</td>
-<td>1 283</td>
-<td>1 035</td>
-<td>4 120</td>
-<td>16 883</td>
-<td>82 432</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.10 to 1.20</td>
-<td>20</td>
-<td>1 571</td>
-<td>1 685</td>
-<td>11 620</td>
-<td>51 031</td>
-<td>110 080</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.20 to 1.30</td>
-<td>10</td>
-<td>895</td>
-<td>1 161</td>
-<td>4 995</td>
-<td>31 212</td>
-<td>59 392</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.30 to 1.31</td>
-<td>0</td>
-<td>90</td>
-<td>110</td>
-<td>890</td>
-<td>4 032</td>
-<td>12 800</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.31 to 1.40</td>
-<td>23</td>
-<td>3 153</td>
-<td>4 816</td>
-<td>11 002</td>
-<td>46 636</td>
-<td>225 280</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.40 to 1.50</td>
-<td>22</td>
-<td>996</td>
-<td>1 456</td>
-<td>15 402</td>
-<td>62 106</td>
-<td>114 688</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.50 to 1.51</td>
-<td>1</td>
-<td>141</td>
-<td>175</td>
-<td>739</td>
-<td>3 676</td>
-<td>11 776</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>1.51 to 1.52</td>
-<td>0</td>
-<td>67</td>
-<td>92</td>
-<td>858</td>
-<td>3 919</td>
-<td>8 704</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>1.52 to 1.60</td>
-<td>22</td>
-<td>2 557</td>
-<td>3 067</td>
-<td>13 051</td>
-<td>55 852</td>
-<td>147 456</td>
-</tr>
-<tr class="odd">
-<td>1.60 to 1.61</td>
-<td>2</td>
-<td>53</td>
-<td>97</td>
-<td>1 456</td>
-<td>6 432</td>
-<td>14 800</td>
 </tr>
 <tr class="even">
-<td>1.61 to 1.62</td>
-<td>1</td>
-<td>34</td>
-<td>43</td>
-<td>421</td>
-<td>1 839</td>
-<td>2 608</td>
+<td>1.60 to 1.61</td>
 </tr>
 <tr class="odd">
-<td>1.00 to 1.62</td>
-<td>104</td>
-<td>10 840</td>
-<td>13 737</td>
-<td>64 554</td>
-<td>273 415</td>
-<td>790 016</td>
+<td>1.61 to 1.62</td>
+</tr>
+<tr class="even">
+<td>1.62 to 1.63</td>
+</tr>
+<tr class="odd">
+<td>1.00 to 1.63</td>
 </tr>
 </tbody>
 </table>
