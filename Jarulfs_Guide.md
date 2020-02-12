@@ -458,65 +458,65 @@ There are a few general things about the guide that can be good to know
 when you read it. Below are summarized such general remarks that are
 valid for the whole guide but never explicitly mentioned anywhere else.
 
-  - > All prices in this guide are buying prices, that is, the price
-    > that you would have to pay for an item. Some items can’t be
-    > bought, like unique items, elixirs of Vitality, and oils. The
-    > prices of those items are still listed as buying prices, however.
-    > Note that although items from Wirt initially have a value 50%
-    > higher than Griswold’s price (75% of Griswold’s price in
-    > Hellfire), they will have the normal Griswold price when you
-    > restart a new game and give away the item.
+  - All prices in this guide are buying prices, that is, the price
+    that you would have to pay for an item. Some items can’t be
+    bought, like unique items, elixirs of Vitality, and oils. The
+    prices of those items are still listed as buying prices, however.
+    Note that although items from Wirt initially have a value 50%
+    higher than Griswold’s price (75% of Griswold’s price in
+    Hellfire), they will have the normal Griswold price when you
+    restart a new game and give away the item.
 
-  - > When doing calculations, you should generally round down any
-    > number you get, as that is the way Diablo and Hellfire works.
-    > However, life, mana, HP, and damage are actually kept track of
-    > with higher precision than shown and should not be rounded down.
-    > If you are supposed to round down *within* a formula, that will
-    > usually be indicated by \[ \].
+  - When doing calculations, you should generally round down any
+    number you get, as that is the way Diablo and Hellfire works.
+    However, life, mana, HP, and damage are actually kept track of
+    with higher precision than shown and should not be rounded down.
+    If you are supposed to round down *within* a formula, that will
+    usually be indicated by \[ \].
 
-  - > The term *clubs* in this guide refers collectively to all blunt
-    > weapons including club, spiked club, mace, morning star, flail,
-    > war hammer and maul.
+  - The term *clubs* in this guide refers collectively to all blunt
+    weapons including club, spiked club, mace, morning star, flail,
+    war hammer and maul.
 
-  - > Unless otherwise stated, the Hive dungeon levels are numbered
-    > 9-12, the same as Caves. The Crypt is numbered 13-16, the same as
-    > Hell.
+  - Unless otherwise stated, the Hive dungeon levels are numbered
+    9-12, the same as Caves. The Crypt is numbered 13-16, the same as
+    Hell.
 
-  - > Monsters have Hit Points (HP) while players have life. For most
-    > purposes there is no difference between HP and life though.
+  - Monsters have Hit Points (HP) while players have life. For most
+    purposes there is no difference between HP and life though.
 
-  - > At times, the guide will refer to ”a turn”. Obviously Diablo and
-    > Hellfire are not turned based. Never the less, the games work at
-    > about 20 ”frames” per second. That is, each 0.05 second, the game
-    > will go through all the characters, monsters, spells, and such,
-    > and update them. This is what is meant by *turn* in this guide. As
-    > a consequence of the rate the games are updated, there is nothing
-    > in the game that can take less than 0.05 seconds and all times are
-    > evenly divisible by 0.05.
+  - At times, the guide will refer to ”a turn”. Obviously Diablo and
+    Hellfire are not turned based. Never the less, the games work at
+    about 20 ”frames” per second. That is, each 0.05 second, the game
+    will go through all the characters, monsters, spells, and such,
+    and update them. This is what is meant by *turn* in this guide. As
+    a consequence of the rate the games are updated, there is nothing
+    in the game that can take less than 0.05 seconds and all times are
+    evenly divisible by 0.05.
 
-  - > Frequently a range of values are given. This is done in two
-    > different ways: *x - y* or *x to y*, where x and y can either be a
-    > number or some formula. Both cases are identical and the latter is
-    > usually used to avoid any confusion with interpreting the hyphen
-    > as a minus sign. Unless otherwise stated the game will pick a
-    > value within the range at random and all values have the same
-    > probability.
+  - Frequently a range of values are given. This is done in two
+    different ways: *x - y* or *x to y*, where x and y can either be a
+    number or some formula. Both cases are identical and the latter is
+    usually used to avoid any confusion with interpreting the hyphen
+    as a minus sign. Unless otherwise stated the game will pick a
+    value within the range at random and all values have the same
+    probability.
 
-  - > North is defined as upwards on your own screen. That will be sort
-    > of diagonally compared to the general dungeon layout. One can then
-    > note that there are 8 different directions in which one can walk,
-    > turn, attack and so on in the game (the actual spells can travel
-    > in more directions but you cast them facing one of the 8
-    > directions). When talking about directions in this Guide, it will
-    > use the above definition.
+  - North is defined as upwards on your own screen. That will be sort
+    of diagonally compared to the general dungeon layout. One can then
+    note that there are 8 different directions in which one can walk,
+    turn, attack and so on in the game (the actual spells can travel
+    in more directions but you cast them facing one of the 8
+    directions). When talking about directions in this Guide, it will
+    use the above definition.
 
-  - > The dungeon basically consists of square locations where each
-    > square can typically contain only one monster, player or other
-    > object. In the guide, unfortunately, the terminology used for
-    > those squares includes terms such as location, tile and square.
-    > They should all be read and understood to be the same thing.
+  - The dungeon basically consists of square locations where each
+    square can typically contain only one monster, player or other
+    object. In the guide, unfortunately, the terminology used for
+    those squares includes terms such as location, tile and square.
+    They should all be read and understood to be the same thing.
     
-    1.  ## Abbreviations
+## Abbreviations
 
 Throughout this guide some common abbreviations are used. They are
 summarized below.
@@ -623,55 +623,55 @@ it.
 Things that have been added or changed substantially in
 1.60/1.61/1.62/1.63 over previous version:
 
-  - > Added a massive chapter detailing information about the monster AI
-    > scripts and other related information.
+  - Added a massive chapter detailing information about the monster AI
+    scripts and other related information.
 
-  - > The list of people acknowledged has been updated.
+  - The list of people acknowledged has been updated.
 
-  - > Updates and corrections to chapter about experience points.
+  - Updates and corrections to chapter about experience points.
 
-  - > Added information about character naming.
+  - Added information about character naming.
 
-  - > Updated the repair and recharge costs.
+  - Updated the repair and recharge costs.
 
-  - > Rewrote the item price calculation chapter some.
+  - Rewrote the item price calculation chapter some.
 
-  - > Corrected some errors and expanded information about prefix and
-    > suffix selection.
+  - Corrected some errors and expanded information about prefix and
+    suffix selection.
 
-  - > Corrections regarding item creation for staves.
+  - Corrections regarding item creation for staves.
 
-  - > Added probabilities for unique items being found.
+  - Added probabilities for unique items being found.
 
-  - > Updated and corrected information about some spells including
-    > Chain Lightning, Mana Shield, Telekinesis, Flame Wave, Fire Wall,
-    > Lightning Wall and Ring of Fire (both in spell chapter and in
-    > battle chapter).
+  - Updated and corrected information about some spells including
+    Chain Lightning, Mana Shield, Telekinesis, Flame Wave, Fire Wall,
+    Lightning Wall and Ring of Fire (both in spell chapter and in
+    battle chapter).
 
-  - > Removed all information regarding distance for spells as it does
-    > not apply.
+  - Removed all information regarding distance for spells as it does
+    not apply.
 
-  - > Some added information about traps.
+  - Some added information about traps.
 
-  - > Corrected information about monster hit point regeneration.
+  - Corrected information about monster hit point regeneration.
 
-  - > Added information about second attacks for many monsters,
-    > including timing information.
+  - Added information about second attacks for many monsters,
+    including timing information.
 
-  - > Some additional information about the Skeleton King and the
-    > Skeleton King quest.
+  - Some additional information about the Skeleton King and the
+    Skeleton King quest.
 
-  - > Corrected some resistances and immunities for unique and special
-    > monsters.
+  - Corrected some resistances and immunities for unique and special
+    monsters.
 
-  - > Added information about what and how monsters and players are
-    > targetable, especially in reference to walking.
+  - Added information about what and how monsters and players are
+    targetable, especially in reference to walking.
 
-  - > Updated the command section for Battle.net.
+  - Updated the command section for Battle.net.
 
-  - > Added information about channels on Battle.net.
+  - Added information about channels on Battle.net.
 
-  - > Small corrections and additions all over the guide.
+  - Small corrections and additions all over the guide.
 
 Things that have been added or changed in 1.61:
 
@@ -680,67 +680,67 @@ this page for example, may change the page breaks of the Guide and thus
 push/pull pages forward or backwards but mostly one should be able to
 just print the selected pages where changes were made.
 
-  - > Updated the front page.
+  - Updated the front page.
 
-  - > Updated the Index.
+  - Updated the Index.
 
-  - > Changed chapter 1.1 to acknowledge the latest patch for Diablo,
-    > v1.08.
+  - Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+    v1.08.
 
-  - > Added some information to chapter 1.1.
+  - Added some information to chapter 1.1.
 
-  - > Added one more general remark to chapter 1.3.
+  - Added one more general remark to chapter 1.3.
 
-  - > Added to and corrected the list of acknowledged people in chapter
-    > 1.5.
+  - Added to and corrected the list of acknowledged people in chapter
+    1.5.
 
-  - > Added information about what is new in this update to chapter 1.6.
+  - Added information about what is new in this update to chapter 1.6.
 
-  - > Added link about target location under *Hit recovery* in chapter
-    > 2.2.1.
+  - Added link about target location under *Hit recovery* in chapter
+    2.2.1.
 
-  - > Added footnote about Armor Class to table about +% Armor Class in
-    > chapter 3.4 and 3.13.5.
+  - Added footnote about Armor Class to table about +% Armor Class in
+    chapter 3.4 and 3.13.5.
 
-  - > Added small clarification in chapter 3.5.
+  - Added small clarification in chapter 3.5.
 
-  - > Corrected information about tables in chapter 3.11.
+  - Corrected information about tables in chapter 3.11.
 
-  - > Added note to Bone Spirit in chapter 4.1.3.
+  - Added note to Bone Spirit in chapter 4.1.3.
 
-  - > Corrected and clarified the tables of tables in chapter 4.1.5.
+  - Corrected and clarified the tables of tables in chapter 4.1.5.
 
-  - > Changed text about unknown information (as it is actually know and
-    > explained in the guide) in chapter 5.3.4 under *Hit recovery
-    > time*.
+  - Changed text about unknown information (as it is actually know and
+    explained in the guide) in chapter 5.3.4 under *Hit recovery
+    time*.
 
-  - > Removed erroneous information about Arch-Bishop Lazarus regarding
-    > Hit Recovery in chapter 5.3.4 under *Hit recovery time* and in
-    > footnote under table in chapter 5.4 and 5.6.2 .
+  - Removed erroneous information about Arch-Bishop Lazarus regarding
+    Hit Recovery in chapter 5.3.4 under *Hit recovery time* and in
+    footnote under table in chapter 5.4 and 5.6.2 .
 
-  - > Corrected the data for Deathshade Fleshmaul in chapter 5.4
+  - Corrected the data for Deathshade Fleshmaul in chapter 5.4
 
-  - > Small addition about Hidden attack type in chapter 5.5.2.
+  - Small addition about Hidden attack type in chapter 5.5.2.
 
-  - > Added small paragraph, about a change in walking in the latest
-    > patch, at the end of chapter 6.1.9.
+  - Added small paragraph, about a change in walking in the latest
+    patch, at the end of chapter 6.1.9.
 
-  - > Added the missing parts of chapter 6.1.10.
+  - Added the missing parts of chapter 6.1.10.
 
-  - > Corrected the footnote in chapter 8.3.8.
+  - Corrected the footnote in chapter 8.3.8.
 
-  - > Added information about command completion with the Tab key in
-    > chapter 9.2.
+  - Added information about command completion with the Tab key in
+    chapter 9.2.
 
-  - > Changed information about save files on PC computers in chapter
-    > 10.2 due to changes in 1.08 patch.
+  - Changed information about save files on PC computers in chapter
+    10.2 due to changes in 1.08 patch.
 
-  - > Added reference to save files in chapter 10.4.
+  - Added reference to save files in chapter 10.4.
 
-  - > Updated chapter 10.7.
+  - Updated chapter 10.7.
 
-  - > Some smaller layout changes at various places (does not in any way
-    > affect the content).
+  - Some smaller layout changes at various places (does not in any way
+    affect the content).
 
 Things that have been added or changed in 1.62:
 
@@ -749,40 +749,40 @@ this page for example, may change the page breaks of the Guide and thus
 push/pull pages forward or backwards but mostly one should be able to
 just print the selected pages where changes were made.
 
-  - > Updated the front page.
+  - Updated the front page.
 
-  - > Updated the Index.
+  - Updated the Index.
 
-  - > Added text about opening the document in Word in chapter 1.
+  - Added text about opening the document in Word in chapter 1.
 
-  - > Changed chapter 1.1 to acknowledge the latest patch for Diablo,
-    > v1.09.
+  - Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+    v1.09.
 
-  - > Added to the list of acknowledged people in chapter 1.5.
+  - Added to the list of acknowledged people in chapter 1.5.
 
-  - > Clarified melee character damage and special ”weapon” damage for
-    > the Monk in chapter 2.2.2.
+  - Clarified melee character damage and special ”weapon” damage for
+    the Monk in chapter 2.2.2.
 
-  - > Corrected the weapon speed for the Monk with just a shield in
-    > chapter 2.2.3.
+  - Corrected the weapon speed for the Monk with just a shield in
+    chapter 2.2.3.
 
-  - > Small addition to the Resurrect spell in chapter 4.1.3.
+  - Small addition to the Resurrect spell in chapter 4.1.3.
 
-  - > Corrected table in chapter 6.1.4.
+  - Corrected table in chapter 6.1.4.
 
-  - > Removed text about a change only present in version 1.08 of the
-    > game in chapter 6.1.9.
+  - Removed text about a change only present in version 1.08 of the
+    game in chapter 6.1.9.
 
-  - > Added some text in chapter 9.
+  - Added some text in chapter 9.
 
-  - > Updated the channel list in chapter 9.1.
+  - Updated the channel list in chapter 9.1.
 
-  - > Added some information about avoiding the end game movie in
-    > chapter 10.6.
+  - Added some information about avoiding the end game movie in
+    chapter 10.6.
 
-  - > Small adjustments for the 1.09 patch in chapter 10.2.
+  - Small adjustments for the 1.09 patch in chapter 10.2.
 
-  - > Updated chapter 10.7.
+  - Updated chapter 10.7.
     
     Things that have been added or changed in 1.63:
     
@@ -791,42 +791,42 @@ just print the selected pages where changes were made.
     thus push/pull pages forward or backwards but mostly one should be
     able to just print the selected pages where changes were made.
 
-  - > Updated the front page.
+  - Updated the front page.
 
-  - > Updated the Index.
+  - Updated the Index.
 
-  - > Removed mail info in chapter 1.
+  - Removed mail info in chapter 1.
 
-  - > Added some information regarding the Guide and Battle.net in
-    > chapter 1.1.
+  - Added some information regarding the Guide and Battle.net in
+    chapter 1.1.
 
-  - > Added to the list of acknowledged people in chapter 1.5.
+  - Added to the list of acknowledged people in chapter 1.5.
 
-  - > Corrected the Bard’s max mana in chapter 2.1.2.
+  - Corrected the Bard’s max mana in chapter 2.1.2.
 
-  - > Corrected and updated information about the hit recovery bug in
-    > the table in chapter 2.2.1.
+  - Corrected and updated information about the hit recovery bug in
+    the table in chapter 2.2.1.
 
-  - > Corrected the Barbarian’s max naked damage with staff in the table
-    > chapter 2.2.2.
+  - Corrected the Barbarian’s max naked damage with staff in the table
+    chapter 2.2.2.
 
-  - > Added information about the hit recovery bug in chapter 3.4.
+  - Added information about the hit recovery bug in chapter 3.4.
 
-  - > Corrected information about the occurrence of Decapitated bodies
-    > in chapter 3.8.1.
+  - Corrected information about the occurrence of Decapitated bodies
+    in chapter 3.8.1.
 
-  - > Added information about the hit recovery bug in chapter 3.13.5.
+  - Added information about the hit recovery bug in chapter 3.13.5.
 
-  - > Restructed the spell information tables in chapter 4.1.3, 4.1.4,
-    > 4.2.1 and 4.2.2.
+  - Restructed the spell information tables in chapter 4.1.3, 4.1.4,
+    4.2.1 and 4.2.2.
 
-  - > Corrected a typo about Lightning Wall in chapter 4.1.4.
+  - Corrected a typo about Lightning Wall in chapter 4.1.4.
 
-  - > Added refference to chapter 5.5 in chapter 6.
+  - Added refference to chapter 5.5 in chapter 6.
 
-  - > Updated the icon list in chapter 9.4.
+  - Updated the icon list in chapter 9.4.
 
-  - > Updated chapter 10.7.
+  - Updated chapter 10.7.
 
 # Characters
 
@@ -1152,19 +1152,19 @@ Mana<sub>items</sub> + 3
 Barbarian: 1·Mag<sub>character</sub> + 1·Mag<sub>items</sub> + 0·clvl +
 Mana<sub>items</sub> + 0
 
-  - > Black Deaths (a zombie type of monster) can permanently decrease
-    > your life.
+  - Black Deaths (a zombie type of monster) can permanently decrease
+    your life.
 
-  - > You do not get any mana or life when reaching level 50 (use
-    > clvl=49 to get the correct result).
+  - You do not get any mana or life when reaching level 50 (use
+    clvl=49 to get the correct result).
 
-  - > Some shrines might permanently decrease your max mana (see chapter
-    > 5.6.5).
+  - Some shrines might permanently decrease your max mana (see chapter
+    5.6.5).
 
-  - > If you are on level 16, you will not lose any of your items when
-    > you die.
+  - If you are on level 16, you will not lose any of your items when
+    you die.
     
-    1.  ### Armor Class and To Hit
+### Armor Class and To Hit
 
 Both Armor Class (AC) and To Hit are based on your Dexterity. Below is a
 summary on how they are calculated. For more information about AC and To
@@ -1187,10 +1187,10 @@ Bard: Dex/5 + AC<sub>items</sub>
 
 Barbarian: Dex/5 + AC<sub>items</sub> + clvl/4
 
-  - > When calculating AC for a Monk, unique plate is treated as mail
-    > and unique mail as leather.
+  - When calculating AC for a Monk, unique plate is treated as mail
+    and unique mail as leather.
 
-  - > Shields only give half AC (rounded up) to the Barbarian.
+  - Shields only give half AC (rounded up) to the Barbarian.
     
     To Hit %
     
@@ -1207,46 +1207,46 @@ Barbarian: Dex/5 + AC<sub>items</sub> + clvl/4
     
     To Hit penalty for adjacent quarter damage: 70 - 2·clvl (minimum 30)
 
-  - > All magic attacks will always check for To Hit, even for spells
-    > like Lightning and Fire Wall.
+  - All magic attacks will always check for To Hit, even for spells
+    like Lightning and Fire Wall.
 
-  - > A player is immune to its own spells with the exception of Fire
-    > Wall, Flame Wave, Ring of Fire and Lightning Wall.
+  - A player is immune to its own spells with the exception of Fire
+    Wall, Flame Wave, Ring of Fire and Lightning Wall.
 
-  - > Fire Wall, Flame Wave, Ring of Fire and Lightning Wall will check
-    > for To Hit like magical traps against players including the caster
-    > (but not against monsters). See chapters 4.3 and 6.1.2.
+  - Fire Wall, Flame Wave, Ring of Fire and Lightning Wall will check
+    for To Hit like magical traps against players including the caster
+    (but not against monsters). See chapters 4.3 and 6.1.2.
 
-  - > Distance is actually a time count. It goes up by 1 twenty times
-    > each second. Arrows always have a distance factor, even if they
-    > have extra fire or lightning. For more information see chapters
-    > 4.1.2.
+  - Distance is actually a time count. It goes up by 1 twenty times
+    each second. Arrows always have a distance factor, even if they
+    have extra fire or lightning. For more information see chapters
+    4.1.2.
 
-  - > Note that the effects of some oils (see chapter 3.2.1) are only
-    > visible on the stats in the character screen. They don’t show up
-    > on the information about the item.
+  - Note that the effects of some oils (see chapter 3.2.1) are only
+    visible on the stats in the character screen. They don’t show up
+    on the information about the item.
 
-  - > In Diablo, the *bashing* series of suffixes also adds to your To
-    > Hit value but it will never show up on the character screen. The
-    > amount is always fixed for a specific item and within the range of
-    > the suffix. See chapter 3.4 for more information.
+  - In Diablo, the *bashing* series of suffixes also adds to your To
+    Hit value but it will never show up on the character screen. The
+    amount is always fixed for a specific item and within the range of
+    the suffix. See chapter 3.4 for more information.
 
-  - > The adjacent quarter damage To Hit penalty is subtracted from the
-    > normal To Hit for the two monsters adjacent to the one you attack.
-    > For an explanation of adjacent quarter damage see chapter 2.2.2.
+  - The adjacent quarter damage To Hit penalty is subtracted from the
+    normal To Hit for the two monsters adjacent to the one you attack.
+    For an explanation of adjacent quarter damage see chapter 2.2.2.
 
-  - > For a list of the bonuses, see the table below.
+  - For a list of the bonuses, see the table below.
 
-  - > To get the final chance of hitting you subtract the AC of the
-    > enemy (monster or player). See chapter 5.1 for information about
-    > monster’s AC. The AC is not subtracted if it is a magic attack.
+  - To get the final chance of hitting you subtract the AC of the
+    enemy (monster or player). See chapter 5.1 for information about
+    monster’s AC. The AC is not subtracted if it is a magic attack.
 
-  - > When the game checks if you have hit there is always a 5% chance
-    > that you will miss, no matter what the final modified To Hit is.
-    > In the same way there is also always a 5% chance to hit, no matter
-    > what the final modified To Hit is. See chapter 5.1 for information
-    > about monster’s chance of automatic hit (they never automatically
-    > miss).
+  - When the game checks if you have hit there is always a 5% chance
+    that you will miss, no matter what the final modified To Hit is.
+    In the same way there is also always a 5% chance to hit, no matter
+    what the final modified To Hit is. See chapter 5.1 for information
+    about monster’s chance of automatic hit (they never automatically
+    miss).
 
 The bonus in the above formulas refers to some *hidden* To Hit modifiers
 specific for each character class. They are listed in the table below
@@ -1425,14 +1425,14 @@ clvl<sub>attacker</sub>) + bonus
 
 Blocking trap: Dex + bonus
 
-  - > There exists a bug so that the bonus is always 0, except during
-    > the first game a character plays. For information about what the
-    > bonus should be, see table under *To Hit* *%*, chapter 2.1.4.
+  - There exists a bug so that the bonus is always 0, except during
+    the first game a character plays. For information about what the
+    bonus should be, see table under *To Hit* *%*, chapter 2.1.4.
 
-  - > You can only block while standing still or while doing a melee
-    > attack.
+  - You can only block while standing still or while doing a melee
+    attack.
 
-  - > Monsters can never block attacks against them.
+  - Monsters can never block attacks against them.
 
 Modified damage received
 
@@ -1630,29 +1630,29 @@ Barbarian except for axes and clubs: Str·clvl / 100
 
 Extra bonus for Barbarian without shield: Vit·clvl / 100
 
-  - > All Bow character damage is doubled for player versus player
-    > except for Rogues.
+  - All Bow character damage is doubled for player versus player
+    except for Rogues.
 
-  - > There are quite a few bugs associated with fire and lightning
-    > arrows which makes them often deal erroneous damage (way too high
-    > or no additional damage at all). For more information, see chapter
-    > 6.1.6.
+  - There are quite a few bugs associated with fire and lightning
+    arrows which makes them often deal erroneous damage (way too high
+    or no additional damage at all). For more information, see chapter
+    6.1.6.
 
-  - > For the Monk, *other weapons* include just having a shield
-    > equiped.
+  - For the Monk, *other weapons* include just having a shield
+    equiped.
 
-  - > For the Bard, damage enhancements from the *king’s* and
-    > *merciless* series of prefixes (+% damage) are added together if
-    > they occur on both weapons. It is then applied to the sum of both
-    > weapons’ damage. Damage from enhancements of the *slaughter*
-    > series is only applicable to the weapon it comes on.
+  - For the Bard, damage enhancements from the *king’s* and
+    *merciless* series of prefixes (+% damage) are added together if
+    they occur on both weapons. It is then applied to the sum of both
+    weapons’ damage. Damage from enhancements of the *slaughter*
+    series is only applicable to the weapon it comes on.
 
-  - > The Barbarian can use a maul and two-handed swords in one hand.
+  - The Barbarian can use a maul and two-handed swords in one hand.
 
-  - > The Barbarian’s bonus for not using a shield does not apply if he
-    > is using a staff.
+  - The Barbarian’s bonus for not using a shield does not apply if he
+    is using a staff.
 
-  - > Magic damage is halved in player versus player.
+  - Magic damage is halved in player versus player.
     
     As already stated, you add weapon damage to the damage above to get
     the final damage. Some ”weapons” don’t have any damage listed and
@@ -1668,9 +1668,9 @@ Extra bonus for Barbarian without shield: Vit·clvl / 100
     
     Feet or shield for Monk: clvl/2 - clvl
 
-  - > The special damage for a Monk using his feet or just a shield will
-    > never be below those values listed for non Monks (min and max
-    > damage checked separately).
+  - The special damage for a Monk using his feet or just a shield will
+    never be below those values listed for non Monks (min and max
+    damage checked separately).
     
     The table below shows maximum naked character damage for various
     types of weapons. As character damage is based on a character’s
@@ -1812,12 +1812,12 @@ at. A separate To Hit check is done for each of those monsters. The To
 Hit is lowered accordingly to the formula in chapter 2.1.4 under To Hit
 %. The adjacent quarter damage is done in the following situations:
 
-  - > A Monk using a staff.
+  - A Monk using a staff.
 
-  - > A Bard using two swords.
+  - A Bard using two swords.
 
-  - > A Barbarian using an axe, a two-handed sword or a maul, without
-    > having a shield equipped at the same time.
+  - A Barbarian using an axe, a two-handed sword or a maul, without
+    having a shield equipped at the same time.
 
 Adjacent quarter damage can never hit a player, only monsters.
 
@@ -2151,19 +2151,19 @@ Warrior
 
 The skill of the Warrior works in the following way:
 
-1.  > if current durability is equal to max durability, exit
+1.  if current durability is equal to max durability, exit
 
-2.  > x = 0
+2.  x = 0
 
-3.  > add (clvl + Rnd\[clvl\]) to x
+3.  add (clvl + Rnd\[clvl\]) to x
 
-4.  > y = \[MaxDur/(clvl+9)\], if less than 1 set to 1
+4.  y = \[MaxDur/(clvl+9)\], if less than 1 set to 1
 
-5.  > decrease MaxDur by y
+5.  decrease MaxDur by y
 
-6.  > if x + CurDur \< MaxDur, goto 3.
+6.  if x + CurDur \< MaxDur, goto 3.
 
-7.  > CurDur = MaxDur
+7.  CurDur = MaxDur
 
 If max durability ever reaches 0, the item is of course destroyed.
 
@@ -2171,26 +2171,26 @@ Rogue
 
 The skill of the Rogue works in the following way:
 
-1.  > x = 2·Dex - 5·dlvl
+1.  x = 2·Dex - 5·dlvl
 
-2.  > if x \> Rnd\[100\], trap is disarmed
+2.  if x \> Rnd\[100\], trap is disarmed
 
 Sorcerer
 
 The skill of the Sorcerer works in the following way:
 
-1.  > if current charges is equal to max charges or max charges is equal
-    > to 0, exit
+1.  if current charges is equal to max charges or max charges is equal
+    to 0, exit
 
-2.  > x = Rnd\[clvl/qlvl(book)\] + 1
+2.  x = Rnd\[clvl/qlvl(book)\] + 1
 
-3.  > decrease MaxChrg by 1
+3.  decrease MaxChrg by 1
 
-4.  > add x to CurChrg
+4.  add x to CurChrg
 
-5.  > if CurChrg \< MaxChrg, goto 3.
+5.  if CurChrg \< MaxChrg, goto 3.
 
-6.  > CurChrg = MaxChrg
+6.  CurChrg = MaxChrg
 
 It seems strange that it is not the qlvl of the spell on a staff, and I
 wonder what happens for a spell like resurrect where the qlvl value is
@@ -2208,17 +2208,17 @@ Barbarian
 
 The skill of the Barbarian works in the following way:
 
-1.  > For 12 seconds it adds: 2·clvl to Strength and Vitality and
-    > 1.5·clvl to Dexterity.
+1.  For 12 seconds it adds: 2·clvl to Strength and Vitality and
+    1.5·clvl to Dexterity.
 
-2.  > For 12 more seconds, during a lethargy phase, it decreases
-    > Strength, Dexterity and Vitality by the same amount (counted from
-    > normal values).
+2.  For 12 more seconds, during a lethargy phase, it decreases
+    Strength, Dexterity and Vitality by the same amount (counted from
+    normal values).
 
-3.  > Afterwards you lose 2·Vit life. There is a bug however so if you
-    > click on any item in your inventory your life is restored.
+3.  Afterwards you lose 2·Vit life. There is a bug however so if you
+    click on any item in your inventory your life is restored.
     
-    1.  ## Starting equipment
+## Starting equipment
 
 All character classes start the game with some items. These items are
 listed in the table below. Note that the prices for these items
@@ -2328,21 +2328,21 @@ information about mlvl and experience points). In multi player, each
 person that fulfills one of following requirements is entitled to
 receive experience points when a monster is killed.
 
-  - > Killing the monster (both in melee and with spell).
+  - Killing the monster (both in melee and with spell).
 
-  - > Dealing damage to the monster in either melee or with a bow
-    > (regardless of any extra fire or lightning damage even if the
-    > monster is resistant or immune to it).
+  - Dealing damage to the monster in either melee or with a bow
+    (regardless of any extra fire or lightning damage even if the
+    monster is resistant or immune to it).
 
-  - > Dealing damage to the monster with a spell to which the monster is
-    > *not* resistant or immune.
+  - Dealing damage to the monster with a spell to which the monster is
+    *not* resistant or immune.
 
-  - > Having your golem kill or deal damage to the monster.
+  - Having your golem kill or deal damage to the monster.
 
-  - > Having used Telekinesis on the monster (Snotspill, Gharbad the
-    > Weak, Zhar the Mad, Warlord of Blood, Lachdanan, Arch-Bishop
-    > Lazarus, Blackjade and Red Vex are all immune to Telekinesis
-    > though).
+  - Having used Telekinesis on the monster (Snotspill, Gharbad the
+    Weak, Zhar the Mad, Warlord of Blood, Lachdanan, Arch-Bishop
+    Lazarus, Blackjade and Red Vex are all immune to Telekinesis
+    though).
 
 In all cases you must be alive at the moment the monster dies and you
 must never have left the level in-between fulfilling any of the
@@ -4251,13 +4251,13 @@ Potion of Healing: bonus · maxlife/8 to bonus · 3·maxlife/8
 
 Potion of Mana: bonus · maxmana/8 to bonus · 3·maxmana/8
 
-  - > Any value in the range is equally probable.
+  - Any value in the range is equally probable.
 
-  - > The bonus is summarized in the table below.
+  - The bonus is summarized in the table below.
 
-  - > maxlife and maxmana are the modified values. If they are negative,
-    > the amount added will also be negative and in fact subtract life
-    > or mana.
+  - maxlife and maxmana are the modified values. If they are negative,
+    the amount added will also be negative and in fact subtract life
+    or mana.
 
 <table>
 <tbody>
@@ -8846,9 +8846,9 @@ M<sub>p</sub> = Prefix intrinsic multiplier
 
 M<sub>s</sub> = Suffix intrinsic multiplier
 
-  - > On plentiful and bountiful staves, one should take the *base*
-    > amount of charges. That is, divide the number of charges shown by
-    > 2 for plentiful and 3 for bountiful staves.
+  - On plentiful and bountiful staves, one should take the *base*
+    amount of charges. That is, divide the number of charges shown by
+    2 for plentiful and 3 for bountiful staves.
 
 Some prefixes/suffixes, like *speed* or *the ages,* do not have the Q to
 affect the price, and in such cases the price formulas would be
@@ -9000,19 +9000,19 @@ H = Number of charges on staff.
 
 P = The spell multiplier.
 
-  - > The base cost of the starting staff for Sorcerers can be found in
-    > chapter 2.5. For other staves, see chapter 3.1.
+  - The base cost of the starting staff for Sorcerers can be found in
+    chapter 2.5. For other staves, see chapter 3.1.
 
-  - > On plentiful and bountiful staves, one should take the *base*
-    > amount of charges. That is divide the number of charges shown by 2
-    > for plentiful and 3 for bountiful staves.
+  - On plentiful and bountiful staves, one should take the *base*
+    amount of charges. That is divide the number of charges shown by 2
+    for plentiful and 3 for bountiful staves.
 
-  - > As the recharge cost is not influenced by the prefix of the staff,
-    > there is no difference to the recharge cost between an identified
-    > and an unidentified staff.
+  - As the recharge cost is not influenced by the prefix of the staff,
+    there is no difference to the recharge cost between an identified
+    and an unidentified staff.
 
-  - > If a Sorcerer uses his recharge skill on a staff, one should still
-    > use the initial number of charges in the formula.
+  - If a Sorcerer uses his recharge skill on a staff, one should still
+    use the initial number of charges in the formula.
 
 If the recharge cost is less than 1 gold (can happen if the ratio
 CurDur/MaxDur is less than 1%), Adria will actually recharge the staff
@@ -9026,10 +9026,10 @@ is done automatically:
 R<sub>c</sub>C = \[ \[ { \[ (100·(MaxCha - CurCha)) / MaxCha \] · (I +
 H·P + 5·P) } / 100 \] / 2 \]
 
-  - > Of course, for unique staves and the starting staff of the
-    > Sorcerer, skip H·P in the formula above.
+  - Of course, for unique staves and the starting staff of the
+    Sorcerer, skip H·P in the formula above.
     
-    1.  ## Durability of items
+## Durability of items
 
 All unique items and staves with spells found in the dungeon have full
 durability. So do all items bought in town, of course. All other items
@@ -9129,23 +9129,23 @@ R<sub>p</sub>C = \[ { \[ (100·(MaxDur - CurDur)) / MaxDur\] · Price } /
 
 Then, do the following:
 
-1.  > if R<sub>p</sub>C = 1, then exit
+1.  if R<sub>p</sub>C = 1, then exit
 
-2.  > if R<sub>p</sub>C \> 1, then R<sub>p</sub>C =
-    > \[R<sub>p</sub>C/2\], that is, divide the repair cost by 2, then
-    > exit
+2.  if R<sub>p</sub>C \> 1, then R<sub>p</sub>C =
+    \[R<sub>p</sub>C/2\], that is, divide the repair cost by 2, then
+    exit
 
-3.  > if the item is a non magical and non unique item, set
-    > R<sub>p</sub>C = 1, then exit
+3.  if the item is a non magical and non unique item, set
+    R<sub>p</sub>C = 1, then exit
 
-4.  > if the item is not identified, set R<sub>p</sub>C = 1, then exit
+4.  if the item is not identified, set R<sub>p</sub>C = 1, then exit
 
-5.  > at this point the item is an identified magical or unique item and
-    > R<sub>p</sub>C is 0 or below 0; the item is in this case not
-    > repairable (this would be the case for identified cursed and some
-    > semi cursed items)
+5.  at this point the item is an identified magical or unique item and
+    R<sub>p</sub>C is 0 or below 0; the item is in this case not
+    repairable (this would be the case for identified cursed and some
+    semi cursed items)
     
-    1.  ## Item creation in dungeon
+## Item creation in dungeon
 
 This chapter tries to explain how the game creates items and what
 factors affect the creation. Only items generated in the dungeon are
@@ -9241,15 +9241,15 @@ Item: 10.7%
 
 Nothing: 59.0%
 
-  - > Some monster types (Winged Fiends and Hork Spawns) never drop
-    > items.
+  - Some monster types (Winged Fiends and Hork Spawns) never drop
+    items.
     
     Unique monster
     
     Item: 100%
 
-  - > Unique monsters always drop an item, and it can either be a book
-    > or an item that can take on a prefix and/or suffix (or be unique).
+  - Unique monsters always drop an item, and it can either be a book
+    or an item that can take on a prefix and/or suffix (or be unique).
     
     Chest
     
@@ -9334,11 +9334,11 @@ Item: 3.3%
 
 Nothing: 60%
 
-  - > Barrels can only exist in Church, Catacombs, Caves and Hell.
+  - Barrels can only exist in Church, Catacombs, Caves and Hell.
 
-  - > Pods can only exist in the Hive.
+  - Pods can only exist in the Hive.
 
-  - > Urns can only exists in the Crypt.
+  - Urns can only exists in the Crypt.
 
 Sarcophagus
 
@@ -9350,7 +9350,7 @@ Item: 7.5%
 
 Nothing: 50%
 
-  - > Sarcophagi can only exist in Church and in the Crypt.
+  - Sarcophagi can only exist in Church and in the Crypt.
     
     Decapitated body
     
@@ -9358,8 +9358,8 @@ Nothing: 50%
     
     Item: 25%
 
-  - > Decapitated bodies can exist anywhere except in the Hive and the
-    > Crypt.
+  - Decapitated bodies can exist anywhere except in the Hive and the
+    Crypt.
     
     Weapon Rack
     
@@ -9371,7 +9371,7 @@ Nothing: 50%
     
     Sword: 25%
 
-  - > Weapon racks can never exist in Church.
+  - Weapon racks can never exist in Church.
     
     Armor Rack
     
@@ -9381,15 +9381,15 @@ Nothing: 50%
     
     dlvl 10-15: heavy armor
 
-  - > See chapter 3.1 for a definition of light, medium and heavy armor.
+  - See chapter 3.1 for a definition of light, medium and heavy armor.
 
-  - > Armor racks can never exist in Church.
+  - Armor racks can never exist in Church.
 
 Bookcase
 
 Book: 100%
 
-  - > Bookcases can only exist in Church and Catacombs.
+  - Bookcases can only exist in Church and Catacombs.
     
     Library book and Skeleton Tome
     
@@ -9397,13 +9397,13 @@ Book: 100%
     
     Scroll: 80%
 
-  - > Only scrolls of Apocalypse, Healing, Identify, Infravision, Nova,
-    > Mana Shield, Phasing, Teleport, and Town Portal are possible.
+  - Only scrolls of Apocalypse, Healing, Identify, Infravision, Nova,
+    Mana Shield, Phasing, Teleport, and Town Portal are possible.
 
-  - > Library books and Skeleton Tomes can only exist in Church and
-    > Catacombs.
+  - Library books and Skeleton Tomes can only exist in Church and
+    Catacombs.
     
-    1.  ### Item type
+### Item type
 
 Next, the item type that is to be generated is determined, and the
 procedure is as follows (this step is skipped for gold and special
@@ -9423,11 +9423,11 @@ Unique monster: 1 to mlvl<sub>battle</sub>
 
 Other: 1 to ilvl
 
-  - > Note that the mlvl is the one modified for difficulty level when
-    > the item comes from a monster.
+  - Note that the mlvl is the one modified for difficulty level when
+    the item comes from a monster.
 
-  - > The ilvl for an item from a normal or special monster will equal
-    > the mlvl.
+  - The ilvl for an item from a normal or special monster will equal
+    the mlvl.
     
     Of all the possible base items, one is chosen at random with an
     equal probability for all items. Bows, however, are actually counted
@@ -9463,18 +9463,18 @@ Other: 1 to ilvl
     
     Other: (11 + 0.89·(ilvl+1))%
 
-  - > Only equipable items can be magical; for other base items this
-    > step is not performed.
+  - Only equipable items can be magical; for other base items this
+    step is not performed.
 
-  - > Rings and amulets are always magical.
+  - Rings and amulets are always magical.
 
-  - > Staves are always magical if they have no spell, see chapter 3.8.3
-    > under *Staff* for more information.
+  - Staves are always magical if they have no spell, see chapter 3.8.3
+    under *Staff* for more information.
 
-  - > On the ground only refers to equipable items found, often in
-    > special rooms, in the dungeon. It is quite possible that the
-    > probability of those items being magical is less than 100% outside
-    > of Hell.
+  - On the ground only refers to equipable items found, often in
+    special rooms, in the dungeon. It is quite possible that the
+    probability of those items being magical is less than 100% outside
+    of Hell.
 
 Is it unique?
 
@@ -9509,16 +9509,16 @@ Nightmare difficulty: 5·(16 + dlvl) to 15·(16 + dlvl) - 1
 
 Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
 
-  - > The Hive levels are numbered 9-12 and the Crypt levels are
-    > numbered 13-16.
+  - The Hive levels are numbered 9-12 and the Crypt levels are
+    numbered 13-16.
     
     Furthermore, on any Hell dungeon level (dlvl 13-16) or Crypt dungeon
     level (dlvl 13-16) the amount of gold is increased by:
     
     Hell or Crypt dungeon level: amount · 1.125
 
-  - > The amount is taken from the appropriate formula above depending
-    > on the difficulty level.
+  - The amount is taken from the appropriate formula above depending
+    on the difficulty level.
     
     Unique item
     
@@ -9575,13 +9575,13 @@ Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
     
     All other sources: \[ilvl/2\] to ilvl
 
-  - > Round down the minimum level. If it is higher than 25, it is set
-    > to 25.
+  - Round down the minimum level. If it is higher than 25, it is set
+    to 25.
 
-  - > The actual value of the prefix or suffix is chosen randomly within
-    > its range.
+  - The actual value of the prefix or suffix is chosen randomly within
+    its range.
 
-  - > Some prefixes has a double chance of being picked, see below.
+  - Some prefixes has a double chance of being picked, see below.
 
 The range above means that unless the lower limit is set to 25, the
 highest qlvl of an item with both a prefix and a suffix can’t be more
@@ -9754,12 +9754,12 @@ On the ground: No
 
 Other: 33.0%
 
-  - > Sources that will not produce equipable items can never produce
-    > cursed items.
+  - Sources that will not produce equipable items can never produce
+    cursed items.
 
-  - > If possible, a cursed prefix will, if it is found in the table
-    > above with prefixes with a double chance of being chosen, have a
-    > double chance compared to other cursed prefixes.
+  - If possible, a cursed prefix will, if it is found in the table
+    above with prefixes with a double chance of being chosen, have a
+    double chance compared to other cursed prefixes.
 
 Staff
 
@@ -9771,10 +9771,10 @@ Chance for having spell: 75%
 
 Chance for having prefix if it has a spell: 10%
 
-  - > Staves from a location that has a 100% chance of being magical
-    > will, if they have a spell, always have a prefix. as staves with
-    > spells without a prefix will not be considered as magical by the
-    > game.
+  - Staves from a location that has a 100% chance of being magical
+    will, if they have a spell, always have a prefix. as staves with
+    spells without a prefix will not be considered as magical by the
+    game.
     
     Staves that do not have a spell, are treated the same way as any
     other magical item; see above. However, if they have a spell, they
@@ -9793,8 +9793,8 @@ Chance for having prefix if it has a spell: 10%
     Range of qlvl for prefix on staff with spell from all other sources:
     1 to ilvl
 
-  - > Note that the qlvl of a spell is different depending on whether it
-    > appears on a staff or on a book.
+  - Note that the qlvl of a spell is different depending on whether it
+    appears on a staff or on a book.
 
 When found in the dungeon, all non unique staves with spells have full
 charges. Unique staves has a specific number of current charges
@@ -9844,39 +9844,39 @@ chance to be selected than others at a given situation. As the
 probabilities are different for different ilvl, it is hard to give exact
 numbers. The general procedure is as follows:
 
-1.  > calculate x = Rnd\[37\] + 1 (in Hellfire, calculate x = Rnd\[52\]
-    > + 1)
+1.  calculate x = Rnd\[37\] + 1 (in Hellfire, calculate x = Rnd\[52\]
+    + 1)
 
-2.  > start with the first spell in the internal list of spells
+2.  start with the first spell in the internal list of spells
 
-3.  > step forward until a spell that exists on staves (or books if it
-    > is for a book) and has low enough ilvl is found (if you ever reach
-    > the end, restart from the beginning)
+3.  step forward until a spell that exists on staves (or books if it
+    is for a book) and has low enough ilvl is found (if you ever reach
+    the end, restart from the beginning)
 
-4.  > decrease x by one
+4.  decrease x by one
 
-5.  > if x is not 0, goto step 3
+5.  if x is not 0, goto step 3
 
-6.  > the last spell found in step 3, is the one chosen to appear on the
-    > staff (or book)
+6.  the last spell found in step 3, is the one chosen to appear on the
+    staff (or book)
 
 <!-- end list -->
 
-  - > In single player, the spells Heal Other and Resurrect are
-    > automatically skipped and do not count even if their ilvl is high
-    > enough.
+  - In single player, the spells Heal Other and Resurrect are
+    automatically skipped and do not count even if their ilvl is high
+    enough.
 
-  - > Spells at the start of the list will have a higher probability
-    > than those later in the list. The exact cut off depends on the
-    > ilvl. This means that there will be two different levels of
-    > probabilities for the spells, a higher one for spells at the start
-    > of the list and a lower one for spells at the end of the list. At
-    > rare occasions all spells will have the same probability.
+  - Spells at the start of the list will have a higher probability
+    than those later in the list. The exact cut off depends on the
+    ilvl. This means that there will be two different levels of
+    probabilities for the spells, a higher one for spells at the start
+    of the list and a lower one for spells at the end of the list. At
+    rare occasions all spells will have the same probability.
 
-  - > The order of the spells is *not* the same as in your spell book or
-    > any of the other lists in this Guide. The table below lists the
-    > order of the spells for the purpose of selecting a spell for a
-    > staff or a book.
+  - The order of the spells is *not* the same as in your spell book or
+    any of the other lists in this Guide. The table below lists the
+    order of the spells for the purpose of selecting a spell for a
+    staff or a book.
 
 <table>
 <tbody>
@@ -10088,8 +10088,8 @@ of qlvl of spells on books see chapter 3.2.3.
 
 Range of qlvl for spell on books: 1 to ilvl/2
 
-  - > Note that the qlvl of a spell is different depending on whether it
-    > appears on a book or on a staff.
+  - Note that the qlvl of a spell is different depending on whether it
+    appears on a book or on a staff.
 
 For information about how the spell is chosen, see above under Staff.
 
@@ -10403,18 +10403,18 @@ Range of qlvl for base item: ilvl/4 to ilvl
 
 Range of qlvl for prefixes and suffixes: ilvl/2 to ilvl
 
-  - > Maximum level of prefixes and suffixes at Griswold is 30.
+  - Maximum level of prefixes and suffixes at Griswold is 30.
 
-  - > As already described, the ilvl varies a bit from item to item.
+  - As already described, the ilvl varies a bit from item to item.
 
-  - > Griswold will add a new item to his inventory as soon as you buy
-    > one of them. He will not change his inventory when you come back
-    > up from the dungeons but will change some of them when you gain a
-    > level.
+  - Griswold will add a new item to his inventory as soon as you buy
+    one of them. He will not change his inventory when you come back
+    up from the dungeons but will change some of them when you gain a
+    level.
 
-  - > The exact procedure of choosing item type and prefixes and
-    > suffixes are the same as for magical items in the dungeon. See
-    > chapter 3.8 for more information.
+  - The exact procedure of choosing item type and prefixes and
+    suffixes are the same as for magical items in the dungeon. See
+    chapter 3.8 for more information.
 
 In Hellfire there is an additional factor to consider. If possible he
 will try to sell items that are better (more expensive than 80% of your
@@ -10457,12 +10457,12 @@ range:
 
 Range of qlvl for prefixes and suffixes: ilvl to 2·ilvl
 
-  - > If lower limit is higher than 25, it is set to 25.
+  - If lower limit is higher than 25, it is set to 25.
 
-  - > He seems to love items *of ages*. The reason for this is that
-    > there are not many suffixes of level 25 or above and most of them
-    > can exist on a very limited number of items or would make items
-    > too expensive.
+  - He seems to love items *of ages*. The reason for this is that
+    there are not many suffixes of level 25 or above and most of them
+    can exist on a very limited number of items or would make items
+    too expensive.
 
 He will renew the item only if you have bought the previous one and then
 gone into the dungeons or when you gain a new character level that is
@@ -10645,43 +10645,43 @@ unique items. The values have been calculated taking into account all
 the relevant information and formulas found in this Guide as well as all
 of the following:
 
-  - > You would have to kill all monsters, break all barrels, open all
-    > chests and so on.
+  - You would have to kill all monsters, break all barrels, open all
+    chests and so on.
 
-  - > Each monster is modeled with the probabilities found in chapter
-    > 5.3.2.
+  - Each monster is modeled with the probabilities found in chapter
+    5.3.2.
 
-  - > There are assumed to exist 185 monsters on all levels with the
-    > exception of level 1 and 2 that are a bit smaller and thus has a
-    > somewhat less monsters.
+  - There are assumed to exist 185 monsters on all levels with the
+    exception of level 1 and 2 that are a bit smaller and thus has a
+    somewhat less monsters.
 
-  - > On appropriate levels, the following number of item sources have
-    > been assumed (usually the average number of them on each level): 7
-    > small chests, 4 chests, 2.5 large chests, 5 patches of 6 barrels,
-    > 14.5 sarcophagus and 3.5 decapitated bodies. For the calculations
-    > it does not matter if the numbers are decimals instead of
-    > integers.
+  - On appropriate levels, the following number of item sources have
+    been assumed (usually the average number of them on each level): 7
+    small chests, 4 chests, 2.5 large chests, 5 patches of 6 barrels,
+    14.5 sarcophagus and 3.5 decapitated bodies. For the calculations
+    it does not matter if the numbers are decimals instead of
+    integers.
 
-  - > For various reasons, mostly due to the difficulties in making good
-    > estimates of the frequencies, no considerations have been made to
-    > those items sometimes appearing directly on the ground or
-    > appearing on weapon or armor racks. This should not affect the
-    > final probabilities much though. If anyone has any more
-    > information on the frequencies of them, please feel free to tell
-    > me.
+  - For various reasons, mostly due to the difficulties in making good
+    estimates of the frequencies, no considerations have been made to
+    those items sometimes appearing directly on the ground or
+    appearing on weapon or armor racks. This should not affect the
+    final probabilities much though. If anyone has any more
+    information on the frequencies of them, please feel free to tell
+    me.
 
-  - > The values are only valid for multi player. In single player some
-    > quest monsters will drop a quest item instead of a random magical
-    > item. Also, dungeon levels normally has less monsters than in
-    > single player. Finally, unique items are picked slightly different
-    > in single player than multi player meaning some of the unique
-    > items marked as Impossible ones, actually has a very small chance
-    > of appearing in a single player game (but very small, typically
-    > square the number for the uniques being second in the order and
-    > raise it to the power of three for the third one in the list. For
-    > the drop order of such unique items, see chapter 3.5.2. It is my
-    > belief that the values should be more or less accurate for single
-    > player as well though.
+  - The values are only valid for multi player. In single player some
+    quest monsters will drop a quest item instead of a random magical
+    item. Also, dungeon levels normally has less monsters than in
+    single player. Finally, unique items are picked slightly different
+    in single player than multi player meaning some of the unique
+    items marked as Impossible ones, actually has a very small chance
+    of appearing in a single player game (but very small, typically
+    square the number for the uniques being second in the order and
+    raise it to the power of three for the third one in the list. For
+    the drop order of such unique items, see chapter 3.5.2. It is my
+    belief that the values should be more or less accurate for single
+    player as well though.
 
 The value given is an estimate of how many games it takes on average to
 find a specific unique. To find the probability of a specific unique to
@@ -14719,17 +14719,17 @@ The easiest way to understand how the recursive function works is to
 make an example. A Fireball’s maximum damage for a level 30 character
 is:
 
-1.  > Rec(slvl, 40 + 2·clvl); clvl=30
+1.  Rec(slvl, 40 + 2·clvl); clvl=30
 
-2.  > First calculate damage for spell level 0: 40 + 2·clvl = 100
+2.  First calculate damage for spell level 0: 40 + 2·clvl = 100
 
-3.  > Damage for spell level 1 can then be calculated as: \[100 · 9/8\]
-    > = 112
+3.  Damage for spell level 1 can then be calculated as: \[100 · 9/8\]
+    = 112
 
-4.  > Damage for spell level 2 can then be calculated as: \[112 · 9/8\]
-    > = 126
+4.  Damage for spell level 2 can then be calculated as: \[112 · 9/8\]
+    = 126
 
-5.  > and so on…
+5.  and so on…
 
 Note that it is very important to round down. For those spells using
 this recursive formula I have also given a quick formula. For a
@@ -17295,8 +17295,8 @@ on dungeon level 15: 25%
 
 on dungeon level 16: 30%
 
-  - > magic traps includes Fire Wall, Flame Wave, Ring of Fire and
-    > Lightning Wall attacks from other players.
+  - magic traps includes Fire Wall, Flame Wave, Ring of Fire and
+    Lightning Wall attacks from other players.
 
 # Monsters
 
@@ -17511,22 +17511,22 @@ To Hit with arrow attack: 30 + base + 2·(mlvl - clvl) - 2·distance
 
 To Hit with magic attack: 40 + 2·(mlvl - clvl)
 
-  - > The term *base* refers to the To Hit values found in the tables.
-    > For charges, it is always 500.
+  - The term *base* refers to the To Hit values found in the tables.
+    For charges, it is always 500.
 
-  - > All magic attacks will always check for To Hit, even for spells
-    > like Lightning and Inferno.
+  - All magic attacks will always check for To Hit, even for spells
+    like Lightning and Inferno.
 
-  - > Distance is actually a time count. It goes up by 20 each second.
-    > Arrows always have a distance factor, even if they have extra fire
-    > or lightning damage. For more information see chapters 4.1.2.
+  - Distance is actually a time count. It goes up by 20 each second.
+    Arrows always have a distance factor, even if they have extra fire
+    or lightning damage. For more information see chapters 4.1.2.
 
-  - > To get the final chance of hitting, you subtract the AC of the
-    > enemy (normally a player) except if it is a magic attack, of
-    > course.
+  - To get the final chance of hitting, you subtract the AC of the
+    enemy (normally a player) except if it is a magic attack, of
+    course.
 
-  - > For more detailed information about battle between players and
-    > monsters, see chapter 6.
+  - For more detailed information about battle between players and
+    monsters, see chapter 6.
 
 Each monster also has an automatic To Hit value, just like players
 (monsters don’t have any chance to automatically miss unless fighting
@@ -17548,15 +17548,15 @@ on dungeon level 15: 25%
 
 on dungeon level 16: 30%
 
-  - > The auto To Hit values for special dungeon levels apply to all
-    > types of attack (melee, arrow and magic).
+  - The auto To Hit values for special dungeon levels apply to all
+    types of attack (melee, arrow and magic).
 
-  - > In multi player the game uses a rather bad way to keep the
-    > computers in synchronization with each other, this may at times
-    > lead to strange results as far as monsters attacking are
-    > concerned. It may for example seem that the monster get ”stuck”
-    > and misses the player for way to long time. For more information,
-    > see chapter 5.5.8.
+  - In multi player the game uses a rather bad way to keep the
+    computers in synchronization with each other, this may at times
+    lead to strange results as far as monsters attacking are
+    concerned. It may for example seem that the monster get ”stuck”
+    and misses the player for way to long time. For more information,
+    see chapter 5.5.8.
 
 Damage
 
@@ -17573,17 +17573,17 @@ resistances and/or immunities and some of the resistances are turned
 into immunities. Exceptions exist, though. Unique monsters have the same
 resistances and immunities as in normal difficulty.
 
-  - > When a monster is resistant to a spell type the damage is always
-    > reduced by 75%.
+  - When a monster is resistant to a spell type the damage is always
+    reduced by 75%.
 
-  - > All monsters, except undead ones and Diablo, are immune to Holy
-    > Bolt.
+  - All monsters, except undead ones and Diablo, are immune to Holy
+    Bolt.
 
-  - > In Hellfire, Diablo and Bone Demons are resistant to Holy Bolt.
+  - In Hellfire, Diablo and Bone Demons are resistant to Holy Bolt.
 
-  - > Diablo and Na-Krul are immune to Stone Curse.
+  - Diablo and Na-Krul are immune to Stone Curse.
 
-  - > No monster is immune or resistant to Apocalypse.
+  - No monster is immune or resistant to Apocalypse.
 
 Experience points
 
@@ -19502,39 +19502,39 @@ size, which is important for monster selection (see below).
 
 The process of selecting monsters for a dungeon level is as follows:
 
-1.  > Subtract the golem’s size from the total size as it can always
-    > exist on every level.
+1.  Subtract the golem’s size from the total size as it can always
+    exist on every level.
 
-2.  > If there are any special quest monsters on a dungeon level (like
-    > Snotspill, The Butcher, Lachdanan, Hork Demon and so on) subtract
-    > the size of that monster type. That monster type will also appear,
-    > if possible, on that dungeon level of course.
+2.  If there are any special quest monsters on a dungeon level (like
+    Snotspill, The Butcher, Lachdanan, Hork Demon and so on) subtract
+    the size of that monster type. That monster type will also appear,
+    if possible, on that dungeon level of course.
 
-3.  > In Hellfire, if the dungeon level is level 2 or 3 of the Hive,
-    > subtract the size of the Hork Spawn. That monster type will also
-    > appear on those dungeon levels of course.
+3.  In Hellfire, if the dungeon level is level 2 or 3 of the Hive,
+    subtract the size of the Hork Spawn. That monster type will also
+    appear on those dungeon levels of course.
 
-4.  > In Hellfire, if the dungeon level is level 4 of the Crypt,
-    > subtract the size of the Arch Lich. That monster type will also
-    > appear on that dungeon level of course.
+4.  In Hellfire, if the dungeon level is level 4 of the Crypt,
+    subtract the size of the Arch Lich. That monster type will also
+    appear on that dungeon level of course.
 
-5.  > In multi player, if it is the same dungeon level as the Skeleton
-    > King appears on (dlvl 3), pick a random skeleton type that can
-    > appear on that dungeon level. Subtract its size. It can now appear
-    > on that dungeon level and will be the skeleton type that appears
-    > around the Skeleton King.
+5.  In multi player, if it is the same dungeon level as the Skeleton
+    King appears on (dlvl 3), pick a random skeleton type that can
+    appear on that dungeon level. Subtract its size. It can now appear
+    on that dungeon level and will be the skeleton type that appears
+    around the Skeleton King.
 
-6.  > If possible, pick a random monster type of the ones that has not
-    > yet been picked that can appear on the dungeon level in question,
-    > and whose size is equal or less than the size left. Subtract that
-    > monsters size; it can now appear on the level.
+6.  If possible, pick a random monster type of the ones that has not
+    yet been picked that can appear on the dungeon level in question,
+    and whose size is equal or less than the size left. Subtract that
+    monsters size; it can now appear on the level.
 
-7.  > If there are still monsters that have a size less than the size
-    > left, go to step 6. Otherwise, end monster type selection.
+7.  If there are still monsters that have a size less than the size
+    left, go to step 6. Otherwise, end monster type selection.
 
-8.  > If any monster type that was picked has a unique monster set to
-    > appear on the dlvl in question, that unique monster will always
-    > appear.
+8.  If any monster type that was picked has a unique monster set to
+    appear on the dlvl in question, that unique monster will always
+    appear.
 
 All special mini levels found in single player are created by special
 code and thus are not created according to the above. The same is true
@@ -25424,26 +25424,26 @@ is somewhat non intuitive as the game does not calculate the true
 distance, but separates distances for the 2 main axis of the dungeon.
 This is most easily explained with an example.
 
-1.  > The dungeon is divided into several ”squares” of which each square
-    > can hold a monster, player, or some dungeon inventory. Call the
-    > axis of squares running from the upper left to the lower right X,
-    > and the one running from lower left to the upper right Y.
+1.  The dungeon is divided into several ”squares” of which each square
+    can hold a monster, player, or some dungeon inventory. Call the
+    axis of squares running from the upper left to the lower right X,
+    and the one running from lower left to the upper right Y.
 
-2.  > The game will then calculate the distance to each character
-    > separately for X and Y direction.
+2.  The game will then calculate the distance to each character
+    separately for X and Y direction.
 
-3.  > It will then for each character use the largest distance of X and
-    > Y.
+3.  It will then for each character use the largest distance of X and
+    Y.
 
-4.  > Comparing the distance got from step 3, it will attack the one
-    > with the shortest distance.
+4.  Comparing the distance got from step 3, it will attack the one
+    with the shortest distance.
 
-5.  > If two characters are equally close, the one that has first
-    > entered the game will be the target. It is thus wise to have
-    > Warriors enter and create a game, then have the Rogues enter it
-    > and finally the Sorcerers. If someone leaves the game, the next
-    > person to enter the game will take the place of the character that
-    > just left, *not* the last place.
+5.  If two characters are equally close, the one that has first
+    entered the game will be the target. It is thus wise to have
+    Warriors enter and create a game, then have the Rogues enter it
+    and finally the Sorcerers. If someone leaves the game, the next
+    person to enter the game will take the place of the character that
+    just left, *not* the last place.
 
 A monster will, of course, only consider those characters, including
 golems, that are within its current visible range and are not out of
@@ -25546,33 +25546,33 @@ Zombie
 
 General
 
-1.  > if out of light, exit
+1.  if out of light, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if R \< 2·Intf + 10, do melee attack, exit
+1.  if R \< 2·Intf + 10, do melee attack, exit
 
-2.  > continue to stand still
+2.  continue to stand still
 
 Distance = 2 to 2·Intf + 3
 
-1.  > if R \< 2·Intf + 10, walk towards target, exit
+1.  if R \< 2·Intf + 10, walk towards target, exit
 
-2.  > continue to stand still
+2.  continue to stand still
 
 Distance \> 2·Intf + 3
 
-1.  > if R \>= 2·Intf + 10, continue to stand still, exit
+1.  if R \>= 2·Intf + 10, continue to stand still, exit
 
-2.  > calculate new R = Rnd\[100\]
+2.  calculate new R = Rnd\[100\]
 
-3.  > if R \< 2·Intf + 20, walk in random direction (if blocked,
-    > continue to stand still), exit
+3.  if R \< 2·Intf + 20, walk in random direction (if blocked,
+    continue to stand still), exit
 
-4.  > continue to walk in the same direction as last time (if blocked,
-    > continue to stand still)
+4.  continue to walk in the same direction as last time (if blocked,
+    continue to stand still)
 
 Fallen One
 
@@ -25654,88 +25654,88 @@ current hit points will never go above the maximum value though.
 
 War cry
 
-1.  > if D = 1, do melee attack, exit
+1.  if D = 1, do melee attack, exit
 
-2.  > walk towards target
+2.  walk towards target
 
 Retreating
 
-1.  > Walk away from target until distance achieved
+1.  Walk away from target until distance achieved
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > if the monster has been standing for an even multiple of 0.55
-    > seconds (0.60 if using a sword) and Rnd\[4\] = 0, do war cry, exit
+2.  if the monster has been standing for an even multiple of 0.55
+    seconds (0.60 if using a sword) and Rnd\[4\] = 0, do war cry, exit
 
-3.  > if not active, exit
+3.  if not active, exit
 
-4.  > R = Rnd\[100\]
+4.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if last action was delay, do melee attack, exit
+1.  if last action was delay, do melee attack, exit
 
-2.  > if R \< 2·Intf + 20, do melee attack, exit
+2.  if R \< 2·Intf + 20, do melee attack, exit
 
-3.  > do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
 
 Distance \> 1
 
-1.  > if last action was delay, walk towards last seen position of
-    > target, exit
+1.  if last action was delay, walk towards last seen position of
+    target, exit
 
-2.  > if R \< 4·Intf + 65, walk towards last seen position of target,
-    > exit
+2.  if R \< 4·Intf + 65, walk towards last seen position of target,
+    exit
 
-3.  > do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
 
 Skeleton
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if last action was delay, do melee attack, exit
+1.  if last action was delay, do melee attack, exit
 
-2.  > if R \< 2·Intf + 20, do melee attack, exit
+2.  if R \< 2·Intf + 20, do melee attack, exit
 
-3.  > do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
 
 Distance \> 1
 
-1.  > if last action was delay, walk towards last seen position of
-    > target, exit
+1.  if last action was delay, walk towards last seen position of
+    target, exit
 
-2.  > if R \< 4·Intf + 65, walk towards last seen position of target,
-    > exit
+2.  if R \< 4·Intf + 65, walk towards last seen position of target,
+    exit
 
-3.  > do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
 
 Skeleton Archer
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1 to 3
 
-1.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 63, walk away from target, exit
+1.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    63, walk away from target, exit
 
-2.  > if standtime is greater than 1 second and R \< 2·Intf + 13, walk
-    > away from target, exit
+2.  if standtime is greater than 1 second and R \< 2·Intf + 13, walk
+    away from target, exit
 
 Distance \> 3
 
-1.  > if R \< 2·Intf + 3, do ranged attack
+1.  if R \< 2·Intf + 3, do ranged attack
 
 Scavenger
 
@@ -25747,37 +25747,37 @@ eating/digging, it will generate HP faster than normally, see chapter
 
 Eating/Digging
 
-1.  > if monster is part of a unique monsters mob, remove it from mob
+1.  if monster is part of a unique monsters mob, remove it from mob
 
-2.  > if at carcass, go into eat/dig mode, exit
+2.  if at carcass, go into eat/dig mode, exit
 
-3.  > walk towards closest carcass
+3.  walk towards closest carcass
 
 General
 
-1.  > if curHP \< maxHP/2, set eating/digging mode, exit
+1.  if curHP \< maxHP/2, set eating/digging mode, exit
 
-2.  > if not active, exit
+2.  if not active, exit
 
-3.  > R = Rnd\[100\]
+3.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if last action was delay, do melee attack, exit
+1.  if last action was delay, do melee attack, exit
 
-2.  > if R \< 2·Intf + 20, do melee attack, exit
+2.  if R \< 2·Intf + 20, do melee attack, exit
 
-3.  > do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
 
 Distance \> 1
 
-1.  > if last action was delay, walk towards last seen position of
-    > target, exit
+1.  if last action was delay, walk towards last seen position of
+    target, exit
 
-2.  > if R \< 4·Intf + 65, walk towards last seen position of target,
-    > exit
+2.  if R \< 4·Intf + 65, walk towards last seen position of target,
+    exit
 
-3.  > do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 15 - 2·Intf)/20 seconds
 
 Winged Fiends
 
@@ -25788,44 +25788,44 @@ result is a sort of V shaped walk.
 
 Retreat
 
-1.  > if last volunteer action, except walk, was not attack, exit from
-    > Retreat mode
+1.  if last volunteer action, except walk, was not attack, exit from
+    Retreat mode
 
-2.  > if last walk was away from target, randomly walk either to the
-    > right or the left of target, exit
+2.  if last walk was away from target, randomly walk either to the
+    right or the left of target, exit
 
-3.  > walk away from target
+3.  walk away from target
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if R \< 4·Intf + 8, do melee attack
+1.  if R \< 4·Intf + 8, do melee attack
 
-2.  > if R \< 4·Intf + 8 and the monster is a familiar, spawn lightning
-    > bolt attack
+2.  if R \< 4·Intf + 8 and the monster is a familiar, spawn lightning
+    bolt attack
 
 Distance = 2 to 3
 
-1.  > if last action was walking and standtime is 0 and R \< Intf + 63,
-    > walk towards target, exit
+1.  if last action was walking and standtime is 0 and R \< Intf + 63,
+    walk towards target, exit
 
-2.  > if standtime is greater than 1 second and R \< Intf + 13, walk
-    > towards target
+2.  if standtime is greater than 1 second and R \< Intf + 13, walk
+    towards target
 
 Distance \> 3
 
-1.  > if R \< 4·Intf + 33 and the monster is a Gloom, do charge
+1.  if R \< 4·Intf + 33 and the monster is a Gloom, do charge
 
-2.  > if last action was walking and standtime is 0 and R \< Intf + 63,
-    > walk towards target, exit
+2.  if last action was walking and standtime is 0 and R \< Intf + 63,
+    walk towards target, exit
 
-3.  > if standtime is greater than 1 second and R \< Intf + 13, walk
-    > towards target
+3.  if standtime is greater than 1 second and R \< Intf + 13, walk
+    towards target
 
 Hidden
 
@@ -25866,30 +25866,30 @@ have activated them or not.
 
 Retreat
 
-1.  > if the monster is an Unseen, retreat diagonally randomly to the
-    > right or left, away from the target, exit
+1.  if the monster is an Unseen, retreat diagonally randomly to the
+    right or left, away from the target, exit
 
-2.  > retreat straight away from target
+2.  retreat straight away from target
 
 General
 
-1.  > R = Rnd\[100\]
+1.  R = Rnd\[100\]
 
-2.  > if D \< 5 - Intf and not visible, fade in, exit
+2.  if D \< 5 - Intf and not visible, fade in, exit
 
-3.  > if D \> 5 - Intf and visible, fade out, exit
+3.  if D \> 5 - Intf and visible, fade out, exit
 
 Distance = 1
 
-1.  > if R \< 4·Intf + 10, do melee attack
+1.  if R \< 4·Intf + 10, do melee attack
 
 Distance \> 1
 
-1.  > if last action was walking and standtime is 0 and R \< Intf + 64,
-    > walk towards target, exit
+1.  if last action was walking and standtime is 0 and R \< Intf + 64,
+    walk towards target, exit
 
-2.  > if standtime is greater than 1 second and R \< Intf + 14, walk
-    > towards target
+2.  if standtime is greater than 1 second and R \< Intf + 14, walk
+    towards target
 
 Goat Man
 
@@ -25898,71 +25898,71 @@ will start walking towards the last seen position of the target.
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if R \>= 2·Intf + 23, exit
+1.  if R \>= 2·Intf + 23, exit
 
-2.  > if curHP \>= maxHP/2, do melee attack, exit
+2.  if curHP \>= maxHP/2, do melee attack, exit
 
-3.  > if Rnd\[2\] = 0, do melee attack, exit
+3.  if Rnd\[2\] = 0, do melee attack, exit
 
-4.  > do special spin attack
+4.  do special spin attack
 
 Distance \> 1, out of light
 
-1.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+1.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-2.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+2.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Distance = 1 to 3, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+2.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-3.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+3.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Distance \> 3, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if D \> 3 and Rnd\[4\] = 0, start circle walk, exit
+2.  if D \> 3 and Rnd\[4\] = 0, start circle walk, exit
 
-3.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+3.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-4.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+4.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Overlord
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if R \< 4·Intf + 15, do melee attack, exit
+1.  if R \< 4·Intf + 15, do melee attack, exit
 
-2.  > if R \< 4·Intf + 20, do second melee attack
+2.  if R \< 4·Intf + 20, do second melee attack
 
 Distance \> 1
 
-1.  > if last action was walking and standtime is 0 and R \< Intf + 70,
-    > walk towards target, exit
+1.  if last action was walking and standtime is 0 and R \< Intf + 70,
+    walk towards target, exit
 
-2.  > if standtime is greater than 1 second and R \< Intf + 20, walk
-    > towards target
+2.  if standtime is greater than 1 second and R \< Intf + 20, walk
+    towards target
 
 Gargoyle
 
@@ -25976,98 +25976,98 @@ will start walking towards the last seen position of the target.
 
 Stone mode
 
-1.  > if D \< Intf + 2, mark as not in stone mode
+1.  if D \< Intf + 2, mark as not in stone mode
 
-2.  > if curHP \>= maxHP/2, mark as not in stone mode
+2.  if curHP \>= maxHP/2, mark as not in stone mode
 
-3.  > if D \>= Intf + 2, go into stone state, exit
+3.  if D \>= Intf + 2, go into stone state, exit
 
-4.  > walk away from target
+4.  walk away from target
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
-3.  > if curHP \< maxHP/2, go into stone mode
+3.  if curHP \< maxHP/2, go into stone mode
 
 Distance = 1
 
-1.  > if R \>= 2·Intf + 23, exit
+1.  if R \>= 2·Intf + 23, exit
 
-2.  > do melee attack
+2.  do melee attack
 
 Distance \> 1, out of light
 
-1.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+1.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-2.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+2.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Distance 1 to 3, in light
 
-1.  > if target is in another are, use out of light AI
+1.  if target is in another are, use out of light AI
 
-2.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+2.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-3.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+3.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Distance \> 1, in light
 
-1.  > if target is in another are, use out of light AI
+1.  if target is in another are, use out of light AI
 
-2.  > if D \> 3 and Rnd\[4\] = 0, start circle walk, exit
+2.  if D \> 3 and Rnd\[4\] = 0, start circle walk, exit
 
-3.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 78, walk towards last seen position of target, exit
+3.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    78, walk towards last seen position of target, exit
 
-4.  > if standtime is greater than 1 second and R \< 2·Intf + 28, walk
-    > towards last seen position of target
+4.  if standtime is greater than 1 second and R \< 2·Intf + 28, walk
+    towards last seen position of target
 
 Goat Archer
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > if out of sight of target and it is a player, walk towards last
-    > seen position of target, exit
+2.  if out of sight of target and it is a player, walk towards last
+    seen position of target, exit
 
-3.  > R = Rnd\[100\]
+3.  R = Rnd\[100\]
 
-4.  > if last action was a ranged attack, de delay for Rnd\[20\]/20
-    > seconds, exit
+4.  if last action was a ranged attack, de delay for Rnd\[20\]/20
+    seconds, exit
 
 Distance = 1 to 3
 
-1.  > if R \< 10·Intf + 70, walk away from target, exit
+1.  if R \< 10·Intf + 70, walk away from target, exit
 
 Distance \> 3
 
-1.  > do ranged attack
+1.  do ranged attack
 
 Fast Spit
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > if out of sight of target and it is a player, walk towards last
-    > seen position of target, exit
+2.  if out of sight of target and it is a player, walk towards last
+    seen position of target, exit
 
-3.  > R = Rnd\[100\]
+3.  R = Rnd\[100\]
 
 Distance = 1 to 3
 
-1.  > if R \< 10·Intf + 70, walk away from target, exit
+1.  if R \< 10·Intf + 70, walk away from target, exit
 
 Distance \> 3
 
-1.  > do ranged attack
+1.  do ranged attack
 
 Magma Demon
 
@@ -26076,73 +26076,73 @@ type will start walking towards the last seen position of the target.
 
 Circle Walk
 
-1.  > If R \< 100·(5·Intf + 5), do ranged attack, exit (after this
-    > ranged attack, the monster will resume circle walk)
+1.  If R \< 100·(5·Intf + 5), do ranged attack, exit (after this
+    ranged attack, the monster will resume circle walk)
 
-2.  > continue with circle walk
+2.  continue with circle walk
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[10000\]
+2.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > if R \< 100·(5·Intf + 5), do ranged attack, exit
+1.  if R \< 100·(5·Intf + 5), do ranged attack, exit
 
-2.  > if R \< 100·(10·Intf + 60), do attack, exit
+2.  if R \< 100·(10·Intf + 60), do attack, exit
 
-3.  > do delay for (Rnd\[10\] + 5)/20 seconds
+3.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance \> 1, out of light
 
-1.  > calculate new R = Rnd\[100\]
+1.  calculate new R = Rnd\[100\]
 
-2.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+2.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-3.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+3.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-4.  > do delay for (Rnd\[10\] + 5)/20 seconds
+4.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance = 2, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if R \< 100·(5·Intf + 5), do ranged attack, exit
+2.  if R \< 100·(5·Intf + 5), do ranged attack, exit
 
-3.  > calculate new R = Rnd\[100\]
+3.  calculate new R = Rnd\[100\]
 
-4.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+4.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-5.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+5.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-6.  > do delay for (Rnd\[10\] + 5)/20 seconds
+6.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance \> 2, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if Rnd\[4\] = 0, start circle walk, exit
+2.  if Rnd\[4\] = 0, start circle walk, exit
 
-3.  > if R \< 100·(5·Intf + 10), do ranged attack, exit
+3.  if R \< 100·(5·Intf + 10), do ranged attack, exit
 
-4.  > calculate new R = Rnd\[100\]
+4.  calculate new R = Rnd\[100\]
 
-5.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+5.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-6.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+6.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-7.  > do delay for (Rnd\[10\] + 5)/20 seconds
+7.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Due to using Rnd\[10000\], the random number will not be evenly
 distributed, see chapter 5.5.7. In the steps where a new R = Rnd\[100\]
@@ -26207,33 +26207,33 @@ below summarize how the cycle of aimed direction is done.
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[100\]
+2.  R = Rnd\[100\]
 
 Distance = 1
 
-1.  > if last action was delay or charge, do attack, exit
+1.  if last action was delay or charge, do attack, exit
 
-2.  > if R \< Intf + 20, do attack, exit
+2.  if R \< Intf + 20, do attack, exit
 
-3.  > do delay for (Rnd\[10\] + 10 - Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 10 - Intf)/20 seconds
 
 Distance = 2
 
-1.  > if last action was charge, act as distance \> 2
+1.  if last action was charge, act as distance \> 2
 
-2.  > if charge is not possible, act as distance \> 2
+2.  if charge is not possible, act as distance \> 2
 
-3.  > do charge
+3.  do charge
 
 Distance \> 2
 
-1.  > if last action was delay, walk, exit
+1.  if last action was delay, walk, exit
 
-2.  > if R \< 2·Intf + 65, walk, exit
+2.  if R \< 2·Intf + 65, walk, exit
 
-3.  > do delay for (Rnd\[10\] + 15 - Intf)/20 seconds
+3.  do delay for (Rnd\[10\] + 15 - Intf)/20 seconds
 
 Spit
 
@@ -26242,73 +26242,73 @@ start walking towards the last seen position of the target.
 
 Circle Walk
 
-1.  > If R \< 100·(5·Intf + 5)/2, do ranged attack, exit (after this
-    > ranged attack, the monster will resume circle walk)
+1.  If R \< 100·(5·Intf + 5)/2, do ranged attack, exit (after this
+    ranged attack, the monster will resume circle walk)
 
-2.  > continue with circle walk
+2.  continue with circle walk
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[10000\]
+2.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > if R \< 100·(5·Intf + 5)/2, do ranged attack, exit
+1.  if R \< 100·(5·Intf + 5)/2, do ranged attack, exit
 
-2.  > if R \< 100·(10·Intf + 60), do attack, exit
+2.  if R \< 100·(10·Intf + 60), do attack, exit
 
-3.  > do delay for (Rnd\[10\] + 5)/20 seconds
+3.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance \> 1, out of light
 
-1.  > calculate new R = Rnd\[100\]
+1.  calculate new R = Rnd\[100\]
 
-2.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+2.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-3.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+3.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-4.  > do delay for (Rnd\[10\] + 5)/20 seconds
+4.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance = 2, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if R \< 100·(5·Intf + 5)/2, do ranged attack, exit
+2.  if R \< 100·(5·Intf + 5)/2, do ranged attack, exit
 
-3.  > calculate new R = Rnd\[100\]
+3.  calculate new R = Rnd\[100\]
 
-4.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+4.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-5.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+5.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-6.  > do delay for (Rnd\[10\] + 5)/20 seconds
+6.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance \> 2, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if Rnd\[8\] = 0, start circle walk, exit
+2.  if Rnd\[8\] = 0, start circle walk, exit
 
-3.  > if R \< 100·(5·Intf + 10)/2, do ranged attack, exit
+3.  if R \< 100·(5·Intf + 10)/2, do ranged attack, exit
 
-4.  > calculate new R = Rnd\[100\]
+4.  calculate new R = Rnd\[100\]
 
-5.  > if R \< 100·(10·Intf + 50), walk towards last seen position of
-    > target, exit
+5.  if R \< 100·(10·Intf + 50), walk towards last seen position of
+    target, exit
 
-6.  > if last action was walking and standtime is 0 and R \<
-    > 100·(10·Intf + 80), walk towards last seen position of target,
-    > exit
+6.  if last action was walking and standtime is 0 and R \<
+    100·(10·Intf + 80), walk towards last seen position of target,
+    exit
 
-7.  > do delay for (Rnd\[10\] + 5)/20 seconds
+7.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Due to using Rnd\[10000\], the random number will not be evenly
 distributed, see chapter 5.5.7. In the steps where a new R = Rnd\[100\]
@@ -26317,11 +26317,11 @@ should have read R = Rnd\[10000\]
 
 Butcher
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > if D =1, attack, exit
+2.  if D =1, attack, exit
 
-3.  > walk towards target
+3.  walk towards target
 
 Balrog
 
@@ -26330,68 +26330,68 @@ will start walking towards the last seen position of the target.
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > if D \> 4, continue with skeleton AI, exit
+2.  if D \> 4, continue with skeleton AI, exit
 
-3.  > R = Rnd\[10000\]
+3.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > if R \< 5·Intf + 5, do spell attack, exit
+1.  if R \< 5·Intf + 5, do spell attack, exit
 
-2.  > calculate new R = Rnd\[100\]
+2.  calculate new R = Rnd\[100\]
 
-3.  > if R \>= 10·Intf + 40, do delay for (Rnd\[10\] + 5)/20 seconds,
-    > exit
+3.  if R \>= 10·Intf + 40, do delay for (Rnd\[10\] + 5)/20 seconds,
+    exit
 
-4.  > if Rnd\[2\] = 0, do spell attack, exit
+4.  if Rnd\[2\] = 0, do spell attack, exit
 
-5.  > do melee attack
+5.  do melee attack
 
 Distance \> 1, out of light
 
-1.  > if R \< 10·Intf + 50, walk towards last seen position of target,
-    > exit
+1.  if R \< 10·Intf + 50, walk towards last seen position of target,
+    exit
 
-2.  > if last action was walk and R \< 10·Intf + 80, walk towards last
-    > seen position of target, exit
+2.  if last action was walk and R \< 10·Intf + 80, walk towards last
+    seen position of target, exit
 
-3.  > do delay for (Rnd\[10\] + 5)/20 seconds
+3.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance = 2, in light
 
-1.  > if last action was circle walk, do spell attack, exit
+1.  if last action was circle walk, do spell attack, exit
 
-2.  > if R \< 5·Intf + 5, do spell attack, exit
+2.  if R \< 5·Intf + 5, do spell attack, exit
 
-3.  > calculate new R = Rnd\[100\]
+3.  calculate new R = Rnd\[100\]
 
-4.  > if R \< (10·Intf + 50), walk towards last seen position of target,
-    > exit
+4.  if R \< (10·Intf + 50), walk towards last seen position of target,
+    exit
 
-5.  > if last action was not walk, walk towards last seen position of
-    > target, exit
+5.  if last action was not walk, walk towards last seen position of
+    target, exit
 
-6.  > do delay for (Rnd\[10\] + 5)/20 seconds
+6.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Distance \> 2, in light
 
-1.  > if target is in same area, start circle walk, exit
+1.  if target is in same area, start circle walk, exit
 
-2.  > if last action was circle walk, do spell attack, exit
+2.  if last action was circle walk, do spell attack, exit
 
-3.  > if R \< 5·Intf + 10, do spell attack, exit
+3.  if R \< 5·Intf + 10, do spell attack, exit
 
-4.  > calculate new R = Rnd\[100\]
+4.  calculate new R = Rnd\[100\]
 
-5.  > if R \< (10·Intf + 50), walk towards last seen position of target,
-    > exit
+5.  if R \< (10·Intf + 50), walk towards last seen position of target,
+    exit
 
-6.  > if last action was not walk, walk towards last seen position of
-    > target, exit
+6.  if last action was not walk, walk towards last seen position of
+    target, exit
 
-7.  > do delay for (Rnd\[10\] + 5)/20 seconds
+7.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Skeleton King
 
@@ -26400,53 +26400,53 @@ type will start walking towards the last seen position of the target.
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[10000\]
+2.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > in single player, if R \< 5, then do revive skeleton, exit
+1.  in single player, if R \< 5, then do revive skeleton, exit
 
-2.  > if R \< Intf + 20, do melee attack
+2.  if R \< Intf + 20, do melee attack
 
 Distance \> 1, out of light
 
-1.  > if last action was walking and standtime is 0 and R \< Intf + 75,
-    > walk towards last seen position of target, exit
+1.  if last action was walking and standtime is 0 and R \< Intf + 75,
+    walk towards last seen position of target, exit
 
-2.  > if standtime is greater than 1 second and R \< Intf + 25, walk
-    > towards last seen position of target, exit
+2.  if standtime is greater than 1 second and R \< Intf + 25, walk
+    towards last seen position of target, exit
 
-3.  > do delay for (Rnd\[10\] + 10)/20 seconds
+3.  do delay for (Rnd\[10\] + 10)/20 seconds
 
 Distance = 2, in light
 
-1.  > in single player, if R \< 5, then do revive skeleton, exit
+1.  in single player, if R \< 5, then do revive skeleton, exit
 
-2.  > if last action was walking and standtime is 0 and R \< Intf + 75,
-    > walk towards last seen position of target, exit
+2.  if last action was walking and standtime is 0 and R \< Intf + 75,
+    walk towards last seen position of target, exit
 
-3.  > if standtime is greater than 1 second and R \< Intf + 25, walk
-    > towards last seen position of target, exit
+3.  if standtime is greater than 1 second and R \< Intf + 25, walk
+    towards last seen position of target, exit
 
-4.  > do delay for (Rnd\[10\] + 10)/20 seconds
+4.  do delay for (Rnd\[10\] + 10)/20 seconds
 
 Distance \> 2, in light
 
-1.  > if target is in another area, use out of light AI
+1.  if target is in another area, use out of light AI
 
-2.  > if Rnd\[4\] = 0, start circle walk, exit
+2.  if Rnd\[4\] = 0, start circle walk, exit
 
-3.  > in single player, if 4·Intf + 35, then do revive skeleton, exit
+3.  in single player, if 4·Intf + 35, then do revive skeleton, exit
 
-4.  > if last action was walking and standtime is 0 and R \< Intf + 75,
-    > walk towards last seen position of target, exit
+4.  if last action was walking and standtime is 0 and R \< Intf + 75,
+    walk towards last seen position of target, exit
 
-5.  > if standtime is greater than 1 second and R \< Intf + 25, walk
-    > towards last seen position of target, exit
+5.  if standtime is greater than 1 second and R \< Intf + 25, walk
+    towards last seen position of target, exit
 
-6.  > do delay for (Rnd\[10\] + 10)/20 seconds
+6.  do delay for (Rnd\[10\] + 10)/20 seconds
 
 Horned Demon
 
@@ -26456,38 +26456,38 @@ next action.
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[10000\]
+2.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > if R \< 2·Intf + 28, do melee attack, exit
+1.  if R \< 2·Intf + 28, do melee attack, exit
 
 Distance = 2 to 4
 
-1.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 33, walk towards last seen position of target, exit
+1.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    33, walk towards last seen position of target, exit
 
-2.  > if standtime is greater than 1 second and R \< 2·Intf + 83, walk
-    > towards last seen position of target
+2.  if standtime is greater than 1 second and R \< 2·Intf + 83, walk
+    towards last seen position of target
 
-3.  > do delay for (Rnd\[10\] + 10)/20 seconds
+3.  do delay for (Rnd\[10\] + 10)/20 seconds
 
 Distance \> 4
 
-1.  > if target is in same area Rnd\[4\] \> 0 then start circle walk
+1.  if target is in same area Rnd\[4\] \> 0 then start circle walk
 
-2.  > if R \< 2·Intf + 43 and the line of sight is clear, do charge
-    > attack, exit
+2.  if R \< 2·Intf + 43 and the line of sight is clear, do charge
+    attack, exit
 
-3.  > if last action was walking and standtime is 0 and R \< 2·Intf +
-    > 33, walk towards last seen position of target, exit
+3.  if last action was walking and standtime is 0 and R \< 2·Intf +
+    33, walk towards last seen position of target, exit
 
-4.  > if standtime is greater than 1 second and R \< 2·Intf + 83, walk
-    > towards last seen position of target
+4.  if standtime is greater than 1 second and R \< 2·Intf + 83, walk
+    towards last seen position of target
 
-5.  > do delay for (Rnd\[10\] + 10)/20 seconds
+5.  do delay for (Rnd\[10\] + 10)/20 seconds
 
 Mage
 
@@ -26502,33 +26502,33 @@ start walking towards the last seen position of the target.
 
 Retreat mode
 
-1.  > if D \< 3, walk away from target
+1.  if D \< 3, walk away from target
 
 General
 
-1.  > if not active, exit
+1.  if not active, exit
 
-2.  > R = Rnd\[10000\]
+2.  R = Rnd\[10000\]
 
 Distance = 1
 
-1.  > if curHP \< maxHP/2, go into retreat mode
+1.  if curHP \< maxHP/2, go into retreat mode
 
-2.  > if last action was a delay, do flash attack, exit
+2.  if last action was a delay, do flash attack, exit
 
-3.  > if R \< 2·Intf + 20, do flash attack, exit
+3.  if R \< 2·Intf + 20, do flash attack, exit
 
-4.  > do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
+4.  do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
 
 Distance \> 1
 
-1.  > if in light and R \< 5·Intf + 50, do ranged attack, exit
+1.  if in light and R \< 5·Intf + 50, do ranged attack, exit
 
-2.  > calculate new R = Rnd\[100\]
+2.  calculate new R = Rnd\[100\]
 
-3.  > if R \< 30, enter circle walk, exit
+3.  if R \< 30, enter circle walk, exit
 
-4.  > do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
+4.  do delay for (Rnd\[10\] + 10 - 2·Intf)/20 seconds
 
 Special
 
@@ -29777,11 +29777,11 @@ game (with the exception that if someone leaves a game, a new player
 will take that one’s place in the order). The order of updating is as
 follows:
 
-1.  > Players
+1.  Players
 
-2.  > Monsters
+2.  Monsters
 
-3.  > Magical effects (includes arrows)
+3.  Magical effects (includes arrows)
 
 The update is done once every 0.05 seconds which explains why all timing
 information is given in steps of 0.05 seconds.
@@ -29870,39 +29870,39 @@ regarding the player status.
 
 So, lets see in more detail how the Mana Shield works.
 
-1.  > check if the player’s current life has changed since last time; if
-    > not, exit
+1.  check if the player’s current life has changed since last time; if
+    not, exit
 
-2.  > if the current life has increased since last time, set the new
-    > increased life as the value to be checked for in the future and
-    > then exit
+2.  if the current life has increased since last time, set the new
+    increased life as the value to be checked for in the future and
+    then exit
 
-3.  > calculate the decrease in life since last time, this is the damage
-    > taken since last time
+3.  calculate the decrease in life since last time, this is the damage
+    taken since last time
 
-4.  > if slvl=0, skip step 5 and 6
+4.  if slvl=0, skip step 5 and 6
 
-5.  > *in Diablo*, calculate damage - \[damage/3\]
+5.  *in Diablo*, calculate damage - \[damage/3\]
 
-6.  > *in Hellfire*, calculate damage - \[damage/(3·slvl)\] (if slvl is
-    > higher than 7, set slvl to 7)
+6.  *in Hellfire*, calculate damage - \[damage/(3·slvl)\] (if slvl is
+    higher than 7, set slvl to 7)
 
-7.  > restore current life to its initial value
+7.  restore current life to its initial value
 
-8.  > remove the amount calculated in step 5 or 6 from current mana
+8.  remove the amount calculated in step 5 or 6 from current mana
 
-9.  > if mana has not reached 0, then if the player was previously in
-    > dying mode, set player into standing mode, finally exit
+9.  if mana has not reached 0, then if the player was previously in
+    dying mode, set player into standing mode, finally exit
 
-10. > if mana has reached 0 or gone below 0, set it to 0 and reduce life
-    > with the amount that was below 0
+10. if mana has reached 0 or gone below 0, set it to 0 and reduce life
+    with the amount that was below 0
 
-11. > terminate the Mana Shield
+11. terminate the Mana Shield
 
-12. > if life has not reached 0, then if the player was previous in
-    > dying mode set player into standing mode, finally exit
+12. if life has not reached 0, then if the player was previous in
+    dying mode set player into standing mode, finally exit
 
-13. > set player into dying mode
+13. set player into dying mode
 
 As can be seen from the above, if the player was set to dying mode
 during the normal attacks, it will be put into standing mode by the Mana
@@ -30091,29 +30091,29 @@ added despite the fact that this is a ranged attack.
 Fire and lightning arrows are quite buggy and the list below tries to
 summarize some of the bugs related to them.
 
-  - > The to hit calculations for the fire and lightning attack part,
-    > although magical, still use normal arrow to hit formulas.
+  - The to hit calculations for the fire and lightning attack part,
+    although magical, still use normal arrow to hit formulas.
 
-  - > The fire and lightning damage is *not* halved for player versus
-    > player like all other magical damage is.
+  - The fire and lightning damage is *not* halved for player versus
+    player like all other magical damage is.
 
-  - > Unlike melee fire and lightning damage, they can hit and deal
-    > damage more than once. This might not be a bug but probably is.
+  - Unlike melee fire and lightning damage, they can hit and deal
+    damage more than once. This might not be a bug but probably is.
 
-  - > Damage calculations for the fire and lightning part still include
-    > the normal character damage and will even apply such modifiers as
-    > +% damage to the fire and lightning damage. Basically, the damage
-    > range of the fire and lightning damage is treated as the ”bow
-    > damage range” and thus modified as appropriately for a normal
-    > arrow attack.
+  - Damage calculations for the fire and lightning part still include
+    the normal character damage and will even apply such modifiers as
+    +% damage to the fire and lightning damage. Basically, the damage
+    range of the fire and lightning damage is treated as the ”bow
+    damage range” and thus modified as appropriately for a normal
+    arrow attack.
 
-  - > Despite what is said above, both monsters and players *will*
-    > resist the damage if they have resistance to the appropriate magic
-    > type (fire or lightning).
+  - Despite what is said above, both monsters and players *will*
+    resist the damage if they have resistance to the appropriate magic
+    type (fire or lightning).
 
-  - > The actual fire and lightning damage will often not hit the same
-    > place as the arrow did, meaning one will often escape the extra
-    > high damage caused by fire and lightning bows. {blockable?}
+  - The actual fire and lightning damage will often not hit the same
+    place as the arrow did, meaning one will often escape the extra
+    high damage caused by fire and lightning bows. {blockable?}
 
 Note that in the chapters below, the bugs regarding fire and lightning
 arrows will not be mentioned. The list above should be sufficient for
@@ -30127,21 +30127,21 @@ effect update phase, but as soon as it hits, it turns into an almost
 normal melee attack. Below are listed what special conditions apply to
 Charge attacks.
 
-  - > A Gloom will never attack with its charge, it simply uses it as a
-    > mean of transportation.
+  - A Gloom will never attack with its charge, it simply uses it as a
+    mean of transportation.
 
-  - > The base to hit of the monster charge attack is 500%, this is then
-    > modified normally according to chapter 6.2.3.
+  - The base to hit of the monster charge attack is 500%, this is then
+    modified normally according to chapter 6.2.3.
 
-  - > Blocking is handled normally for a charge attack, and so is
-    > damage.
+  - Blocking is handled normally for a charge attack, and so is
+    damage.
 
-  - > Vipers will never put a target into hit recovery.
+  - Vipers will never put a target into hit recovery.
 
-  - > Horned Demons and other monsters that get the special charge
-    > ability (unique monsters and their party) will automatically put a
-    > target into hit recovery upon hit and will also knock back the
-    > target.
+  - Horned Demons and other monsters that get the special charge
+    ability (unique monsters and their party) will automatically put a
+    target into hit recovery upon hit and will also knock back the
+    target.
 
 Either intentionally or due to a bug, monsters that are charging, can at
 times cross lava that is otherwise impassable in the Caves.
@@ -30425,88 +30425,88 @@ attacks with bows, and is always done to an adjacent target.
 
 To Hit
 
-1.  > if the target monster is an Illusion Weaver that is currently
-    > running away, exit as it is at the moment immune to any attack
+1.  if the target monster is an Illusion Weaver that is currently
+    running away, exit as it is at the moment immune to any attack
 
-2.  > if the target monster is Stone Cursed, the attack is an automatic
-    > hit, go directly to damage calculations
+2.  if the target monster is Stone Cursed, the attack is an automatic
+    hit, go directly to damage calculations
 
-3.  > calculate 50 + Dex/2 + ToHit<sub>items</sub> + clvl +
-    > bonus<sub>player</sub>
+3.  calculate 50 + Dex/2 + ToHit<sub>items</sub> + clvl +
+    bonus<sub>player</sub>
 
-4.  > *in Hellfire*, if the player has any item with the ”penetrate
-    > armor” effect, temporarily reduce Ac<sub>monster</sub> as
-    > appropriate
+4.  *in Hellfire*, if the player has any item with the ”penetrate
+    armor” effect, temporarily reduce Ac<sub>monster</sub> as
+    appropriate
 
-5.  > subtract Ac<sub>monster</sub>
+5.  subtract Ac<sub>monster</sub>
 
-6.  > *in Hellfire*, if the attack is an adjacent quarter damage attack,
-    > subtract 70 - 2·clvl (minimum 30)
+6.  *in Hellfire*, if the attack is an adjacent quarter damage attack,
+    subtract 70 - 2·clvl (minimum 30)
 
-7.  > if the value calculated is below 5, set it to 5
+7.  if the value calculated is below 5, set it to 5
 
-8.  > if the value calculated is above 95, set it to 95
+8.  if the value calculated is above 95, set it to 95
 
-9.  > the value now achieved is the final chance to hit (FTH)
+9.  the value now achieved is the final chance to hit (FTH)
 
-10. > a hit is secured if Rnd\[100\] \< FTH
+10. a hit is secured if Rnd\[100\] \< FTH
 
 The steps 3-8 above can be summarized to:
 
 FTH = 50 + Dex/2 + ToHit<sub>items</sub> + clvl + bonus<sub>player</sub>
 - Ac<sub>monster</sub> *- penalty<sub>quarter damage</sub>*
 
-  - > *In Diablo*, ToHit<sub>items</sub> includes the effect of items
-    > with the ”penetrate armor” effect.
+  - *In Diablo*, ToHit<sub>items</sub> includes the effect of items
+    with the ”penetrate armor” effect.
 
-  - > The bonus<sub>player</sub> is 20 for Warriors and 0 for all other
-    > classes.
+  - The bonus<sub>player</sub> is 20 for Warriors and 0 for all other
+    classes.
 
-  - > penalty<sub>quarter damage</sub> only apply to certain attacks in
-    > Hellfire, see chapter 2.2.2 for more information.
+  - penalty<sub>quarter damage</sub> only apply to certain attacks in
+    Hellfire, see chapter 2.2.2 for more information.
 
-  - > Note that if FTH is below 5 or above 95 it is adjusted to 5 and
-    > 95. This is commonly referred to as the auto hit and auto miss of
-    > a character.
+  - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
+    95. This is commonly referred to as the auto hit and auto miss of
+    a character.
 
 Damage
 
-1.  > calculate Rnd\[max<sub>base weapon damage</sub> - min<sub>base
-    > weapon damage</sub> + 1\] + min<sub>base weapon damage</sub> (this
-    > is basically a random value within the weapons base damage range)
+1.  calculate Rnd\[max<sub>base weapon damage</sub> - min<sub>base
+    weapon damage</sub> + 1\] + min<sub>base weapon damage</sub> (this
+    is basically a random value within the weapons base damage range)
 
-2.  > add +% damage
+2.  add +% damage
 
-3.  > add +damage
+3.  add +damage
 
-4.  > add character damage
+4.  add character damage
 
-5.  > if the attacker is a Warrior or Barbarian then double damage if
-    > Rnd\[100\] \< clvl (critical hit)
+5.  if the attacker is a Warrior or Barbarian then double damage if
+    Rnd\[100\] \< clvl (critical hit)
 
-6.  > if the monster is undead or an animal, adjust the damage according
-    > to the table in chapter 5.1 under monster type, that is, under
-    > certain circumstances multiply damage by 1.5 or divide damage by 2
+6.  if the monster is undead or an animal, adjust the damage according
+    to the table in chapter 5.1 under monster type, that is, under
+    certain circumstances multiply damage by 1.5 or divide damage by 2
 
-7.  > if the monster is a demon, triple the damage if the player is
-    > carrying any item with the ”+200% damage versus demons” effect
+7.  if the monster is a demon, triple the damage if the player is
+    carrying any item with the ”+200% damage versus demons” effect
 
-8.  > *in Hellfire*, if the attacker has an item with the devastation
-    > effect and Rnd\[100\] \< 5, triple the damage
+8.  *in Hellfire*, if the attacker has an item with the devastation
+    effect and Rnd\[100\] \< 5, triple the damage
 
-9.  > *in Hellfire*, if the attacker has an item with the jester’s
-    > effect 50% of the time multiply damage by Rnd\[100\]/100, the
-    > other 50% multiply damage by 5·(Rnd\[100\]+20)/100
+9.  *in Hellfire*, if the attacker has an item with the jester’s
+    effect 50% of the time multiply damage by Rnd\[100\]/100, the
+    other 50% multiply damage by 5·(Rnd\[100\]+20)/100
 
-10. > *in Hellfire*, if the attack is an adjacent ”quarter” damage
-    > attack, divide the damage by 4 (hence the ”quarter” damage)
+10. *in Hellfire*, if the attack is an adjacent ”quarter” damage
+    attack, divide the damage by 4 (hence the ”quarter” damage)
 
-11. > *in Hellfire*, if the attacker has an item with the peril effect,
-    > double the damage
+11. *in Hellfire*, if the attacker has an item with the peril effect,
+    double the damage
 
-12. > the value now achieved is the final damage (FD)
+12. the value now achieved is the final damage (FD)
 
-13. > deal FD to the target
+13. deal FD to the target
 
 Steps 1-4 above will generate a damage value that is within the range
 shown for damage on the character screen.
@@ -30516,96 +30516,96 @@ be shown on the character screen.
 
 Step 9 above is actually done as:
 
-1.  > calculate Rnd\[200\]
+1.  calculate Rnd\[200\]
 
-2.  > if the value is below 100 multiply the damage by this value and
-    > then divide by 100
+2.  if the value is below 100 multiply the damage by this value and
+    then divide by 100
 
-3.  > otherwise subtract 80 and multiply by 5, then multiply the damage
-    > by this value and divide by 100
+3.  otherwise subtract 80 and multiply by 5, then multiply the damage
+    by this value and divide by 100
 
 Hit consequences
 
-1.  > *in Hellfire*, if the attacker has an item of doppelganger’s
-    > effect and the monster is not Diablo or an unique monster,
-    > duplicate the monster if Rnd\[100\] \< 5
+1.  *in Hellfire*, if the attacker has an item of doppelganger’s
+    effect and the monster is not Diablo or an unique monster,
+    duplicate the monster if Rnd\[100\] \< 5
 
-2.  > *in Hellfire*, if the attacker has an item with the peril effect,
-    > take the damage from step 3 under Damage above, modify it for the
-    > -damage effect and deal it to the attacker
+2.  *in Hellfire*, if the attacker has an item with the peril effect,
+    take the damage from step 3 under Damage above, modify it for the
+    -damage effect and deal it to the attacker
 
-3.  > if the attacker has an item equipped that has the ”random life
-    > stealing” effect, calculate Rnd\[FD/8\] and add this to current
-    > life (while checking so that current life never exceeds max life)
+3.  if the attacker has an item equipped that has the ”random life
+    stealing” effect, calculate Rnd\[FD/8\] and add this to current
+    life (while checking so that current life never exceeds max life)
 
-4.  > if the attacker has an item equipped that has 3% mana stealing,
-    > calculate 0.03·FD
+4.  if the attacker has an item equipped that has 3% mana stealing,
+    calculate 0.03·FD
 
-5.  > if the attacker has an item equipped that has 5% mana stealing,
-    > calculate 0.05·FD
+5.  if the attacker has an item equipped that has 5% mana stealing,
+    calculate 0.05·FD
 
-6.  > if the attacker do *not* have any item of *corruption* add the
-    > amount calculated in step 4 or 5 to the current mana (while
-    > checking so that current mana never exceeds max mana)
+6.  if the attacker do *not* have any item of *corruption* add the
+    amount calculated in step 4 or 5 to the current mana (while
+    checking so that current mana never exceeds max mana)
 
-7.  > if the attacker has an item equipped that has 3% life stealing,
-    > calculate 0.03·FD
+7.  if the attacker has an item equipped that has 3% life stealing,
+    calculate 0.03·FD
 
-8.  > if the attacker has an item equipped that has 5% life stealing,
-    > calculate 0.05·FD
+8.  if the attacker has an item equipped that has 5% life stealing,
+    calculate 0.05·FD
 
-9.  > add the amount calculated in step 7 or 8 to the current life
-    > (while checking so that current life never exceeds max life)
+9.  add the amount calculated in step 7 or 8 to the current life
+    (while checking so that current life never exceeds max life)
 
-10. > *in Hellfire*, if the attacker hit and has an item equipped with
-    > the decay effect, subtract 5 from its To Hit bonus, if it reaches
-    > -100%, destroy the item
+10. *in Hellfire*, if the attacker hit and has an item equipped with
+    the decay effect, subtract 5 from its To Hit bonus, if it reaches
+    -100%, destroy the item
 
-11. > if the attacker hit, check for weapon durability loss
+11. if the attacker hit, check for weapon durability loss
 
-12. > if the monster was *not* Stone Cursed and the player had an item
-    > with the ”knock back” effect, move the monster one step backwards
-    > (backwards is defined according to the monster’s facing)
+12. if the monster was *not* Stone Cursed and the player had an item
+    with the ”knock back” effect, move the monster one step backwards
+    (backwards is defined according to the monster’s facing)
 
-13. > mark the attacker to be entitled to experience points when the
-    > monster dies
+13. mark the attacker to be entitled to experience points when the
+    monster dies
 
-14. > if the target was not a golem and it was not resistant to the
-    > spell and FD \>= mlvl+3, put monster into hit recovery; a
-    > Scavenger or Grave Digger will also be set in a mode to find a
-    > carcass to feast/dig upon
+14. if the target was not a golem and it was not resistant to the
+    spell and FD \>= mlvl+3, put monster into hit recovery; a
+    Scavenger or Grave Digger will also be set in a mode to find a
+    carcass to feast/dig upon
 
-15. > if the target was a Hidden type of monster and it was not
-    > resistant to the spell, put monster into hit recovery as well as
-    > in retreat mode (see chapter 5.5.9 under Hidden).
+15. if the target was a Hidden type of monster and it was not
+    resistant to the spell, put monster into hit recovery as well as
+    in retreat mode (see chapter 5.5.9 under Hidden).
 
-16. > if the monster died, check for any item dropping (see chapter 3.8)
-    > and add any experience to the players that are eligible for it
-    > (see chapter 2.6)
+16. if the monster died, check for any item dropping (see chapter 3.8)
+    and add any experience to the players that are eligible for it
+    (see chapter 2.6)
 
-17. > if the monster died and it was Diablo, terminate game and show
-    > ending movie for players on dlvl 16
+17. if the monster died and it was Diablo, terminate game and show
+    ending movie for players on dlvl 16
     
-    1.  ### Player versus Player
+### Player versus Player
 
 To Hit
 
-1.  > calculate 50 + Dex<sub>attacker</sub>/2 +
-    > ToHit<sub>items,attacker</sub> + clvl<sub>attacker</sub> +
-    > bonus<sub>attacker</sub>
+1.  calculate 50 + Dex<sub>attacker</sub>/2 +
+    ToHit<sub>items,attacker</sub> + clvl<sub>attacker</sub> +
+    bonus<sub>attacker</sub>
 
-2.  > calculate Dex<sub>target</sub>/5 + Ac<sub>items,target</sub> +
-    > bonus<sub>target</sub>
+2.  calculate Dex<sub>target</sub>/5 + Ac<sub>items,target</sub> +
+    bonus<sub>target</sub>
 
-3.  > subtract the value in step 2 from the value in step 1
+3.  subtract the value in step 2 from the value in step 1
 
-4.  > if the value calculated is below 5, set it to 5
+4.  if the value calculated is below 5, set it to 5
 
-5.  > if the value calculated is above 95, set it to 95
+5.  if the value calculated is above 95, set it to 95
 
-6.  > the value now achieved is the final chance to hit (FTH)
+6.  the value now achieved is the final chance to hit (FTH)
 
-7.  > a hit is secured if Rnd\[100\] \< FTH
+7.  a hit is secured if Rnd\[100\] \< FTH
 
 The steps 1-6 above can be summarized to:
 
@@ -30614,75 +30614,75 @@ clvl<sub>attacker</sub> + bonus<sub>attacker</sub> -
 Dex<sub>target</sub>/5 - Ac<sub>items,target</sub> -
 bonus<sub>target</sub>
 
-  - > *In Diablo*, ToHit<sub>items</sub> includes the effect of items
-    > with the ”penetrate armor” effect.
+  - *In Diablo*, ToHit<sub>items</sub> includes the effect of items
+    with the ”penetrate armor” effect.
 
-  - > The bonus<sub>attacker</sub> is 20 for Warriors and 0 for all
-    > other classes.
+  - The bonus<sub>attacker</sub> is 20 for Warriors and 0 for all
+    other classes.
 
-  - > The bonus<sub>target</sub> is clvl/4 for Barbarians, depends on
-    > the armor type for Monks (0 for non unique plate, clvl/2 for non
-    > unique mail or unique plates and 2·clvl for light armor and unique
-    > mail or if naked), and 0 for all other classes.
+  - The bonus<sub>target</sub> is clvl/4 for Barbarians, depends on
+    the armor type for Monks (0 for non unique plate, clvl/2 for non
+    unique mail or unique plates and 2·clvl for light armor and unique
+    mail or if naked), and 0 for all other classes.
 
-  - > Note that if FTH is below 5 or above 95 it is adjusted to 5 and
-    > 95. This is commonly referred to as the auto hit and auto miss of
-    > a character.
+  - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
+    95. This is commonly referred to as the auto hit and auto miss of
+    a character.
 
 Block
 
-1.  > if the target is doing anything other than standing still or
-    > performing a melee attack, skip blocking
+1.  if the target is doing anything other than standing still or
+    performing a melee attack, skip blocking
 
-2.  > if the target is not a Monk and is not carrying a shield, skip
-    > blocking
+2.  if the target is not a Monk and is not carrying a shield, skip
+    blocking
 
-3.  > if the target is a Monk and is not carrying a shield, a staff or
-    > has at least one hand bear, skip blocking
+3.  if the target is a Monk and is not carrying a shield, a staff or
+    has at least one hand bear, skip blocking
 
-4.  > calculate Dex<sub>target</sub> + 2·clvl<sub>target</sub> +
-    > bonus<sub>target</sub>
+4.  calculate Dex<sub>target</sub> + 2·clvl<sub>target</sub> +
+    bonus<sub>target</sub>
 
-5.  > subtract 2·clvl<sub>attacker</sub>
+5.  subtract 2·clvl<sub>attacker</sub>
 
-6.  > if the value calculated is below 0, set it to 0
+6.  if the value calculated is below 0, set it to 0
 
-7.  > if the value calculated is above 100, set it to 100
+7.  if the value calculated is above 100, set it to 100
 
-8.  > the value now achieved is the final chance to block (FB)
+8.  the value now achieved is the final chance to block (FB)
 
-9.  > a block of the attack is done if Rnd\[100\] \< FB
+9.  a block of the attack is done if Rnd\[100\] \< FB
 
 The steps 3-8 above can be summarized to:
 
 FB = Dex<sub>target</sub> + 2·(clvl<sub>target</sub> -
 clvl<sub>attacker</sub>) + bonus<sub>target</sub>
 
-  - > The bonus<sub>target</sub> is 30 for Warriors and Barbarians, 25
-    > for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
-    > that there seems to be a bug that makes all those bonus values be
-    > 0.
+  - The bonus<sub>target</sub> is 30 for Warriors and Barbarians, 25
+    for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
+    that there seems to be a bug that makes all those bonus values be
+    0.
 
-  - > It is possible to achieve 100% blocking.
+  - It is possible to achieve 100% blocking.
 
 Damage
 
-1.  > calculate Rnd\[max<sub>base weapon damage</sub> - min<sub>base
-    > weapon damage</sub> + 1\] + min<sub>base weapon damage</sub> (this
-    > is basically a random value within the weapons base damage range)
+1.  calculate Rnd\[max<sub>base weapon damage</sub> - min<sub>base
+    weapon damage</sub> + 1\] + min<sub>base weapon damage</sub> (this
+    is basically a random value within the weapons base damage range)
 
-2.  > add +% damage
+2.  add +% damage
 
-3.  > add +damage
+3.  add +damage
 
-4.  > add character damage
+4.  add character damage
 
-5.  > if the attacker is a Warrior or Barbarian then double damage if
-    > Rnd\[100\] \< clvl<sub>attacker</sub> (critical hit)
+5.  if the attacker is a Warrior or Barbarian then double damage if
+    Rnd\[100\] \< clvl<sub>attacker</sub> (critical hit)
 
-6.  > the value now achieved is the final damage (FD)
+6.  the value now achieved is the final damage (FD)
 
-7.  > deal FD to the target
+7.  deal FD to the target
 
 Steps 1-4 above will generate a damage value that is within the range
 shown for damage on the character screen.
@@ -30692,30 +30692,30 @@ be shown on the character screen.
 
 Hit consequences
 
-1.  > if the attacker has an item equipped that has the ”random life
-    > stealing” effect, calculate Rnd\[FD/8\] and add this to current
-    > life (while checking so that current life never exceeds max life).
-    > It is worth noticing that in normal Diablo, the random stealing
-    > effect is *only* present on a single player quest item, so this
-    > step is this never performed.
+1.  if the attacker has an item equipped that has the ”random life
+    stealing” effect, calculate Rnd\[FD/8\] and add this to current
+    life (while checking so that current life never exceeds max life).
+    It is worth noticing that in normal Diablo, the random stealing
+    effect is *only* present on a single player quest item, so this
+    step is this never performed.
 
-2.  > *in Hellfire*, if the attacker hit (regardless of blocking) and
-    > has an item equipped with the decay effect, subtract 5 from its To
-    > Hit bonus, if it reaches -100%, destroy the item
+2.  *in Hellfire*, if the attacker hit (regardless of blocking) and
+    has an item equipped with the decay effect, subtract 5 from its To
+    Hit bonus, if it reaches -100%, destroy the item
 
-3.  > if the attacker hit (regardless of blocking), check for weapon
-    > durability loss
+3.  if the attacker hit (regardless of blocking), check for weapon
+    durability loss
 
-4.  > if the attacker hit and the target did not block, check if life
-    > went down to 0 or below, if so put target player into death mode
-    > and skip further steps
+4.  if the attacker hit and the target did not block, check if life
+    went down to 0 or below, if so put target player into death mode
+    and skip further steps
 
-5.  > if FD \>= clvl<sub>target</sub> and the target did not block then
-    > put target player into hit recovery and check for durability loss
-    > on helm and armor
+5.  if FD \>= clvl<sub>target</sub> and the target did not block then
+    put target player into hit recovery and check for durability loss
+    on helm and armor
 
-6.  > if the target blocked, put target player into block mode and check
-    > for durability loss on shield
+6.  if the target blocked, put target player into block mode and check
+    for durability loss on shield
 
 For the probabilities of durability losses, see chapter 3.7.1.
 
@@ -30723,135 +30723,135 @@ For the probabilities of durability losses, see chapter 3.7.1.
 
 To Hit
 
-1.  > calculate 30 + ToHit<sub>base,monster</sub> + 2·mlvl
+1.  calculate 30 + ToHit<sub>base,monster</sub> + 2·mlvl
 
-2.  > calculate Dex/5 + Ac<sub>items,player</sub> +
-    > bonus<sub>player</sub> + 2·clvl
+2.  calculate Dex/5 + Ac<sub>items,player</sub> +
+    bonus<sub>player</sub> + 2·clvl
 
-3.  > subtract the value in step 2 from the value in step 1
+3.  subtract the value in step 2 from the value in step 1
 
-4.  > *in Hellfire*, if the player has extra AC versus Demons or Undead,
-    > subtract 40/20 if the monster is of the correct type
+4.  *in Hellfire*, if the player has extra AC versus Demons or Undead,
+    subtract 40/20 if the monster is of the correct type
 
-5.  > if the value calculated is below 15, set it to 15
+5.  if the value calculated is below 15, set it to 15
 
-6.  > on dlvl 14 if the value calculated is below 20, set it to 20
+6.  on dlvl 14 if the value calculated is below 20, set it to 20
 
-7.  > on dlvl 15 if the value calculated is below 25, set it to 25
+7.  on dlvl 15 if the value calculated is below 25, set it to 25
 
-8.  > on dlvl 16 if the value calculated is below 30, set it to 30
+8.  on dlvl 16 if the value calculated is below 30, set it to 30
 
-9.  > the value now achieved is the final chance to hit (FTH)
+9.  the value now achieved is the final chance to hit (FTH)
 
-10. > a hit is secured if Rnd\[100\] \< FTH
+10. a hit is secured if Rnd\[100\] \< FTH
 
 The steps 1-9 above can be summarized to:
 
 FTH = 30 + ToHit<sub>base,monster</sub> + 2·(mlvl-clvl) - Dex/5 -
 Ac<sub>items,player</sub> - bonus<sub>player</sub>
 
-  - > ToHit<sub>base,monster</sub> is the value found in the tables for
-    > each monster in chapter 5.2 and 5.4. For the second attack of
-    > Magma Demons it is 10 higher, and for the second attack of
-    > Lightning Demons it is 20 lower. For charges the base value is
-    > always 500%.
+  - ToHit<sub>base,monster</sub> is the value found in the tables for
+    each monster in chapter 5.2 and 5.4. For the second attack of
+    Magma Demons it is 10 higher, and for the second attack of
+    Lightning Demons it is 20 lower. For charges the base value is
+    always 500%.
 
-  - > For unique monsters, use mlvl<sub>battle</sub>
+  - For unique monsters, use mlvl<sub>battle</sub>
 
-  - > The bonus<sub>player</sub> is clvl/4 for Barbarians, depends on
-    > the armor type for Monks (0 for non unique plate, clvl/2 for non
-    > unique mail or unique plates, and 2·clvl for light armor and
-    > unique mail or if naked), and 0 for all other classes.
+  - The bonus<sub>player</sub> is clvl/4 for Barbarians, depends on
+    the armor type for Monks (0 for non unique plate, clvl/2 for non
+    unique mail or unique plates, and 2·clvl for light armor and
+    unique mail or if naked), and 0 for all other classes.
 
-  - > Note that the FTH is adjusted for auto hit values.
+  - Note that the FTH is adjusted for auto hit values.
 
 Block
 
-1.  > if the target is doing anything other than standing still or
-    > performing a melee attack, skip blocking
+1.  if the target is doing anything other than standing still or
+    performing a melee attack, skip blocking
 
-2.  > if the target is not a Monk and is not carrying a shield, skip
-    > blocking
+2.  if the target is not a Monk and is not carrying a shield, skip
+    blocking
 
-3.  > if the target is a Monk and is not carrying a shield, a staff or
-    > has at least one hand bear, skip blocking
+3.  if the target is a Monk and is not carrying a shield, a staff or
+    has at least one hand bear, skip blocking
 
-4.  > calculate Dex + 2·clvl + bonus<sub>player</sub>
+4.  calculate Dex + 2·clvl + bonus<sub>player</sub>
 
-5.  > subtract 2·mlvl
+5.  subtract 2·mlvl
 
-6.  > if the value calculated is below 0, set it to 0
+6.  if the value calculated is below 0, set it to 0
 
-7.  > if the value calculated is above 100, set it to 100
+7.  if the value calculated is above 100, set it to 100
 
-8.  > the value now achieved is the final chance to block (FB)
+8.  the value now achieved is the final chance to block (FB)
 
-9.  > a block of the attack is done if Rnd\[100\] \< FB
+9.  a block of the attack is done if Rnd\[100\] \< FB
 
 The steps 3-8 above can be summarized to:
 
 FB = Dex + 2·(clvl - mlvl) + bonus<sub>player</sub>
 
-  - > The bonus<sub>player</sub> is 30 for Warriors and Barbarians, 25
-    > for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
-    > that there seems to be a bug that makes all those bonus values be
-    > 0.
+  - The bonus<sub>player</sub> is 30 for Warriors and Barbarians, 25
+    for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
+    that there seems to be a bug that makes all those bonus values be
+    0.
 
-  - > For unique monsters, use mlvl<sub>battle</sub>
+  - For unique monsters, use mlvl<sub>battle</sub>
 
-  - > In the cases according to step 1-2 above when a block is not
-    > checked, the game actually DOES a random check, but the value
-    > checked against is 100 and thus will never result in a block.
+  - In the cases according to step 1-2 above when a block is not
+    checked, the game actually DOES a random check, but the value
+    checked against is 100 and thus will never result in a block.
 
-  - > It is possible to achieve 100% blocking.
+  - It is possible to achieve 100% blocking.
 
 Damage
 
-1.  > calculate Rnd\[max<sub>base damage</sub> - min<sub>base
-    > damage</sub> + 1\] + min<sub>base damage</sub> (this is basically
-    > a random value within the monsters base damage range)
+1.  calculate Rnd\[max<sub>base damage</sub> - min<sub>base
+    damage</sub> + 1\] + min<sub>base damage</sub> (this is basically
+    a random value within the monsters base damage range)
 
-2.  > add -damage
+2.  add -damage
 
-3.  > if damage is below 1, set it to 1
+3.  if damage is below 1, set it to 1
 
-4.  > *in Hellfire*, if the player has a Reflect spell running,
-    > calculate the final reflected damage (FRD) by multiplying the
-    > damage by (Rnd\[10\] + 20)/100
+4.  *in Hellfire*, if the player has a Reflect spell running,
+    calculate the final reflected damage (FRD) by multiplying the
+    damage by (Rnd\[10\] + 20)/100
 
-5.  > *in Hellfire*, if the player has a Reflect spell running, subtract
-    > FRD from the damage calculated in steps 1-3
+5.  *in Hellfire*, if the player has a Reflect spell running, subtract
+    FRD from the damage calculated in steps 1-3
 
-6.  > the value now achieved is the final damage (FD)
+6.  the value now achieved is the final damage (FD)
 
-7.  > deal FD to target
+7.  deal FD to target
 
 Hit consequences
 
-1.  > *in Hellfire*, if the monster hits and the player has a Reflect
-    > spell running, reflect FRD to it and check for death and hit
-    > recovery of the monster normally
+1.  *in Hellfire*, if the monster hits and the player has a Reflect
+    spell running, reflect FRD to it and check for death and hit
+    recovery of the monster normally
 
-2.  > if the monster hits and it is a Black Death, remove 1 permanently
-    > from life
+2.  if the monster hits and it is a Black Death, remove 1 permanently
+    from life
 
-3.  > if the player has any item equipped that has the ”damage to
-    > attacker” effect, deal Rnd\[3\] + 1 damage to it and check for
-    > death and hit recovery of the monster normally
+3.  if the player has any item equipped that has the ”damage to
+    attacker” effect, deal Rnd\[3\] + 1 damage to it and check for
+    death and hit recovery of the monster normally
 
-4.  > if the monster had the knock back ability, move the player one
-    > step backwards (backwards is defined according to the player’s
-    > facing)
+4.  if the monster had the knock back ability, move the player one
+    step backwards (backwards is defined according to the player’s
+    facing)
 
-5.  > if the attacker hits and the target did not block, check if life
-    > went down to 0 or below; if so, put target player into death mode
-    > and skip further steps
+5.  if the attacker hits and the target did not block, check if life
+    went down to 0 or below; if so, put target player into death mode
+    and skip further steps
 
-6.  > if FD \>= clvl and the target did not block, put target player
-    > into hit recovery and check for durability loss on helm and armor
+6.  if FD \>= clvl and the target did not block, put target player
+    into hit recovery and check for durability loss on helm and armor
 
-7.  > if the target blocked, put target player into block mode and check
-    > for durability loss on shield
+7.  if the target blocked, put target player into block mode and check
+    for durability loss on shield
 
 For the probabilities of durability losses, see chapter 3.7.1.
 
@@ -30859,49 +30859,49 @@ For the probabilities of durability losses, see chapter 3.7.1.
 
 To Hit
 
-1.  > if the target monster is an Illusion Weaver that is currently
-    > running away, exit as it is at the moment immune to any attack
+1.  if the target monster is an Illusion Weaver that is currently
+    running away, exit as it is at the moment immune to any attack
 
-2.  > if the target is a monster that is Stone Cursed, the attack is an
-    > automatic hit, go directly to damage calculations
+2.  if the target is a monster that is Stone Cursed, the attack is an
+    automatic hit, go directly to damage calculations
 
-3.  > the monsters base To Hit will also be the monsters final chance to
-    > hit (FTH) so the AC of the target has no effect
+3.  the monsters base To Hit will also be the monsters final chance to
+    hit (FTH) so the AC of the target has no effect
 
-4.  > a hit is secured if Rnd\[100\] \< FTH
+4.  a hit is secured if Rnd\[100\] \< FTH
 
 Damage
 
-1.  > calculate Rnd\[max<sub>base damage</sub> - min<sub>base
-    > damage</sub> + 1\] + min<sub>base damage</sub> (this is basically
-    > a random value within the monsters base damage range)
+1.  calculate Rnd\[max<sub>base damage</sub> - min<sub>base
+    damage</sub> + 1\] + min<sub>base damage</sub> (this is basically
+    a random value within the monsters base damage range)
 
-2.  > the value now achieved is the final damage (FD)
+2.  the value now achieved is the final damage (FD)
 
-3.  > deal FD to target
+3.  deal FD to target
 
 Hit consequences
 
-1.  > if the target was *not* Stone Cursed and the attacker had attack
-    > type with the ”knock back” effect, move the target one step
-    > backwards (backwards is defined according to the target’s facing).
+1.  if the target was *not* Stone Cursed and the attacker had attack
+    type with the ”knock back” effect, move the target one step
+    backwards (backwards is defined according to the target’s facing).
 
-2.  > if the attacker was a golem, mark the golem’s owner to be entitled
-    > to experience points when the monster dies
+2.  if the attacker was a golem, mark the golem’s owner to be entitled
+    to experience points when the monster dies
 
-3.  > if FD \>= mlvl<sub>target</sub>+3 or if the target is a Hidden
-    > type of monster put target into hit recovery; a Scavenger or Grave
-    > Digger will also be set in a mode to find a carcass to feast/dig
-    > upon
+3.  if FD \>= mlvl<sub>target</sub>+3 or if the target is a Hidden
+    type of monster put target into hit recovery; a Scavenger or Grave
+    Digger will also be set in a mode to find a carcass to feast/dig
+    upon
 
-4.  > if the target died, check for any item dropping (see chapter 3.8)
-    > and add any experience to the players that are eligible for it
-    > (see chapter 2.6)
+4.  if the target died, check for any item dropping (see chapter 3.8)
+    and add any experience to the players that are eligible for it
+    (see chapter 2.6)
 
-5.  > if the target died and it was Diablo, terminate game and show
-    > ending movie
+5.  if the target died and it was Diablo, terminate game and show
+    ending movie
     
-    1.  ## Non melee attacks
+## Non melee attacks
 
 Here we will deal with all other attacks, which include spells, arrows
 and traps (which are either spells or arrows). As there are so many more
@@ -30912,36 +30912,36 @@ handle specific cases.
 
 To Hit
 
-1.  > if the effect is Holy Bolt and the monster is not undead or
-    > Diablo, exit as other monsters are immune
+1.  if the effect is Holy Bolt and the monster is not undead or
+    Diablo, exit as other monsters are immune
 
-2.  > if the target monster is an Illusion Weaver that is currently
-    > running away, exit as it is at the moment immune to any attack
+2.  if the target monster is an Illusion Weaver that is currently
+    running away, exit as it is at the moment immune to any attack
 
-3.  > if the monster is immune to the spell type, exit as it can’t be
-    > damaged
+3.  if the monster is immune to the spell type, exit as it can’t be
+    damaged
 
-4.  > if the target is a monster that is Stone Cursed, the attack is an
-    > automatic hit, go directly to damage calculations
+4.  if the target is a monster that is Stone Cursed, the attack is an
+    automatic hit, go directly to damage calculations
 
-5.  > if the effect is an arrow, calculate 50 + Dex +
-    > ToHit<sub>items</sub> + clvl + bonus<sub>player</sub> -
-    > distance·distance/2
+5.  if the effect is an arrow, calculate 50 + Dex +
+    ToHit<sub>items</sub> + clvl + bonus<sub>player</sub> -
+    distance·distance/2
 
-6.  > if the effect is an arrow, subtract Ac<sub>monster</sub>
+6.  if the effect is an arrow, subtract Ac<sub>monster</sub>
 
-7.  > if the effect is a spell, calculate 50 + Mag +
-    > bonus<sub>player</sub>
+7.  if the effect is a spell, calculate 50 + Mag +
+    bonus<sub>player</sub>
 
-8.  > if the effect is a spell, subtract 2·mlvl
+8.  if the effect is a spell, subtract 2·mlvl
 
-9.  > if the value calculated is below 5, set it to 5
+9.  if the value calculated is below 5, set it to 5
 
-10. > if the value calculated is above 95, set it to 95
+10. if the value calculated is above 95, set it to 95
 
-11. > the value now achieved is the final chance to hit (FTH)
+11. the value now achieved is the final chance to hit (FTH)
 
-12. > a hit is secured if Rnd\[100\] \< FTH
+12. a hit is secured if Rnd\[100\] \< FTH
 
 The steps 5-11 above can be summarized to:
 
@@ -30950,41 +30950,41 @@ bonus<sub>player</sub> - distance·distance/2 - Ac<sub>monster</sub>
 
 FTH<sub>spell</sub> = 50 + Mag + bonus<sub>player</sub> - 2·mlvl
 
-  - > The bonus<sub>player</sub> for arrows is 10 for Warriors and
-    > Bards, 20 for Rogues, and 0 for all other classes.
+  - The bonus<sub>player</sub> for arrows is 10 for Warriors and
+    Bards, 20 for Rogues, and 0 for all other classes.
 
-  - > The bonus<sub>player</sub> for spells is 20 for Sorcerers, 10 for
-    > Bards, and 0 for all other classes.
+  - The bonus<sub>player</sub> for spells is 20 for Sorcerers, 10 for
+    Bards, and 0 for all other classes.
 
-  - > Note that if FTH is below 5 or above 95 it is adjusted to 5 and
-    > 95. This is commonly referred to as the auto hit and auto miss of
-    > a character.
+  - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
+    95. This is commonly referred to as the auto hit and auto miss of
+    a character.
 
 Damage
 
-1.  > for spells, the actual damage is calculated upon cast. For
-    > information about damage ranges for spells, see chapter 4.1.2.
+1.  for spells, the actual damage is calculated upon cast. For
+    information about damage ranges for spells, see chapter 4.1.2.
 
-2.  > if the effect is an arrow, calculate Rnd\[max<sub>base weapon
-    > damage</sub> - min<sub>base weapon damage</sub> + 1\] +
-    > min<sub>base weapon damage</sub> (this is basically a random value
-    > within the weapons base damage range)
+2.  if the effect is an arrow, calculate Rnd\[max<sub>base weapon
+    damage</sub> - min<sub>base weapon damage</sub> + 1\] +
+    min<sub>base weapon damage</sub> (this is basically a random value
+    within the weapons base damage range)
 
-3.  > if the effect is an arrow, add +% damage
+3.  if the effect is an arrow, add +% damage
 
-4.  > if the effect is an arrow, add +damage
+4.  if the effect is an arrow, add +damage
 
-5.  > if the effect is an arrow, add character damage
+5.  if the effect is an arrow, add character damage
 
-6.  > if the effect is a spell and the monster has resistance, divide
-    > damage by 4
+6.  if the effect is a spell and the monster has resistance, divide
+    damage by 4
 
-7.  > if the spell is Bone Spirit, damage is \[current
-    > life<sub>monster</sub>\]/3
+7.  if the spell is Bone Spirit, damage is \[current
+    life<sub>monster</sub>\]/3
 
-8.  > the value now achieved is the final damage (FD)
+8.  the value now achieved is the final damage (FD)
 
-9.  > deal FD to the target
+9.  deal FD to the target
 
 Steps 2-5 above will generate a damage value that is within the range
 shown for damage on the character screen.
@@ -30994,65 +30994,65 @@ Bolt.
 
 Hit consequences
 
-1.  > for firing bows, the durability loss check is done regardless of a
-    > hit or miss; it is checked each time the character *fires*
+1.  for firing bows, the durability loss check is done regardless of a
+    hit or miss; it is checked each time the character *fires*
 
-2.  > if the monster was *not* Stone Cursed and the player had a bow
-    > with the ”knock back” effect, move the monster one step backwards
-    > (backwards is defined according to the monster’s facing)
+2.  if the monster was *not* Stone Cursed and the player had a bow
+    with the ”knock back” effect, move the monster one step backwards
+    (backwards is defined according to the monster’s facing)
 
-3.  > if the attack was done with arrows or by a spell to which the
-    > monster was not resistant, mark the attacker to be entitled to
-    > experience points when the monster die
+3.  if the attack was done with arrows or by a spell to which the
+    monster was not resistant, mark the attacker to be entitled to
+    experience points when the monster die
 
-4.  > if the target was not a golem and it was not resistant to the
-    > spell and FD \>= mlvl+3, put monster into hit recovery; a
-    > Scavenger or Grave Digger will also be set in a mode to find a
-    > carcass to feast/dig upon
+4.  if the target was not a golem and it was not resistant to the
+    spell and FD \>= mlvl+3, put monster into hit recovery; a
+    Scavenger or Grave Digger will also be set in a mode to find a
+    carcass to feast/dig upon
 
-5.  > if the target was a Hidden type of monster and it was not
-    > resistant to the spell, put monster into hit recovery as well as
-    > in retreat mode (see chapter 5.5.9 under Hidden).
+5.  if the target was a Hidden type of monster and it was not
+    resistant to the spell, put monster into hit recovery as well as
+    in retreat mode (see chapter 5.5.9 under Hidden).
 
-6.  > if the monster had no specific target before, set the player as
-    > the target, this basically activates a monster that gets hit
-    > regardless of distance
+6.  if the monster had no specific target before, set the player as
+    the target, this basically activates a monster that gets hit
+    regardless of distance
 
-7.  > if the monster died, check for any item dropping (see chapter 3.8)
-    > and add any experience to the players that are eligible for it
-    > (see chapter 2.6)
+7.  if the monster died, check for any item dropping (see chapter 3.8)
+    and add any experience to the players that are eligible for it
+    (see chapter 2.6)
 
-8.  > if the monster died and it was Diablo, terminate game and show
-    > ending movie
+8.  if the monster died and it was Diablo, terminate game and show
+    ending movie
     
-    1.  ### Player versus Player
+### Player versus Player
 
 To Hit
 
-1.  > if the target is immune to the spell type, exit as it can’t be
-    > damaged; this is true for spells like Apocalypse and Holy Bolt
+1.  if the target is immune to the spell type, exit as it can’t be
+    damaged; this is true for spells like Apocalypse and Holy Bolt
 
-2.  > if the effect is an arrow, calculate 50 + Dex<sub>attacker</sub> +
-    > ToHit<sub>items,attacker</sub> + clvl<sub>attacker</sub> +
-    > bonus<sub>attacker</sub> - distance·distance/2
+2.  if the effect is an arrow, calculate 50 + Dex<sub>attacker</sub> +
+    ToHit<sub>items,attacker</sub> + clvl<sub>attacker</sub> +
+    bonus<sub>attacker</sub> - distance·distance/2
 
-3.  > if the effect is an arrow, calculate Dex<sub>target</sub>/5 +
-    > Ac<sub>items,target</sub> + bonus<sub>target</sub>2.1.4
+3.  if the effect is an arrow, calculate Dex<sub>target</sub>/5 +
+    Ac<sub>items,target</sub> + bonus<sub>target</sub>2.1.4
 
-4.  > subtract the value in step 3 from the value in step 2
+4.  subtract the value in step 3 from the value in step 2
 
-5.  > if the effect is a spell, calculate 50 + Mag<sub>attacker</sub> +
-    > bonus<sub>attacker</sub>
+5.  if the effect is a spell, calculate 50 + Mag<sub>attacker</sub> +
+    bonus<sub>attacker</sub>
 
-6.  > if the effect is a spell, subtract 2·clvl<sub>target</sub>
+6.  if the effect is a spell, subtract 2·clvl<sub>target</sub>
 
-7.  > if the value calculated is below 5, set it to 5
+7.  if the value calculated is below 5, set it to 5
 
-8.  > if the value calculated is above 95, set it to 95
+8.  if the value calculated is above 95, set it to 95
 
-9.  > the value now achieved is the final chance to hit (FTH)
+9.  the value now achieved is the final chance to hit (FTH)
 
-10. > a hit is secured if Rnd\[100\] \< FTH
+10. a hit is secured if Rnd\[100\] \< FTH
 
 The steps 2-9 above can be summarized to:
 
@@ -31064,101 +31064,101 @@ bonus<sub>attacker</sub> - distance·distance/2 - Dex<sub>target</sub>/5
 FTH<sub>spell</sub> = 50 + Mag<sub>attacker</sub> +
 bonus<sub>attacker</sub> - 2·clvl<sub>target</sub>
 
-  - > The bonus<sub>attacker</sub> for arrows is 10 for Warriors and
-    > Bards, 20 for Rogues, and 0 for all other classes.
+  - The bonus<sub>attacker</sub> for arrows is 10 for Warriors and
+    Bards, 20 for Rogues, and 0 for all other classes.
 
-  - > The bonus<sub>attacker</sub> for spells is 20 for Sorcerers, 10
-    > for Bards, and 0 for all other classes.
+  - The bonus<sub>attacker</sub> for spells is 20 for Sorcerers, 10
+    for Bards, and 0 for all other classes.
 
-  - > The bonus<sub>target</sub> is clvl/4 for Barbarians, depends on
-    > the armor type for Monks (0 for non unique plate, clvl/2 for non
-    > unique mail or unique plates and 2·clvl for light armor and unique
-    > mail or if naked) and 0 for all other classes.
+  - The bonus<sub>target</sub> is clvl/4 for Barbarians, depends on
+    the armor type for Monks (0 for non unique plate, clvl/2 for non
+    unique mail or unique plates and 2·clvl for light armor and unique
+    mail or if naked) and 0 for all other classes.
 
-  - > Note that if FTH is below 5 or above 95 it is adjusted to 5 and
-    > 95. This is common referred to as the auto To Hit and auto miss of
-    > a character.
+  - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
+    95. This is common referred to as the auto To Hit and auto miss of
+    a character.
 
 Block
 
-1.  > if the target is doing anything other than standing still or
-    > performing a melee attack, skip blocking
+1.  if the target is doing anything other than standing still or
+    performing a melee attack, skip blocking
 
-2.  > if the target is not a Monk and is not carrying a shield, skip
-    > blocking
+2.  if the target is not a Monk and is not carrying a shield, skip
+    blocking
 
-3.  > if the target is a Monk and is not carrying a shield, a staff or
-    > has at least one hand bear, skip blocking
+3.  if the target is a Monk and is not carrying a shield, a staff or
+    has at least one hand bear, skip blocking
 
-4.  > if the spell type is not blockable, skip blocking
+4.  if the spell type is not blockable, skip blocking
 
-5.  > if the spell type is blockable but the target has resistance to
-    > it, skip blocking
+5.  if the spell type is blockable but the target has resistance to
+    it, skip blocking
 
-6.  > calculate block Dex<sub>target</sub> + 2·clvl<sub>target</sub> +
-    > bonus<sub>target</sub>
+6.  calculate block Dex<sub>target</sub> + 2·clvl<sub>target</sub> +
+    bonus<sub>target</sub>
 
-7.  > subtract 2·clvl<sub>attacker</sub>
+7.  subtract 2·clvl<sub>attacker</sub>
 
-8.  > if the value calculated is below 0, set it to 0
+8.  if the value calculated is below 0, set it to 0
 
-9.  > if the value calculated is above 100, set it to 100
+9.  if the value calculated is above 100, set it to 100
 
-10. > the value now achieved is the final chance to block (FB)
+10. the value now achieved is the final chance to block (FB)
 
-11. > a block of the attack is done if Rnd\[100\] \< FB
+11. a block of the attack is done if Rnd\[100\] \< FB
 
 The steps 5-10 above can be summarized to:
 
 FB = Dex<sub>target</sub> + 2·(clvl<sub>target</sub> -
 clvl<sub>attacker</sub>) + bonus<sub>target</sub>
 
-  - > The bonus<sub>target</sub> is 30 for Warriors and Barbarians, 25
-    > for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
-    > that there seems to be a bug that makes all those bonus values be
-    > 0.
+  - The bonus<sub>target</sub> is 30 for Warriors and Barbarians, 25
+    for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
+    that there seems to be a bug that makes all those bonus values be
+    0.
 
-  - > In the cases according to step 1-4 above when a block is not
-    > checked, the game actually DOES a random check but the value
-    > checked against is 100 and thus will never result in a block.
+  - In the cases according to step 1-4 above when a block is not
+    checked, the game actually DOES a random check but the value
+    checked against is 100 and thus will never result in a block.
 
-  - > It is possible to achieve 100% blocking.
+  - It is possible to achieve 100% blocking.
 
-  - > Although a player will block monsters even with resistance in
-    > Hellfire, they will never block an attack from another player when
-    > having resistance.
+  - Although a player will block monsters even with resistance in
+    Hellfire, they will never block an attack from another player when
+    having resistance.
 
 Damage
 
-1.  > for spells, the actual damage is calculated upon cast. For
-    > information about damage ranges for spells, see chapter 4.1.2.
+1.  for spells, the actual damage is calculated upon cast. For
+    information about damage ranges for spells, see chapter 4.1.2.
 
-2.  > if the effect is an arrow, calculate Rnd\[max<sub>base weapon
-    > damage</sub> - min<sub>base weapon damage</sub> + 1\] +
-    > min<sub>base weapon damage</sub> (this is basically a random value
-    > within the weapons base damage range)
+2.  if the effect is an arrow, calculate Rnd\[max<sub>base weapon
+    damage</sub> - min<sub>base weapon damage</sub> + 1\] +
+    min<sub>base weapon damage</sub> (this is basically a random value
+    within the weapons base damage range)
 
-3.  > if the effect is an arrow, add +% damage
+3.  if the effect is an arrow, add +% damage
 
-4.  > if the effect is an arrow, add +damage
+4.  if the effect is an arrow, add +damage
 
-5.  > if the effect is an arrow and the attacker is a Rogue, add
-    > character damage
+5.  if the effect is an arrow and the attacker is a Rogue, add
+    character damage
 
-6.  > if the effect is an arrow and the attacker is a Warrior or
-    > Sorcerer, add double character damage
+6.  if the effect is an arrow and the attacker is a Warrior or
+    Sorcerer, add double character damage
 
-7.  > if the spell is Bone Spirit, damage is \[current
-    > life<sub>target</sub>\]/3
+7.  if the spell is Bone Spirit, damage is \[current
+    life<sub>target</sub>\]/3
 
-8.  > if the effect is a spell, divide damage by 2
+8.  if the effect is a spell, divide damage by 2
 
-9.  > if the effect is a spell and the target has resistance to it,
-    > reduce the damage by the amount specified by the resistance
+9.  if the effect is a spell and the target has resistance to it,
+    reduce the damage by the amount specified by the resistance
 
-10. > the value now achieved is the final damage (FD)
+10. the value now achieved is the final damage (FD)
 
-11. > deal FD to the target
+11. deal FD to the target
 
 Steps 2-5 above will generate a damage value that is within the range
 shown for damage on the character screen.
@@ -31169,55 +31169,55 @@ character damage, not double, for all character classes.
 
 Hit consequences
 
-1.  > for firing bows, the durability loss check is done regardless of a
-    > hit or miss; it is checked each time the character *fires*
+1.  for firing bows, the durability loss check is done regardless of a
+    hit or miss; it is checked each time the character *fires*
 
-2.  > if the attacker hits and the target did not block, check if life
-    > went down to 0 or below; if so, put target player into death mode
-    > and skip further steps
+2.  if the attacker hits and the target did not block, check if life
+    went down to 0 or below; if so, put target player into death mode
+    and skip further steps
 
-3.  > if the target did not block and effect was an arrow or it was a
-    > spell and the target had no resistance to the spell type, check if
-    > FD \>= clvl<sub>target</sub> and, if so, put target player into
-    > hit recovery and check for durability loss on helm and armor
+3.  if the target did not block and effect was an arrow or it was a
+    spell and the target had no resistance to the spell type, check if
+    FD \>= clvl<sub>target</sub> and, if so, put target player into
+    hit recovery and check for durability loss on helm and armor
 
-4.  > if the target blocked, put target player into block mode and check
-    > for durability loss on shield
+4.  if the target blocked, put target player into block mode and check
+    for durability loss on shield
     
-    1.  ### Monster/Trap versus Player
+### Monster/Trap versus Player
 
 Fire Wall, Flame Wave and Ring of Fire also uses this chapter when
 attacking players.
 
 To Hit
 
-1.  > if the effect is an arrow from a monster, calculate 30 +
-    > ToHit<sub>base,monster</sub> + 2·mlvl - 2·distance
+1.  if the effect is an arrow from a monster, calculate 30 +
+    ToHit<sub>base,monster</sub> + 2·mlvl - 2·distance
 
-2.  > if the effect is an arrow from a monster, subtract Dex/5 +
-    > Ac<sub>items,player</sub> + bonus<sub>player</sub> + 2·clvl
+2.  if the effect is an arrow from a monster, subtract Dex/5 +
+    Ac<sub>items,player</sub> + bonus<sub>player</sub> + 2·clvl
 
-3.  > if the effect is an arrow from a trap, calculate 100 - (Dex/5 +
-    > Ac<sub>items,player</sub> + bonus<sub>player</sub> + 2·clvl) / 2 -
-    > 2·distance
+3.  if the effect is an arrow from a trap, calculate 100 - (Dex/5 +
+    Ac<sub>items,player</sub> + bonus<sub>player</sub> + 2·clvl) / 2 -
+    2·distance
 
-4.  > if the effect is a spell from a monster, calculate 40 + 2·mlvl
+4.  if the effect is a spell from a monster, calculate 40 + 2·mlvl
 
-5.  > if the effect is a spell from a monster, subtract 2·clvl
+5.  if the effect is a spell from a monster, subtract 2·clvl
 
-6.  > if the effect is a spell from a trap or a player, set To Hit to 40
+6.  if the effect is a spell from a trap or a player, set To Hit to 40
 
-7.  > if the value calculated is below 10, set it to 10
+7.  if the value calculated is below 10, set it to 10
 
-8.  > on dlvl 14 if the value calculated is below 20, set it to 20
+8.  on dlvl 14 if the value calculated is below 20, set it to 20
 
-9.  > on dlvl 15 if the value calculated is below 25, set it to 25
+9.  on dlvl 15 if the value calculated is below 25, set it to 25
 
-10. > on dlvl 16 if the value calculated is below 30, set it to 30
+10. on dlvl 16 if the value calculated is below 30, set it to 30
 
-11. > the value now achieved is the final chance to hit (FTH)
+11. the value now achieved is the final chance to hit (FTH)
 
-12. > a hit is secured if Rnd\[100\] \< FTH
+12. a hit is secured if Rnd\[100\] \< FTH
 
 The steps 1-11 above can be summarized to:
 
@@ -31234,135 +31234,135 @@ FTH<sub>trap spell</sub> = 40
 
 FTH<sub>player spell</sub> = 40
 
-  - > ToHit<sub>base,monster</sub> is the value found in the tables for
-    > each monster in chapter 5.2 and 5.4.
+  - ToHit<sub>base,monster</sub> is the value found in the tables for
+    each monster in chapter 5.2 and 5.4.
 
-  - > Fire Wall, Flame Wave and Ring of Fire always attack players as if
-    > they were traps.
+  - Fire Wall, Flame Wave and Ring of Fire always attack players as if
+    they were traps.
 
-  - > For unique monsters, use mlvl<sub>battle</sub>
+  - For unique monsters, use mlvl<sub>battle</sub>
 
-  - > The bonus<sub>player</sub> is clvl/4 for the Barbarian, depends on
-    > the armor type for Monks (0 for non unique plate, clvl/2 for non
-    > unique mail or unique plates and 2·clvl for light armor and unique
-    > mail or if naked) and 0 for all other classes.
+  - The bonus<sub>player</sub> is clvl/4 for the Barbarian, depends on
+    the armor type for Monks (0 for non unique plate, clvl/2 for non
+    unique mail or unique plates and 2·clvl for light armor and unique
+    mail or if naked) and 0 for all other classes.
 
-  - > Note that the FTH is adjusted for auto hit values.
+  - Note that the FTH is adjusted for auto hit values.
 
 Block
 
-1.  > if the target is doing anything other than standing still or
-    > performing a melee attack, skip blocking
+1.  if the target is doing anything other than standing still or
+    performing a melee attack, skip blocking
 
-2.  > if the target is not a Monk and is not carrying a shield, skip
-    > blocking
+2.  if the target is not a Monk and is not carrying a shield, skip
+    blocking
 
-3.  > if the target is a Monk and is not carrying a shield, a staff or
-    > has at least one hand bear, skip blocking
+3.  if the target is a Monk and is not carrying a shield, a staff or
+    has at least one hand bear, skip blocking
 
-4.  > if the spell type is not blockable, skip blocking
+4.  if the spell type is not blockable, skip blocking
 
-5.  > *in Diablo*, if the spell type is blockable but the target has
-    > resistance to it, skip blocking
+5.  *in Diablo*, if the spell type is blockable but the target has
+    resistance to it, skip blocking
 
-6.  > if the attacker is a monster calculate block Dex + 2·clvl +
-    > bonus<sub>plasyer</sub>
+6.  if the attacker is a monster calculate block Dex + 2·clvl +
+    bonus<sub>plasyer</sub>
 
-7.  > if the attacker is a monster subtract 2·mlvl
+7.  if the attacker is a monster subtract 2·mlvl
 
-8.  > if the attacker is a trap, calculate Dex<sub>target</sub> +
-    > bonus<sub>target</sub>
+8.  if the attacker is a trap, calculate Dex<sub>target</sub> +
+    bonus<sub>target</sub>
 
-9.  > if the value calculated is below 0, set it to 0
+9.  if the value calculated is below 0, set it to 0
 
-10. > if the value calculated is above 100, set it to 100
+10. if the value calculated is above 100, set it to 100
 
-11. > the value now achieved is the final chance to block (FB)
+11. the value now achieved is the final chance to block (FB)
 
-12. > a block of the attack is done if Rnd\[100\] \< FB
+12. a block of the attack is done if Rnd\[100\] \< FB
 
 The steps 5-11 above can be summarized to:
 
 FB = Dex + 2·(clvl - mlvl) + bonus<sub>player</sub>
 
-  - > The bonus<sub>player</sub> is 30 for Warriors and Barbarians, 25
-    > for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
-    > that there seems to be a bug that makes all those bonus values be
-    > 0.
+  - The bonus<sub>player</sub> is 30 for Warriors and Barbarians, 25
+    for Monks and Bards, 20 for Rogues, and 10 for Sorcerers. Note
+    that there seems to be a bug that makes all those bonus values be
+    0.
 
-  - > For unique monsters, use mlvl<sub>battle</sub>
+  - For unique monsters, use mlvl<sub>battle</sub>
 
-  - > In the cases according to step 1-4 above when a block is not
-    > checked, the game actually DOES a random check, but the value
-    > checked against is 100 and thus will never result in a block.
+  - In the cases according to step 1-4 above when a block is not
+    checked, the game actually DOES a random check, but the value
+    checked against is 100 and thus will never result in a block.
 
-  - > It is possible to achieve 100% blocking.
+  - It is possible to achieve 100% blocking.
 
 Damage
 
-1.  > for spells and traps, the actual damage is calculated upon cast.
-    > For information about damage ranges for spells, see chapter 4.1.2
-    > for traps and chapter 4.1.2 for spells from players.
+1.  for spells and traps, the actual damage is calculated upon cast.
+    For information about damage ranges for spells, see chapter 4.1.2
+    for traps and chapter 4.1.2 for spells from players.
 
-2.  > if the attacker is a trap and the player has an item of thieves,
-    > divide damage by 2
+2.  if the attacker is a trap and the player has an item of thieves,
+    divide damage by 2
 
-3.  > *in Hellfire*, if the attacker is *not* a trap, divide damage by 2
+3.  *in Hellfire*, if the attacker is *not* a trap, divide damage by 2
 
-4.  > add -damage
+4.  add -damage
 
-5.  > if damage is below 1, set it to 1
+5.  if damage is below 1, set it to 1
 
-6.  > if the effect is a spell and the target has resistance to it,
-    > reduce the damage by the amount specified by the resistance
+6.  if the effect is a spell and the target has resistance to it,
+    reduce the damage by the amount specified by the resistance
 
-7.  > the value now achieved is the final damage (FD)
+7.  the value now achieved is the final damage (FD)
 
-8.  > deal FD to target
+8.  deal FD to target
 
 Hit consequences
 
-1.  > if the effect was an arrow and the monster had the knock back
-    > ability, move the player one step backwards (backwards is defined
-    > according to the player’s facing)
+1.  if the effect was an arrow and the monster had the knock back
+    ability, move the player one step backwards (backwards is defined
+    according to the player’s facing)
 
-2.  > if the attacker hit and the target did not block, check if life
-    > went down to 0 or below; if so, put target player into death mode
-    > and skip further steps
+2.  if the attacker hit and the target did not block, check if life
+    went down to 0 or below; if so, put target player into death mode
+    and skip further steps
 
-3.  > if the target did not block and effect was an arrow or it was a
-    > spell and the target had no resistance to the spell type, check if
-    > FD \>= clvl and, if so, put target player into hit recovery and
-    > check for durability loss on helm and armor
+3.  if the target did not block and effect was an arrow or it was a
+    spell and the target had no resistance to the spell type, check if
+    FD \>= clvl and, if so, put target player into hit recovery and
+    check for durability loss on helm and armor
 
-4.  > if the target blocked, put target player into block mode and check
-    > for durability loss on shield
+4.  if the target blocked, put target player into block mode and check
+    for durability loss on shield
     
-    1.  ### Monster/Trap versus Monster
+### Monster/Trap versus Monster
 
 To Hit
 
-1.  > if the target monster is an Illusion Weaver that is currently
-    > running away, exit as it is at the moment immune to any attack
+1.  if the target monster is an Illusion Weaver that is currently
+    running away, exit as it is at the moment immune to any attack
 
-2.  > if the monster is immune to the spell type, exit as it can’t be
-    > damaged
+2.  if the monster is immune to the spell type, exit as it can’t be
+    damaged
 
-3.  > if the target is a monster that is Stone Cursed, the attack is an
-    > automatic hit; go directly to damage calculations
+3.  if the target is a monster that is Stone Cursed, the attack is an
+    automatic hit; go directly to damage calculations
 
-4.  > if the effect is an arrow, calculate 90 - Ac<sub>target</sub> -
-    > distance
+4.  if the effect is an arrow, calculate 90 - Ac<sub>target</sub> -
+    distance
 
-5.  > if the effect is a spell, calculate 90 - Ac<sub>target</sub>
+5.  if the effect is a spell, calculate 90 - Ac<sub>target</sub>
 
-6.  > if the value calculated is below 5, set it to 5
+6.  if the value calculated is below 5, set it to 5
 
-7.  > if the value calculated is above 95, set it to 95
+7.  if the value calculated is above 95, set it to 95
 
-8.  > the value now achieved is the final chance to hit (FTH)
+8.  the value now achieved is the final chance to hit (FTH)
 
-9.  > a hit is secured if Rnd\[100\] \< FTH
+9.  a hit is secured if Rnd\[100\] \< FTH
 
 The steps 4-7 above can be summarized to:
 
@@ -31370,39 +31370,39 @@ FTH<sub>arrow</sub> = 90 - Ac<sub>target</sub> - distance
 
 FTH<sub>spell</sub> = 90 - Ac<sub>target</sub>
 
-  - > Note that if FTH is below 5 or above 95 it is adjusted to 5 and
-    > 95. This is the same auto To Hit and auto miss that characters
-    > have.
+  - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
+    95. This is the same auto To Hit and auto miss that characters
+    have.
 
 Damage
 
-1.  > for spells and traps, the actual damage is calculated upon cast.
-    > For information about damage ranges for spells, see chapter 4.1.2.
+1.  for spells and traps, the actual damage is calculated upon cast.
+    For information about damage ranges for spells, see chapter 4.1.2.
 
-2.  > if the effect is a spell and the monster has resistance, divide
-    > damage by 4
+2.  if the effect is a spell and the monster has resistance, divide
+    damage by 4
 
-3.  > the value now achieved is the final damage (FD)
+3.  the value now achieved is the final damage (FD)
 
-4.  > deal FD to the target
+4.  deal FD to the target
 
 Hit consequences
 
-1.  > if the target was not a golem and it was not resistant to the
-    > spell and FD \>= mlvl+3, put monster into hit recovery; a
-    > Scavenger or Grave Digger will also be set in a mode to find a
-    > carcass to feast/dig upon
+1.  if the target was not a golem and it was not resistant to the
+    spell and FD \>= mlvl+3, put monster into hit recovery; a
+    Scavenger or Grave Digger will also be set in a mode to find a
+    carcass to feast/dig upon
 
-2.  > if the target was a Hidden type of monster and it was not
-    > resistant to the spell, put monster into hit recovery as well as
-    > in retreat mode (see chapter 5.5.9).
+2.  if the target was a Hidden type of monster and it was not
+    resistant to the spell, put monster into hit recovery as well as
+    in retreat mode (see chapter 5.5.9).
 
-3.  > if the monster died, check for any item dropping (see chapter 3.8)
-    > and add any experience to the players that are eligible for it
-    > (see chapter 2.6)
+3.  if the monster died, check for any item dropping (see chapter 3.8)
+    and add any experience to the players that are eligible for it
+    (see chapter 2.6)
 
-4.  > if the monster died and it was Diablo, terminate game and show
-    > ending movie
+4.  if the monster died and it was Diablo, terminate game and show
+    ending movie
 
 # Shrines
 
@@ -32031,9 +32031,9 @@ quests from each group are chosen each game.
 </tbody>
 </table>
 
-1.  ## Quests in Diablo
+## Quests in Diablo
     
-    1.  ### The Butcher
+### The Butcher
 
 This quest is present if you see a wounded townsman outside the Church
 (in multi player it is always present). You will find The Butcher in a
@@ -32278,9 +32278,9 @@ When Diablo dies, anyone currently on dlvl 16 will be awarded dots for
 the difficulty level in question. See chapter 9.4 for more information
 about dots.
 
-1.  ## Quests in Hellfire
+## Quests in Hellfire
     
-    1.  ### Farmer’s Orchard
+### Farmer’s Orchard
 
 If you have not activated the hidden quests, see chapter 1.2. You will
 find Lester the Farmer near the cows in the town. If your character is
@@ -32373,11 +32373,11 @@ However, if you read the books outside his room in the correct order, he
 will come out severely weaker (see chapter 5.2.4 for the difference).
 The correct order is:
 
-1.  > In Spiritu Sanctum
+1.  In Spiritu Sanctum
 
-2.  > Praedictum Otium
+2.  Praedictum Otium
 
-3.  > Efficio Obitus Ut Inimicus
+3.  Efficio Obitus Ut Inimicus
 
 When killed, Na-Krul will always drop four items according to the table
 below.
@@ -33193,9 +33193,9 @@ Nothing prevents you from joining any game that you know the name of
 difficulty requirements (see chapter ). They will just not show up on
 the list.
 
-1.  # Other useful information
+# Other useful information
     
-    1.  ## Hot keyed messages while playing
+## Hot keyed messages while playing
 
 While playing multi player games, you can set the four keys F9 - F12 to
 have four special messages that you can send to the other players in the
