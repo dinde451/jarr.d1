@@ -8,355 +8,355 @@ Pedro Faria / Jarulf
 
 # Table of Contents
 
-1\. Introduction 
+1\. Introduction
 
-1.1 Patches for Diablo and Hellfire 
+1.1 Patches for Diablo and Hellfire
 
-1.2 Hidden quests and characters in Hellfire 
+1.2 Hidden quests and characters in Hellfire
 
-1.3 General remarks 
+1.3 General remarks
 
-1.4 Abbreviations 
+1.4 Abbreviations
 
-1.5 Acknowledgment 
+1.5 Acknowledgment
 
-1.6 New in this version 
+1.6 New in this version
 
-2\. Characters 
+2\. Characters
 
-2.1 Character stats 
+2.1 Character stats
 
-2.1.1 Starting stats 
+2.1.1 Starting stats
 
-2.1.2 Maximum stats 
+2.1.2 Maximum stats
 
-2.1.3 Life and mana 
+2.1.3 Life and mana
 
-2.1.4 Armor Class and To Hit 
+2.1.4 Armor Class and To Hit
 
-2.2 Fighting 
+2.2 Fighting
 
-2.2.1 Getting hit 
+2.2.1 Getting hit
 
-2.2.2 Damage done 
+2.2.2 Damage done
 
-2.2.3 Weapon speed 
+2.2.3 Weapon speed
 
-2.3 Timing information 
+2.3 Timing information
 
-2.4 Skills 
+2.4 Skills
 
-2.5 Starting equipment 
+2.5 Starting equipment
 
-2.6 Experience points 
+2.6 Experience points
 
-2.7 Character level restrictions 
+2.7 Character level restrictions
 
-2.7.1 Single player difficulty levels 
+2.7.1 Single player difficulty levels
 
-2.8 Character names 
+2.8 Character names
 
-3\. Items 
+3\. Items
 
-3.1 Armor, weapons and jewelry 
+3.1 Armor, weapons and jewelry
 
-3.2 Other base items 
+3.2 Other base items
 
-3.2.1 Runes and oils 
+3.2.1 Runes and oils
 
-3.2.2 Potions and elixirs 
+3.2.2 Potions and elixirs
 
-3.2.3 Books, scrolls and staves with spells 
+3.2.3 Books, scrolls and staves with spells
 
-3.3 Quest items 
+3.3 Quest items
 
-3.4 Prefixes and suffixes 
+3.4 Prefixes and suffixes
 
-3.5 Unique items 
+3.5 Unique items
 
-3.5.1 Properties of unique items 
+3.5.1 Properties of unique items
 
-3.5.2 Unfindable unique items in multi player 
+3.5.2 Unfindable unique items in multi player
 
-3.6 Prices of magical items 
+3.6 Prices of magical items
 
-3.6.1 Formulas 
+3.6.1 Formulas
 
-3.6.2 Additional notes on the prices 
+3.6.2 Additional notes on the prices
 
-3.6.3 Recharge cost 
+3.6.3 Recharge cost
 
-3.7 Durability of items 
+3.7 Durability of items
 
-3.7.1 Losing durability 
+3.7.1 Losing durability
 
-3.7.2 Repair cost 
+3.7.2 Repair cost
 
-3.8 Item creation in dungeon 
+3.8 Item creation in dungeon
 
-3.8.1 What is dropped? 
+3.8.1 What is dropped?
 
-3.8.2 Item type 
+3.8.2 Item type
 
-3.8.3 Item properties 
+3.8.3 Item properties
 
-3.9 Item creation in town 
+3.9 Item creation in town
 
-3.9.1 Adria 
+3.9.1 Adria
 
-3.9.2 Griswold 
+3.9.2 Griswold
 
-3.9.3 Pepin 
+3.9.3 Pepin
 
-3.9.4 Wirt 
+3.9.4 Wirt
 
-3.10 General remarks on possible items 
+3.10 General remarks on possible items
 
-3.11 Probabilities of finding unique items 
+3.11 Probabilities of finding unique items
 
-3.11.1 Probabilities in Diablo 
+3.11.1 Probabilities in Diablo
 
-3.11.2 Probabilities in Hellfire 
+3.11.2 Probabilities in Hellfire
 
-3.12 Probabilities of finding magical items 
+3.12 Probabilities of finding magical items
 
-3.13 Summary of various item properties 
+3.13 Summary of various item properties
 
-3.13.1 Levels of base items 
+3.13.1 Levels of base items
 
-3.13.2 Levels of spells on books and staves 
+3.13.2 Levels of spells on books and staves
 
-3.13.3 Levels of prefixes and suffixes 
+3.13.3 Levels of prefixes and suffixes
 
-3.13.4 Levels of unique items 
+3.13.4 Levels of unique items
 
-3.13.5 Effects of prefixes and suffixes 
+3.13.5 Effects of prefixes and suffixes
 
-3.13.6 Occurrence of prefixes and suffixes 
+3.13.6 Occurrence of prefixes and suffixes
 
-4\. Magic 
+4\. Magic
 
-4.1 Spells available to players 
+4.1 Spells available to players
 
-4.1.1 List of spells and spell effects 
+4.1.1 List of spells and spell effects
 
-4.1.2 Details about spells 
+4.1.2 Details about spells
 
-4.1.3 Spells available in Diablo 
+4.1.3 Spells available in Diablo
 
-4.1.4 New spells in Hellfire 
+4.1.4 New spells in Hellfire
 
-4.1.5 Mana cost and magic requirements for spells 
+4.1.5 Mana cost and magic requirements for spells
 
-4.1.6 Spell level of cast spells 
+4.1.6 Spell level of cast spells
 
-4.1.7 Targeting of spells 
+4.1.7 Targeting of spells
 
-4.2 Spell casting monsters 
+4.2 Spell casting monsters
 
-4.2.1 Details about monster spells in Diablo 
+4.2.1 Details about monster spells in Diablo
 
-4.2.2 Details about new monster spells in Hellfire 
+4.2.2 Details about new monster spells in Hellfire
 
-4.3 Traps 
+4.3 Traps
 
-5\. Monsters 
+5\. Monsters
 
-5.1 How to calculate monster data 
+5.1 How to calculate monster data
 
-5.2 Monster data 
+5.2 Monster data
 
-5.2.1 Monsters in Diablo 
+5.2.1 Monsters in Diablo
 
-5.2.2 Special monsters in Diablo 
+5.2.2 Special monsters in Diablo
 
-5.2.3 Monsters in Hellfire 
+5.2.3 Monsters in Hellfire
 
-5.2.4 Special monsters in Hellfire 
+5.2.4 Special monsters in Hellfire
 
-5.3 Monster properties 
+5.3 Monster properties
 
-5.3.1 Monster size 
+5.3.1 Monster size
 
-5.3.2 Monster occurrences in the dungeons 
+5.3.2 Monster occurrences in the dungeons
 
-5.3.3 Attack types 
+5.3.3 Attack types
 
-5.3.4 Timing information 
+5.3.4 Timing information
 
-5.4 Unique monsters 
+5.4 Unique monsters
 
-5.5 Monster AI 
+5.5 Monster AI
 
-5.5.1 General information 
+5.5.1 General information
 
-5.5.2 Activating monsters 
+5.5.2 Activating monsters
 
-5.5.3 About walking 
+5.5.3 About walking
 
-5.5.4 About charging 
+5.5.4 About charging
 
-5.5.5 About ranged attack 
+5.5.5 About ranged attack
 
-5.5.6 Target selection 
+5.5.6 Target selection
 
-5.5.7 Non even distributed random numbers 
+5.5.7 Non even distributed random numbers
 
-5.5.8 Reseed bug 
+5.5.8 Reseed bug
 
-5.5.9 AI scripts 
+5.5.9 AI scripts
 
-5.6 Summary of various monster stats 
+5.6 Summary of various monster stats
 
-5.6.1 Resistances, immunities and uniques for monsters 
+5.6.1 Resistances, immunities and uniques for monsters
 
-5.6.2 Resistances, immunities and mob for unique monsters 
+5.6.2 Resistances, immunities and mob for unique monsters
 
-5.6.3 Experience points from monsters 
+5.6.3 Experience points from monsters
 
-5.6.4 Monster levels 
+5.6.4 Monster levels
 
-5.6.5 Monster types 
+5.6.5 Monster types
 
-6\. Battle 
+6\. Battle
 
-6.1 General information 
+6.1 General information
 
-6.1.1 Mana Shield 
+6.1.1 Mana Shield
 
-6.1.2 Fire Wall, Flame Wave and Ring of Fire 
+6.1.2 Fire Wall, Flame Wave and Ring of Fire
 
-6.1.3 Reflect 
+6.1.3 Reflect
 
-6.1.4 Life and Mana stealing 
+6.1.4 Life and Mana stealing
 
-6.1.5 Fire and Lightning damage on melee weapons 
+6.1.5 Fire and Lightning damage on melee weapons
 
-6.1.6 Fire and Lightning damage on bows 
+6.1.6 Fire and Lightning damage on bows
 
-6.1.7 Charge attacks 
+6.1.7 Charge attacks
 
-6.1.8 How spells really work 
+6.1.8 How spells really work
 
-6.1.9 Possible targets of attacks 
+6.1.9 Possible targets of attacks
 
-6.1.10 Spell and arrow speeds 
+6.1.10 Spell and arrow speeds
 
-6.1.11 Some general notes about the formulas 
+6.1.11 Some general notes about the formulas
 
-6.2 Melee attacks 
+6.2 Melee attacks
 
-6.2.1 Player versus Monster 
+6.2.1 Player versus Monster
 
-6.2.2 Player versus Player 
+6.2.2 Player versus Player
 
-6.2.3 Monster versus Player 
+6.2.3 Monster versus Player
 
-6.2.4 Monster versus Monster 
+6.2.4 Monster versus Monster
 
-6.3 Non melee attacks 
+6.3 Non melee attacks
 
-6.3.1 Player versus Monster 
+6.3.1 Player versus Monster
 
-6.3.2 Player versus Player 
+6.3.2 Player versus Player
 
-6.3.3 Monster/Trap versus Player 
+6.3.3 Monster/Trap versus Player
 
-6.3.4 Monster/Trap versus Monster 
+6.3.4 Monster/Trap versus Monster
 
-7\. Shrines 
+7\. Shrines
 
-8\. Quests 
+8\. Quests
 
-8.1 How quests are chosen 
+8.1 How quests are chosen
 
-8.2 Quests in Diablo 
+8.2 Quests in Diablo
 
-8.2.1 The Butcher 
+8.2.1 The Butcher
 
-8.2.2 Poisoned water supply 
+8.2.2 Poisoned water supply
 
-8.2.3 The Curse of King Leoric 
+8.2.3 The Curse of King Leoric
 
-8.2.4 Gharbad the Weak 
+8.2.4 Gharbad the Weak
 
-8.2.5 Ogden’s Sign 
+8.2.5 Ogden’s Sign
 
-8.2.6 The Magic Rock 
+8.2.6 The Magic Rock
 
-8.2.7 Valor 
+8.2.7 Valor
 
-8.2.8 The Chamber of Bone 
+8.2.8 The Chamber of Bone
 
-8.2.9 Halls of the Blind 
+8.2.9 Halls of the Blind
 
-8.2.10 Zhar the Mad 
+8.2.10 Zhar the Mad
 
-8.2.11 Black Mushroom 
+8.2.11 Black Mushroom
 
-8.2.12 Slain Hero 
+8.2.12 Slain Hero
 
-8.2.13 Anvil of Fury 
+8.2.13 Anvil of Fury
 
-8.2.14 Warlord of Blood 
+8.2.14 Warlord of Blood
 
-8.2.15 Lachdanan 
+8.2.15 Lachdanan
 
-8.2.16 Archbishop Lazarus 
+8.2.16 Archbishop Lazarus
 
-8.2.17 Diablo 
+8.2.17 Diablo
 
-8.3 Quests in Hellfire 
+8.3 Quests in Hellfire
 
-8.3.1 Farmer’s Orchard 
+8.3.1 Farmer’s Orchard
 
-8.3.2 The Jersey’s Jersey 
+8.3.2 The Jersey’s Jersey
 
-8.3.3 Little Girl 
+8.3.3 Little Girl
 
-8.3.4 The Defiler 
+8.3.4 The Defiler
 
-8.3.5 Grave Matters 
+8.3.5 Grave Matters
 
-8.3.6 Cornerstone of the World 
+8.3.6 Cornerstone of the World
 
-8.3.7 Torn Notes 
+8.3.7 Torn Notes
 
-8.3.8 Na-Krul 
+8.3.8 Na-Krul
 
-9\. Battle.net 
+9\. Battle.net
 
-9.1 Channels 
+9.1 Channels
 
-9.2 Commands available in chat channels 
+9.2 Commands available in chat channels
 
-9.3 Commands available in games 
+9.3 Commands available in games
 
-9.4 Character icons 
+9.4 Character icons
 
-9.5 Lag indicators 
+9.5 Lag indicators
 
-9.6 Text 
+9.6 Text
 
-9.7 Joining games 
+9.7 Joining games
 
-10\. Other useful information 
+10\. Other useful information
 
-10.1 Hot keyed messages while playing 
+10.1 Hot keyed messages while playing
 
-10.2 Save files 
+10.2 Save files
 
-10.3 Transferring save files 
+10.3 Transferring save files
 
-10.4 Backing up your character 
+10.4 Backing up your character
 
-10.5 Daylight-saving time problems in Diablo 1.00 
+10.5 Daylight-saving time problems in Diablo 1.00
 
-10.6 Avoiding the Game End movie 
+10.6 Avoiding the Game End movie
 
-10.7 Meaningless information about this guide 
+10.7 Meaningless information about this guide
 
-10.8 The End 
+10.8 The End
 
 # Introduction
 
@@ -783,13 +783,13 @@ just print the selected pages where changes were made.
   - > Small adjustments for the 1.09 patch in chapter 10.2.
 
   - > Updated chapter 10.7.
-
-Things that have been added or changed in 1.63:
-
-This list contain *all* changes between 1.62 and 1.63. Some changes,
-this page for example, may change the page breaks of the Guide and thus
-push/pull pages forward or backwards but mostly one should be able to
-just print the selected pages where changes were made.
+    
+    Things that have been added or changed in 1.63:
+    
+    This list contain *all* changes between 1.62 and 1.63. Some changes,
+    this page for example, may change the page breaks of the Guide and
+    thus push/pull pages forward or backwards but mostly one should be
+    able to just print the selected pages where changes were made.
 
   - > Updated the front page.
 
@@ -1191,21 +1191,21 @@ Barbarian: Dex/5 + AC<sub>items</sub> + clvl/4
     > and unique mail as leather.
 
   - > Shields only give half AC (rounded up) to the Barbarian.
-
-To Hit %
-
-on character screen: 50 + Dex/2 + ToHit<sub>items</sub>
-
-melee: 50 + Dex/2 + ToHit<sub>items</sub> + clvl + bonus
-
-arrow: 50 + Dex + ToHit<sub>items</sub> + clvl + bonus -
-distance·distance/2
-
-magic versus monster: 50 + Mag - 2·mlvl + bonus
-
-magic versus player: 50 + Mag - 2·clvl<sub>target</sub> + bonus
-
-To Hit penalty for adjacent quarter damage: 70 - 2·clvl (minimum 30)
+    
+    To Hit %
+    
+    on character screen: 50 + Dex/2 + ToHit<sub>items</sub>
+    
+    melee: 50 + Dex/2 + ToHit<sub>items</sub> + clvl + bonus
+    
+    arrow: 50 + Dex + ToHit<sub>items</sub> + clvl + bonus -
+    distance·distance/2
+    
+    magic versus monster: 50 + Mag - 2·mlvl + bonus
+    
+    magic versus player: 50 + Mag - 2·clvl<sub>target</sub> + bonus
+    
+    To Hit penalty for adjacent quarter damage: 70 - 2·clvl (minimum 30)
 
   - > All magic attacks will always check for To Hit, even for spells
     > like Lightning and Fire Wall.
@@ -1396,7 +1396,7 @@ The main activity in Diablo and Hellfire is fighting. You either fight
 against the monsters or against other players. This chapter will briefly
 explain how your characters stats and the items you wear affect your
 character while fighting. For a more detailed explanation on battle
-between players and monsters, see chapter 5.6.56.
+between players and monsters, see chapter 6.
 
 ### Getting hit
 
@@ -1653,30 +1653,30 @@ Extra bonus for Barbarian without shield: Vit·clvl / 100
     > is using a staff.
 
   - > Magic damage is halved in player versus player.
-
-As already stated, you add weapon damage to the damage above to get the
-final damage. Some ”weapons” don’t have any damage listed and are given
-below. Shield damage only applies if you wear no other weapon and
-hand/feet damage only applies if you have no other weapon or shield
-equipped.
-
-Special ”weapon” damage
-
-Hands/Feet except for Monk: 1
-
-Shield except for Monk: 1 - 3
-
-Feet or shield for Monk: clvl/2 - clvl
+    
+    As already stated, you add weapon damage to the damage above to get
+    the final damage. Some ”weapons” don’t have any damage listed and
+    are given below. Shield damage only applies if you wear no other
+    weapon and hand/feet damage only applies if you have no other weapon
+    or shield equipped.
+    
+    Special ”weapon” damage
+    
+    Hands/Feet except for Monk: 1
+    
+    Shield except for Monk: 1 - 3
+    
+    Feet or shield for Monk: clvl/2 - clvl
 
   - > The special damage for a Monk using his feet or just a shield will
     > never be below those values listed for non Monks (min and max
     > damage checked separately).
-
-The table below shows maximum naked character damage for various types
-of weapons. As character damage is based on a character’s level, it (in
-the table below) only applies to level 50 characters. On top of the
-listed damage you should then add weapon damage and possibly modify
-either or both character damage and weapon damage.
+    
+    The table below shows maximum naked character damage for various
+    types of weapons. As character damage is based on a character’s
+    level, it (in the table below) only applies to level 50 characters.
+    On top of the listed damage you should then add weapon damage and
+    possibly modify either or both character damage and weapon damage.
 
 <table>
 <tbody>
@@ -9243,19 +9243,19 @@ Nothing: 59.0%
 
   - > Some monster types (Winged Fiends and Hork Spawns) never drop
     > items.
-
-Unique monster
-
-Item: 100%
+    
+    Unique monster
+    
+    Item: 100%
 
   - > Unique monsters always drop an item, and it can either be a book
     > or an item that can take on a prefix and/or suffix (or be unique).
-
-Chest
-
-Chests can have several possible amounts of items in them and the exact
-amount is also affected by the size of the chest. The number of
-*possible* items from a chest is explained in the table below.
+    
+    Chest
+    
+    Chests can have several possible amounts of items in them and the
+    exact amount is also affected by the size of the chest. The number
+    of *possible* items from a chest is explained in the table below.
 
 <table>
 <tbody>
@@ -9351,35 +9351,35 @@ Item: 7.5%
 Nothing: 50%
 
   - > Sarcophagi can only exist in Church and in the Crypt.
-
-Decapitated body
-
-Gold: 75%
-
-Item: 25%
+    
+    Decapitated body
+    
+    Gold: 75%
+    
+    Item: 25%
 
   - > Decapitated bodies can exist anywhere except in the Hive and the
     > Crypt.
-
-Weapon Rack
-
-Axe: 25%
-
-Bow: 25%
-
-Club: 25%
-
-Sword: 25%
+    
+    Weapon Rack
+    
+    Axe: 25%
+    
+    Bow: 25%
+    
+    Club: 25%
+    
+    Sword: 25%
 
   - > Weapon racks can never exist in Church.
-
-Armor Rack
-
-dlvl 5: light armor
-
-dlvl 6-9: medium armor
-
-dlvl 10-15: heavy armor
+    
+    Armor Rack
+    
+    dlvl 5: light armor
+    
+    dlvl 6-9: medium armor
+    
+    dlvl 10-15: heavy armor
 
   - > See chapter 3.1 for a definition of light, medium and heavy armor.
 
@@ -9390,12 +9390,12 @@ Bookcase
 Book: 100%
 
   - > Bookcases can only exist in Church and Catacombs.
-
-Library book and Skeleton Tome
-
-Book: 20%
-
-Scroll: 80%
+    
+    Library book and Skeleton Tome
+    
+    Book: 20%
+    
+    Scroll: 80%
 
   - > Only scrolls of Apocalypse, Healing, Identify, Infravision, Nova,
     > Mana Shield, Phasing, Teleport, and Town Portal are possible.
@@ -9428,39 +9428,40 @@ Other: 1 to ilvl
 
   - > The ilvl for an item from a normal or special monster will equal
     > the mlvl.
-
-Of all the possible base items, one is chosen at random with an equal
-probability for all items. Bows, however, are actually counted twice if
-the item is dropped by a normal (non unique or special) monster, and
-thus have a double chance of being created. Note that some base items
-like rings, amulets, and books have several different base items with
-different qlvl. You will never notice any difference when playing other
-than them being more common as the ilvl and mlvl go up (as more of each
-type is possible at higher ilvl and mlvl). See chapter 3.13.1. for a
-list of base items in the order of their qlvl.
-
-Is it magical?
-
-Now it is time to determine if the item is magical or not. Only items
-that can have a prefix/suffix (or be unique) can be magical. For other
-items this test is not done. The probability of being magical is as
-follows depending on the source of the item:
-
-Unique monster: 100%
-
-On the ground: 100%
-
-Weapon rack: 100%
-
-Armor rack on dlvl 5 and 13-15: 100%
-
-Armor rack on dlvl 6-9: (55.5 + 0.445·(ilvl+1))%
-
-Armor rack on dlvl 10-12: (11 + 0.89·(ilvl+1))%
-
-Monster: (11 + 0.89·(ilvl+1))%
-
-Other: (11 + 0.89·(ilvl+1))%
+    
+    Of all the possible base items, one is chosen at random with an
+    equal probability for all items. Bows, however, are actually counted
+    twice if the item is dropped by a normal (non unique or special)
+    monster, and thus have a double chance of being created. Note that
+    some base items like rings, amulets, and books have several
+    different base items with different qlvl. You will never notice any
+    difference when playing other than them being more common as the
+    ilvl and mlvl go up (as more of each type is possible at higher ilvl
+    and mlvl). See chapter 3.13.1. for a list of base items in the order
+    of their qlvl.
+    
+    Is it magical?
+    
+    Now it is time to determine if the item is magical or not. Only
+    items that can have a prefix/suffix (or be unique) can be magical.
+    For other items this test is not done. The probability of being
+    magical is as follows depending on the source of the item:
+    
+    Unique monster: 100%
+    
+    On the ground: 100%
+    
+    Weapon rack: 100%
+    
+    Armor rack on dlvl 5 and 13-15: 100%
+    
+    Armor rack on dlvl 6-9: (55.5 + 0.445·(ilvl+1))%
+    
+    Armor rack on dlvl 10-12: (11 + 0.89·(ilvl+1))%
+    
+    Monster: (11 + 0.89·(ilvl+1))%
+    
+    Other: (11 + 0.89·(ilvl+1))%
 
   - > Only equipable items can be magical; for other base items this
     > step is not performed.
@@ -9510,68 +9511,69 @@ Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
 
   - > The Hive levels are numbered 9-12 and the Crypt levels are
     > numbered 13-16.
-
-Furthermore, on any Hell dungeon level (dlvl 13-16) or Crypt dungeon
-level (dlvl 13-16) the amount of gold is increased by:
-
-Hell or Crypt dungeon level: amount · 1.125
+    
+    Furthermore, on any Hell dungeon level (dlvl 13-16) or Crypt dungeon
+    level (dlvl 13-16) the amount of gold is increased by:
+    
+    Hell or Crypt dungeon level: amount · 1.125
 
   - > The amount is taken from the appropriate formula above depending
     > on the difficulty level.
-
-Unique item
-
-If the item is determined to be unique, the game will drop the unique
-item that is of the correct base item (determined above) and that has a
-qlvl according to below:
-
-Unique and special monster: 1 to ilvl+4
-
-All other sources: 1 to ilvl
-
-If several unique items are possible, the one with the highest qlvl will
-be dropped. If several unique items that are possible have the same
-qlvl, the one that happens to be first in the list will be dropped. This
-is the reason that some unique items will never be dropped as there is
-always another unique item with the same qlvl (and being of the same
-base item) that will be dropped instead. See chapter 3.5.2 for a list of
-such unique items.
-
-In single player (but not in multi player) the game keeps track of what
-unique items have been dropped (or recreated at game start in a
-characters inventory) and if the same item is determined to be dropped
-again (or regenerated at game start), the next one with the same qlvl or
-the one with the next lower qlvl will instead be dropped. Thus in single
-player you can actually find those ”unfindable” unique items but you
-must find at last one other unique item of the same base item first. The
-game will forget the list of found unique items when you restart a new
-game however. The list is saved when you save the game in single player
-but not restored upon load except for those items you have equipped.
-
-A unique item has up to 6 special properties, which are described in
-more detail in chapter 3.5. If for any reason the game fails to select a
-unique item (for example if there is no unique item with a low enough
-qlvl), the game will then proceed to create the item as a normal magical
-item instead.
-
-Magical item
-
-A magical item has a prefix and/or a suffix (it can of course also be
-unique but that is covered above). Below are the probabilities for an
-item having a prefix, a suffix, or both of them.
-
-Prefix only: 20.8%
-
-Suffix only: 62.5%
-
-Prefix and suffix: 16.7%
-
-The qlvl of the prefix and/or suffix must be within the range given
-below:
-
-Unique and special monster: \[(ilvl+4)/2\] to ilvl+4
-
-All other sources: \[ilvl/2\] to ilvl
+    
+    Unique item
+    
+    If the item is determined to be unique, the game will drop the
+    unique item that is of the correct base item (determined above) and
+    that has a qlvl according to below:
+    
+    Unique and special monster: 1 to ilvl+4
+    
+    All other sources: 1 to ilvl
+    
+    If several unique items are possible, the one with the highest qlvl
+    will be dropped. If several unique items that are possible have the
+    same qlvl, the one that happens to be first in the list will be
+    dropped. This is the reason that some unique items will never be
+    dropped as there is always another unique item with the same qlvl
+    (and being of the same base item) that will be dropped instead. See
+    chapter 3.5.2 for a list of such unique items.
+    
+    In single player (but not in multi player) the game keeps track of
+    what unique items have been dropped (or recreated at game start in a
+    characters inventory) and if the same item is determined to be
+    dropped again (or regenerated at game start), the next one with the
+    same qlvl or the one with the next lower qlvl will instead be
+    dropped. Thus in single player you can actually find those
+    ”unfindable” unique items but you must find at last one other
+    unique item of the same base item first. The game will forget the
+    list of found unique items when you restart a new game however. The
+    list is saved when you save the game in single player but not
+    restored upon load except for those items you have equipped.
+    
+    A unique item has up to 6 special properties, which are described in
+    more detail in chapter 3.5. If for any reason the game fails to
+    select a unique item (for example if there is no unique item with a
+    low enough qlvl), the game will then proceed to create the item as a
+    normal magical item instead.
+    
+    Magical item
+    
+    A magical item has a prefix and/or a suffix (it can of course also
+    be unique but that is covered above). Below are the probabilities
+    for an item having a prefix, a suffix, or both of them.
+    
+    Prefix only: 20.8%
+    
+    Suffix only: 62.5%
+    
+    Prefix and suffix: 16.7%
+    
+    The qlvl of the prefix and/or suffix must be within the range given
+    below:
+    
+    Unique and special monster: \[(ilvl+4)/2\] to ilvl+4
+    
+    All other sources: \[ilvl/2\] to ilvl
 
   - > Round down the minimum level. If it is higher than 25, it is set
     > to 25.
@@ -9773,22 +9775,23 @@ Chance for having prefix if it has a spell: 10%
     > will, if they have a spell, always have a prefix. as staves with
     > spells without a prefix will not be considered as magical by the
     > game.
-
-Staves that do not have a spell, are treated the same way as any other
-magical item; see above. However, if they have a spell, they are created
-a bit differently. For the spell and the prefix they follow the ranges
-below:
-
-Range of qlvl for spell on staves from unique and special monster: 1 to
-\[(ilvl+4)/2\]
-
-Range of qlvl for spell on staves from all other sources: 1 to ilvl/2
-
-Range of qlvl for prefix on staff with spell from unique and special
-monster: 1 to ilvl+4
-
-Range of qlvl for prefix on staff with spell from all other sources: 1
-to ilvl
+    
+    Staves that do not have a spell, are treated the same way as any
+    other magical item; see above. However, if they have a spell, they
+    are created a bit differently. For the spell and the prefix they
+    follow the ranges below:
+    
+    Range of qlvl for spell on staves from unique and special monster: 1
+    to \[(ilvl+4)/2\]
+    
+    Range of qlvl for spell on staves from all other sources: 1 to
+    ilvl/2
+    
+    Range of qlvl for prefix on staff with spell from unique and special
+    monster: 1 to ilvl+4
+    
+    Range of qlvl for prefix on staff with spell from all other sources:
+    1 to ilvl
 
   - > Note that the qlvl of a spell is different depending on whether it
     > appears on a staff or on a book.
@@ -33462,4 +33465,6 @@ printer, paper size and format used.
 
 It is worth noticing that there are 3 kinds of people in the world,
 those who can count and those who can’t.
+
+Fixa gargoyles not active.
 
