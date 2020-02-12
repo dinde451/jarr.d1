@@ -3,10 +3,12 @@ import os
 import typing
 import subprocess
 import bisect
+import shutil
 
 markdown_in_path = os.path.dirname(__file__) + "/Jarulfs_Guide.md"
 markdown_out_path = os.path.dirname(__file__) + "/Jarulfs_Guide_sections.md"
-html_out_path = os.path.dirname(__file__) + "/index.html"
+html_out_path = os.path.dirname(__file__) + "/public/index.html"
+css_path = os.path.dirname(__file__) + "/style.css"
 
 
 def get_section_level(line):
@@ -89,7 +91,7 @@ def generate_table_of_contents(out_file: typing.IO, levels_dict: typing.Dict[str
 
 
 def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dict[str, tuple]):
-    with open(path, "w") as out_file:
+    with open(path, "w", encoding="utf-8") as out_file:
         before_table_of_contents = True
 
         while True:
@@ -111,16 +113,18 @@ def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dic
 
 
 def generate_html():
+    os.makedirs(os.path.dirname(html_out_path), exist_ok=True)
     subprocess.check_call(["pandoc",
                            markdown_out_path,
                            "-o", html_out_path,
                            "--css", "style.css"])
+    shutil.copyfile(css_path, os.path.dirname(html_out_path) + "/style.css")
 
 
 def __main__():
 
     levels_dict = {}
-    with open(markdown_in_path, "r") as in_file:
+    with open(markdown_in_path, "r", encoding="utf-8") as in_file:
         recursive_parse_sections([], in_file, levels_dict)
 
         in_file.seek(0)

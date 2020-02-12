@@ -1,0 +1,15 @@
+image: ubuntu:bionic
+
+before_script:
+  - apt-get update
+  - apt-get -y install pandoc python3
+
+pages:
+  script:
+  - ./generate_section_numbers.py
+  artifacts:
+    paths:
+    - public
+  only:
+    - master
+
