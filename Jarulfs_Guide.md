@@ -1,364 +1,10 @@
-Jarulf’s Guide  
-to  
-Diablo and Hellfire
+# Jarulf’s Guide to Diablo and Hellfire
+version 1.63 by Pedro Faria / Jarulf
 
-version 1.63  
-by  
-Pedro Faria / Jarulf
+# Table of contents
+TABLE_OF_CONTENTS_HERE
 
-# Table of Contents
-
-1\. Introduction
-
-1.1 Patches for Diablo and Hellfire
-
-1.2 Hidden quests and characters in Hellfire
-
-1.3 General remarks
-
-1.4 Abbreviations
-
-1.5 Acknowledgment
-
-1.6 New in this version
-
-2\. Characters
-
-2.1 Character stats
-
-2.1.1 Starting stats
-
-2.1.2 Maximum stats
-
-2.1.3 Life and mana
-
-2.1.4 Armor Class and To Hit
-
-2.2 Fighting
-
-2.2.1 Getting hit
-
-2.2.2 Damage done
-
-2.2.3 Weapon speed
-
-2.3 Timing information
-
-2.4 Skills
-
-2.5 Starting equipment
-
-2.6 Experience points
-
-2.7 Character level restrictions
-
-2.7.1 Single player difficulty levels
-
-2.8 Character names
-
-3\. Items
-
-3.1 Armor, weapons and jewelry
-
-3.2 Other base items
-
-3.2.1 Runes and oils
-
-3.2.2 Potions and elixirs
-
-3.2.3 Books, scrolls and staves with spells
-
-3.3 Quest items
-
-3.4 Prefixes and suffixes
-
-3.5 Unique items
-
-3.5.1 Properties of unique items
-
-3.5.2 Unfindable unique items in multi player
-
-3.6 Prices of magical items
-
-3.6.1 Formulas
-
-3.6.2 Additional notes on the prices
-
-3.6.3 Recharge cost
-
-3.7 Durability of items
-
-3.7.1 Losing durability
-
-3.7.2 Repair cost
-
-3.8 Item creation in dungeon
-
-3.8.1 What is dropped?
-
-3.8.2 Item type
-
-3.8.3 Item properties
-
-3.9 Item creation in town
-
-3.9.1 Adria
-
-3.9.2 Griswold
-
-3.9.3 Pepin
-
-3.9.4 Wirt
-
-3.10 General remarks on possible items
-
-3.11 Probabilities of finding unique items
-
-3.11.1 Probabilities in Diablo
-
-3.11.2 Probabilities in Hellfire
-
-3.12 Probabilities of finding magical items
-
-3.13 Summary of various item properties
-
-3.13.1 Levels of base items
-
-3.13.2 Levels of spells on books and staves
-
-3.13.3 Levels of prefixes and suffixes
-
-3.13.4 Levels of unique items
-
-3.13.5 Effects of prefixes and suffixes
-
-3.13.6 Occurrence of prefixes and suffixes
-
-4\. Magic
-
-4.1 Spells available to players
-
-4.1.1 List of spells and spell effects
-
-4.1.2 Details about spells
-
-4.1.3 Spells available in Diablo
-
-4.1.4 New spells in Hellfire
-
-4.1.5 Mana cost and magic requirements for spells
-
-4.1.6 Spell level of cast spells
-
-4.1.7 Targeting of spells
-
-4.2 Spell casting monsters
-
-4.2.1 Details about monster spells in Diablo
-
-4.2.2 Details about new monster spells in Hellfire
-
-4.3 Traps
-
-5\. Monsters
-
-5.1 How to calculate monster data
-
-5.2 Monster data
-
-5.2.1 Monsters in Diablo
-
-5.2.2 Special monsters in Diablo
-
-5.2.3 Monsters in Hellfire
-
-5.2.4 Special monsters in Hellfire
-
-5.3 Monster properties
-
-5.3.1 Monster size
-
-5.3.2 Monster occurrences in the dungeons
-
-5.3.3 Attack types
-
-5.3.4 Timing information
-
-5.4 Unique monsters
-
-5.5 Monster AI
-
-5.5.1 General information
-
-5.5.2 Activating monsters
-
-5.5.3 About walking
-
-5.5.4 About charging
-
-5.5.5 About ranged attack
-
-5.5.6 Target selection
-
-5.5.7 Non even distributed random numbers
-
-5.5.8 Reseed bug
-
-5.5.9 AI scripts
-
-5.6 Summary of various monster stats
-
-5.6.1 Resistances, immunities and uniques for monsters
-
-5.6.2 Resistances, immunities and mob for unique monsters
-
-5.6.3 Experience points from monsters
-
-5.6.4 Monster levels
-
-5.6.5 Monster types
-
-6\. Battle
-
-6.1 General information
-
-6.1.1 Mana Shield
-
-6.1.2 Fire Wall, Flame Wave and Ring of Fire
-
-6.1.3 Reflect
-
-6.1.4 Life and Mana stealing
-
-6.1.5 Fire and Lightning damage on melee weapons
-
-6.1.6 Fire and Lightning damage on bows
-
-6.1.7 Charge attacks
-
-6.1.8 How spells really work
-
-6.1.9 Possible targets of attacks
-
-6.1.10 Spell and arrow speeds
-
-6.1.11 Some general notes about the formulas
-
-6.2 Melee attacks
-
-6.2.1 Player versus Monster
-
-6.2.2 Player versus Player
-
-6.2.3 Monster versus Player
-
-6.2.4 Monster versus Monster
-
-6.3 Non melee attacks
-
-6.3.1 Player versus Monster
-
-6.3.2 Player versus Player
-
-6.3.3 Monster/Trap versus Player
-
-6.3.4 Monster/Trap versus Monster
-
-7\. Shrines
-
-8\. Quests
-
-8.1 How quests are chosen
-
-8.2 Quests in Diablo
-
-8.2.1 The Butcher
-
-8.2.2 Poisoned water supply
-
-8.2.3 The Curse of King Leoric
-
-8.2.4 Gharbad the Weak
-
-8.2.5 Ogden’s Sign
-
-8.2.6 The Magic Rock
-
-8.2.7 Valor
-
-8.2.8 The Chamber of Bone
-
-8.2.9 Halls of the Blind
-
-8.2.10 Zhar the Mad
-
-8.2.11 Black Mushroom
-
-8.2.12 Slain Hero
-
-8.2.13 Anvil of Fury
-
-8.2.14 Warlord of Blood
-
-8.2.15 Lachdanan
-
-8.2.16 Archbishop Lazarus
-
-8.2.17 Diablo
-
-8.3 Quests in Hellfire
-
-8.3.1 Farmer’s Orchard
-
-8.3.2 The Jersey’s Jersey
-
-8.3.3 Little Girl
-
-8.3.4 The Defiler
-
-8.3.5 Grave Matters
-
-8.3.6 Cornerstone of the World
-
-8.3.7 Torn Notes
-
-8.3.8 Na-Krul
-
-9\. Battle.net
-
-9.1 Channels
-
-9.2 Commands available in chat channels
-
-9.3 Commands available in games
-
-9.4 Character icons
-
-9.5 Lag indicators
-
-9.6 Text
-
-9.7 Joining games
-
-10\. Other useful information
-
-10.1 Hot keyed messages while playing
-
-10.2 Save files
-
-10.3 Transferring save files
-
-10.4 Backing up your character
-
-10.5 Daylight-saving time problems in Diablo 1.00
-
-10.6 Avoiding the Game End movie
-
-10.7 Meaningless information about this guide
-
-10.8 The End
-
-# Introduction
+## Introduction
 
 This guide is a compilation of all the data I have collected about
 Diablo and Hellfire during the many years of playing those games. It has
@@ -399,7 +45,7 @@ Also note that due to the size of the document and the numerous tables
 in it, it may, especially on slower computers, take quite a while for
 Word to open the document. So please have patience when you open it\!
 
-1.  Patches for Diablo and Hellfire
+### Patches for Diablo and Hellfire
 
 The latest patches are 1.09 for Diablo and 1.01 for Hellfire. The
 Playstation version of Diablo should be almost identical to the 1.04
@@ -434,7 +80,7 @@ would not be possible to keep this Guide updated due to such changes by
 other games. As such, the chapter about Battle.net (chapter 9), will in
 many cases be outdated.
 
-## Hidden quests and characters in Hellfire
+### Hidden quests and characters in Hellfire
 
 There are some hidden Easter Eggs in Hellfire. To activate them, you
 must create a text file named *command.txt* in your Hellfire folder. In
@@ -452,7 +98,7 @@ supported by Sierra. The *nestart* command simply sets a specific
 palette when playing in the Hive. Otherwise, the palette is chosen
 randomly as normal.
 
-## General remarks
+### General remarks
 
 There are a few general things about the guide that can be good to know
 when you read it. Below are summarized such general remarks that are
@@ -516,7 +162,7 @@ valid for the whole guide but never explicitly mentioned anywhere else.
     those squares includes terms such as location, tile and square.
     They should all be read and understood to be the same thing.
     
-## Abbreviations
+### Abbreviations
 
 Throughout this guide some common abbreviations are used. They are
 summarized below.
@@ -568,7 +214,7 @@ summarized below.
 </tbody>
 </table>
 
-## Acknowledgment
+### Acknowledgment
 
 There are a few persons without whose help this guide would never have
 been what it is and I would like to take the opportunity to thank them
@@ -612,7 +258,7 @@ the effort, time and hard work. Also many thanks to all people at
 Blizzard’s Diablo Strategy Forum, Sierra’s RPG Message Board and the
 alt.games.diablo news group. I could not have done it without you\!
 
-## New in this version
+### New in this version
 
 As there are always more things to add and errors to correct, I must at
 some time decide when to release an update. I feel I have added enough
@@ -828,7 +474,7 @@ just print the selected pages where changes were made.
 
   - Updated chapter 10.7.
 
-# Characters
+## Characters
 
 The most important character in the game is of course you. So this guide
 will start by giving information about the characters you can choose to
@@ -851,7 +497,7 @@ For information about how to activate the hidden characters, see chapter
 1.2. Note that the Bard uses the same graphics as the Rogue and the
 Barbarian uses the same graphics as the Warrior.
 
-## Character stats
+### Character stats
 
 Each character in Diablo has a set of stats (or abilities) that greatly
 affect how well he or she performs. This chapter will explain how these
@@ -866,7 +512,7 @@ fact that the clvl of a character is in fact the most important stat of
 them all as it enters into the calculations of many of the other stats
 as can be seen in this chapter.
 
-### Starting stats
+#### Starting stats
 
 Each character class has its own starting values for the basic stats.
 They are listed below. Also listed are which stats are increased and by
@@ -954,7 +600,7 @@ to alter your stats, too. See appropriate chapters for more information.
 
 2 The Barbarian also gets 1% resistance per level.
 
-### Maximum stats
+#### Maximum stats
 
 When your stats turn golden they have reached their maximum value and
 can only be increased by wearing items that increases them further (life
@@ -1107,7 +753,7 @@ mana.
 </tbody>
 </table>
 
-### Life and mana
+#### Life and mana
 
 Life is based on vitality while mana is based on magic. To calculate how
 much life and mana you have, use the formulas listed below.
@@ -1164,7 +810,7 @@ Mana<sub>items</sub> + 0
   - If you are on level 16, you will not lose any of your items when
     you die.
     
-### Armor Class and To Hit
+#### Armor Class and To Hit
 
 Both Armor Class (AC) and To Hit are based on your Dexterity. Below is a
 summary on how they are calculated. For more information about AC and To
@@ -1390,7 +1036,7 @@ for computing the real final To Hit.
 
 1 For a level 50 character.
 
-## Fighting
+### Fighting
 
 The main activity in Diablo and Hellfire is fighting. You either fight
 against the monsters or against other players. This chapter will briefly
@@ -1398,7 +1044,7 @@ explain how your characters stats and the items you wear affect your
 character while fighting. For a more detailed explanation on battle
 between players and monsters, see chapter 6.
 
-### Getting hit
+#### Getting hit
 
 When someone or something attacks you, the first step is to see if it
 hits you or not. Formulas for the chance of hitting a player can be
@@ -1586,7 +1232,7 @@ further 0.05 seconds for the Rogue (to 0.15) and the Sorcerer (to 0.20).
 Just equipping two items with different suffixes will not trigger this
 bug.
 
-### Damage done
+#### Damage done
 
 Damage done by players is composed of two parts, character damage and
 weapon damage. The character damage is based on your character’s stats
@@ -1821,7 +1467,7 @@ Hit is lowered accordingly to the formula in chapter 2.1.4 under To Hit
 
 Adjacent quarter damage can never hit a player, only monsters.
 
-### Weapon speed
+#### Weapon speed
 
 A very important factor is how quickly you swing different weapons. A
 faster weapon not only causes more damage per unit of time, but also
@@ -2042,7 +1688,7 @@ speed, see chapter 6.1.10.
 1 Will only affect the arrow speed in Hellfire. In Diablo it will affect
 the weapon speed instead.
 
-## Timing information
+### Timing information
 
 This chapter summarizes all timing information for players. For blocking
 and hit recovery, this information can also be found in chapter 2.2, and
@@ -2125,7 +1771,7 @@ faster hit time.
 top of this unless wearing an item that affects the hit recovery in a
 better way.
 
-## Skills
+### Skills
 
 Each character class has a skill it can perform. For most classes, the
 skill improves as they gain levels. The various skills are summarized
@@ -2218,7 +1864,7 @@ The skill of the Barbarian works in the following way:
 3.  Afterwards you lose 2·Vit life. There is a bug however so if you
     click on any item in your inventory your life is restored.
     
-## Starting equipment
+### Starting equipment
 
 All character classes start the game with some items. These items are
 listed in the table below. Note that the prices for these items
@@ -2319,7 +1965,7 @@ staff with a spell on it, but are special base items that have the spell
 built into them. The prices given are for those two base items and no
 additional cost is added for the actual spell.
 
-## Experience points
+### Experience points
 
 Each time you kill a monster you have a chance of receiving experience
 points. You receive experience for killing a monster as long as your own
@@ -2892,7 +2538,7 @@ still receive experience points for killing monsters until you reach
 enough experience points for MAX (see below). Reaching MAX has no effect
 at all (apart from not being able to get any more experience of course).
 
-## Character level restrictions
+### Character level restrictions
 
 There are a few occasions in the game where you need to have a certain
 character level to be allowed to access a certain difficulty or dungeon
@@ -3007,7 +2653,7 @@ a way to play single player with different difficulties.
 2 The creator must be of level 20 or 30 but anyone joining it can be of
 any level.
 
-### Single player difficulty levels
+#### Single player difficulty levels
 
 In Hellfire you can choose to play nightmare and hell difficulty games
 in single player as well as in multi player. In Diablo this is not
@@ -3021,7 +2667,7 @@ Exit it, and then start a single player game without first quitting
 Diablo. It will be created according to the difficulty level you chose
 in your last multi player game.
 
-## Character names
+### Character names
 
 When you create a character, you also have to give it a name. Depending
 on if it is a single or multi player character, the characters that are
@@ -3055,7 +2701,7 @@ Such localized characters are still possible to enter when you create a
 multi player character, but there will be an error message when you
 finish typing in the name.
 
-# Items
+## Items
 
 Items play a very important role in Diablo and come in many variants.
 This chapter will deal with the many aspects of items. Armor and weapons
@@ -3076,7 +2722,7 @@ game when creating items; see chapter 3.8 and 3.9. Information about
 qlvl and occurrences of prefixes and suffixes initially came from
 Bostic.
 
-## Armor, weapons and jewelry
+### Armor, weapons and jewelry
 
 In the tables below are listed all the base items you can equip in the
 game. They can be found in the dungeons or bought from Griswold, Adria
@@ -3941,7 +3587,7 @@ does not include rings or amulets as it would make no difference. Note
 that any of the above properties may be superseded by one of the unique
 properties of the quest item.
 
-## Other base items
+### Other base items
 
 This chapter will give you information about all those items in the game
 that you can’t wear. It also has information about magic related items.
@@ -3970,7 +3616,7 @@ has a spell assigned to it and oils have an oil type assigned.
 </tbody>
 </table>
 
-### Runes and oils
+#### Runes and oils
 
 Runes and oils were introduced in Hellfire and do not exist in Diablo.
 Runes are placed in the dungeons and when a monster or player walks over
@@ -4142,7 +3788,7 @@ just like spell books. They are listed below the thick line.
 
 6 All requirements are lowered by the same amount.
 
-### Potions and elixirs
+#### Potions and elixirs
 
 The tables below hold information about potions and elixirs. As always,
 the prices are buying prices.
@@ -4294,7 +3940,7 @@ Potion of Mana: bonus · maxmana/8 to bonus · 3·maxmana/8
 1 When using a Potion of Rejuvenation the bonus for a Monk and a Bard is
 1.0 due to a bug in Hellfire.
 
-### Books, scrolls and staves with spells
+#### Books, scrolls and staves with spells
 
 Books, scrolls and staves with spells are found in the dungeons but can
 also be bought from Adria. Healing scrolls and scrolls of Resurrection
@@ -4742,7 +4388,7 @@ both with and without spells.
 </tbody>
 </table>
 
-## Quest items
+### Quest items
 
 In the table below is listed all the various special items you will find
 in various quests (with the exception of the ear and the heart). They
@@ -4843,7 +4489,7 @@ clvl of the character they belonged to.
 4 An ear turns into a heart if you identify it. It will always return
 into an ear in the next game.
 
-## Prefixes and suffixes
+### Prefixes and suffixes
 
 All equipable items can have a prefix and/or a suffix. In the tables
 below, you can see the effects of each prefix and suffix in the game.
@@ -7499,7 +7145,7 @@ from enemies, though.
 more details, see chapter 6.2.1. Does not work against Diablo or unique
 monsters.
 
-## Unique items
+### Unique items
 
 Unique items differ from normal magical items in that they have a
 special name and can have up to six different magical properties. You
@@ -7518,7 +7164,7 @@ If you are playing the Playstation version you should know that when you
 restart a new game, any unique item is transformed into gold, which is
 quite annoying.
 
-### Properties of unique items
+#### Properties of unique items
 
 In the tables below are listed all unique items in the game that you can
 equip, both the ones randomly generated and the ones given as part of
@@ -8694,7 +8340,7 @@ any of the suffixes with the same property.
 on, so for all practical reasons it doesn’t really have a unique
 picture.
 
-### Unfindable unique items in multi player
+#### Unfindable unique items in multi player
 
 Due to the way the game generates unique items (see chapter 3.8), some
 unique items will never be found in *multi player*. The same items are
@@ -8791,14 +8437,14 @@ player).
 
 1 In multi player only the first one is findable.
 
-## Prices of magical items
+### Prices of magical items
 
 This chapter will describe how the price of magical items is calculated.
 Please note that much of the information in this chapter was initially
 compiled and collected by Ironbeard. I have rewritten it quite a bit to
 better fit with the rest of the guide and newer findings.
 
-### Formulas
+#### Formulas
 
 The price of a magical item is affected by three elements: the base
 effect of a prefix/suffix, the quality effect of a prefix/suffix, and
@@ -8937,7 +8583,7 @@ Staves with spells:
 
 C = I + H·P
 
-### Additional notes on the prices
+#### Additional notes on the prices
 
 On any armor or helm, the actual armor class has no effect on the price,
 i.e. full plate (AC 74) of ages has the same price as full plate (AC 69)
@@ -8965,7 +8611,7 @@ You can’t sell an item at Griswold if you will be given more gold for it
 than can fit in your inventory. At Adria, however, any excess gold will
 simply be discarded.
 
-### Recharge cost
+#### Recharge cost
 
 Staves can be recharged at Adria (or by a Sorcerer, see chapter 2.4).
 The cost to recharge a staff can be calculated using the formula below:
@@ -9029,7 +8675,7 @@ H·P + 5·P) } / 100 \] / 2 \]
   - Of course, for unique staves and the starting staff of the
     Sorcerer, skip H·P in the formula above.
     
-## Durability of items
+### Durability of items
 
 All unique items and staves with spells found in the dungeon have full
 durability. So do all items bought in town, of course. All other items
@@ -9037,7 +8683,7 @@ found in the dungeon only have partial durability in the range below:
 
 Durability of items found in dungeon: (1 + maxdur/4) to 3·maxdur/4
 
-### Losing durability
+#### Losing durability
 
 All items (except those that are indestructible) have a durability,
 which will, over time, decrease as you fight. The table below explains
@@ -9085,7 +8731,7 @@ is 3/4 that its durability will be decreased.
 2 You will never lose durability on both the armor and the helm in the
 same hit.
 
-### Repair cost
+#### Repair cost
 
 Repairs are done at Griswold (or by a Warrior, see chapter 2.4).
 Griswold uses the following formulas to calculate the cost:
@@ -9145,7 +8791,7 @@ Then, do the following:
     repairable (this would be the case for identified cursed and some
     semi cursed items)
     
-## Item creation in dungeon
+### Item creation in dungeon
 
 This chapter tries to explain how the game creates items and what
 factors affect the creation. Only items generated in the dungeon are
@@ -9226,7 +8872,7 @@ potions and scrolls (in Hellfire it also includes oils). For more
 information about what base items are possible for special items, see
 chapter 3.8.3.
 
-### What is dropped?
+#### What is dropped?
 
 First the game has do decide if an item is to be dropped at all, if it
 is going to be gold or an item. The exact probabilities for these are
@@ -9403,7 +9049,7 @@ Book: 100%
   - Library books and Skeleton Tomes can only exist in Church and
     Catacombs.
     
-### Item type
+#### Item type
 
 Next, the item type that is to be generated is determined, and the
 procedure is as follows (this step is skipped for gold and special
@@ -9488,7 +9134,7 @@ Unique monster: 16%
 
 Other: 2%
 
-### Item properties
+#### Item properties
 
 Once the base item has been determined, the properties of the item are
 to be decided. In many cases the item can’t have additional properties.
@@ -10136,7 +9782,7 @@ Potion of Mana 28.6%
 
 Blacksmith Oil 14.3%
 
-## Item creation in town
+### Item creation in town
 
 For many parts, the creation of items in town is the same as that in the
 dungeon, but there are several differences and they are explained in
@@ -10352,7 +9998,7 @@ will be offered different items in town even if they are in the same
 game. Thus, it can be rewarding to ask others to check for any item you
 might want if you are playing multi player.
 
-### Adria
+#### Adria
 
 Adria has an unlimited supply of Potions of Mana, Potions of Full Mana
 and scrolls of Town Portal. In addition to those, Adria offers 7 to 14
@@ -10376,7 +10022,7 @@ As the ilvl at Adria can never be higher than 16 (see table in chapter
 3.9), there is a cap at qlvl 32 for prefixes and suffixes at Adria. For
 spells and base items the cap is at 16.
 
-### Griswold
+#### Griswold
 
 Griswold has two types of items: basic ones that are not magical, and
 premier ones that are always magic.
@@ -10431,7 +10077,7 @@ will see an item ”violating” this rule in Hellfire, as the game only
 tries a specific number of times, and if it has not found an item that
 matches in those tries it sticks with whatever item it generates next.
 
-### Pepin
+#### Pepin
 
 Pepin has unlimited supply of Potions of Healing, Potions of Full
 Healing and scrolls of Resurrect (in multi player only). In addition to
@@ -10441,7 +10087,7 @@ dungeons or reload the game in single player.
 
 Range of qlvl for base item: 1 to ilvl
 
-### Wirt
+#### Wirt
 
 Wirt will only offer one item for sale and you have to pay 50 gold just
 to see it. The maximum qlvl of prefixes and suffixes is 60, which means
@@ -10507,7 +10153,7 @@ what you already have (both equipped ones and not equipped ones).
 </tbody>
 </table>
 
-## General remarks on possible items
+### General remarks on possible items
 
 As can be seen in the wealth of information about items, finding out
 what items are really possible can be hard. In this chapter I will try
@@ -10636,7 +10282,7 @@ for items in town, the time when you shop; this is to avoid the chance
 that all players in the game see the same items, as they would then be
 treated by the game as duplicates).
 
-## Probabilities of finding unique items
+### Probabilities of finding unique items
 
 As with all other items in the game with the exception of quest related
 items, which only exists in single player, unique items are created
@@ -10699,7 +10345,7 @@ numbers below should give a rough estimate on how rare or common a
 specific unique item is. If an item is impossible to generate for some
 reason, it will say ”impossible”.
 
-### Probabilities in Diablo
+#### Probabilities in Diablo
 
 <table>
 <tbody>
@@ -11352,7 +10998,7 @@ reason, it will say ”impossible”.
 </tbody>
 </table>
 
-### Probabilities in Hellfire
+#### Probabilities in Hellfire
 
 The reason most unique items are more likely in a Hellfire game than in
 a Diablo game is of course due to the fact that a Hellfire game has two
@@ -12130,7 +11776,7 @@ items.
 </tbody>
 </table>
 
-## Probabilities of finding magical items
+### Probabilities of finding magical items
 
 It would of course be possible to do similar tables for magical items,
 as for unique items. However, due to the almost infinite number of
@@ -12139,7 +11785,7 @@ probabilities for such items that are sold in town (especially in
 Hellfire), it is my decision to not have any such information in this
 guide.
 
-## Summary of various item properties
+### Summary of various item properties
 
 This chapter summarizes various properties of items and lets you review
 them without being confused by other non related properties. All data
@@ -12147,7 +11793,7 @@ below can of course be found in the complete tables in chapter 3.1 -
 3.5. To make it as convenient as possible, I have tried to have each
 summary on its own page or opening.
 
-### Levels of base items
+#### Levels of base items
 
 Below is a list of all the base items in the game. It has been divided
 into two different tables: equipable items (excluding jewelry) and other
@@ -12517,7 +12163,7 @@ items. The items are sorted by their qlvl.
 
 1 Only available in Hellfire.
 
-### Levels of spells on books and staves
+#### Levels of spells on books and staves
 
 When spells are attached to books and staves (they never exist on
 scrolls as each scroll is a separate base item), they also have a qlvl,
@@ -12731,7 +12377,7 @@ both types sorted in qlvl order.
 
 1 Only available in Hellfire.
 
-### Levels of prefixes and suffixes
+#### Levels of prefixes and suffixes
 
 The tables below list all prefixes and suffixes according to their qlvl.
 All the prefixes are found in one table while all the suffixes are found
@@ -13231,7 +12877,7 @@ in another table.
 
 1 Only available in Hellfire.
 
-### Levels of unique items
+#### Levels of unique items
 
 The table below lists all unique items according to their qlvl. As quest
 items are only dropped in special occasions during the quests, they have
@@ -13571,7 +13217,7 @@ no qlvl. I have listed them in a separate table below.
 
 1 Only available in Hellfire.
 
-### Effects of prefixes and suffixes
+#### Effects of prefixes and suffixes
 
 The tables below are extracted from the more comprehensive ones above
 and summarize the effects of each prefix and suffix.
@@ -14102,7 +13748,7 @@ from enemies, though.
 more details, see chapter 6.2.1. Does not work against Diablo or unique
 monsters.
 
-### Occurrence of prefixes and suffixes
+#### Occurrence of prefixes and suffixes
 
 The tables below are extracted from the more comprehensive ones above
 and summarize the occurrences of prefixes and suffixes. The following
@@ -14544,7 +14190,7 @@ abbreviations are used:
 </tbody>
 </table>
 
-# Magic
+## Magic
 
 This chapter will explain the details of all spells in the game. It
 will, of course, include information about those ”spells” monsters use,
@@ -14555,14 +14201,14 @@ found on. For an explanation of skills, see chapter 2.4. For a detailed
 information about how spells attack and also some explanation in general
 about spells, see chapter 5.6.5.
 
-## Spells available to players
+### Spells available to players
 
 All spells in Diablo and Hellfire are equally learnable for all
 character classes. To learn them to a high slvl one needs a high magic
 attribute, and not all character classes have the ability to reach the
 needed 255 magic attribute that is needed for the highest spell levels.
 
-### List of spells and spell effects
+#### List of spells and spell effects
 
 Below is a summary of all spells you will find in Diablo and Hellfire.
 They are arranged in the same way they appear in your spell book. Page
@@ -14648,7 +14294,7 @@ Apocalypse normally though.
 
 5 Found in Hellfire only.
 
-### Details about spells
+#### Details about spells
 
 Now follows some details about each spell. Not all types of data are
 applicable for each spell. Below is an explanation of what is told about
@@ -14804,7 +14450,7 @@ either a normal target or such a thing as a wall. As an example a
 fireball will cause splash damage to all adjacent locations when it hits
 a wall.
 
-### Spells available in Diablo
+#### Spells available in Diablo
 
 The spells below are listed in alphabetical order and are available in
 both Diablo and Hellfire. For skills, see chapter 2.4. In those cases a
@@ -15366,7 +15012,7 @@ spell can be used by a monster, see chapter .
 </tbody>
 </table>
 
-### New spells in Hellfire
+#### New spells in Hellfire
 
 The spells in the table below are new spells in Hellfire. Apocalypse and
 Nova, although new as learnable spells in Hellfire, exist in Diablo and
@@ -15571,7 +15217,7 @@ about Apocalypse and Nova.
 </tbody>
 </table>
 
-### Mana cost and magic requirements for spells
+#### Mana cost and magic requirements for spells
 
 Casting spells costs mana and each spell has an initial mana cost at
 slvl 1. For each slvl the mana cost then decreases by a certain amount
@@ -16433,7 +16079,7 @@ requirement is 213 or higher, it is always adjusted to 255.
 </tbody>
 </table>
 
-### Spell level of cast spells
+#### Spell level of cast spells
 
 When you cast a spell, it will always be cast at the slvl you know the
 spell plus any additional levels you get from items. As your slvl can go
@@ -16451,7 +16097,7 @@ from a scroll and currently have another spell hot keyed, it will use
 the slvl of the hot keyed spell instead of the spell you are casting.
 This is true even if you don’t know the spell.
 
-### Targeting of spells
+#### Targeting of spells
 
 The casting of spells in Diablo and Hellfire is normally easy to do.
 Just click on the mouse. Some spells need to be targeted, some change
@@ -16636,7 +16282,7 @@ the behavior.
 
 4 The direction of the wall is always perpendicular to the caster.
 
-## Spell casting monsters
+### Spell casting monsters
 
 Some monsters have the ability to do magical attacks. Monsters in Diablo
 can only use spells that are available to the player (although they work
@@ -16809,7 +16455,7 @@ handled as a spell (with some special cases) by the game. For ease of
 use together with other parts of this Guide, it is thus useful to list
 arrow attacks here.
 
-### Details about monster spells in Diablo
+#### Details about monster spells in Diablo
 
 Below are listed all those spells that monsters are able to use. In most
 cases they are identical to the ones used by players. although some
@@ -17035,7 +16681,7 @@ chapter 6.1.7 for more information.
 </tbody>
 </table>
 
-### Details about new monster spells in Hellfire
+#### Details about new monster spells in Hellfire
 
 Most new monsters in Hellfire that can use spells have new special
 spells not available to players, although some use ”old” spells. Below
@@ -17094,7 +16740,7 @@ listed for melee damage in chapter 5.
 </tbody>
 </table>
 
-## Traps
+### Traps
 
 Most traps are of magical nature, and thus it is appropriate to explain
 how they work here. Traps can be set off when you open chests,
@@ -17298,7 +16944,7 @@ on dungeon level 16: 30%
   - magic traps includes Fire Wall, Flame Wave, Ring of Fire and
     Lightning Wall attacks from other players.
 
-# Monsters
+## Monsters
 
 This chapter deals with all the monsters you will face in the dungeons.
 As there are both many monsters and much data about each of them, it has
@@ -17320,7 +16966,7 @@ monsters (in their own table). The reasons for this are several but are
 mainly due to the fact that they are truly unique and not based on any
 other monster type.
 
-## How to calculate monster data
+### How to calculate monster data
 
 Data for nightmare and hell difficulty is calculated from the data for
 normal difficulty, and here follows information on how that is done as
@@ -17595,7 +17241,7 @@ Nightmare: 2·normal + 2000
 
 Hell: 4·normal + 4000
 
-## Monster data
+### Monster data
 
 Each monster type is presented in its own table below. In Diablo, each
 monster type has four subtypes of monsters that differ in color and
@@ -17619,7 +17265,7 @@ in that order. Below are then listed if the monsters are resistant, R,
 or immune, I. If there is no letter or there is a ”-”, it means the
 monster is neither resistant nor immune.
 
-### Monsters in Diablo
+#### Monsters in Diablo
 
 <table>
 <tbody>
@@ -18839,7 +18485,7 @@ don’t appear on level 16.
 
 6 They only appear on level 15 as part of the Arch-Bishop Lazarus quest.
 
-### Special monsters in Diablo
+#### Special monsters in Diablo
 
 In the table below are listed the special monsters in Diablo. They are
 truly unique and are not based on any monster type. They are all treated
@@ -18920,7 +18566,7 @@ The Dark Lord.
 4 Due to a bug, base To Hit for Diablo will be 44% on nightmare
 difficulty and 84% on hell difficulty.
 
-### Monsters in Hellfire
+#### Monsters in Hellfire
 
 Contrary to the original Diablo monsters, most Hellfire monsters do not
 have subtypes within a specific type. Some of the monsters do exist in
@@ -19236,7 +18882,7 @@ digging on dead monsters.
 3 Due to a bug, the base To Hit for Flesh Thing will be 14% on hell
 difficulty.
 
-### Special monsters in Hellfire
+#### Special monsters in Hellfire
 
 In the table below are listed the special monsters in Hellfire. They are
 truly unique and are not based on any monster type. They are all treated
@@ -19304,7 +18950,7 @@ information about the modified data for Diablo in Hellfire, see chapter
 3 Due to a bug, the base To Hit for Na-Krul will be 14% on hell
 difficulty.
 
-## Monster properties
+### Monster properties
 
 Apart from the data given in earlier chapters, monsters have other
 properties that are often shared within a monster type. This chapter
@@ -19315,7 +18961,7 @@ information in more detail about the behavior of the monsters according
 to attack type, see chapter 5.5), intelligence factor, abilities to open
 doors and follow target around corners, and timing information.
 
-### Monster size
+#### Monster size
 
 Each monster type has a size associated with it. That size is used when
 selecting monsters for a specific level of the dungeon. Maximum total
@@ -19498,7 +19144,7 @@ size, which is important for monster selection (see below).
 </tbody>
 </table>
 
-### Monster occurrences in the dungeons
+#### Monster occurrences in the dungeons
 
 The process of selecting monsters for a dungeon level is as follows:
 
@@ -20556,7 +20202,7 @@ occur, see chapter 5.2.1 and 5.2.3.
 
 1 There will always be Arch Liches on level 4 of the Crypt.
 
-### Attack types
+#### Attack types
 
 Most monster types have their own unique way of attacking and moving.
 However, some of the monster types share some common attack types. The
@@ -21026,7 +20672,7 @@ you.
 </tbody>
 </table>
 
-### Timing information
+#### Timing information
 
 This chapter deals with the time it takes for different monsters to do
 different things. The data given is explained below. In almost every
@@ -21576,7 +21222,7 @@ at 0.70.
 
 1 The second value is for the digging upon a carcass animation.
 
-## Unique monsters
+### Unique monsters
 
 Unique monsters always appear on a specific dlvl and are based on one of
 the normal monsters. They can also have a special ability (attack type)
@@ -25272,7 +24918,7 @@ Advocates. Only appears in a quest in single player.
 
 2 Always appears in every game.
 
-## Monster AI
+### Monster AI
 
 In this chapter, a more detailed explanation of the monster’s AI,
 artificial intelligence, is given. That is, it will explain how the
@@ -25281,7 +24927,7 @@ monsters act in general. Basically one can say that a monster can do 3
 different things; move in some way, attack in some way or stand still in
 some way.
 
-### General information
+#### General information
 
 Just like a player, a monster will always have a specific action which
 it will be doing. Also, just as players, it must finish the current
@@ -25332,7 +24978,7 @@ as its next action. Usually at the end of the script, if the monster is
 still in *stand* mode, it will turn around towards it target if
 necessary.
 
-### Activating monsters
+#### Activating monsters
 
 All monsters on a new level starts in a non active state (monsters with
 the Hidden attack type are an exception as they are always active, see
@@ -25351,7 +24997,7 @@ possible obstacles to get to the former target when it get out of the
 light radius. See chapter 5.3.3 for more information about which
 monsters have this capability.
 
-### About walking
+#### About walking
 
 There are several different ways monsters walk in the game. The exact
 nature of how monster walking is done will not always be described in
@@ -25398,7 +25044,7 @@ reduced to 1. The direction will typically be chosen with a 50/50 chance
 for clockwise and counter clockwise. Examples of this walk type is
 Balrogs, Lightning Demons, Spitters, Diablo and Skeleton King.
 
-### About charging
+#### About charging
 
 If a monster has the possibility to charge and it has been decided that
 it should charge, the game will check if there is really a path along
@@ -25406,7 +25052,7 @@ which to charge that is not blocked by for example lava or a fence. If
 that is the case, the script will generally continue finding another
 action to perform as if it was decided to not charge.
 
-### About ranged attack
+#### About ranged attack
 
 When the game has decided to do a ranged attack, it will check if line
 of sight is blocked. If that is the case, the script will generally
@@ -25415,7 +25061,7 @@ do a ranged attack. Note however, that this check many times will not
 detect all hindrance which may result in the ranged attack being
 performed but yet hit an obstacle before reaching the target.
 
-### Target selection
+#### Target selection
 
 When a monster is to choose which player character to attack (if there
 is more than one present in the game) it will generally chose the one
@@ -25459,7 +25105,7 @@ of sight. In that case, they will not walk up to the last position of
 the target or stop, but will instead find the closest way to the target
 if it is not too far away.
 
-### Non even distributed random numbers
+#### Non even distributed random numbers
 
 Diablo and Hellfire uses a pretty good algorithm for random numbers,
 unfortunately it is at times used improperly which result in somewhat
@@ -25487,7 +25133,7 @@ due to having a auto To Hit for example (see chapter 5.1 under To Hit).
 This only affect monster behavior though, nothing else like item drops
 or the behavior of spells.
 
-### Reseed bug
+#### Reseed bug
 
 In an attempt to keep monsters more in synch between computers in a
 multi player game, Blizzard has unfortunately used a rather strange and
@@ -25498,7 +25144,7 @@ reseeded). This may cause the familiar result of a monster getting
 ”stuck” with a particular behavior or result both when acting and when
 attacking. This is unfortunate.
 
-### AI scripts
+#### AI scripts
 
 Here each of the different attack types will be described. Many
 monsters, but not all, have special behavior types of an overreaching
@@ -26579,14 +26225,14 @@ normal AI and is summarized in the table below.
 </tbody>
 </table>
 
-## Summary of various monster stats
+### Summary of various monster stats
 
 This chapter summarizes various properties of monsters and lets you
 review them without being confused by other non related properties. All
 data below can, of course, be found in the complete tables in chapter
 5.2 -5.4.
 
-### Resistances, immunities and uniques for monsters
+#### Resistances, immunities and uniques for monsters
 
 This is a summary of the resistance’s and immunities of monsters, as
 well as on what level they appear. Good for a quick look when you first
@@ -27673,7 +27319,7 @@ the reason there is no such field in the table below.
 </tbody>
 </table>
 
-### Resistances, immunities and mob for unique monsters
+#### Resistances, immunities and mob for unique monsters
 
 This is a summary of the unique monsters sorted by dlvl instead of
 monster type. This makes it very easy to quickly see what potential
@@ -28340,7 +27986,7 @@ Advocates. Only appears in quests in single player.
 
 6 Always appears in every game.
 
-### Experience points from monsters
+#### Experience points from monsters
 
 Chapter 5.2 listed the base number of experience points you receive for
 a monster, as well as the formula for calculating how much you actually
@@ -29266,7 +28912,7 @@ monster in single player, that information only applies to multi player.
 </tbody>
 </table>
 
-### Monster levels
+#### Monster levels
 
 Below follows lists of all monsters in the order of their mlvl. Of
 course, on nightmare difficulty all mlvl are 15 higher and on hell
@@ -29592,7 +29238,7 @@ difficulty they are 30 higher.
 </tbody>
 </table>
 
-### Monster types
+#### Monster types
 
 In the table below is listed in summary what type of monster, animal,
 undead or demon, each monster in the game belong to.
@@ -29741,7 +29387,7 @@ are demons.
 
 4 With the exception of Hell Spawns in Hellfire which are animals.
 
-# Battle
+## Battle
 
 This chapter will try to explain in more detail all the steps of combat
 between players and monsters. It will thus also serve as a summary of
@@ -29789,7 +29435,7 @@ information is given in steps of 0.05 seconds.
 Some further infromation about combat, especially by monsters, can be
 found in chapter 5.5.
 
-## General information
+### General information
 
 Before we start discussing the actual combat, it is good to know some
 basic information about how players and monsters function. Each monster
@@ -29848,7 +29494,7 @@ circumstances.
 There are also some steps done only in Hellfire or only in Diablo, in
 that case this is clearly mentioned at the start of the step in italic.
 
-### Mana Shield
+#### Mana Shield
 
 Mana Shield is a spell that causes damage to your life to be taken
 instead from your mana. In the process it will also reduce the amount of
@@ -29928,7 +29574,7 @@ efficiency of the Mana Shield, you will take excessive damage from
 *each* Mana Shield when you run out of mana and all the Mana Shields are
 terminated.
 
-### Fire Wall, Flame Wave and Ring of Fire
+#### Fire Wall, Flame Wave and Ring of Fire
 
 Fire Wall and Flame Wave are special in that they are the only spells
 that can hurt the caster of the spells. They are also special in that
@@ -29936,7 +29582,7 @@ when attacking players (including the caster), they will attack as if
 they where magic traps, that is, the To Hit is always 40%. When
 attacking monsters, they will use the normal To Hit calculations.
 
-### Reflect
+#### Reflect
 
 Actually, the Reflect spell is handled properly in the step by step
 lists later on. I just wanted to mention that Reflect, contrary to Mana
@@ -29945,7 +29591,7 @@ the character. If set, the damage will be reduced properly and reflected
 back to the monster. This is how the Mana Shield should have been
 implemented to avoid all the problems and bugs associated with it.
 
-### Life and Mana stealing
+#### Life and Mana stealing
 
 Items with the effect of life stealing and mana stealing work
 independently of each other. An item with the 5% stealing will always
@@ -30062,7 +29708,7 @@ effect.
 
 1 Steals a random amount of life between 0 and 12.5% each time you hit.
 
-### Fire and Lightning damage on melee weapons
+#### Fire and Lightning damage on melee weapons
 
 When you do an attack that does additional fire or lightning damage,
 this will be handled by the game separately. Upon hit (even if the
@@ -30074,7 +29720,7 @@ magic apply normally. It will then deal the amount of fire or lighting
 damage your character currently does. The magical effect will only hit
 once but it will try to hit up to 7 times (9 if fire) before it ends.
 
-### Fire and Lightning damage on bows
+#### Fire and Lightning damage on bows
 
 Fire and lightning attacks on bows work pretty much the same as the ones
 on melee weapons. There are some exceptions. As arrows to start with are
@@ -30119,7 +29765,7 @@ Note that in the chapters below, the bugs regarding fire and lightning
 arrows will not be mentioned. The list above should be sufficient for
 knowing the end effects.
 
-### Charge attacks
+#### Charge attacks
 
 Charges are special in that they are treated as magical effects while
 the actual charge is conducted; that is, the monster moves during the
@@ -30146,7 +29792,7 @@ Charge attacks.
 Either intentionally or due to a bug, monsters that are charging, can at
 times cross lava that is otherwise impassable in the Caves.
 
-### How spells really work
+#### How spells really work
 
 Before we go into detail about the actual attacks, it might be good to
 learn some basic information on how the game handles spells. This
@@ -30202,7 +29848,7 @@ Finally, each effect can be either Fire, Lightning, Magic, or other
 Some effects will, of course, never attack; examples of such effects are
 Mana Shield and Infravision.
 
-### Possible targets of attacks
+#### Possible targets of attacks
 
 As already explained, an attack will typically always hit a specific
 location (with some exceptions). Normally, only a single monster or
@@ -30331,7 +29977,7 @@ To Hit against a player in those cases they occupy the same locations
 adjacent location when doing a melee attack and can thus not attack the
 monster within its location.
 
-### Spell and arrow speeds
+#### Spell and arrow speeds
 
 In the rest of the Guide, the speed of spells and arrows are given with
 a number in the 16 - 63 range (rarely going below 8). Here, a brief
@@ -30402,7 +30048,7 @@ the player or monster it originates from is currently standing in. It
 may at times take more than one frame to reach the next location but in
 no case will a missile make a To Hit check in its location of origin.
 
-### Some general notes about the formulas
+#### Some general notes about the formulas
 
 In most cases it should be obvious from whom the stat in a formula
 should be taken. Monsters do not have Dex or clvl for example. In some
@@ -30416,12 +30062,12 @@ a modified To Hit.
 Any part of the formula that is only applicable in Hellfire is shown in
 italic.
 
-## Melee attacks
+### Melee attacks
 
 Here we will only discuss melee attacks; this does *not* apply to
 attacks with bows, and is always done to an adjacent target.
 
-### Player versus Monster
+#### Player versus Monster
 
 To Hit
 
@@ -30586,7 +30232,7 @@ Hit consequences
 17. if the monster died and it was Diablo, terminate game and show
     ending movie for players on dlvl 16
     
-### Player versus Player
+#### Player versus Player
 
 To Hit
 
@@ -30719,7 +30365,7 @@ Hit consequences
 
 For the probabilities of durability losses, see chapter 3.7.1.
 
-### Monster versus Player
+#### Monster versus Player
 
 To Hit
 
@@ -30855,7 +30501,7 @@ Hit consequences
 
 For the probabilities of durability losses, see chapter 3.7.1.
 
-### Monster versus Monster
+#### Monster versus Monster
 
 To Hit
 
@@ -30901,14 +30547,14 @@ Hit consequences
 5.  if the target died and it was Diablo, terminate game and show
     ending movie
     
-## Non melee attacks
+### Non melee attacks
 
 Here we will deal with all other attacks, which include spells, arrows
 and traps (which are either spells or arrows). As there are so many more
 possibilities and special cases, some sections have been divided up to
 handle specific cases.
 
-### Player versus Monster
+#### Player versus Monster
 
 To Hit
 
@@ -31025,7 +30671,7 @@ Hit consequences
 8.  if the monster died and it was Diablo, terminate game and show
     ending movie
     
-### Player versus Player
+#### Player versus Player
 
 To Hit
 
@@ -31184,7 +30830,7 @@ Hit consequences
 4.  if the target blocked, put target player into block mode and check
     for durability loss on shield
     
-### Monster/Trap versus Player
+#### Monster/Trap versus Player
 
 Fire Wall, Flame Wave and Ring of Fire also uses this chapter when
 attacking players.
@@ -31338,7 +30984,7 @@ Hit consequences
 4.  if the target blocked, put target player into block mode and check
     for durability loss on shield
     
-### Monster/Trap versus Monster
+#### Monster/Trap versus Monster
 
 To Hit
 
@@ -31404,7 +31050,7 @@ Hit consequences
 4.  if the monster died and it was Diablo, terminate game and show
     ending movie
 
-# Shrines
+## Shrines
 
 Shrines are found on levels 1-8 (Church and Catacombs), cauldrons on
 levels 13-15 (Hell), fountains, pools and springs on levels 1-8 and also
@@ -31771,7 +31417,7 @@ determined effects are item drops and result of shrines) occurring after
 the shrine is used. Cauldrons and Goat shrines are *not* affected by
 this bug.
 
-# Quests
+## Quests
 
 This chapter deals with all of the quests present in Diablo and
 Hellfire. It only provides information on what has to be done to fulfill
@@ -31991,7 +31637,7 @@ them.
 
 7 I think all Hellfire quests are also present in multi player.
 
-## How quests are chosen
+### How quests are chosen
 
 In single player, the quests that will appear in a single game are
 chosen at random. But there is some structure in the way they are
@@ -32031,16 +31677,16 @@ quests from each group are chosen each game.
 </tbody>
 </table>
 
-## Quests in Diablo
+### Quests in Diablo
     
-### The Butcher
+#### The Butcher
 
 This quest is present if you see a wounded townsman outside the Church
 (in multi player it is always present). You will find The Butcher in a
 special red room on level 2. Killing him rewards you with The Butcher’s
 Cleaver in single player and a random magical item in multi player.
 
-### Poisoned water supply
+#### Poisoned water supply
 
 This quest is present if the water in the fountain is yellow instead of
 blue. You will then find an entrance (dark passage) on level 2 to the
@@ -32048,7 +31694,7 @@ small mini level where you solve the quest. To solve it, simply kill all
 monsters in the mini level. Go back to Pepin to get the Ring of Truth.
 You will know you have killed them all when the water runs blue again.
 
-### The Curse of King Leoric
+#### The Curse of King Leoric
 
 If you have this quest you will find an entrance to Skeletons King’s
 Lair somewhere on level 3. His lair is a mini level with lots of
@@ -32062,7 +31708,7 @@ level 3. Instead of being able to raise skeletons, he has the ability to
 steal life in multi player. When you kill him he will drop a random
 magic item.
 
-### Gharbad the Weak
+#### Gharbad the Weak
 
 You will find Gharbad the weak somewhere on level 4. Talk to him and
 then go away (off screen so you don’t see him) and then come back. You
@@ -32077,7 +31723,7 @@ The item he drops when you kill him is created normally as from a unique
 monster, with the exception that it will always be a base item within
 the clubs.
 
-### Ogden’s Sign
+#### Ogden’s Sign
 
 In this quest, the stair from level 4 down to level 5 is blocked by
 Snotspill, who wants you to go around the block and fetch him the Tavern
@@ -32085,13 +31731,13 @@ Sign. But so does Ogden. If you bring the sign to Ogden, he will give
 you Harlequins Crest. Snotspill will attack you regardless of whether
 you give him the sign or not.
 
-### The Magic Rock
+#### The Magic Rock
 
 If you have this quest, you will find a rock on a pedestal somewhere on
 level 5. Bring the rock back to Griswold and he will give you Empyrean
 Band.
 
-### Valor
+#### Valor
 
 If you have this quest, you will find a special set of rooms on level 5
 with the shape of a cross. If you enter the double doors, you will find
@@ -32103,7 +31749,7 @@ opened up. In it you find the third blood stone, which, if placed on the
 book, will open up the final part of the ”cross”. In it you will find
 Arkaine’s Valor.
 
-### The Chamber of Bone
+#### The Chamber of Bone
 
 This quest is always present in single player. You must first read the
 book on level 6, which activates the quest. When you do, the entrance (a
@@ -32119,14 +31765,14 @@ as if they came from a unique monster, that is, they will always be
 magical, have a higher probability of being unique and will use the +4
 bonus to the ilvl for determination of the prefix and/or the suffix.
 
-### Halls of the Blind
+#### Halls of the Blind
 
 This quest is present if you find a room shaped like an ”8” on level 7.
 After reading the book on the same level, two doors will open to the
 ”8”. Kill all Illusion Weavers inside it and the Optic Amulet will
 drop in the upper of the two small rooms inside the ”8”.
 
-### Zhar the Mad
+#### Zhar the Mad
 
 You will find Zhar the Mad in a room with a book case on level 8. He
 will give you a book if you talk to him. As soon as you touch the book
@@ -32141,7 +31787,7 @@ Any book from Zhar the Mad or his book case is created from an ilvl
 equal to 2·dlvl. The item he drops when you kill him is created normally
 as from a unique monster.
 
-### Black Mushroom
+#### Black Mushroom
 
 This is one of the most complicated quests in Diablo. After finding a
 *fungal tome* on level 9 and bringing it to Adria, the quest is
@@ -32159,7 +31805,7 @@ attributes. If you don’t use it right away you will not be able to use
 it at all. However, I have been told that if you get hold of a second
 spectral elixir, you can use both at once.
 
-### Slain Hero
+#### Slain Hero
 
 You will find a slain hero somewhere on level 9. He will drop an item
 depending on your character class. The table below tells what base item
@@ -32221,13 +31867,13 @@ that is supposed to be dropped.
 2 The base item is of course a *book of* but the game will attach the
 spell Lightning to it.
 
-### Anvil of Fury
+#### Anvil of Fury
 
 The anvil can be found on a small peninsula on level 10. It is heavily
 guarded by lots of monsters. Bring the anvil back to Griswold and he
 will give you Griswold’s Edge.
 
-### Warlord of Blood
+#### Warlord of Blood
 
 If you find lots of Steel Lords on level 13, you have this quest. After
 reading the book on this level, the room next to the stairs down to
@@ -32235,14 +31881,14 @@ level 14 will open up and you can fight the Warlord of Blood. After
 killing him, don’t forget to collect all the magical items on the racks
 in his room.
 
-### Lachdanan
+#### Lachdanan
 
 Lachdanan is a unique Blood Knight that you will find on level 14. If
 you have this quest you will also find other Blood Knights on this
 level. He asks you for the golden elixir, which can be found somewhere
 on level 15. Bring it to him and he will give you the Veil of Steel.
 
-### Archbishop Lazarus
+#### Archbishop Lazarus
 
 On level 15, you will find the Staff of Lazarus. Take it to Cain and he
 will initiate the quest. A red portal will open up on level 15, adjacent
@@ -32259,7 +31905,7 @@ In multi player, you will not find the Staff of Lazarus. Lazarus himself
 will be in the upper corner of level 15, in a small room. Kill him to
 open/activate the pentagram to level 16.
 
-### Diablo
+#### Diablo
 
 Level 16 is made up of four areas. The first one, at the top, has a
 lever in the middle. It opens up the maze to the right. Inside it you
@@ -32278,9 +31924,9 @@ When Diablo dies, anyone currently on dlvl 16 will be awarded dots for
 the difficulty level in question. See chapter 9.4 for more information
 about dots.
 
-## Quests in Hellfire
+### Quests in Hellfire
     
-### Farmer’s Orchard
+#### Farmer’s Orchard
 
 If you have not activated the hidden quests, see chapter 1.2. You will
 find Lester the Farmer near the cows in the town. If your character is
@@ -32290,7 +31936,7 @@ the alien like thing on the ground. It will blow up the entrance to the
 Hive (The Nest). Go back to the Farmer and he will give you the Auric
 Amulet.
 
-### The Jersey’s Jersey
+#### The Jersey’s Jersey
 
 If you have activated the hidden quests (see chapter 1.2), you will not
 find Lester the Farmer. Instead, you will find the Complete Nut, also
@@ -32299,7 +31945,7 @@ the ground somewhere on level 3, and one brown suit lying on the ground
 somewhere on level 4. Bring the brown suit to the Complete Nut and he
 will give you the Bovine Plate.
 
-### Little Girl
+#### Little Girl
 
 If you have activated the hidden quests (see chapter 1.2), you will find
 a little girl standing close to the bridge just above the one that leads
@@ -32310,17 +31956,17 @@ random magic amulet created from an ilvl of 26. If you have not
 activated the hidden quests, the Hork Demon will drop a random magic
 amulet also created from an ilvl of 26.
 
-### The Defiler
+#### The Defiler
 
 The Defiler is the Boss of the Hive. Killing him will give you the
 Cathedral Map.
 
-### Grave Matters
+#### Grave Matters
 
 Go to the graveyard by the church. Drop the Cathedral Map on the huge
 new grave you find there. It will open up the entrance to the Crypt.
 
-### Cornerstone of the World
+#### Cornerstone of the World
 
 You will find the Cornerstone of the World (the CoW) in a small room on
 level 1 of the Crypt. By placing an item on it, that item will be
@@ -32358,14 +32004,14 @@ will never show up in the quest log.
 </tbody>
 </table>
 
-### Torn Notes
+#### Torn Notes
 
 On each of the first 3 levels of the Crypt you will find one Torn Note.
 When you have found all three, they will combine to the Reconstructed
 Note, which tells you about how to open the room to Na-Krul. This quest
 will never show up in the quest log.
 
-### Na-Krul
+#### Na-Krul
 
 Na-Krul can be found in a small room on level 4 of the Crypt. If you
 open his room by pulling the lever he will be a very tough opponent.
@@ -32423,7 +32069,7 @@ dropped.
 2 The base item is of course a *book of* but the game will attach the
 spell Apocalypse to it.
 
-# Battle.net
+## Battle.net
 
 This chapter will deal with Battle.net, explaining things like commands
 available, what icons mean, what channels exists and how they may differ
@@ -32434,7 +32080,7 @@ this guide based on such changes. This chapter was up to date as of the
 release of version 1.07. Some changes that has occurred later has been
 updated but most likely not all.
 
-## Channels
+### Channels
 
 Channels on Battle.net can be either public or private. In private ones
 there will usually exist an operator who has some extra commands at
@@ -32769,7 +32415,7 @@ in Diablo having a character named so), will always automatically gain
 operator status when joining the channel. Others can only gain operator
 status by the /designate command (see chapter 9.2 for more information).
 
-## Commands available in chat channels
+### Commands available in chat channels
 
 Any command which accepts a username can also accept an account number
 instead. For example, instead of typing */whois Jarulf*, you can type
@@ -32930,7 +32576,7 @@ Double click on name Gives you the profile of the player. To enter an
 URL in the profile, simply type it in. You will not see the link
 underscored and in blue on your own profile but other persons will.
 
-## Commands available in games
+### Commands available in games
 
 The 1.05 patch introduced the possibility of issuing some commands from
 within a game to other persons not in the game. It is also possible to
@@ -32946,7 +32592,7 @@ all other players in a game will hear what you say, and this is true for
 any version of Diablo or Hellfire. No one will hear your whispers, of
 course. For more game information, press F1 while in a game.
 
-## Character icons
+### Character icons
 
 When on Battle.net you will notice many different looks of the icon
 beside a player’s name. Here is a short explanation of what all the
@@ -33056,7 +32702,7 @@ Red Sorcerer.
 
 Gold Any character class with a character that has three dots.
 
-## Lag indicators
+### Lag indicators
 
 To the right of the name, you will see the lag indicator of a person.
 Starting with the 1.05 patch the way the game measures and represents
@@ -33090,7 +32736,7 @@ and the Battle.net server he/she is using). There seem to be some
 problems though, so that the lags you see for games are often shown to
 be way higher than they actually are.
 
-## Text
+### Text
 
 The text you see while in a chat channel can have several different
 colors. Note that the actual text and the name of the person in the text
@@ -33152,7 +32798,7 @@ Red Any errors when issuing any command or special messages from
 Battle.net which are seen by everyone at once, like notification that
 Battle.net will go down for service, will be displayed in red.
 
-## Joining games
+### Joining games
 
 When you press the JOIN button, you are presented with a list of games
 created by characters of the approximate same clvl as you have your
@@ -33193,9 +32839,9 @@ Nothing prevents you from joining any game that you know the name of
 difficulty requirements (see chapter ). They will just not show up on
 the list.
 
-# Other useful information
+## Other useful information
     
-## Hot keyed messages while playing
+### Hot keyed messages while playing
 
 While playing multi player games, you can set the four keys F9 - F12 to
 have four special messages that you can send to the other players in the
@@ -33206,7 +32852,7 @@ Hellfire, you must first create the file. The easiest way to do this is
 to copy the *diablo.ini* file from your Diablo folder into the Hellfire
 folder and then rename it. The syntax of the two files is identical.
 
-## Save files
+### Save files
 
 In single player, you can save (and must save) your game whenever you
 want. The save files are stored in the Diablo/Hellfire folder and can
@@ -33286,7 +32932,7 @@ Windows. You might have to activate *show hidden files* to see them.
 </tbody>
 </table>
 
-## Transferring save files
+### Transferring save files
 
 There is no way to transfer a save file (and thus a character) to/from
 single and multi player. To transfer files between computers (and even
@@ -33314,7 +32960,7 @@ number in the 0..9 range. It is very important to make sure you don’t
 get two characters with the exact same name this way as Diablo/Hellfire
 does not manage to handle such a situation well.
 
-## Backing up your character
+### Backing up your character
 
 In case you are worried of losing your character due to crashes or other
 computer problems, the easiest way to back up your character is to
@@ -33323,7 +32969,7 @@ To restore it later, you simply copy the save file back to the proper
 folder. See chapter 10.2 for more information about the save files and
 where they are located.
 
-## Daylight-saving time problems in Diablo 1.00
+### Daylight-saving time problems in Diablo 1.00
 
 Version 1.00 of Diablo had a bug concerning the daylight-saving time.
 Due to this bug, *any* character saved by a game from a later version
@@ -33335,7 +32981,7 @@ version. An alternative would be to backup your characters, update in
 whatever way you want, and then restore your characters after you have
 updated.
 
-## Avoiding the Game End movie
+### Avoiding the Game End movie
 
 Every time you or someone else kill Diablo, the game will end and the
 Game End movie will start to play. As the movie is quite long, it is
@@ -33354,7 +33000,7 @@ if you rename or move this file but be aware that if you get into any
 trouble, you may have to reinstall the game. If you do this, pay
 attention to the Daylight-saving time problem mentioned in chapter 10.5.
 
-## Meaningless information about this guide
+### Meaningless information about this guide
 
 As this is a guide about numbers and formulas it is not more than right
 that it has a few numbers about itself. Thus, below is a table with some
@@ -33461,7 +33107,7 @@ printer, paper size and format used.
 </tbody>
 </table>
 
-## The End
+### The End
 
 It is worth noticing that there are 3 kinds of people in the world,
 those who can count and those who can’t.
