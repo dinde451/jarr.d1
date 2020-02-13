@@ -2694,11 +2694,11 @@ all allowed characters.
 </tr>
 <tr class="odd">
 <td>Single player</td>
-<td>!@$(){}[]=+`~^-’.:;_|”#%&amp;/?*,&lt;&gt; <span style="font-variant: small-caps;">space</span> plus localized characters<sup>1</sup></td>
+<td>\!\@\$\(\)\{\}\[\]\=\+\`\~\^\-\’\.\:\;\_\|\”#%&amp;\/\?\*,&lt;&gt; <span style="font-variant: small-caps;">space</span> plus localized characters<sup>1</sup></td>
 </tr>
 <tr class="even">
 <td>Multi player</td>
-<td>!@$(){}[]=+`~^-’.:;_|</td>
+<td>\!\@\$\(\)\{\}\[\]\=\+\`\~\^\-\’\.\:\;\_\|</td>
 </tr>
 </tbody>
 </table>
@@ -4539,7 +4539,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Strength</td>
+<td>**\+ Strength**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4549,19 +4549,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>frailty</td>
 <td>-10 - -6</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -4571,7 +4571,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>weakness</td>
 <td>-5 - -1</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -4581,7 +4581,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>strength</td>
 <td>1 - 5</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td>4</td>
 <td>200 - 1 000</td>
@@ -4591,7 +4591,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>might</td>
 <td>6 - 10</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>5</td>
 <td>4</td>
 <td>1 200 - 2 000</td>
@@ -4601,7 +4601,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>power</td>
 <td>11 - 15</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>11</td>
 <td>4</td>
 <td>2 200 - 3 000</td>
@@ -4611,7 +4611,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>giants</td>
 <td>16 - 20</td>
-<td>A–W–BJ</td>
+<td>`A-W-BJ`</td>
 <td>17</td>
 <td>4</td>
 <td>3 200 - 5 000</td>
@@ -4621,7 +4621,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>titans</td>
 <td>21 - 30</td>
-<td>––W––J</td>
+<td>`--W--J`</td>
 <td>23</td>
 <td>9</td>
 <td>5 200 - 10 000</td>
@@ -4634,7 +4634,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Magic</td>
+<td>**\+ Magic**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4644,19 +4644,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>the fool</td>
 <td>-10 - -6</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -4666,7 +4666,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>dyslexia</td>
 <td>-5 - -1</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -4676,7 +4676,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>magic</td>
 <td>1 - 5</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>1</td>
 <td>4</td>
 <td>200 - 1 000</td>
@@ -4686,7 +4686,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the mind</td>
 <td>6 - 10</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>5</td>
 <td>4</td>
 <td>1 200 - 2 000</td>
@@ -4696,7 +4696,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>brilliance</td>
 <td>11 - 15</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>11</td>
 <td>4</td>
 <td>2 200 - 3 000</td>
@@ -4706,7 +4706,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>sorcery</td>
 <td>16 - 20</td>
-<td>A–WTBJ</td>
+<td>`A-WTBJ`</td>
 <td>17</td>
 <td>4</td>
 <td>3 200 - 5 000</td>
@@ -4716,7 +4716,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>wizardry</td>
 <td>21 - 30</td>
-<td>–––T–J</td>
+<td>`---T-J`</td>
 <td>23</td>
 <td>9</td>
 <td>5 200 - 10 000</td>
@@ -4729,7 +4729,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Dexterity</td>
+<td>**\+ Dexterity**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4739,19 +4739,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>paralysis</td>
 <td>-10 - -6</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -4761,7 +4761,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>atrophy</td>
 <td>-5 - -1</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -4771,7 +4771,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>dexterity</td>
 <td>1 - 5</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td>4</td>
 <td>200 - 1 000</td>
@@ -4781,7 +4781,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>skill</td>
 <td>6 - 10</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>5</td>
 <td>4</td>
 <td>1 200 - 2 000</td>
@@ -4791,7 +4791,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>accuracy</td>
 <td>11 - 15</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>11</td>
 <td>4</td>
 <td>2 200 - 3 000</td>
@@ -4801,7 +4801,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>precision</td>
 <td>16 - 20</td>
-<td>A–W–BJ</td>
+<td>`A-W-BJ`</td>
 <td>17</td>
 <td>4</td>
 <td>3 200 - 5 000</td>
@@ -4811,7 +4811,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>perfection</td>
 <td>21 - 30</td>
-<td>––––BJ</td>
+<td>`----BJ`</td>
 <td>23</td>
 <td>9</td>
 <td>5 200 - 10 000</td>
@@ -4824,7 +4824,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+Vitality</td>
+<td>**\+ Vitality**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4834,19 +4834,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>illness</td>
 <td>-10 - -6</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -4856,7 +4856,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>disease</td>
 <td>-5 - -1</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -4866,7 +4866,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>vitality</td>
 <td>1 - 5</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>1</td>
 <td>4</td>
 <td>200 - 1 000</td>
@@ -4876,7 +4876,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>zest</td>
 <td>6 - 10</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>5</td>
 <td>4</td>
 <td>1 200 - 2 000</td>
@@ -4886,7 +4886,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>vim</td>
 <td>11 - 15</td>
-<td>ASW–BJ</td>
+<td>`ASW-BJ`</td>
 <td>11</td>
 <td>4</td>
 <td>2 200 - 3 000</td>
@@ -4896,7 +4896,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>vigor</td>
 <td>16 - 20</td>
-<td>A–W–BJ</td>
+<td>`A-W-BJ`</td>
 <td>17</td>
 <td>4</td>
 <td>3 200 - 5 000</td>
@@ -4906,7 +4906,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>life</td>
 <td>21 - 30</td>
-<td>––-––J</td>
+<td>`-----J`</td>
 <td>23</td>
 <td>9</td>
 <td>5 200 - 10 000</td>
@@ -4919,7 +4919,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ All Attributes</td>
+<td>**\+ All Attributes**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -4929,19 +4929,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>trouble</td>
 <td>-10 - -6</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>12</td>
 <td></td>
 <td></td>
@@ -4951,7 +4951,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the pit</td>
 <td>-5 - -1</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>5</td>
 <td></td>
 <td></td>
@@ -4961,7 +4961,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the sky</td>
 <td>1 - 3</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>5</td>
 <td>2</td>
 <td>800 - 4 000</td>
@@ -4971,7 +4971,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the moon</td>
 <td>4 - 7</td>
-<td>ASWtBJ</td>
+<td>`ASWtBJ`</td>
 <td>11</td>
 <td>3</td>
 <td>4 800 - 8 000</td>
@@ -4981,7 +4981,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the stars</td>
 <td>8 - 11</td>
-<td>A-W-BJ</td>
+<td>`A-W-BJ`</td>
 <td>17</td>
 <td>3</td>
 <td>8 800 - 12 000</td>
@@ -4991,7 +4991,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the heavens</td>
 <td>12 - 15</td>
-<td>-–W–BJ</td>
+<td>`--W-BJ`</td>
 <td>25</td>
 <td>3</td>
 <td>12 800 - 20 000</td>
@@ -5001,7 +5001,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the zodiac</td>
 <td>16 - 20</td>
-<td>––-––J</td>
+<td>`-----J`</td>
 <td>30</td>
 <td>4</td>
 <td>20 800 - 40 000</td>
@@ -5014,7 +5014,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Life</td>
+<td>**\+ Life**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5024,19 +5024,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>the vulture</td>
 <td>-25 - -11</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>4</td>
 <td></td>
 <td></td>
@@ -5046,7 +5046,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the jackal</td>
 <td>-10 - -1</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5056,7 +5056,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the fox</td>
 <td>10 - 15</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>1</td>
 <td>5</td>
 <td>100 - 1 000</td>
@@ -5066,7 +5066,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the jaguar</td>
 <td>16 - 20</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>5</td>
 <td>4</td>
 <td>1 100 - 2 000</td>
@@ -5076,7 +5076,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the eagle</td>
 <td>21 - 30</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>9</td>
 <td>9</td>
 <td>2 100 - 4 000</td>
@@ -5086,7 +5086,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the wolf</td>
 <td>30 - 40</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>15</td>
 <td>10</td>
 <td>4 100 - 6 000</td>
@@ -5096,7 +5096,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the tiger</td>
 <td>41 - 50</td>
-<td>AS---J</td>
+<td>`AS---J`</td>
 <td>21</td>
 <td>9</td>
 <td>6 100 - 10 000</td>
@@ -5106,7 +5106,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the lion</td>
 <td>51 - 60</td>
-<td>A----J</td>
+<td>`A----J`</td>
 <td>27</td>
 <td>9</td>
 <td>10 100 - 15 000</td>
@@ -5116,7 +5116,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>the mammoth</td>
 <td>61 - 80</td>
-<td>A-----</td>
+<td>`A-----`</td>
 <td>35</td>
 <td>19</td>
 <td>15 100 - 19 000</td>
@@ -5126,7 +5126,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>the whale</td>
 <td>81 - 100</td>
-<td>A-----</td>
+<td>`A-----`</td>
 <td>60</td>
 <td>19</td>
 <td>19 100 - 30 000</td>
@@ -5139,7 +5139,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Mana</td>
+<td>**\+ Mana**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5149,19 +5149,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>corruption<sup>1</sup></td>
 <td>-all</td>
-<td>ASW---</td>
+<td>`ASW---`</td>
 <td>5</td>
 <td></td>
 <td>-1 000</td>
@@ -5171,7 +5171,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>hyena’s</td>
 <td>-25 - -11</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>4</td>
 <td>14</td>
 <td>100 - 1 000</td>
@@ -5181,7 +5181,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>frog’s</td>
 <td>-10 - -1</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5191,7 +5191,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>spider’s</td>
 <td>10 - 15</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>1</td>
 <td>5</td>
 <td>500 - 1 000</td>
@@ -5201,7 +5201,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>raven’s</td>
 <td>15 - 20</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>5</td>
 <td>5</td>
 <td>1 100 - 2 000</td>
@@ -5211,7 +5211,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>snake’s</td>
 <td>21 - 30</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>9</td>
 <td>9</td>
 <td>2 100 - 4 000</td>
@@ -5221,7 +5221,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>serpent’s</td>
 <td>30 - 40</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>15</td>
 <td>10</td>
 <td>4 100 - 6 000</td>
@@ -5231,7 +5231,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>drake’s</td>
 <td>41 - 50</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>21</td>
 <td>9</td>
 <td>6 100 - 10 000</td>
@@ -5241,7 +5241,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>dragon’s</td>
 <td>51 - 60</td>
-<td>---T-J</td>
+<td>`---T-J`</td>
 <td>27</td>
 <td>9</td>
 <td>10 100 - 15 000</td>
@@ -5251,7 +5251,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>wyrm’s<sup>2</sup></td>
 <td>61 - 80</td>
-<td>---t--</td>
+<td>`---t--`</td>
 <td>35</td>
 <td>19</td>
 <td>15 100 - 19 000</td>
@@ -5261,7 +5261,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>hydra’s<sup>2</sup></td>
 <td>81 - 100</td>
-<td>---t--</td>
+<td>`---t--`</td>
 <td>60</td>
 <td>19</td>
 <td>19 100 - 30 000</td>
@@ -5278,7 +5278,7 @@ suffix. The following abbreviations are used:
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Armor Class<sup>1</sup></td>
+<td>**\+% Armor Class**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -5288,19 +5288,19 @@ suffix. The following abbreviations are used:
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>vulnerable</td>
 <td>-100 - -51</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -5310,7 +5310,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>rusted</td>
 <td>-50 - -25</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5320,7 +5320,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>fine</td>
 <td>20 - 30</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>1</td>
 <td>10</td>
 <td>20 - 100</td>
@@ -5330,7 +5330,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>strong</td>
 <td>31 - 40</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>3</td>
 <td>9</td>
 <td>120 - 200</td>
@@ -5340,7 +5340,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>grand</td>
 <td>41 - 55</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>6</td>
 <td>14</td>
 <td>220 - 300</td>
@@ -5350,7 +5350,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>valiant</td>
 <td>56 - 70</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>10</td>
 <td>14</td>
 <td>320 - 400</td>
@@ -5360,7 +5360,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>glorious</td>
 <td>71 - 90</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>14</td>
 <td>19</td>
 <td>420 - 600</td>
@@ -5370,7 +5370,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>blessed</td>
 <td>91 - 110</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>19</td>
 <td>19</td>
 <td>620 - 800</td>
@@ -5380,7 +5380,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>saintly</td>
 <td>111 - 130</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>24</td>
 <td>19</td>
 <td>820 - 1 200</td>
@@ -5390,7 +5390,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>awesome</td>
 <td>131 - 150</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>28</td>
 <td>19</td>
 <td>1 220 - 2 000</td>
@@ -5400,7 +5400,7 @@ suffix. The following abbreviations are used:
 <tr class="odd">
 <td>holy</td>
 <td>151 - 170</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>35</td>
 <td>19</td>
 <td>5 200 - 6 000</td>
@@ -5410,7 +5410,7 @@ suffix. The following abbreviations are used:
 <tr class="even">
 <td>godly</td>
 <td>171 - 200</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>60</td>
 <td>29</td>
 <td>6 200 - 7 000</td>
@@ -5428,7 +5428,7 @@ will be transformed into a positive increase by 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% To Hit</td>
+<td>**\+ % To Hit**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5438,19 +5438,19 @@ will be transformed into a positive increase by 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>tin</td>
 <td>-10 - -6</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -5460,7 +5460,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>brass</td>
 <td>-5 - -1</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5470,7 +5470,7 @@ will be transformed into a positive increase by 1.
 <tr class="odd">
 <td>bronze</td>
 <td>1 - 5</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>1</td>
 <td>4</td>
 <td>100 - 500</td>
@@ -5480,7 +5480,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>iron</td>
 <td>6 - 10</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>4</td>
 <td>4</td>
 <td>600 - 1 000</td>
@@ -5490,7 +5490,7 @@ will be transformed into a positive increase by 1.
 <tr class="odd">
 <td>steel</td>
 <td>11 - 15</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>6</td>
 <td>4</td>
 <td>1 100 - 1 500</td>
@@ -5500,7 +5500,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>silver</td>
 <td>16 - 20</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>9</td>
 <td>4</td>
 <td>1 600 - 2 000</td>
@@ -5510,7 +5510,7 @@ will be transformed into a positive increase by 1.
 <tr class="odd">
 <td>gold</td>
 <td>21 - 30</td>
-<td>––W–BJ</td>
+<td>`--W-BJ`</td>
 <td>12</td>
 <td>9</td>
 <td>2 100 - 3 000</td>
@@ -5520,7 +5520,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>platinum</td>
 <td>31 - 40</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>16</td>
 <td>9</td>
 <td>3 100 - 4 000</td>
@@ -5530,7 +5530,7 @@ will be transformed into a positive increase by 1.
 <tr class="odd">
 <td>mithril</td>
 <td>41 - 60</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>20</td>
 <td>19</td>
 <td>4 100 - 6 000</td>
@@ -5540,7 +5540,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>meteoric</td>
 <td>61 - 80</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>23</td>
 <td>19</td>
 <td>6 100 - 10 000</td>
@@ -5550,7 +5550,7 @@ will be transformed into a positive increase by 1.
 <tr class="odd">
 <td>weird</td>
 <td>81 - 100</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>35</td>
 <td>19</td>
 <td>10 100 - 14 000</td>
@@ -5560,7 +5560,7 @@ will be transformed into a positive increase by 1.
 <tr class="even">
 <td>strange</td>
 <td>101 - 150</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>60</td>
 <td>49</td>
 <td>14 100 - 20 000</td>
@@ -5573,7 +5573,7 @@ will be transformed into a positive increase by 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% To Hit, +% Damage Done</td>
+<td>**\ +% To Hit, \+ % Damage Done**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5582,19 +5582,19 @@ will be transformed into a positive increase by 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>To Hit</td>
-<td>Damage</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps<sup>1</sup></td>
-<td>Base-Max</td>
+<td>**Prefix**</td>
+<td>**To Hit**</td>
+<td>**Damage**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps<sup>1</sup>**</td>
+<td>**Base-Max**</td>
 </tr>
 <tr class="odd">
 <td>clumsy</td>
 <td>-10 - -6</td>
 <td>-75 - -50</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>5</td>
 <td></td>
 <td></td>
@@ -5603,7 +5603,7 @@ will be transformed into a positive increase by 1.
 <td>dull</td>
 <td>-5 - -1</td>
 <td>-45 - -25</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5612,7 +5612,7 @@ will be transformed into a positive increase by 1.
 <td>sharp<sup>2</sup></td>
 <td>1 - 5</td>
 <td>20 - 35</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>1</td>
 <td>15</td>
 <td>350 - 950</td>
@@ -5621,7 +5621,7 @@ will be transformed into a positive increase by 1.
 <td>fine</td>
 <td>6 - 10</td>
 <td>36 - 50</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>6</td>
 <td>14</td>
 <td>1 100 - 1 700</td>
@@ -5630,7 +5630,7 @@ will be transformed into a positive increase by 1.
 <td>Warrior’s</td>
 <td>11 - 15</td>
 <td>51 - 65</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>10</td>
 <td>14</td>
 <td>1 850 - 2 450</td>
@@ -5639,7 +5639,7 @@ will be transformed into a positive increase by 1.
 <td>soldier’s</td>
 <td>16 - 20</td>
 <td>66 - 80</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>15</td>
 <td>14</td>
 <td>2 600 - 3 950</td>
@@ -5648,7 +5648,7 @@ will be transformed into a positive increase by 1.
 <td>lord’s</td>
 <td>21 - 30</td>
 <td>81 - 95</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>19</td>
 <td>14</td>
 <td>4 100 - 5 950</td>
@@ -5657,7 +5657,7 @@ will be transformed into a positive increase by 1.
 <td>knight’s</td>
 <td>31 - 40</td>
 <td>96 - 110</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>23</td>
 <td>14</td>
 <td>6 100 - 8 450</td>
@@ -5666,7 +5666,7 @@ will be transformed into a positive increase by 1.
 <td>master’s</td>
 <td>41 - 50</td>
 <td>111 - 125</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>28</td>
 <td>14</td>
 <td>8 600 - 13 000</td>
@@ -5675,7 +5675,7 @@ will be transformed into a positive increase by 1.
 <td>champion’s</td>
 <td>51 - 75</td>
 <td>126 - 150</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>40</td>
 <td>24</td>
 <td>15 200 - 24 000</td>
@@ -5684,7 +5684,7 @@ will be transformed into a positive increase by 1.
 <td>king’s</td>
 <td>76 - 100</td>
 <td>151 - 175</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>28</td>
 <td>24</td>
 <td>24 100 - 35 000</td>
@@ -5693,7 +5693,7 @@ will be transformed into a positive increase by 1.
 <td>doppelganger’s<sup>3</sup></td>
 <td>21 - 30</td>
 <td>81 - 95</td>
-<td>––Wt––</td>
+<td>`--Wt--`</td>
 <td>11</td>
 <td>14</td>
 <td>2 000 - 2 400</td>
@@ -5712,7 +5712,7 @@ hit except Diablo and unique monsters.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Damage Done</td>
+<td>**\+ % Damage Done**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5721,18 +5721,18 @@ hit except Diablo and unique monsters.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
 </tr>
 <tr class="odd">
 <td>useless</td>
 <td>-100</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>5</td>
 <td></td>
 <td></td>
@@ -5741,7 +5741,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>bent</td>
 <td>-75 - -50</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -5750,7 +5750,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>weak</td>
 <td>-45 - -25</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -5759,7 +5759,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>jagged</td>
 <td>20 - 35</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>4</td>
 <td>15</td>
 <td>250 - 450</td>
@@ -5768,7 +5768,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>deadly</td>
 <td>36 - 50</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>6</td>
 <td>14</td>
 <td>500 - 700</td>
@@ -5777,7 +5777,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>heavy</td>
 <td>51 - 65</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>9</td>
 <td>14</td>
 <td>750 - 950</td>
@@ -5786,7 +5786,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>vicious</td>
 <td>66 - 80</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>12</td>
 <td>14</td>
 <td>1 000 - 1 450</td>
@@ -5795,7 +5795,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>brutal</td>
 <td>81 - 95</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>16</td>
 <td>14</td>
 <td>1 500 - 1 950</td>
@@ -5804,7 +5804,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>massive</td>
 <td>96 - 110</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>20</td>
 <td>14</td>
 <td>2 000 - 2 450</td>
@@ -5813,7 +5813,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>savage</td>
 <td>111 - 125</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>23</td>
 <td>14</td>
 <td>2 500 - 3 000</td>
@@ -5822,7 +5822,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>ruthless</td>
 <td>126 - 150</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>35</td>
 <td>24</td>
 <td>10 100 - 15 000</td>
@@ -5831,7 +5831,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>merciless</td>
 <td>151 - 175</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>60</td>
 <td>24</td>
 <td>15 000 - 20 000</td>
@@ -5840,7 +5840,7 @@ hit except Diablo and unique monsters.
 <tr class="odd">
 <td>decay<sup>1,2</sup></td>
 <td>150 - 250</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>1</td>
 <td></td>
 <td>200 - 200</td>
@@ -5849,7 +5849,7 @@ hit except Diablo and unique monsters.
 <tr class="even">
 <td>crystalline<sup>1,3</sup></td>
 <td>200 - 280</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>5</td>
 <td>79</td>
 <td>1 000 - 3 000</td>
@@ -5868,7 +5868,7 @@ destroyed.
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Damage Done</td>
+<td>**\+ Damage Done**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -5878,19 +5878,19 @@ destroyed.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>quality</td>
 <td>1 - 2</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>2</td>
 <td>1</td>
 <td>100 - 200</td>
@@ -5900,7 +5900,7 @@ destroyed.
 <tr class="even">
 <td>maiming</td>
 <td>3 - 5</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>7</td>
 <td>2</td>
 <td>1 300 - 1 500</td>
@@ -5910,7 +5910,7 @@ destroyed.
 <tr class="odd">
 <td>slaying</td>
 <td>6 - 8</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>15</td>
 <td>2</td>
 <td>2 600 - 3 000</td>
@@ -5920,7 +5920,7 @@ destroyed.
 <tr class="even">
 <td>gore</td>
 <td>9 - 12</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>25</td>
 <td>3</td>
 <td>4 100 - 5 000</td>
@@ -5930,7 +5930,7 @@ destroyed.
 <tr class="odd">
 <td>carnage</td>
 <td>13 - 16</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>35</td>
 <td>3</td>
 <td>5 100 - 10 000</td>
@@ -5940,7 +5940,7 @@ destroyed.
 <tr class="even">
 <td>slaughter</td>
 <td>17 - 20</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>60</td>
 <td>3</td>
 <td>10 100 - 15 000</td>
@@ -5953,7 +5953,7 @@ destroyed.
 <table>
 <tbody>
 <tr class="odd">
-<td>- Damage Taken<sup>1</sup></td>
+<td>**\- Damage Taken**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -5963,19 +5963,19 @@ destroyed.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>pain</td>
 <td>+4 - +2</td>
-<td>AS–––J</td>
+<td>`AS---J`</td>
 <td>4</td>
 <td></td>
 <td></td>
@@ -5985,7 +5985,7 @@ destroyed.
 <tr class="even">
 <td>tears</td>
 <td>+1</td>
-<td>AS–––J</td>
+<td>`AS---J`</td>
 <td>2</td>
 <td></td>
 <td></td>
@@ -5995,7 +5995,7 @@ destroyed.
 <tr class="odd">
 <td>health</td>
 <td>1</td>
-<td>AS–––J</td>
+<td>`AS---J`</td>
 <td>2</td>
 <td></td>
 <td>200</td>
@@ -6005,7 +6005,7 @@ destroyed.
 <tr class="even">
 <td>protection</td>
 <td>2</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>6</td>
 <td></td>
 <td>400</td>
@@ -6015,7 +6015,7 @@ destroyed.
 <tr class="odd">
 <td>absorption</td>
 <td>3</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>12</td>
 <td></td>
 <td>1 001</td>
@@ -6025,7 +6025,7 @@ destroyed.
 <tr class="even">
 <td>deflection</td>
 <td>4</td>
-<td>A–––––</td>
+<td>`A-----`</td>
 <td>20</td>
 <td></td>
 <td>2 500</td>
@@ -6035,7 +6035,7 @@ destroyed.
 <tr class="odd">
 <td>osmosis</td>
 <td>5 - 6</td>
-<td>A–––––</td>
+<td>`A-----`</td>
 <td>50</td>
 <td>1</td>
 <td>7 500 - 10 000</td>
@@ -6053,7 +6053,7 @@ below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Fire Damage<sup>1</sup></td>
+<td>**\+ Fire Damage**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6063,19 +6063,19 @@ below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>flame</td>
 <td>1 - 3</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>1</td>
 <td></td>
 <td>2 000</td>
@@ -6085,7 +6085,7 @@ below 1.
 <tr class="even">
 <td>fire</td>
 <td>1 - 6</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>11</td>
 <td></td>
 <td>4 000</td>
@@ -6095,7 +6095,7 @@ below 1.
 <tr class="odd">
 <td>burning</td>
 <td>1 - 16</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>35</td>
 <td></td>
 <td>6 000</td>
@@ -6105,7 +6105,7 @@ below 1.
 <tr class="even">
 <td>flaming<sup>2</sup></td>
 <td>1 - 10</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>7</td>
 <td></td>
 <td>5 000</td>
@@ -6124,7 +6124,7 @@ additional damage at all).
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Lightning Damage<sup>1</sup></td>
+<td>**\+ Lightning Damage**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6133,18 +6133,18 @@ additional damage at all).
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
 </tr>
 <tr class="odd">
 <td>shock</td>
 <td>1 - 6</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>13</td>
 <td></td>
 <td>6 000</td>
@@ -6153,7 +6153,7 @@ additional damage at all).
 <tr class="even">
 <td>lightning</td>
 <td>1 - 10</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>21</td>
 <td></td>
 <td>8 000</td>
@@ -6162,7 +6162,7 @@ additional damage at all).
 <tr class="odd">
 <td>thunder</td>
 <td>1 - 20</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>60</td>
 <td></td>
 <td>12 000</td>
@@ -6171,7 +6171,7 @@ additional damage at all).
 <tr class="even">
 <td>lightning<sup>2</sup></td>
 <td>2 - 20</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>18</td>
 <td></td>
 <td>10 000</td>
@@ -6189,7 +6189,7 @@ additional damage at all).
 <table>
 <tbody>
 <tr class="odd">
-<td>% Steal Life<sup>1</sup></td>
+<td>**% Steal Life**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6199,19 +6199,19 @@ additional damage at all).
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>the leech</td>
 <td>3</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>8</td>
 <td></td>
 <td>7 500</td>
@@ -6221,7 +6221,7 @@ additional damage at all).
 <tr class="even">
 <td>blood</td>
 <td>5</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>19</td>
 <td></td>
 <td>15 000</td>
@@ -6243,7 +6243,7 @@ Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for more 
 <table>
 <tbody>
 <tr class="odd">
-<td>% Steal Mana<sup>1</sup></td>
+<td>**% Steal Mana**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6253,19 +6253,19 @@ Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for more 
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>the bat</td>
 <td>3</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>8</td>
 <td></td>
 <td>7 500</td>
@@ -6275,7 +6275,7 @@ Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for more 
 <tr class="even">
 <td>vampires</td>
 <td>5</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>19</td>
 <td></td>
 <td>15 000</td>
@@ -6295,7 +6295,7 @@ more information.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Resist Magic<sup>1</sup></td>
+<td>**\+ % Resist Magic**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6304,18 +6304,18 @@ more information.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
 </tr>
 <tr class="odd">
 <td>white</td>
 <td>10 - 20</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>4</td>
 <td>10</td>
 <td>500 - 1 500</td>
@@ -6324,7 +6324,7 @@ more information.
 <tr class="even">
 <td>pearl</td>
 <td>21 - 30</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>10</td>
 <td>9</td>
 <td>2 100 - 3 000</td>
@@ -6333,7 +6333,7 @@ more information.
 <tr class="odd">
 <td>ivory</td>
 <td>31 - 40</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>16</td>
 <td>9</td>
 <td>3 100 - 4 000</td>
@@ -6342,7 +6342,7 @@ more information.
 <tr class="even">
 <td>crystal</td>
 <td>41 - 50</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>20</td>
 <td>9</td>
 <td>8 200 - 12 000</td>
@@ -6351,7 +6351,7 @@ more information.
 <tr class="odd">
 <td>diamond</td>
 <td>51 - 60</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>26</td>
 <td>9</td>
 <td>17 100 - 20 000</td>
@@ -6366,7 +6366,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Resist Fire<sup>1</sup></td>
+<td>**\+ % Resist Fire**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6376,19 +6376,19 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>red</td>
 <td>10 - 20</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>4</td>
 <td>10</td>
 <td>500 - 1 500</td>
@@ -6398,7 +6398,7 @@ damage below 1.
 <tr class="even">
 <td>crimson</td>
 <td>21 - 30</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>10</td>
 <td>9</td>
 <td>2 100 - 3 000</td>
@@ -6408,7 +6408,7 @@ damage below 1.
 <tr class="odd">
 <td>crimson</td>
 <td>31 - 40</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>16</td>
 <td>9</td>
 <td>3 100 - 4 000</td>
@@ -6418,7 +6418,7 @@ damage below 1.
 <tr class="even">
 <td>garnet</td>
 <td>41 - 50</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>20</td>
 <td>9</td>
 <td>8 200 - 12 000</td>
@@ -6428,7 +6428,7 @@ damage below 1.
 <tr class="odd">
 <td>ruby</td>
 <td>51 - 60</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>26</td>
 <td>9</td>
 <td>17 100 - 20 000</td>
@@ -6444,7 +6444,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Resist Lightning<sup>1</sup></td>
+<td>**\+ % Resist Lightning**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6453,18 +6453,18 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
 </tr>
 <tr class="odd">
 <td>blue</td>
 <td>10 - 20</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>4</td>
 <td>10</td>
 <td>500 - 1 500</td>
@@ -6473,7 +6473,7 @@ damage below 1.
 <tr class="even">
 <td>azure</td>
 <td>21 - 30</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>10</td>
 <td>9</td>
 <td>2 100 - 3 000</td>
@@ -6482,7 +6482,7 @@ damage below 1.
 <tr class="odd">
 <td>lapis</td>
 <td>31 - 40</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>16</td>
 <td>9</td>
 <td>3 100 - 4 000</td>
@@ -6491,7 +6491,7 @@ damage below 1.
 <tr class="even">
 <td>cobalt</td>
 <td>41 - 50</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>20</td>
 <td>9</td>
 <td>8 200 - 12 000</td>
@@ -6500,7 +6500,7 @@ damage below 1.
 <tr class="odd">
 <td>sapphire</td>
 <td>51 - 60</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>26</td>
 <td>9</td>
 <td>17 100 - 20 000</td>
@@ -6515,7 +6515,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Resist All<sup>1</sup></td>
+<td>**\+ % Resist All**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6525,19 +6525,19 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>topaz</td>
 <td>10 - 15</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>8</td>
 <td>5</td>
 <td>2 000 - 5 000</td>
@@ -6547,7 +6547,7 @@ damage below 1.
 <tr class="even">
 <td>amber</td>
 <td>16 - 20</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>12</td>
 <td>4</td>
 <td>7 400 - 10 000</td>
@@ -6557,7 +6557,7 @@ damage below 1.
 <tr class="odd">
 <td>jade</td>
 <td>21 - 30</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>18</td>
 <td>9</td>
 <td>11 000 - 15 000</td>
@@ -6567,7 +6567,7 @@ damage below 1.
 <tr class="even">
 <td>obsidian</td>
 <td>31 - 40</td>
-<td>ASWTBJ</td>
+<td>`ASWTBJ`</td>
 <td>24</td>
 <td>9</td>
 <td>24 000 - 40 000</td>
@@ -6577,7 +6577,7 @@ damage below 1.
 <tr class="odd">
 <td>emerald</td>
 <td>41 - 50</td>
-<td>–SWTB–</td>
+<td>`-SWTB-`</td>
 <td>31</td>
 <td>9</td>
 <td>61 000 - 75 000</td>
@@ -6593,7 +6593,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>+ Spell Levels</td>
+<td>**\+ Spell Levels**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -6603,19 +6603,19 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>angel’s</td>
 <td>1</td>
-<td>–––T––</td>
+<td>`---T--`</td>
 <td>15</td>
 <td></td>
 <td>25 000</td>
@@ -6625,7 +6625,7 @@ damage below 1.
 <tr class="even">
 <td>arch-angel’s</td>
 <td>2</td>
-<td>–––T––</td>
+<td>`---T--`</td>
 <td>25</td>
 <td></td>
 <td>50 000</td>
@@ -6638,7 +6638,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>× Charges</td>
+<td>**× Charges**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -6648,19 +6648,19 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Prefix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Prefix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>plentiful</td>
 <td>2</td>
-<td>–––T––</td>
+<td>`---T--`</td>
 <td>4</td>
 <td></td>
 <td>2 000</td>
@@ -6670,7 +6670,7 @@ damage below 1.
 <tr class="even">
 <td>bountiful</td>
 <td>3</td>
-<td>–––T––</td>
+<td>`---T--`</td>
 <td>9</td>
 <td></td>
 <td>3 000</td>
@@ -6683,7 +6683,7 @@ damage below 1.
 <table>
 <tbody>
 <tr class="odd">
-<td>Damage / Penetrate Armor<sup>1</sup></td>
+<td>**Damage / Penetrate Armor**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6692,19 +6692,19 @@ damage below 1.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value<sup>2</sup></td>
-<td>Value<sup>3</sup></td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
+<td>**Suffix**</td>
+<td>**Value**<sup>2</sup></td>
+<td>**Value**<sup>3</sup></td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
 </tr>
 <tr class="odd">
 <td>piercing</td>
 <td>2 - 6</td>
 <td>25<sup>4</sup> %</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>1</td>
 <td></td>
 <td>1 000</td>
@@ -6713,7 +6713,7 @@ damage below 1.
 <td>puncturing</td>
 <td>4 - 12</td>
 <td>50<sup>4</sup> %</td>
-<td>––W–B–</td>
+<td>`--W-B-`</td>
 <td>9</td>
 <td></td>
 <td>2 000</td>
@@ -6722,7 +6722,7 @@ damage below 1.
 <td>bashing</td>
 <td>8 - 24</td>
 <td>75<sup>4</sup> %</td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>17</td>
 <td></td>
 <td>4 000</td>
@@ -6746,7 +6746,7 @@ the character screen.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Light Radius<sup>1</sup></td>
+<td>**\+ % Light Radius**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6755,18 +6755,18 @@ the character screen.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
 </tr>
 <tr class="odd">
 <td>the dark</td>
 <td>-40</td>
-<td>A–W—J</td>
+<td>`A-W—J`</td>
 <td>6</td>
 <td></td>
 <td></td>
@@ -6775,7 +6775,7 @@ the character screen.
 <tr class="even">
 <td>the night</td>
 <td>-20</td>
-<td>A–W—J</td>
+<td>`A-W—J`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -6784,7 +6784,7 @@ the character screen.
 <tr class="odd">
 <td>light</td>
 <td>20</td>
-<td>A–W—J</td>
+<td>`A-W—J`</td>
 <td>4</td>
 <td></td>
 <td>750</td>
@@ -6793,7 +6793,7 @@ the character screen.
 <tr class="even">
 <td>radiance</td>
 <td>40</td>
-<td>A–W—J</td>
+<td>`A-W—J`</td>
 <td>8</td>
 <td></td>
 <td>1 500</td>
@@ -6812,7 +6812,7 @@ even if you later lower it.
 <table>
 <tbody>
 <tr class="odd">
-<td>Weapon Speed<sup>1</sup></td>
+<td>**Weapon Speed**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6822,19 +6822,19 @@ even if you later lower it.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>readiness<sup>2,3</sup></td>
 <td>quick</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>1</td>
 <td></td>
 <td>2 000</td>
@@ -6844,7 +6844,7 @@ even if you later lower it.
 <tr class="even">
 <td>swiftness<sup>3</sup></td>
 <td>fast</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>10</td>
 <td></td>
 <td>4 000</td>
@@ -6854,7 +6854,7 @@ even if you later lower it.
 <tr class="odd">
 <td>speed</td>
 <td>faster</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>19</td>
 <td></td>
 <td>8 000</td>
@@ -6864,7 +6864,7 @@ even if you later lower it.
 <tr class="even">
 <td>haste<sup>4</sup></td>
 <td>fastest</td>
-<td>––WT––</td>
+<td>`--WT--`</td>
 <td>27</td>
 <td></td>
 <td>16 000</td>
@@ -6887,7 +6887,7 @@ patch (1.07).
 <table>
 <tbody>
 <tr class="odd">
-<td>Hit Recovery<sup>1</sup></td>
+<td>**Hit Recovery**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6897,19 +6897,19 @@ patch (1.07).
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>balance<sup>1</sup></td>
 <td>fast</td>
-<td>A––––J</td>
+<td>`A----J`</td>
 <td>1</td>
 <td></td>
 <td>2 000</td>
@@ -6919,7 +6919,7 @@ patch (1.07).
 <tr class="even">
 <td>stability<sup>1</sup></td>
 <td>faster</td>
-<td>A––––J</td>
+<td>`A----J`</td>
 <td>10</td>
 <td></td>
 <td>4 000</td>
@@ -6929,7 +6929,7 @@ patch (1.07).
 <tr class="odd">
 <td>harmony<sup>1</sup></td>
 <td>fastest</td>
-<td>A––––J</td>
+<td>`A----J`</td>
 <td>20</td>
 <td></td>
 <td>8 000</td>
@@ -6947,7 +6947,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <table>
 <tbody>
 <tr class="odd">
-<td>+% Durability</td>
+<td>**\+ % Durability**</td>
 <td></td>
 <td></td>
 <td></td>
@@ -6957,19 +6957,19 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Value</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Steps</td>
-<td>Base-Max</td>
-<td>Range</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Value**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Steps**</td>
+<td>**Base-Max**</td>
+<td>**Range**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>fragility</td>
 <td>=1</td>
-<td>ASW–––</td>
+<td>`ASW---`</td>
 <td>3</td>
 <td></td>
 <td></td>
@@ -6979,7 +6979,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>brittleness</td>
 <td>-75 - -26</td>
-<td>ASW–––</td>
+<td>`ASW---`</td>
 <td>1</td>
 <td></td>
 <td></td>
@@ -6989,7 +6989,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>sturdiness</td>
 <td>26 - 75</td>
-<td>ASWt––</td>
+<td>`ASWt--`</td>
 <td>1</td>
 <td></td>
 <td>100</td>
@@ -6999,7 +6999,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>craftsmanship</td>
 <td>51 - 100</td>
-<td>ASWt––</td>
+<td>`ASWt--`</td>
 <td>6</td>
 <td></td>
 <td>200</td>
@@ -7009,7 +7009,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>structure</td>
 <td>101 - 200</td>
-<td>ASWt––</td>
+<td>`ASWt--`</td>
 <td>12</td>
 <td></td>
 <td>300</td>
@@ -7019,7 +7019,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>many</td>
 <td>100</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>3</td>
 <td></td>
 <td>750</td>
@@ -7029,7 +7029,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>plenty</td>
 <td>200</td>
-<td>––––B–</td>
+<td>`----B-`</td>
 <td>7</td>
 <td></td>
 <td>1 500</td>
@@ -7039,7 +7039,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>the ages</td>
 <td>indestruct.</td>
-<td>ASWt––</td>
+<td>`ASWt--`</td>
 <td>25</td>
 <td></td>
 <td>600</td>
@@ -7052,7 +7052,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <table>
 <tbody>
 <tr class="odd">
-<td>Other<sup>1</sup></td>
+<td>**Other**<sup>1</sup></td>
 <td></td>
 <td></td>
 <td></td>
@@ -7060,17 +7060,17 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <td></td>
 </tr>
 <tr class="even">
-<td>Suffix</td>
-<td>Effect</td>
-<td>Occurrence</td>
-<td>qlvl</td>
-<td>Base-Max</td>
-<td>Multiplier</td>
+<td>**Suffix**</td>
+<td>**Effect**</td>
+<td>**Occurrence**</td>
+<td>**qlvl**</td>
+<td>**Base-Max**</td>
+<td>**Multiplier**</td>
 </tr>
 <tr class="odd">
 <td>the bear</td>
 <td>knocks target back</td>
-<td>––WTB–</td>
+<td>`--WTB-`</td>
 <td>5</td>
 <td>750</td>
 <td>2</td>
@@ -7078,7 +7078,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>blocking</td>
 <td>fast block</td>
-<td>-S----</td>
+<td>`-S----`</td>
 <td>5</td>
 <td>4 000</td>
 <td>4</td>
@@ -7086,7 +7086,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>thieves<sup>2,3</sup></td>
 <td>absorbs half trap damage</td>
-<td>AS–––J</td>
+<td>`AS---J`</td>
 <td>11</td>
 <td>1 500</td>
 <td>2</td>
@@ -7094,7 +7094,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>thorns<sup>2</sup></td>
 <td>attacker takes 1-3 damage</td>
-<td>AS––––</td>
+<td>`AS----`</td>
 <td>1</td>
 <td>500</td>
 <td>2</td>
@@ -7102,7 +7102,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>devastation<sup>2,4,5,6</sup></td>
 <td>5% chance of doing ×3 damage</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>1</td>
 <td>1 200</td>
 <td>3</td>
@@ -7110,7 +7110,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="even">
 <td>jester’s<sup>2,4,5,7</sup></td>
 <td>each swing does ×0-6 damage<sup>9</sup></td>
-<td>––W–––</td>
+<td>`--W---`</td>
 <td>7</td>
 <td>1 200</td>
 <td>3</td>
@@ -7118,7 +7118,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 <tr class="odd">
 <td>peril<sup>2,4,6,8</sup></td>
 <td>×2 damage to monster, ×1 to user</td>
-<td>––WtB–</td>
+<td>`--WtB-`</td>
 <td>5</td>
 <td>500</td>
 <td>1</td>
@@ -7126,9 +7126,7 @@ hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 </tbody>
 </table>
 
-1
-
-These effects are not cumulative if you have them more than once. They
+1 These effects are not cumulative if you have them more than once. They
 are cumulative with other effects though.
 
 2 Does not work versus players.
@@ -13793,10 +13791,10 @@ abbreviations are used:
 <td>+ All Attributes</td>
 </tr>
 <tr class="even">
-<td>frailty ASW–BJ</td>
+<td>frailty ASW-BJ</td>
 <td>the fool ASWTBJ</td>
-<td>paralysis ASW–BJ</td>
-<td>illness ASW–BJ</td>
+<td>paralysis ASW-BJ</td>
+<td>illness ASW-BJ</td>
 <td>trouble ASWtBJ</td>
 </tr>
 <tr class="odd">
@@ -13814,32 +13812,32 @@ abbreviations are used:
 <td>the sky ASWtBJ</td>
 </tr>
 <tr class="odd">
-<td>might ASW–BJ</td>
+<td>might ASW-BJ</td>
 <td>the mind ASWTBJ</td>
-<td>skill ASW–BJ</td>
-<td>zest ASW–BJ</td>
+<td>skill ASW-BJ</td>
+<td>zest ASW-BJ</td>
 <td>the moon ASWtBJ</td>
 </tr>
 <tr class="even">
-<td>power ASW–BJ</td>
+<td>power ASW-BJ</td>
 <td>brilliance ASWTBJ</td>
-<td>accuracy ASW–BJ</td>
-<td>vim ASW–BJ</td>
-<td>the stars A–WtBJ</td>
+<td>accuracy ASW-BJ</td>
+<td>vim ASW-BJ</td>
+<td>the stars A-WtBJ</td>
 </tr>
 <tr class="odd">
-<td>giants A–W–BJ</td>
-<td>sorcery A–WTBJ</td>
-<td>precision A–W–BJ</td>
-<td>vigor A–W–BJ</td>
-<td>the heav. ––W–BJ</td>
+<td>giants A-W-BJ</td>
+<td>sorcery A-WTBJ</td>
+<td>precision A-W-BJ</td>
+<td>vigor A-W-BJ</td>
+<td>the heav. --W-BJ</td>
 </tr>
 <tr class="even">
-<td>titans ––W––J</td>
-<td>wizardry –––T–J</td>
-<td>perfection ––––BJ</td>
-<td>life –––––J</td>
-<td>the zodiac –––––J</td>
+<td>titans --W--J</td>
+<td>wizardry ---T-J</td>
+<td>perfection ----BJ</td>
+<td>life -----J</td>
+<td>the zodiac -----J</td>
 </tr>
 </tbody>
 </table>
@@ -13855,77 +13853,77 @@ abbreviations are used:
 </tr>
 <tr class="even">
 <td></td>
-<td>corruption ASW–––</td>
+<td>corruption ASW---</td>
 <td></td>
 <td></td>
-<td>the leech ––W–––</td>
+<td>the leech --W---</td>
 </tr>
 <tr class="odd">
-<td>the vult. AS–––J</td>
-<td>hyena’s –––T–J</td>
+<td>the vult. AS---J</td>
+<td>hyena’s ---T-J</td>
 <td></td>
-<td>pain AS–––J</td>
-<td>blood ––W–––</td>
+<td>pain AS---J</td>
+<td>blood --W---</td>
 </tr>
 <tr class="even">
-<td>the jackal AS–––J</td>
-<td>frog’s –––T–J</td>
+<td>the jackal AS---J</td>
+<td>frog’s ---T-J</td>
 <td></td>
-<td>tears AS–––J</td>
+<td>tears AS---J</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>the fox AS–––J</td>
-<td>spider’s –––T–J</td>
-<td>quality ––WtB–</td>
-<td>health AS–––J</td>
+<td>the fox AS---J</td>
+<td>spider’s ---T-J</td>
+<td>quality --WtB-</td>
+<td>health AS---J</td>
 <td></td>
 </tr>
 <tr class="even">
-<td>the jaguar AS–––J</td>
-<td>raven’s –––T–J</td>
-<td>maiming ––WtB–</td>
-<td>protection AS––––</td>
+<td>the jaguar AS---J</td>
+<td>raven’s ---T-J</td>
+<td>maiming --WtB-</td>
+<td>protection AS----</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>the eagle AS–––J</td>
-<td>snake’s –––T–J</td>
-<td>slaying ––W–––</td>
-<td>absorption AS––––</td>
+<td>the eagle AS---J</td>
+<td>snake’s ---T-J</td>
+<td>slaying --W---</td>
+<td>absorption AS----</td>
 <td>% Steal Mana</td>
 </tr>
 <tr class="even">
-<td>the wolf AS–––J</td>
-<td>serpent’s –––T–J</td>
-<td>gore ––W–––</td>
-<td>deflection A–––––</td>
-<td>the bat ––W–––</td>
+<td>the wolf AS---J</td>
+<td>serpent’s ---T-J</td>
+<td>gore --W---</td>
+<td>deflection A-----</td>
+<td>the bat --W---</td>
 </tr>
 <tr class="odd">
-<td>the tiger AS–––J</td>
-<td>drake’s –––T–J</td>
-<td>carnage ––W–––</td>
-<td>osmosis A–––––</td>
-<td>vampires ––W–––</td>
+<td>the tiger AS---J</td>
+<td>drake’s ---T-J</td>
+<td>carnage --W---</td>
+<td>osmosis A-----</td>
+<td>vampires --W---</td>
 </tr>
 <tr class="even">
-<td>the lion A––––J</td>
-<td>dragon’s –––T–J</td>
-<td>slaughter ––W–––</td>
+<td>the lion A----J</td>
+<td>dragon’s ---T-J</td>
+<td>slaughter --W---</td>
 <td></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>the mam. A–––––</td>
-<td>wyrm’s<sup>1</sup> –––t–J</td>
+<td>the mam. A-----</td>
+<td>wyrm’s<sup>1</sup> ---t-J</td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>the whale A–––––</td>
-<td>hydra’s<sup>1</sup> –––t–J</td>
+<td>the whale A-----</td>
+<td>hydra’s<sup>1</sup> ---t-J</td>
 <td></td>
 <td></td>
 <td></td>
@@ -13946,80 +13944,80 @@ abbreviations are used:
 <tr class="even">
 <td></td>
 <td></td>
-<td>useless ––WtB–</td>
+<td>useless --WtB-</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>clumsy ––WTB–</td>
-<td>tin ––W–BJ</td>
-<td>bent ––WtB–</td>
-<td>vulnerable AS––––</td>
+<td>clumsy --WTB-</td>
+<td>tin --W-BJ</td>
+<td>bent --WtB-</td>
+<td>vulnerable AS----</td>
 </tr>
 <tr class="even">
-<td>dull ––WTB–</td>
-<td>brass ––W–BJ</td>
-<td>weak ––WtB–</td>
-<td>rusted AS––––</td>
+<td>dull --WTB-</td>
+<td>brass --W-BJ</td>
+<td>weak --WtB-</td>
+<td>rusted AS----</td>
 </tr>
 <tr class="odd">
-<td>sharp ––WTB–</td>
-<td>bronze ––W–BJ</td>
-<td>jagged ––WtB–</td>
-<td>fine AS––––</td>
+<td>sharp --WTB-</td>
+<td>bronze --W-BJ</td>
+<td>jagged --WtB-</td>
+<td>fine AS----</td>
 </tr>
 <tr class="even">
-<td>fine ––WTB–</td>
-<td>iron ––W–BJ</td>
-<td>deadly ––WtB–</td>
-<td>strong AS––––</td>
+<td>fine --WTB-</td>
+<td>iron --W-BJ</td>
+<td>deadly --WtB-</td>
+<td>strong AS----</td>
 </tr>
 <tr class="odd">
-<td>Warrior’s ––WTB–</td>
-<td>steel ––W–BJ</td>
-<td>heavy ––WtB–</td>
-<td>grand AS––––</td>
+<td>Warrior’s --WTB-</td>
+<td>steel --W-BJ</td>
+<td>heavy --WtB-</td>
+<td>grand AS----</td>
 </tr>
 <tr class="even">
-<td>soldier’s ––WT––</td>
-<td>silver ––W–BJ</td>
-<td>vicious ––WtB–</td>
-<td>valiant AS––––</td>
+<td>soldier’s --WT--</td>
+<td>silver --W-BJ</td>
+<td>vicious --WtB-</td>
+<td>valiant AS----</td>
 </tr>
 <tr class="odd">
-<td>lord’s ––WT––</td>
-<td>gold ––W–BJ</td>
-<td>brutal ––WtB–</td>
-<td>glorious AS––––</td>
+<td>lord’s --WT--</td>
+<td>gold --W-BJ</td>
+<td>brutal --WtB-</td>
+<td>glorious AS----</td>
 </tr>
 <tr class="even">
-<td>knight’s ––WT––</td>
-<td>platinum ––W–B–</td>
-<td>massive ––WtB–</td>
-<td>blessed AS––––</td>
+<td>knight’s --WT--</td>
+<td>platinum --W-B-</td>
+<td>massive --WtB-</td>
+<td>blessed AS----</td>
 </tr>
 <tr class="odd">
-<td>master’s ––WT––</td>
-<td>mithril ––W–B–</td>
-<td>savage ––WtB–</td>
-<td>saintly AS––––</td>
+<td>master’s --WT--</td>
+<td>mithril --W-B-</td>
+<td>savage --WtB-</td>
+<td>saintly AS----</td>
 </tr>
 <tr class="even">
-<td>champion’s ––WT––</td>
-<td>meteoric ––W–B–</td>
-<td>ruthless ––WtB–</td>
-<td>awesome AS––––</td>
+<td>champion’s --WT--</td>
+<td>meteoric --W-B-</td>
+<td>ruthless --WtB-</td>
+<td>awesome AS----</td>
 </tr>
 <tr class="odd">
-<td>king’s ––WT––</td>
-<td>weird ––W–B–</td>
-<td>merciless ––WtB–</td>
-<td>holy AS––––</td>
+<td>king’s --WT--</td>
+<td>weird --W-B-</td>
+<td>merciless --WtB-</td>
+<td>holy AS----</td>
 </tr>
 <tr class="even">
 <td>doppelganger’s<sup>1</sup> --Wt--</td>
-<td>strange ––W–B–</td>
+<td>strange --W-B-</td>
 <td>decay<sup>1</sup> --WtB-</td>
-<td>godly AS––––</td>
+<td>godly AS----</td>
 </tr>
 <tr class="odd">
 <td></td>
@@ -14046,14 +14044,14 @@ abbreviations are used:
 <td>red ASWTBJ</td>
 <td>blue ASWTBJ</td>
 <td>topaz ASWTBJ</td>
-<td>angel’s –––T––</td>
+<td>angel’s ---T--</td>
 </tr>
 <tr class="odd">
 <td>pearl ASWTBJ</td>
 <td>crimson ASWTBJ</td>
 <td>azure ASWTBJ</td>
 <td>amber ASWTBJ</td>
-<td>arch-angel’s –––T––</td>
+<td>arch-angel’s ---T--</td>
 </tr>
 <tr class="even">
 <td>ivory ASWTBJ</td>
@@ -14073,7 +14071,7 @@ abbreviations are used:
 <td>diamond ASWTBJ</td>
 <td>ruby ASWTBJ</td>
 <td>sapphire ASWTBJ</td>
-<td>emerald –SWTB–</td>
+<td>emerald -SWTB-</td>
 <td></td>
 </tr>
 </tbody>
@@ -14088,26 +14086,26 @@ abbreviations are used:
 <td>× Charges</td>
 </tr>
 <tr class="even">
-<td>flame ––––B–</td>
-<td>shock ––––B–</td>
-<td>piercing ––W–B–</td>
-<td>plentiful ––––T––</td>
+<td>flame ----B-</td>
+<td>shock ----B-</td>
+<td>piercing --W-B-</td>
+<td>plentiful ----T--</td>
 </tr>
 <tr class="odd">
-<td>fire ––––B–</td>
-<td>lightning ––––B–</td>
-<td>puncturing ––W–B–</td>
-<td>bountiful ––––T––</td>
+<td>fire ----B-</td>
+<td>lightning ----B-</td>
+<td>puncturing --W-B-</td>
+<td>bountiful ----T--</td>
 </tr>
 <tr class="even">
-<td>flaming ––WT––</td>
-<td>lightning ––WT––</td>
-<td>bashing ––W–––</td>
+<td>flaming --WT--</td>
+<td>lightning --WT--</td>
+<td>bashing --W---</td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>burning ––––B–</td>
-<td>thunder ––––B–</td>
+<td>burning ----B-</td>
+<td>thunder ----B-</td>
 <td></td>
 <td></td>
 </tr>
@@ -14123,52 +14121,52 @@ abbreviations are used:
 <td>Durability</td>
 </tr>
 <tr class="even">
-<td>the dark A–W––J</td>
+<td>the dark A-W--J</td>
 <td></td>
 <td></td>
-<td>fragility ASW–––</td>
+<td>fragility ASW---</td>
 </tr>
 <tr class="odd">
-<td>the night A–W––J</td>
+<td>the night A-W--J</td>
 <td></td>
 <td></td>
-<td>brittleness ASW–––</td>
+<td>brittleness ASW---</td>
 </tr>
 <tr class="even">
-<td>light A–W––J</td>
-<td>readiness ––WTB–</td>
-<td>balance A––––J</td>
-<td>sturdiness ASW–––</td>
+<td>light A-W--J</td>
+<td>readiness --WTB-</td>
+<td>balance A----J</td>
+<td>sturdiness ASW---</td>
 </tr>
 <tr class="odd">
-<td>radiance A–W––J</td>
-<td>swiftness ––WTB–</td>
-<td>stability A––––J</td>
-<td>craftsmanship ASW–––</td>
-</tr>
-<tr class="even">
-<td></td>
-<td>speed ––WT––</td>
-<td>harmony A––––J</td>
-<td>structure ASW–––</td>
-</tr>
-<tr class="odd">
-<td></td>
-<td>haste ––WT––</td>
-<td></td>
-<td>many ––––B–</td>
+<td>radiance A-W--J</td>
+<td>swiftness --WTB-</td>
+<td>stability A----J</td>
+<td>craftsmanship ASW---</td>
 </tr>
 <tr class="even">
 <td></td>
+<td>speed --WT--</td>
+<td>harmony A----J</td>
+<td>structure ASW---</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>haste --WT--</td>
+<td></td>
+<td>many ----B-</td>
+</tr>
+<tr class="even">
 <td></td>
 <td></td>
-<td>plenty ––––B–</td>
+<td></td>
+<td>plenty ----B-</td>
 </tr>
 <tr class="odd">
 <td></td>
 <td></td>
 <td></td>
-<td>the ages ASWt––</td>
+<td>the ages ASWt--</td>
 </tr>
 </tbody>
 </table>
@@ -14180,19 +14178,19 @@ abbreviations are used:
 <td>Other Prefixes/Suffixes in Hellfire</td>
 </tr>
 <tr class="even">
-<td>the bear ––WTB–</td>
+<td>the bear --WTB-</td>
 <td>devastation --WtB-</td>
 </tr>
 <tr class="odd">
-<td>blocking –S––––</td>
+<td>blocking -S----</td>
 <td>jester’s --W---</td>
 </tr>
 <tr class="even">
-<td>thieves AS–––J</td>
+<td>thieves AS---J</td>
 <td>peril --WtB-</td>
 </tr>
 <tr class="odd">
-<td>thorns AS––––</td>
+<td>thorns AS----</td>
 <td></td>
 </tr>
 </tbody>
