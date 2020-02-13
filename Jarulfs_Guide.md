@@ -14454,7 +14454,7 @@ a wall.
 
 The spells below are listed in alphabetical order and are available in
 both Diablo and Hellfire. For skills, see chapter 2.4. In those cases a
-spell can be used by a monster, see chapter .
+spell can be used by a monster, see chapter 6.3.3.
 
 <table>
 <tbody>
