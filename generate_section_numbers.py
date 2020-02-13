@@ -10,6 +10,7 @@ markdown_in_path = os.path.dirname(__file__) + "/Jarulfs_Guide.md"
 markdown_out_path = os.path.dirname(__file__) + "/Jarulfs_Guide_sections.md"
 html_out_path = os.path.dirname(__file__) + "/public/index.html"
 css_path = os.path.dirname(__file__) + "/style.css"
+include_html = [os.path.dirname(__file__) + "/fork_on_gitlab.html"]
 
 
 def get_section_level(line):
@@ -192,10 +193,17 @@ def rewrite_replace_original_chapter_links(path: str, in_file: typing.IO, levels
 
 def generate_html():
     os.makedirs(os.path.dirname(html_out_path), exist_ok=True)
-    subprocess.check_call(["pandoc",
-                           markdown_out_path,
-                           "-o", html_out_path,
-                           "--css", "style.css"])
+
+    command = ["pandoc",
+               markdown_out_path,
+               "-o", html_out_path,
+               "--css", "style.css"]
+
+    for path in include_html:
+        command.append("--include-in-header")
+        command.append(path)
+
+    subprocess.check_call(command)
     shutil.copyfile(css_path, os.path.dirname(html_out_path) + "/style.css")
 
 
