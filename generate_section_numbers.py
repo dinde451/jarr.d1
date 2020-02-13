@@ -4,6 +4,7 @@ import typing
 import subprocess
 import bisect
 import shutil
+import re
 
 markdown_in_path = os.path.dirname(__file__) + "/Jarulfs_Guide.md"
 markdown_out_path = os.path.dirname(__file__) + "/Jarulfs_Guide_sections.md"
@@ -77,10 +78,25 @@ def generate_replacement_line(line: str, path):
     return ("#" * (len(path)+1)) + " " + ".".join([str(i) for i in path]) + " " + line.lstrip("#") + "\n"
 
 
-def generate_toc_line(line: str, path):
+def generate_sublink_string(line: str):
     line = line.lstrip("#").strip()
     section_name = line.lower().replace(" ", "-")
     section_name = "".join([c for c in section_name if c.isalpha() or c == "-"])
+
+    return section_name
+
+
+def get_sublink_string_path_dictionary(levels_dict: typing.Dict[str, tuple]):
+    retval = {}
+    for key in levels_dict:
+        retval[generate_sublink_string(key)] = levels_dict[key]
+
+    return retval
+
+
+def generate_toc_line(line: str, path):
+    line = line.lstrip("#").strip()
+    section_name = generate_sublink_string(line)
 
     return '<h{}>{} <a href="#{}">{}</a></h2>'.format(
         len(path) + 1,
@@ -100,11 +116,28 @@ def generate_table_of_contents(out_file: typing.IO, levels_dict: typing.Dict[str
 
 
 def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dict[str, tuple]):
+    sublink_string_dict = get_sublink_string_path_dictionary(levels_dict)
+
     with open(path, "w", encoding="utf-8") as out_file:
         before_table_of_contents = True
 
+        pattern = r"CHAPTER_LINK_([a-z\-]+)"
+
         while True:
             line = in_file.readline()
+
+            captures = re.findall(pattern, line)
+
+            if captures:
+                for section_str in captures:
+                    if section_str not in sublink_string_dict:
+                        raise Exception("section '{}' is linked to, but does not exist".format(section_str))
+
+                    section_tuple = sublink_string_dict[section_str]
+
+                    line = line.replace("CHAPTER_LINK_" + section_str,
+                                        "[chapter {}](#{})".format(".".join([str(i) for i in section_tuple]),
+                                                                   section_str))
 
             if not line:
                 break
@@ -119,6 +152,42 @@ def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dic
                 line = generate_replacement_line(line.strip(), levels_dict[line.strip()])
 
             out_file.write(line)
+
+
+# This function was used once, to convert the original chapter links in Jarulf's guide (in the form
+# "see chapter 1.3") to named links, like CHAPTER_LINK_general-remarks. It shouldn't be needed anymore,
+# but I left it in here for completeness.
+def rewrite_replace_original_chapter_links(path: str, in_file: typing.IO, levels_dict: typing.Dict[str, tuple]):
+    reversed_levels_dict = {}
+    for key in levels_dict:
+        reversed_levels_dict[levels_dict[key]] = key
+
+    pattern = r"chapter ([0-9.]+)"
+
+    with open(path, "w", encoding="utf-8") as out_file:
+        while True:
+            line = in_file.readline()
+
+            write_line = line
+
+            if not write_line:
+                break
+
+            captures = re.findall(pattern, write_line)
+
+            if captures:
+                write_line = re.sub(pattern,
+                                    r"CHAPTER_LINK_\1",
+                                    write_line)
+
+                for section_str in captures:
+                    section_str = section_str.rstrip(".")
+                    section_tuple = tuple([int(x) for x in section_str.split(".")])
+                    section_name = generate_sublink_string(reversed_levels_dict[section_tuple])
+
+                    write_line = write_line.replace("CHAPTER_LINK_" + section_str, "CHAPTER_LINK_" + section_name)
+
+            out_file.write(write_line)
 
 
 def generate_html():
@@ -137,6 +206,8 @@ def __main__():
         recursive_parse_sections([], in_file, levels_dict)
 
         in_file.seek(0)
+
+        # rewrite_replace_original_chapter_links("fixed.md", in_file, levels_dict)
         rewrite_with_sections(markdown_out_path, in_file, levels_dict)
 
     generate_html()

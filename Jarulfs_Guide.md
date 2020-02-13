@@ -77,7 +77,7 @@ similar aspects, it will usually not be updated to cover changes done
 specifically to Battle.net either due to other games or due to general
 enhancements or changes that are not specific for the game of Diablo. It
 would not be possible to keep this Guide updated due to such changes by
-other games. As such, the chapter about Battle.net (chapter 9), will in
+other games. As such, the chapter about Battle.net (CHAPTER_LINK_battlenet), will in
 many cases be outdated.
 
 ### Hidden quests and characters in Hellfire
@@ -330,60 +330,60 @@ just print the selected pages where changes were made.
 
   - Updated the Index.
 
-  - Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+  - Changed CHAPTER_LINK_patches-for-diablo-and-hellfire to acknowledge the latest patch for Diablo,
     v1.08.
 
-  - Added some information to chapter 1.1.
+  - Added some information to CHAPTER_LINK_patches-for-diablo-and-hellfire.
 
-  - Added one more general remark to chapter 1.3.
+  - Added one more general remark to CHAPTER_LINK_general-remarks.
 
   - Added to and corrected the list of acknowledged people in chapter
     1.5.
 
-  - Added information about what is new in this update to chapter 1.6.
+  - Added information about what is new in this update to CHAPTER_LINK_new-in-this-version.
 
   - Added link about target location under *Hit recovery* in chapter
     2.2.1.
 
   - Added footnote about Armor Class to table about +% Armor Class in
-    chapter 3.4 and 3.13.5.
+    CHAPTER_LINK_prefixes-and-suffixes and CHAPTER_LINK_effects-of-prefixes-and-suffixes.
 
-  - Added small clarification in chapter 3.5.
+  - Added small clarification in CHAPTER_LINK_unique-items.
 
-  - Corrected information about tables in chapter 3.11.
+  - Corrected information about tables in CHAPTER_LINK_probabilities-of-finding-unique-items.
 
-  - Added note to Bone Spirit in chapter 4.1.3.
+  - Added note to Bone Spirit in CHAPTER_LINK_spells-available-in-diablo.
 
-  - Corrected and clarified the tables of tables in chapter 4.1.5.
+  - Corrected and clarified the tables of tables in CHAPTER_LINK_mana-cost-and-magic-requirements-for-spells.
 
   - Changed text about unknown information (as it is actually know and
-    explained in the guide) in chapter 5.3.4 under *Hit recovery
+    explained in the guide) in CHAPTER_LINK_timing-information under *Hit recovery
     time*.
 
   - Removed erroneous information about Arch-Bishop Lazarus regarding
-    Hit Recovery in chapter 5.3.4 under *Hit recovery time* and in
-    footnote under table in chapter 5.4 and 5.6.2 .
+    Hit Recovery in CHAPTER_LINK_timing-information under *Hit recovery time* and in
+    footnote under table in CHAPTER_LINK_unique-monsters and CHAPTER_LINK_resistances-immunities-and-mob-for-unique-monsters .
 
-  - Corrected the data for Deathshade Fleshmaul in chapter 5.4
+  - Corrected the data for Deathshade Fleshmaul in CHAPTER_LINK_unique-monsters
 
-  - Small addition about Hidden attack type in chapter 5.5.2.
+  - Small addition about Hidden attack type in CHAPTER_LINK_activating-monsters.
 
   - Added small paragraph, about a change in walking in the latest
-    patch, at the end of chapter 6.1.9.
+    patch, at the end of CHAPTER_LINK_possible-targets-of-attacks.
 
-  - Added the missing parts of chapter 6.1.10.
+  - Added the missing parts of CHAPTER_LINK_spell-and-arrow-speeds.
 
-  - Corrected the footnote in chapter 8.3.8.
+  - Corrected the footnote in CHAPTER_LINK_na-krul.
 
   - Added information about command completion with the Tab key in
-    chapter 9.2.
+    CHAPTER_LINK_commands-available-in-chat-channels.
 
   - Changed information about save files on PC computers in chapter
     10.2 due to changes in 1.08 patch.
 
-  - Added reference to save files in chapter 10.4.
+  - Added reference to save files in CHAPTER_LINK_backing-up-your-character.
 
-  - Updated chapter 10.7.
+  - Updated CHAPTER_LINK_meaningless-information-about-this-guide.
 
   - Some smaller layout changes at various places (does not in any way
     affect the content).
@@ -399,36 +399,36 @@ just print the selected pages where changes were made.
 
   - Updated the Index.
 
-  - Added text about opening the document in Word in chapter 1.
+  - Added text about opening the document in Word in CHAPTER_LINK_introduction.
 
-  - Changed chapter 1.1 to acknowledge the latest patch for Diablo,
+  - Changed CHAPTER_LINK_patches-for-diablo-and-hellfire to acknowledge the latest patch for Diablo,
     v1.09.
 
-  - Added to the list of acknowledged people in chapter 1.5.
+  - Added to the list of acknowledged people in CHAPTER_LINK_acknowledgment.
 
   - Clarified melee character damage and special ”weapon” damage for
-    the Monk in chapter 2.2.2.
+    the Monk in CHAPTER_LINK_damage-done.
 
   - Corrected the weapon speed for the Monk with just a shield in
-    chapter 2.2.3.
+    CHAPTER_LINK_weapon-speed.
 
-  - Small addition to the Resurrect spell in chapter 4.1.3.
+  - Small addition to the Resurrect spell in CHAPTER_LINK_spells-available-in-diablo.
 
-  - Corrected table in chapter 6.1.4.
+  - Corrected table in CHAPTER_LINK_life-and-mana-stealing.
 
   - Removed text about a change only present in version 1.08 of the
-    game in chapter 6.1.9.
+    game in CHAPTER_LINK_possible-targets-of-attacks.
 
-  - Added some text in chapter 9.
+  - Added some text in CHAPTER_LINK_battlenet.
 
-  - Updated the channel list in chapter 9.1.
+  - Updated the channel list in CHAPTER_LINK_channels.
 
   - Added some information about avoiding the end game movie in
-    chapter 10.6.
+    CHAPTER_LINK_avoiding-the-game-end-movie.
 
-  - Small adjustments for the 1.09 patch in chapter 10.2.
+  - Small adjustments for the 1.09 patch in CHAPTER_LINK_save-files.
 
-  - Updated chapter 10.7.
+  - Updated CHAPTER_LINK_meaningless-information-about-this-guide.
     
     Things that have been added or changed in 1.63:
     
@@ -441,38 +441,38 @@ just print the selected pages where changes were made.
 
   - Updated the Index.
 
-  - Removed mail info in chapter 1.
+  - Removed mail info in CHAPTER_LINK_introduction.
 
   - Added some information regarding the Guide and Battle.net in
-    chapter 1.1.
+    CHAPTER_LINK_patches-for-diablo-and-hellfire.
 
-  - Added to the list of acknowledged people in chapter 1.5.
+  - Added to the list of acknowledged people in CHAPTER_LINK_acknowledgment.
 
-  - Corrected the Bard’s max mana in chapter 2.1.2.
+  - Corrected the Bard’s max mana in CHAPTER_LINK_maximum-stats.
 
   - Corrected and updated information about the hit recovery bug in
-    the table in chapter 2.2.1.
+    the table in CHAPTER_LINK_getting-hit.
 
   - Corrected the Barbarian’s max naked damage with staff in the table
-    chapter 2.2.2.
+    CHAPTER_LINK_damage-done.
 
-  - Added information about the hit recovery bug in chapter 3.4.
+  - Added information about the hit recovery bug in CHAPTER_LINK_prefixes-and-suffixes.
 
   - Corrected information about the occurrence of Decapitated bodies
-    in chapter 3.8.1.
+    in CHAPTER_LINK_what-is-dropped.
 
-  - Added information about the hit recovery bug in chapter 3.13.5.
+  - Added information about the hit recovery bug in CHAPTER_LINK_effects-of-prefixes-and-suffixes.
 
-  - Restructed the spell information tables in chapter 4.1.3, 4.1.4,
+  - Restructed the spell information tables in CHAPTER_LINK_spells-available-in-diablo, 4.1.4,
     4.2.1 and 4.2.2.
 
-  - Corrected a typo about Lightning Wall in chapter 4.1.4.
+  - Corrected a typo about Lightning Wall in CHAPTER_LINK_new-spells-in-hellfire.
 
-  - Added refference to chapter 5.5 in chapter 6.
+  - Added refference to CHAPTER_LINK_monster-ai in CHAPTER_LINK_battle.
 
-  - Updated the icon list in chapter 9.4.
+  - Updated the icon list in CHAPTER_LINK_character-icons.
 
-  - Updated chapter 10.7.
+  - Updated CHAPTER_LINK_meaningless-information-about-this-guide.
 
 ## Characters
 
@@ -504,10 +504,10 @@ affect how well he or she performs. This chapter will explain how these
 stats affect your character, how they are calculated (which is not
 always obvious as the game often does not show the true values of the
 stats), and how they can be changed. For information about how items can
-modify the stats, see chapter 3. The stats have been grouped into basic
+modify the stats, see CHAPTER_LINK_items. The stats have been grouped into basic
 stats (Strength, Magic, Dexterity, Vitality, Life and Mana) and other
 stats (Armor Class, To Hit, Damage and Resistance). The final stat,
-character level, is handled in chapter 2.6. One should be aware of the
+character level, is handled in CHAPTER_LINK_experience-points. One should be aware of the
 fact that the clvl of a character is in fact the most important stat of
 them all as it enters into the calculations of many of the other stats
 as can be seen in this chapter.
@@ -814,7 +814,7 @@ Mana<sub>items</sub> + 0
 
 Both Armor Class (AC) and To Hit are based on your Dexterity. Below is a
 summary on how they are calculated. For more information about AC and To
-Hit, see chapter 5.6.5.
+Hit, see CHAPTER_LINK_monster-types.
 
 Armor Class
 
@@ -868,36 +868,36 @@ Barbarian: Dex/5 + AC<sub>items</sub> + clvl/4
     have extra fire or lightning. For more information see chapters
     4.1.2.
 
-  - Note that the effects of some oils (see chapter 3.2.1) are only
+  - Note that the effects of some oils (see CHAPTER_LINK_runes-and-oils) are only
     visible on the stats in the character screen. They don’t show up
     on the information about the item.
 
   - In Diablo, the *bashing* series of suffixes also adds to your To
     Hit value but it will never show up on the character screen. The
     amount is always fixed for a specific item and within the range of
-    the suffix. See chapter 3.4 for more information.
+    the suffix. See CHAPTER_LINK_prefixes-and-suffixes for more information.
 
   - The adjacent quarter damage To Hit penalty is subtracted from the
     normal To Hit for the two monsters adjacent to the one you attack.
-    For an explanation of adjacent quarter damage see chapter 2.2.2.
+    For an explanation of adjacent quarter damage see CHAPTER_LINK_damage-done.
 
   - For a list of the bonuses, see the table below.
 
   - To get the final chance of hitting you subtract the AC of the
-    enemy (monster or player). See chapter 5.1 for information about
+    enemy (monster or player). See CHAPTER_LINK_how-to-calculate-monster-data for information about
     monster’s AC. The AC is not subtracted if it is a magic attack.
 
   - When the game checks if you have hit there is always a 5% chance
     that you will miss, no matter what the final modified To Hit is.
     In the same way there is also always a 5% chance to hit, no matter
-    what the final modified To Hit is. See chapter 5.1 for information
+    what the final modified To Hit is. See CHAPTER_LINK_how-to-calculate-monster-data for information
     about monster’s chance of automatic hit (they never automatically
     miss).
 
 The bonus in the above formulas refers to some *hidden* To Hit modifiers
 specific for each character class. They are listed in the table below
 but do not show up in the To Hit value you see on the character screen.
-For the blocking bonus see chapter 2.2.
+For the blocking bonus see CHAPTER_LINK_fighting.
 
 <table>
 <tbody>
@@ -1042,23 +1042,23 @@ The main activity in Diablo and Hellfire is fighting. You either fight
 against the monsters or against other players. This chapter will briefly
 explain how your characters stats and the items you wear affect your
 character while fighting. For a more detailed explanation on battle
-between players and monsters, see chapter 6.
+between players and monsters, see CHAPTER_LINK_battle.
 
 #### Getting hit
 
 When someone or something attacks you, the first step is to see if it
 hits you or not. Formulas for the chance of hitting a player can be
-found in chapter 2.1.4 (players), 4.3 (traps) and 5.1 (monsters).
+found in CHAPTER_LINK_armor-class-and-to-hit (players), 4.3 (traps) and 5.1 (monsters).
 
 When you are hit by a melee weapon, an arrow, or magic (while not having
 any resistance), you will try to block the attack (in Hellfire you will
-try to block even if you have resistance). See chapter 4 for information
+try to block even if you have resistance). See CHAPTER_LINK_magic for information
 about what spells can be blocked. To block the attack you must have a
 shield. A Monk can also block with a staff and with at least one hand
 bare. If you fail to block or you can’t block you will get hit, which
 will result in damage and the possibility of having to do a hit recovery
 (getting stunned). For formulas for monsters hitting players, see
-chapter 5.1.
+CHAPTER_LINK_how-to-calculate-monster-data.
 
 Blocking
 
@@ -1073,7 +1073,7 @@ Blocking trap: Dex + bonus
 
   - There exists a bug so that the bonus is always 0, except during
     the first game a character plays. For information about what the
-    bonus should be, see table under *To Hit* *%*, chapter 2.1.4.
+    bonus should be, see table under *To Hit* *%*, CHAPTER_LINK_armor-class-and-to-hit.
 
   - You can only block while standing still or while doing a melee
     attack.
@@ -1117,7 +1117,7 @@ instead of life.
 
 Checks for hit recovery are done between step 4 and 5 and will thus not
 be affected by the use of Mana Shield. For more information regarding a
-bug and Mana Shield, see chapter 6.1.1.
+bug and Mana Shield, see CHAPTER_LINK_mana-shield.
 
 Hit recovery
 
@@ -1126,7 +1126,7 @@ is big enough, your character will go through a hit recovery animation;
 you are stunned, during which you can’t do anything. If you get hit
 again before you manage to hit back or move this repeats and you are
 stun locked and can’t react (for information about entering a new
-location, see chapter 6.1.9). The hit recovery is initiated if the
+location, see CHAPTER_LINK_possible-targets-of-attacks). The hit recovery is initiated if the
 following conditions are met:
 
 Any character except the Barbarian: damage \>= clvl
@@ -1135,7 +1135,7 @@ Barbarian: damage \>= 1.25·clvl
 
 It is worth noticing that the check for hit recovery is made prior to
 any damage reduction due to using a Mana Shield. There are also some
-bugs regarding hit recovery while using Mana Shield, see chapter 6.1.1.
+bugs regarding hit recovery while using Mana Shield, see CHAPTER_LINK_mana-shield.
 So while using a Mana Shield, in addition to the requirements above,
 damage must also be below your current life for you to be put into hit
 recovery:
@@ -1148,7 +1148,7 @@ Barbarian using Mana Shield: current life \> damage \>= 1.25·clvl
 The table below lists the time, in seconds, it takes to block and to do
 a hit recovery for each character class. It also lists the effects of
 some specific suffixes that influence blocking or hit recovery. For more
-information on the suffixes, see chapter 3.2.2.
+information on the suffixes, see CHAPTER_LINK_potions-and-elixirs.
 
 <table>
 <tbody>
@@ -1238,7 +1238,7 @@ Damage done by players is composed of two parts, character damage and
 weapon damage. The character damage is based on your character’s stats
 and can be calculated with the formulas below. To that damage you add
 the damage of any weapon, or weapons in the case of the Bard, you have
-equipped. For information about damage from spells, see chapter 4.
+equipped. For information about damage from spells, see CHAPTER_LINK_magic.
 
 Bow character damage
 
@@ -1401,7 +1401,7 @@ Things that affect damage done
 Various things affect the amount of damage a character does. Mostly
 those things are related to various prefixes, suffixes, or unique
 properties, but a few exceptions exist. Critical Hits are explained
-below and type of monster is explained in chapter 5.1. The modifications
+below and type of monster is explained in CHAPTER_LINK_how-to-calculate-monster-data. The modifications
 to the damage can either modify weapon damage alone or your total
 damage; that is, both your character damage and your weapon damage. In
 the table below is a list of all modifications that apply to your total
@@ -1455,7 +1455,7 @@ All the new characters in Hellfire have the ability to hit up to three
 monsters at a time in certain circumstances. It works by dealing
 ¼<sup>th</sup> of the damage to the monsters beside the one you swing
 at. A separate To Hit check is done for each of those monsters. The To
-Hit is lowered accordingly to the formula in chapter 2.1.4 under To Hit
+Hit is lowered accordingly to the formula in CHAPTER_LINK_armor-class-and-to-hit under To Hit
 %. The adjacent quarter damage is done in the following situations:
 
   - A Monk using a staff.
@@ -1641,8 +1641,8 @@ other factors affecting the speed of an arrow. The actual value is just
 a value given for comparison with other traveling effects, such as
 spells. The higher the number, the faster it will be. Arrows from
 monsters will always have a speed of 32. For the speed of arrows from
-traps, see chapter 4.3. For more information regarding arrow and spell
-speed, see chapter 6.1.10.
+traps, see CHAPTER_LINK_traps. For more information regarding arrow and spell
+speed, see CHAPTER_LINK_spell-and-arrow-speeds.
 
 <table>
 <tbody>
@@ -1691,9 +1691,9 @@ the weapon speed instead.
 ### Timing information
 
 This chapter summarizes all timing information for players. For blocking
-and hit recovery, this information can also be found in chapter 2.2, and
-for weapon speed, it can also be found in chapter 2.2.3. For monsters
-all timing information can be found in chapter 5.3. The table below
+and hit recovery, this information can also be found in CHAPTER_LINK_fighting, and
+for weapon speed, it can also be found in CHAPTER_LINK_weapon-speed. For monsters
+all timing information can be found in CHAPTER_LINK_monster-properties. The table below
 summarizes all timing information for the different character classes.
 
 <table>
@@ -1757,7 +1757,7 @@ summarizes all timing information for the different character classes.
 </tbody>
 </table>
 
-1 For more information, see chapter 2.2.
+1 For more information, see CHAPTER_LINK_fighting.
 
 2 The hit time (or rather the time at which the spell effect is
 initialized) for a player is identical to the swing speed (that is, at
@@ -1969,7 +1969,7 @@ additional cost is added for the actual spell.
 
 Each time you kill a monster you have a chance of receiving experience
 points. You receive experience for killing a monster as long as your own
-level is below the mlvl+10 (see chapter 5.2 and 5.6.3 for more
+level is below the mlvl+10 (see CHAPTER_LINK_monster-data and CHAPTER_LINK_experience-points-from-monsters for more
 information about mlvl and experience points). In multi player, each
 person that fulfills one of following requirements is entitled to
 receive experience points when a monster is killed.
@@ -2012,7 +2012,7 @@ base · (1.0 + 0.1·(mlvl - clvl))
 
 So when your clvl is 10 levels higher than the mlvl, you no longer
 receive any experience for killing it. *Base* refers to the base
-experience points found in chapter 5.2 modified for the number of
+experience points found in CHAPTER_LINK_monster-data modified for the number of
 players that are entitled for experience points according to the
 explanation above.
 
@@ -2024,7 +2024,7 @@ possibility of difficulty levels in single player in Hellfire along with
 no character level requirements for harder difficulty levels, you can
 get quite a lot of experience points when killing monsters. In Hellfire,
 there are also some shrines that affect your experience points (see
-chapter 7).
+CHAPTER_LINK_shrines).
 
 Listed below are the required experience points for each level. You will
 also find the maximum experience point you can be given for a monster at
@@ -2647,7 +2647,7 @@ different difficulty levels.
 </tbody>
 </table>
 
-1 It is available in the Playstation version. Also see chapter 2.7.1 for
+1 It is available in the Playstation version. Also see CHAPTER_LINK_single-player-difficulty-levels for
 a way to play single player with different difficulties.
 
 2 The creator must be of level 20 or 30 but anyone joining it can be of
@@ -2718,7 +2718,7 @@ either a spell or an oil type (for exceptions to oils see chapter
 not consist of the base item plus a spell as books do. Finally we have
 potions, elixirs, and runes that are all base items. In many tables in
 this chapter there is a reference to a qlvl. That level is used by the
-game when creating items; see chapter 3.8 and 3.9. Information about
+game when creating items; see CHAPTER_LINK_item-creation-in-dungeon and CHAPTER_LINK_item-creation-in-town. Information about
 qlvl and occurrences of prefixes and suffixes initially came from
 Bostic.
 
@@ -3592,7 +3592,7 @@ properties of the quest item.
 This chapter will give you information about all those items in the game
 that you can’t wear. It also has information about magic related items.
 However, for information about the actual spells, how they work and
-their use, see chapter 4. Books and most oils consist of a base item
+their use, see CHAPTER_LINK_magic. Books and most oils consist of a base item
 type, *book of* and *oil of* listed in the table below. Each book then
 has a spell assigned to it and oils have an oil type assigned.
 
@@ -3891,7 +3891,7 @@ Hellfire.
 Potions of Healing and Mana restore life and mana as stated below.
 Potions of Rejuvenation are basically treated as one Potion of Mana and
 one Potion of Healing. For information on how scrolls of healing and the
-Healing spell work, see chapter 4.1.2.
+Healing spell work, see CHAPTER_LINK_details-about-spells.
 
 Potion of Healing: bonus · maxlife/8 to bonus · 3·maxlife/8
 
@@ -3947,7 +3947,7 @@ also be bought from Adria. Healing scrolls and scrolls of Resurrection
 (only in multi player) can also be bought from Pepin. Below is listed
 how much you have to pay for scrolls, books, and data for calculating
 the cost of staves with spells. For information on how to calculate
-staff prices, see chapter 3.6. You can also find information about qlvl;
+staff prices, see CHAPTER_LINK_prices-of-magical-items. You can also find information about qlvl;
 see chapters 3.8 and 3.9 for information about qlvl and how to use it.
 Note that for books and staves, the qlvl is of the actual spell on that
 base item. The base item, *staff* or *book of*, has its own qlvl as
@@ -4394,7 +4394,7 @@ In the table below is listed all the various special items you will find
 in various quests (with the exception of the ear and the heart). They
 will only appear in single player and have no purposes outside the
 specific quest. As for the special reward items you get from various
-quests, they are all found in the chapter 3.5.
+quests, they are all found in the CHAPTER_LINK_unique-items.
 
 <table>
 <tbody>
@@ -4495,13 +4495,13 @@ All equipable items can have a prefix and/or a suffix. In the tables
 below, you can see the effects of each prefix and suffix in the game.
 The tables also provide information about the qlvl of each prefix and
 suffix, as well as information for calculating the price of any magical
-item (steps, base-max, range and multiplier). See chapter 3.6 for
+item (steps, base-max, range and multiplier). See CHAPTER_LINK_prices-of-magical-items for
 formulas to calculate prices of items. The prefixes and suffixes are
 grouped according to what type of effect they have. Unless otherwise
 stated, prefixes and suffixes are cumulative with others of the same
 type and also with effects on unique items that are of the same type.
 For information on how items are assigned prefixes and suffixes, see
-chapter 3.8 and 3.9.
+CHAPTER_LINK_item-creation-in-dungeon and CHAPTER_LINK_item-creation-in-town.
 
 Not all prefixes and suffixes can occur on all types of items. The
 tables also list on which type of items you will find each prefix and
@@ -6230,7 +6230,7 @@ over an item of the leech). An exception is The Undead Crown which is
 cumulative with both an item of blood or an item of the leech for a
 total of 3% to 15.5% or 5% to 17.5% life stealing. The Helm of Sprits,
 Shadowhawk, and The Eater of Souls are all treated as items of blood.
-Does not work against players. See chapter 6.1.4 for more information.
+Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for more information.
 
 <table>
 <tbody>
@@ -6281,7 +6281,7 @@ Does not work against players. See chapter 6.1.4 for more information.
 left. The amount is *not* cumulative if you have more than one item with
 the capability of stealing mana (an item of vampires will take
 precedence over an item of the bat. The Eater of Souls is treated as an
-item of vampire. Does not work against players. See chapter 6.1.4 for
+item of vampire. Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for
 more information.
 
 <table>
@@ -6934,7 +6934,7 @@ patch (1.07).
 1 A character only benefits from the fastest one, as they are not
 cumulative. The exception is if you have one of each in which case you
 will, in Diablo only, trigger a bug and receive a further reduction in
-hit recovery time. See chapter 2.2.1 for more information.
+hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 
 <table>
 <tbody>
@@ -7142,7 +7142,7 @@ character damage versus user. This damage is modified by any -damage
 from enemies, though.
 
 9 The game erroneously states it does ×0-5. Average value is ×2. For
-more details, see chapter 6.2.1. Does not work against Diablo or unique
+more details, see CHAPTER_LINK_player-versus-monster. Does not work against Diablo or unique
 monsters.
 
 ### Unique items
@@ -7157,7 +7157,7 @@ as one of the six special properties. All non quest unique items are
 based on a normal base item, and unless otherwise changed by the unique
 properties, retain all the stats of that normal base item. Unique quest
 items are based on special quest base items. Those special quest base
-items can be found in chapter 3.3. Such items are also noted by having
+items can be found in CHAPTER_LINK_quest-items. Such items are also noted by having
 n/a in the qlvl column.
 
 If you are playing the Playstation version you should know that when you
@@ -7168,7 +7168,7 @@ quite annoying.
 
 In the tables below are listed all unique items in the game that you can
 equip, both the ones randomly generated and the ones given as part of
-quests. For special quest items that are unequipable, see chapter 3.3.
+quests. For special quest items that are unequipable, see CHAPTER_LINK_quest-items.
 The prices shown are the buying prices. You can never buy unique items
 however. The stated qlvl is used in item generation, see chapter 3.8.
 Please note that all items *below* a thick line are only available in
@@ -7682,7 +7682,7 @@ picture.
 
 3 Does not exist in Hellfire and is not possible to find in multi player
 in Diablo, only single player. Still very rare in single player, see
-chapter 3.5.2 for more information. It also seems that although findable
+CHAPTER_LINK_unfindable-unique-items-in-multi-player for more information. It also seems that although findable
 in single player, it will morph as soon as a new game is started or
 loaded.
 
@@ -7970,7 +7970,7 @@ final value may not be 75%.
 2 If you are using Mana Shield, the damage will as any other damage be
 taken from your mana instead. Due to rounding errors with such small
 damage values, the actual value may not be correctly reduced by the Mana
-Shield. For more information about the Mana Shield, see chapter 6.1.1.
+Shield. For more information about the Mana Shield, see CHAPTER_LINK_mana-shield.
 
 3 A quest item only available in single player.
 
@@ -8342,7 +8342,7 @@ picture.
 
 #### Unfindable unique items in multi player
 
-Due to the way the game generates unique items (see chapter 3.8), some
+Due to the way the game generates unique items (see CHAPTER_LINK_item-creation-in-dungeon), some
 unique items will never be found in *multi player*. The same items are
 findable in single player but only if you find another unique item of
 the same base item and qlvl first in the same game session. This
@@ -8613,7 +8613,7 @@ simply be discarded.
 
 #### Recharge cost
 
-Staves can be recharged at Adria (or by a Sorcerer, see chapter 2.4).
+Staves can be recharged at Adria (or by a Sorcerer, see CHAPTER_LINK_skills).
 The cost to recharge a staff can be calculated using the formula below:
 
 R<sub>c</sub>C = FR<sub>c</sub>C · (1 - CurCha/MaxCha)
@@ -8647,7 +8647,7 @@ H = Number of charges on staff.
 P = The spell multiplier.
 
   - The base cost of the starting staff for Sorcerers can be found in
-    chapter 2.5. For other staves, see chapter 3.1.
+    CHAPTER_LINK_starting-equipment. For other staves, see CHAPTER_LINK_armor-weapons-and-jewelry.
 
   - On plentiful and bountiful staves, one should take the *base*
     amount of charges. That is divide the number of charges shown by 2
@@ -8733,7 +8733,7 @@ same hit.
 
 #### Repair cost
 
-Repairs are done at Griswold (or by a Warrior, see chapter 2.4).
+Repairs are done at Griswold (or by a Warrior, see CHAPTER_LINK_skills).
 Griswold uses the following formulas to calculate the cost:
 
 R<sub>p</sub>C = 0.15 · Price · (1 - CurDur/MaxDur) For magical and
@@ -8796,11 +8796,11 @@ Then, do the following:
 This chapter tries to explain how the game creates items and what
 factors affect the creation. Only items generated in the dungeon are
 discussed. Some of it applies to items created in town as well, but for
-more details about items created in town, see chapter 3.9. Most of this
+more details about items created in town, see CHAPTER_LINK_item-creation-in-town. Most of this
 chapter will not refer specifically to the Hive or the Crypt, but as
 with much else, they should be equivalent to Caves and Hell. Some quests
 will give you special items (not counting the special quest items). For
-information about them, see each individual quest in chapter 8.
+information about them, see each individual quest in CHAPTER_LINK_quests.
 
 In most of the situations below the game has to pick a certain item,
 prefix/suffix, unique, spell, or other property of an item out of
@@ -8859,7 +8859,7 @@ specially placed there and are not generated according to normal rules.
 6 Most chests, barrels, pods and urns have an ilvl equal to 2·dlvl,
 although some have it equal to dlvl. Those that have the ilvl equal to
 dlvl will only generate potions and scrolls (and oils in Hellfire). See
-chapter 3.8.1 for more information. Items created with an ilvl = dlvl
+CHAPTER_LINK_what-is-dropped for more information. Items created with an ilvl = dlvl
 are referred to as *special items* in this chapter.
 
 Level of mini dungeons\!\!\!\!
@@ -8870,7 +8870,7 @@ Special items appear on those occasions where the item created will not
 follow normal procedures. Such special items will normally only generate
 potions and scrolls (in Hellfire it also includes oils). For more
 information about what base items are possible for special items, see
-chapter 3.8.3.
+CHAPTER_LINK_item-properties.
 
 #### What is dropped?
 
@@ -8955,7 +8955,7 @@ Item: 25%
 
 If the chest is determined to have special items, all possible items
 will drop as special items. For information about items created by
-different ilvl, see chapter 3.8.2.
+different ilvl, see CHAPTER_LINK_item-type.
 
 Chests only exist in Church, Catacombs, Caves and Hell.
 
@@ -8965,7 +8965,7 @@ Pods and Urns are, for item creation, treated as barrels, so anything
 said about barrels below applies equally to pods and urns.
 
 Barrels can be of two different types, exploding and non exploding. For
-information about exploding barrels, see chapter 4.3. Approximately 20%
+information about exploding barrels, see CHAPTER_LINK_traps. Approximately 20%
 of all barrels are exploding ones. The information below will only apply
 to *non* exploding barrels. Exploding barrels will never have items in
 them.
@@ -9027,7 +9027,7 @@ Nothing: 50%
     
     dlvl 10-15: heavy armor
 
-  - See chapter 3.1 for a definition of light, medium and heavy armor.
+  - See CHAPTER_LINK_armor-weapons-and-jewelry for a definition of light, medium and heavy armor.
 
   - Armor racks can never exist in Church.
 
@@ -9061,7 +9061,7 @@ First, it has to be determined what the base item should be. For
 information about base items, see chapters 3.1 and 3.2. Each base item
 has a qlvl, and those within the ranges below can be dropped. Depending
 on the source of the item some base items are, of course, excluded (see
-chapter 3.8.1).
+CHAPTER_LINK_what-is-dropped).
 
 Normal and special monster: 1 to mlvl
 
@@ -9083,7 +9083,7 @@ Other: 1 to ilvl
     different base items with different qlvl. You will never notice any
     difference when playing other than them being more common as the
     ilvl and mlvl go up (as more of each type is possible at higher ilvl
-    and mlvl). See chapter 3.13.1. for a list of base items in the order
+    and mlvl). See CHAPTER_LINK_levels-of-base-items. for a list of base items in the order
     of their qlvl.
     
     Is it magical?
@@ -9114,7 +9114,7 @@ Other: 1 to ilvl
 
   - Rings and amulets are always magical.
 
-  - Staves are always magical if they have no spell, see chapter 3.8.3
+  - Staves are always magical if they have no spell, see CHAPTER_LINK_item-properties
     under *Staff* for more information.
 
   - On the ground only refers to equipable items found, often in
@@ -9139,7 +9139,7 @@ Other: 2%
 Once the base item has been determined, the properties of the item are
 to be decided. In many cases the item can’t have additional properties.
 That is the case for scrolls, potions, non magical items (as determined
-by the step above), runes, and some oils (see chapter 3.2.1). If so,
+by the step above), runes, and some oils (see CHAPTER_LINK_runes-and-oils). If so,
 this step is not performed. Otherwise, the properties have to be
 determined, and the procedure depends a bit on what type of item it is.
 Thus, each item type will be dealt with separately.
@@ -9182,7 +9182,7 @@ Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
     dropped. This is the reason that some unique items will never be
     dropped as there is always another unique item with the same qlvl
     (and being of the same base item) that will be dropped instead. See
-    chapter 3.5.2 for a list of such unique items.
+    CHAPTER_LINK_unfindable-unique-items-in-multi-player for a list of such unique items.
     
     In single player (but not in multi player) the game keeps track of
     what unique items have been dropped (or recreated at game start in a
@@ -9197,7 +9197,7 @@ Hell difficulty: 5·(32 + dlvl) to 15·(32 + dlvl) - 1
     restored upon load except for those items you have equipped.
     
     A unique item has up to 6 special properties, which are described in
-    more detail in chapter 3.5. If for any reason the game fails to
+    more detail in CHAPTER_LINK_unique-items. If for any reason the game fails to
     select a unique item (for example if there is no unique item with a
     low enough qlvl), the game will then proceed to create the item as a
     normal magical item instead.
@@ -9244,7 +9244,7 @@ prefixes and suffixes of qlvl up to 44 as he is level 40, and the +4
 bonus for being a unique monster applies to him. If for any reason the
 game fails to select a prefix and/or a suffix, the game will then
 proceed to create the item as a normal non magical item instead. See
-chapter 3.13.3 for a list of prefixes and suffixes in the order of their
+CHAPTER_LINK_levels-of-prefixes-and-suffixes for a list of prefixes and suffixes in the order of their
 qlvl.
 
 Some prefixes actually has a double chance of being chosen. The table
@@ -9730,7 +9730,7 @@ Book
 
 If the item type is a *book of,* the game then attaches a spell to the
 book. The qlvl of the spell can be in the range given below. For a list
-of qlvl of spells on books see chapter 3.2.3.
+of qlvl of spells on books see CHAPTER_LINK_books-scrolls-and-staves-with-spells.
 
 Range of qlvl for spell on books: 1 to ilvl/2
 
@@ -9741,11 +9741,11 @@ For information about how the spell is chosen, see above under Staff.
 
 Oil
 
-Oils can, as noted in chapter 3.2.1, be of two types; either the oil
+Oils can, as noted in CHAPTER_LINK_runes-and-oils, be of two types; either the oil
 together with its type is treated as a base item, just like a potion and
 thus no further processing of the oil is needed, or it can be created as
 the base item *oil of*, to which an oil type is then attached. See
-chapter 3.2.1 for more information on which oils can be created in which
+CHAPTER_LINK_runes-and-oils for more information on which oils can be created in which
 way. If the case is the latter one, the oil type attached to the oil
 follows the range below:
 
@@ -9825,7 +9825,7 @@ Hive in single player.
 
 5 In single player only.
 
-6 For special exceptions regarding Wirt, see chapter 3.9.4.
+6 For special exceptions regarding Wirt, see CHAPTER_LINK_wirt.
 
 Just as for item creation in the dungeon we start by defining the ilvl
 for each person that you can shop from in town. It is done in the table
@@ -10060,7 +10060,7 @@ Range of qlvl for prefixes and suffixes: ilvl/2 to ilvl
 
   - The exact procedure of choosing item type and prefixes and
     suffixes are the same as for magical items in the dungeon. See
-    chapter 3.8 for more information.
+    CHAPTER_LINK_item-creation-in-dungeon for more information.
 
 In Hellfire there is an additional factor to consider. If possible he
 will try to sell items that are better (more expensive than 80% of your
@@ -10092,8 +10092,8 @@ Range of qlvl for base item: 1 to ilvl
 Wirt will only offer one item for sale and you have to pay 50 gold just
 to see it. The maximum qlvl of prefixes and suffixes is 60, which means
 he could theoretically sell any type of item otherwise possible in the
-game (of the types listed in the table in chapter 3.9) if it were not
-for the price limit (see chapter 3.10). He offers items whose base item
+game (of the types listed in the table in CHAPTER_LINK_item-creation-in-town) if it were not
+for the price limit (see CHAPTER_LINK_general-remarks-on-possible-items). He offers items whose base item
 has a qlvl in the range below.
 
 Range of qlvl for base item: 1 to ilvl
@@ -10140,7 +10140,7 @@ what you already have (both equipped ones and not equipped ones).
 </tr>
 <tr class="odd">
 <td>Monk</td>
-<td>clubs, bows, shields and medium armor (see chapter 3.1 for definition of medium armor)</td>
+<td>clubs, bows, shields and medium armor (see CHAPTER_LINK_armor-weapons-and-jewelry for definition of medium armor)</td>
 </tr>
 <tr class="even">
 <td>Bard</td>
@@ -10165,7 +10165,7 @@ discussion will be about prefixes and suffixes.
 Occurrence of prefix and suffix
 
 Most prefixes and suffixes can only exist on certain base items. This
-information can be found in chapter 3.3 and in summary in chapter
+information can be found in CHAPTER_LINK_quest-items and in summary in chapter
 3.13.6. A quick look can rule out the possibility of an item like an
 emerald ring. As the base item is determined by the modified for
 difficulty mlvl, there should be no restrictions on what base item a
@@ -10178,7 +10178,7 @@ qlvl of prefix and suffix
 
 Just because both a prefix and a suffix can exist on a base item does
 not mean you can find them both on the same item. As explained in
-chapter 3.8, the qlvl of a prefix and a suffix must be in the range of:
+CHAPTER_LINK_item-creation-in-dungeon, the qlvl of a prefix and a suffix must be in the range of:
 
 ilvl/2 - ilvl: for non Wirt and Adria items, including items form the
 dungeons
@@ -10206,7 +10206,7 @@ though).
 
 Restrictions in the dungeon
 
-As explained in chapter 3.8, prefixes and suffixes are assigned to items
+As explained in CHAPTER_LINK_item-creation-in-dungeon, prefixes and suffixes are assigned to items
 based on a monsters unmodified mlvl. This means that no prefix or suffix
 with a qlvl higher than 30 (34 when a unique monster drops it as they
 have a +4 bonus) can be found in the dungeons, except from Diablo and
@@ -10248,7 +10248,7 @@ higher than the cap.
 Other restrictions
 
 Just a few other words on what is possible and not. A unique item can
-only be of the base item listed in chapter 3.5. A Dreamflange can, for
+only be of the base item listed in CHAPTER_LINK_unique-items. A Dreamflange can, for
 example, only be a mace and, nothing else.
 
 The difficulty you play on only affects the base item, but as a
@@ -10268,7 +10268,7 @@ levels, but it should not affect what prefixes and suffixes you find.
 
 What affects item creation
 
-As can be seen from the information in chapter 3, the only things that
+As can be seen from the information in CHAPTER_LINK_items, the only things that
 affect what items one can find in the dungeon and can buy in town are
 the mlvl and dlvl in dungeons and the clvl (or dlvl visited in single
 player) in town. Thus, item creation is not affected by anything else.
@@ -10325,7 +10325,7 @@ of the following:
     of appearing in a single player game (but very small, typically
     square the number for the uniques being second in the order and
     raise it to the power of three for the third one in the list. For
-    the drop order of such unique items, see chapter 3.5.2. It is my
+    the drop order of such unique items, see CHAPTER_LINK_unfindable-unique-items-in-multi-player. It is my
     belief that the values should be more or less accurate for single
     player as well though.
 
@@ -11789,7 +11789,7 @@ guide.
 
 This chapter summarizes various properties of items and lets you review
 them without being confused by other non related properties. All data
-below can of course be found in the complete tables in chapter 3.1 -
+below can of course be found in the complete tables in CHAPTER_LINK_armor-weapons-and-jewelry -
 3.5. To make it as convenient as possible, I have tried to have each
 summary on its own page or opening.
 
@@ -13385,7 +13385,7 @@ exception is The Undead Crown which is cumulative with both an item of
 blood or an item of the leech for a total of 3% to 15.5% or 5% to 17.5%
 life stealing. The Helm of Sprits, Shadowhawk, and The Eater of Souls
 are treated as items of blood. The Eater of Souls are treated as an item
-of vampire. Does not work against players. See chapter 6.1.4 for more
+of vampire. Does not work against players. See CHAPTER_LINK_life-and-mana-stealing for more
 information.
 
 3 Only available in Hellfire.
@@ -13674,7 +13674,7 @@ even if you later lower it.
 3 A character only benefits from the fastest one, as they are not
 cumulative. The exception is if you have one of each in which case you
 will, in Diablo only, trigger a bug and receive a further reduction in
-hit recovery time. See chapter 2.2.1 for more information.
+hit recovery time. See CHAPTER_LINK_getting-hit for more information.
 
 4 Has no effect in Diablo.
 
@@ -13745,7 +13745,7 @@ character damage versus user. This damage is modified by any -damage
 from enemies, though.
 
 9 The game erroneously states it does ×0-5. Average value is ×2. For
-more details, see chapter 6.2.1. Does not work against Diablo or unique
+more details, see CHAPTER_LINK_player-versus-monster. Does not work against Diablo or unique
 monsters.
 
 #### Occurrence of prefixes and suffixes
@@ -14197,9 +14197,9 @@ will, of course, include information about those ”spells” monsters use,
 as well as information about traps, which are often of a magical nature.
 It will not, however, cover magical effects from shrines. Generally,
 such magical effects from shrines are dependent on the dlvl they are
-found on. For an explanation of skills, see chapter 2.4. For a detailed
+found on. For an explanation of skills, see CHAPTER_LINK_skills. For a detailed
 information about how spells attack and also some explanation in general
-about spells, see chapter 5.6.5.
+about spells, see CHAPTER_LINK_monster-types.
 
 ### Spells available to players
 
@@ -14301,7 +14301,7 @@ applicable for each spell. Below is an explanation of what is told about
 most spells. If no information type is given for a specific spell, it is
 either due to it not applying (for example the speed of a stationary
 effect), or due to it not being known to me. For more details about how
-spells attack, see chapter 5.6.5 and more specifically chapter 6.1.8.
+spells attack, see CHAPTER_LINK_monster-types and more specifically CHAPTER_LINK_how-spells-really-work.
 
 In previous versions there existed information for spells if they had
 any distance factor included in their To Hit calculation. From what I
@@ -14335,7 +14335,7 @@ Speed: This is the speed at which the spell effect travels. It is a
 relative number used for comparison between different spells and normal
 arrows, and is not to be confused with walk speed for players and
 monsters. The higher the value, the faster it is. For information about
-the speed of arrows, see chapter 2.2.3.
+the speed of arrows, see CHAPTER_LINK_weapon-speed.
 
 Blockable: This will tell if a spell is blockable or not. In Diablo, you
 will only block if you have 0% resistance. In Hellfire, you will block
@@ -14453,8 +14453,8 @@ a wall.
 #### Spells available in Diablo
 
 The spells below are listed in alphabetical order and are available in
-both Diablo and Hellfire. For skills, see chapter 2.4. In those cases a
-spell can be used by a monster, see chapter 6.3.3.
+both Diablo and Hellfire. For skills, see CHAPTER_LINK_skills. In those cases a
+spell can be used by a monster, see CHAPTER_LINK_monstertrap-versus-player.
 
 <table>
 <tbody>
@@ -14793,7 +14793,7 @@ spell can be used by a monster, see chapter 6.3.3.
 <p>Max. Damage: 18 + clvl</p>
 <p>Speed: 16 + 2·slvl</p></td>
 <td><p>Note:</p>
-<p>* This spell only works on undead monsters and Diablo. See chapter 5.2 for information about which monsters are undead. It does not work against players.</p>
+<p>* This spell only works on undead monsters and Diablo. See CHAPTER_LINK_monster-data for information about which monsters are undead. It does not work against players.</p>
 <p>* In Hellfire, Diablo and Bone Demons are resistant to Holy Bolt.</p></td>
 </tr>
 </tbody>
@@ -14895,7 +14895,7 @@ spell can be used by a monster, see chapter 6.3.3.
 <p>Note for Hellfire only:</p>
 <p>* A Mana shield decreases the damage taken, but due to a bug the reduction actually decreases as slvl goes up. The damage is reduced by the following amount: 100/(3· slvl)%</p>
 <p>* If slvl is higher than 7, set slvl to 7.</p>
-<p>See chapter 6.1.1 for more information about this spell and about the bug.</p></td>
+<p>See CHAPTER_LINK_mana-shield for more information about this spell and about the bug.</p></td>
 </tr>
 </tbody>
 </table>
@@ -15016,7 +15016,7 @@ spell can be used by a monster, see chapter 6.3.3.
 
 The spells in the table below are new spells in Hellfire. Apocalypse and
 Nova, although new as learnable spells in Hellfire, exist in Diablo and
-no changes have been done to them. See chapter 4.1.3 for information
+no changes have been done to them. See CHAPTER_LINK_spells-available-in-diablo for information
 about Apocalypse and Nova.
 
 <table>
@@ -15236,7 +15236,7 @@ For staves, the required magic to cast a spell from it is the same as it
 is to learn the same spell to the first slvl. For scrolls, the mana
 required to cast a spell is normally a bit less. The table below also
 shows those required magic levels. For information about prices and slvl
-of books, scrolls, and staves with spells, see chapter 3.2.3.
+of books, scrolls, and staves with spells, see CHAPTER_LINK_books-scrolls-and-staves-with-spells.
 
 <table>
 <tbody>
@@ -16460,11 +16460,11 @@ arrow attacks here.
 Below are listed all those spells that monsters are able to use. In most
 cases they are identical to the ones used by players. although some
 differences can exist. If the damage is stated as *min - max*, the
-damage is identical to the one listed for melee damage in chapter 5.
+damage is identical to the one listed for melee damage in CHAPTER_LINK_monsters.
 Note that the charge attacks some monsters can do are, in fact, treated
 by the game as a type of ”spell,” where the monster itself is the
 ”spell” projectile. Upon hitting it will do normal melee damage. See
-chapter 6.1.7 for more information.
+CHAPTER_LINK_charge-attacks for more information.
 
 <table>
 <tbody>
@@ -16494,7 +16494,7 @@ chapter 6.1.7 for more information.
 <p>Speed: 32</p>
 <p>Blockable: Yes</p></td>
 <td><p>Note:</p>
-<p>* See chapter 5.2.1 for information about min and max damage for monsters.</p>
+<p>* See CHAPTER_LINK_monsters-in-diablo for information about min and max damage for monsters.</p>
 <p>* Arrow is of course not a spell, but is in many ways technically handled as a spell (with some special cases) by the game. For ease of use together with other parts of this Guide, it is thus useful to list arrow attacks here.</p></td>
 </tr>
 </tbody>
@@ -16512,7 +16512,7 @@ chapter 6.1.7 for more information.
 <p>Speed: 16</p>
 <p>Blockable: Yes</p></td>
 <td><p>Note:</p>
-<p>* See chapter 5.2.1 for information about min and max damage for monsters.</p></td>
+<p>* See CHAPTER_LINK_monsters-in-diablo for information about min and max damage for monsters.</p></td>
 </tr>
 </tbody>
 </table>
@@ -16600,7 +16600,7 @@ chapter 6.1.7 for more information.
 <p>Duration: 1, 1.25 and 1.50 seconds</p>
 <p>Blockable: No</p></td>
 <td><p>Note:</p>
-<p>* See chapter 5.2.1 for information about min and max damage for monsters.</p>
+<p>* See CHAPTER_LINK_monsters-in-diablo for information about min and max damage for monsters.</p>
 <p>* The three values for duration are for the three target locations, starting with the one closest to the caster.</p>
 <p>* The flame will try to hit once every 0.05 seconds for a total of 20, 25 and 30 times.</p></td>
 </tr>
@@ -16656,7 +16656,7 @@ chapter 6.1.7 for more information.
 <p>Blockable: Yes</p></td>
 <td><p>Note:</p>
 <p>* See chapters 5.2.1 and 5.2.3 for information about min and max damage for monsters.</p>
-<p>* See chapter 5.3.3 for information about intelligence factors (Intf) for monsters.</p>
+<p>* See CHAPTER_LINK_attack-types for information about intelligence factors (Intf) for monsters.</p>
 <p>* The duration is actually what determines the distance a monster can spit.</p></td>
 </tr>
 </tbody>
@@ -16675,7 +16675,7 @@ chapter 6.1.7 for more information.
 <p>Duration: 2·(Intf + 1) + Rnd[15]/20 seconds</p>
 <p>Blockable: No</p></td>
 <td><p>Note:</p>
-<p>* See chapter 5.3.3 for information about intelligence factors (Intf) for monsters.</p>
+<p>* See CHAPTER_LINK_attack-types for information about intelligence factors (Intf) for monsters.</p>
 <p>* The puddle will try to hit once each 0.05 second for a total of (Intf + 1)·2 + Rnd[15] times.</p></td>
 </tr>
 </tbody>
@@ -16687,7 +16687,7 @@ Most new monsters in Hellfire that can use spells have new special
 spells not available to players, although some use ”old” spells. Below
 are listed all new spells monsters in Hellfire can use. If the damage
 given is stated as *min - max*, the damage is identical to the one
-listed for melee damage in chapter 5.
+listed for melee damage in CHAPTER_LINK_monsters.
 
 <table>
 <tbody>
@@ -16973,7 +16973,7 @@ normal difficulty, and here follows information on how that is done as
 well as some description of the actual data. All data in the tables for
 nightmare and hell difficulty have been calculated using these formulas.
 Unique monsters generally follow the same formulas but more detailed
-information about data for unique monsters is found in chapter 5.4.
+information about data for unique monsters is found in CHAPTER_LINK_unique-monsters.
 
 Monster type
 
@@ -17028,7 +17028,7 @@ Dungeon Level
 This tells on what dungeon level the monster can occur on. This does not
 differ between difficulty levels. For more information about
 probabilities of monsters occurring on a specific dungeon level, see
-chapter 5.3.2.
+CHAPTER_LINK_monster-occurrences-in-the-dungeons.
 
 Monster level
 
@@ -17040,7 +17040,7 @@ A monster’s level affects many things, including To Hit and experience
 points given. It also affects how fast it regenerates hit points, what
 treasures it can drop, and many other things. For some unique monsters,
 one should add +30/+60 instead of the normal +15/+30. For information
-about this, see chapter 5.4.
+about this, see CHAPTER_LINK_unique-monsters.
 
 Hit points
 
@@ -17172,7 +17172,7 @@ To Hit with magic attack: 40 + 2·(mlvl - clvl)
     course.
 
   - For more detailed information about battle between players and
-    monsters, see chapter 6.
+    monsters, see CHAPTER_LINK_battle.
 
 Each monster also has an automatic To Hit value, just like players
 (monsters don’t have any chance to automatically miss unless fighting
@@ -17202,7 +17202,7 @@ on dungeon level 16: 30%
     lead to strange results as far as monsters attacking are
     concerned. It may for example seem that the monster get ”stuck”
     and misses the player for way to long time. For more information,
-    see chapter 5.5.8.
+    see CHAPTER_LINK_reseed-bug.
 
 Damage
 
@@ -17234,7 +17234,7 @@ resistances and immunities as in normal difficulty.
 Experience points
 
 The experience points gained for killing a monster is explained in
-chapter 2.6. The base experience points used for those calculations are
+CHAPTER_LINK_experience-points. The base experience points used for those calculations are
 adjusted according to:
 
 Nightmare: 2·normal + 2000
@@ -17250,7 +17250,7 @@ instead been grouped into two sections: monsters found in the Hive and
 monsters found in the Crypt. Finally, there is a table for the special
 monsters: Diablo, Skeleton King and The Butcher in Diablo, and Hork
 Demon, The Defiler and Na-Krul in Hellfire. Data for unique monsters is
-presented in chapter 5.4.
+presented in CHAPTER_LINK_unique-monsters.
 
 In each table, each monster has data in three lines corresponding to the
 three difficulty levels. The top line is for normal, the middle one for
@@ -17371,7 +17371,7 @@ when they hit you.
 </table>
 
 1 When you kill any monster, Fallen Ones will walk away from you for a
-short while, see chapter 5.5.9 under Fallen One.
+short while, see CHAPTER_LINK_ai-scripts under Fallen One.
 
 <table>
 <tbody>
@@ -17750,7 +17750,7 @@ attacking you.
 can always see you, even with max reduced light radius, regardless of
 whether or not you have a line of sight to them and regardless of the
 distance. They will fade in at a distance of 4-Intf and fade away at a
-distance of 6-Intf. See chapter 5.3.3 for information about the
+distance of 6-Intf. See CHAPTER_LINK_attack-types for information about the
 intelligence factor (Intf).
 
 2 While moving away from you (after getting hit), the Illusion Weavers
@@ -17809,7 +17809,7 @@ are impossible to hit.
 1 They only appear on level 2 as part of the Poisoned Water quest.
 
 2 Goat Men have a second spinning attack. They will only perform this
-attack once their HP gets low (see chapter 5.5.9). Flesh, Stone and Fire
+attack once their HP gets low (see CHAPTER_LINK_ai-scripts). Flesh, Stone and Fire
 Clan have a base To Hit of 0, 85 and 120 for the three difficulty levels
 while the damage is 0-0, 4-4 and 6-6. Night Clan have a base To Hit of
 15, 100 and 135 while the damage is 30-30, 64-64 and 126-126.
@@ -18958,7 +18958,7 @@ will list such properties, which might be of interest in various ways.
 Currently the information includes monster size and how it affects
 selection of monsters for a specific dungeon level, attack types (for
 information in more detail about the behavior of the monsters according
-to attack type, see chapter 5.5), intelligence factor, abilities to open
+to attack type, see CHAPTER_LINK_monster-ai), intelligence factor, abilities to open
 doors and follow target around corners, and timing information.
 
 #### Monster size
@@ -19195,7 +19195,7 @@ With the algorithm above and the monster size also from the tables
 above, it is quite easy to calculate the probability of a specific
 monster appearing on a dlvl. The table below has been calculated using
 the above information. For information about on what dlvl monsters can
-occur, see chapter 5.2.1 and 5.2.3.
+occur, see CHAPTER_LINK_monsters-in-diablo and CHAPTER_LINK_monsters-in-hellfire.
 
 <table>
 <tbody>
@@ -20215,7 +20215,7 @@ monster types. Since Hellfire does not have monster types, I have listed
 the attack type for each monster.
 
 When a unique monster is present, it and its mob may have a different
-attack type than the normal one for that monster type. See chapter 5.4
+attack type than the normal one for that monster type. See CHAPTER_LINK_unique-monsters
 for information about such attack type changes.
 
 <table>
@@ -20403,7 +20403,7 @@ behavior of the monster changes as it gets to a specific distance(s) to
 the target. Monsters can also gain a different attack type if they are
 part of a mob of a unique monster with a different attack type. The way
 monsters behave is not affected by difficulty level. For a more detailed
-explanation of how the attack types work, see chapter 5.5.
+explanation of how the attack types work, see CHAPTER_LINK_monster-ai.
 
 It is worth noticing that within a certain monster type the various
 monsters normally have an increasing ”intelligence”. A good way to see
@@ -20417,7 +20417,7 @@ higher the number, the higher the intelligence of the monster. For
 monster types with 4 subtypes in Diablo, I have listed the four values
 after each other. For monsters that have no subtypes, there is only one
 number. Otherwise, there is no value given. For information about what
-intelligence factor unique monsters have, see chapter 5.4.
+intelligence factor unique monsters have, see CHAPTER_LINK_unique-monsters.
 
 Presented in the table below is also the ability to open doors and to
 follow characters around walls. If a character disappears from the line
@@ -20701,7 +20701,7 @@ Hit recovery time
 This is the time it takes for a monster to go through a hit recovery
 (stun). To stun lock a monster, you need to hit it again before it has
 finished its hit recovery and either hit you (hit time) or moved away
-(for information about entering a new location, see chapter 6.1.9). For
+(for information about entering a new location, see CHAPTER_LINK_possible-targets-of-attacks). For
 the monster to actually go into a hit recovery, you have to hit it and
 do damage equal or exceeding mlvl+3 (monsters of The Hiddens go into hit
 recovery regardless of the damage as long as they have no resistance to
@@ -20715,7 +20715,7 @@ in much the same way as the swing speed of the characters in chapter
 2.2.3 works. Some monsters can actually hit you twice in one attack.
 Many monsters have more than one attack, in such cases, two times are
 given. The first attack will be the main attack, that is, the one that
-have data within the tables in chapter 5.2 while the second is the one
+have data within the tables in CHAPTER_LINK_monster-data while the second is the one
 explained in the foot notes. Usually the main attack will be the melee
 attack while the second attack is a spell attack.
 
@@ -20847,7 +20847,7 @@ spell attack.
 </tbody>
 </table>
 
-1 The second value is for the War Cry animation (see chapter 5.5.9 under
+1 The second value is for the War Cry animation (see CHAPTER_LINK_ai-scripts under
 Fallen One for more information).
 
 2 The second value is for the fade in/out animation.
@@ -21232,7 +21232,7 @@ around them. The monsters of that mob also have the same special ability
 as their boss and have their HP doubled (after any modification for
 difficulty level). Any stat not given in the unique monster tables is
 identical to that of the monster it is based on. Generally, any
-information given in chapter 5.1 also applies to unique monsters unless
+information given in CHAPTER_LINK_how-to-calculate-monster-data also applies to unique monsters unless
 stated otherwise below.
 
 I have tried to fit in all the data for each unique monster into the
@@ -21314,12 +21314,12 @@ Resistance and immunity
 
 Unlike normal monsters, unique monsters have the same resistances and
 immunities on all three difficulty levels. For an explanation on how
-resistance and immunity is shown, see chapter 5.1.
+resistance and immunity is shown, see CHAPTER_LINK_how-to-calculate-monster-data.
 
 Experience points
 
 Experience points given for killing a unique monster follows that of
-normal monsters (see chapter 5.1). The base experience for a unique
+normal monsters (see CHAPTER_LINK_how-to-calculate-monster-data). The base experience for a unique
 monster is twice that of a normal monster. However, there seems to be a
 bug with experience points for unique monsters. The calculations for
 nightmare and hell difficulty increase and seem to be applied twice.
@@ -22574,7 +22574,7 @@ difficulty levels.
 
 1 Due to having the Horned Demon attack type, Foulwing and his mob will
 do full charged attacks with both damage (0-0 / 4-4 / 6-6) and putting
-the player into hit recovery. For more information, see chapter 6.1.7.
+the player into hit recovery. For more information, see CHAPTER_LINK_charge-attacks.
 
 <table>
 <tbody>
@@ -22847,7 +22847,7 @@ putting the player into hit recovery. For more information, see chapter
 3 Due to having the Horned Demon attack type, Blighthorn and its mobs
 will do full charged attacks with both damage (30-30 / 64-64 / 126-126)
 and putting the player into hit recovery. For more information, see
-chapter 6.1.7. Has an AC of 45 on all difficulty levels.
+CHAPTER_LINK_charge-attacks. Has an AC of 45 on all difficulty levels.
 
 <table>
 <tbody>
@@ -24936,7 +24936,7 @@ sometimes force a monster into a new specific action. Such events be the
 monster being hit and set into hit recover, a Fallen One retreating due
 to having a companion killed.
 
-As explained in chapter 6, monsters, players and other things in the
+As explained in CHAPTER_LINK_battle, monsters, players and other things in the
 game are updated in a specific order and once every 0.05 seconds. During
 the update of each monster it will typically continue with the monster’s
 current action and if it during the update reaches the end of that
@@ -24948,12 +24948,12 @@ basically standing but for a predetermined time). The first thing that
 happens when a monster is set to *stand* mode is that it will check for
 a target. Thus, a monster always has a target, even if it is not
 activated and no enemy is in sight. For a description of target
-selection, see chapter 5.5.6. When a monster is in *stand* mode it will
+selection, see CHAPTER_LINK_target-selection. When a monster is in *stand* mode it will
 check for a new action by following a special script specific for the
 attack type the monster has. Note that a unique monster, and its mob if
-any, may have its attack type changed, see chapter 5.4, it will then
+any, may have its attack type changed, see CHAPTER_LINK_unique-monsters, it will then
 follow the script of the new attack type. For a list of attack type for
-each monster, see chapter 5.3.3. The script may either end up in the
+each monster, see CHAPTER_LINK_attack-types. The script may either end up in the
 monster being set into a new action type, or remaining in *stand* mode.
 
 At any time, the game, for each monster, thus has complete knowledge of
@@ -24982,11 +24982,11 @@ necessary.
 
 All monsters on a new level starts in a non active state (monsters with
 the Hidden attack type are an exception as they are always active, see
-chapter 5.5.9 under the *Hidden* subsection). As soon as a monster is
+CHAPTER_LINK_ai-scripts under the *Hidden* subsection). As soon as a monster is
 within a players light radius and the view between the monster and the
 player is not obstructed by walls, the monster will be activated. While
 not activated, most monsters will not act although some exceptions
-exists, see chapter 5.5.7. Examples of such exceptions are archers and
+exists, see CHAPTER_LINK_non-even-distributed-random-numbers. Examples of such exceptions are archers and
 Succubi still being able to fire at golems or if a monster is attacked
 in any way. When a monster leaves the light radius of a player, it will
 continue to act for 12.75 seconds until it is set into non active status
@@ -24994,7 +24994,7 @@ again unless it during that time, again enter the light radius of a
 player or is ”activated” again. Some monsters with the capability of
 following players outside their current view will try to walk around
 possible obstacles to get to the former target when it get out of the
-light radius. See chapter 5.3.3 for more information about which
+light radius. See CHAPTER_LINK_attack-types for more information about which
 monsters have this capability.
 
 #### About walking
@@ -25100,7 +25100,7 @@ archer or succubi at any distance.
 If the target ever disappears form the sight of the monster, it tends to
 walk up to the last position the target was seen. If the target is still
 not visible, it will try to pick a new target. Some monsters, as noted
-in chapter 5.3.3, have the ability to follow a target even if it is out
+in CHAPTER_LINK_attack-types, have the ability to follow a target even if it is out
 of sight. In that case, they will not walk up to the last position of
 the target or stop, but will instead find the closest way to the target
 if it is not too far away.
@@ -25129,7 +25129,7 @@ better in synch in multi player. Unfortunately this also cause problems
 in that monsters will not always act as they are supposed to, cause long
 streaks of the same result. An example is a monster missing continuously
 for almost an infinite time when they in fact should hit way more often
-due to having a auto To Hit for example (see chapter 5.1 under To Hit).
+due to having a auto To Hit for example (see CHAPTER_LINK_how-to-calculate-monster-data under To Hit).
 This only affect monster behavior though, nothing else like item drops
 or the behavior of spells.
 
@@ -25163,12 +25163,12 @@ immediately move to that line and continue from there. If it at any time
 says *exit*, the script has finished and you should not read any more.
 If you exit or reach the end without a new action being set, the monster
 will continue to stand and will check again 0.05 seconds later, that is
-during the next update, see chapter 6.1for more information about how
+during the next update, see CHAPTER_LINK_general-information for more information about how
 the game updates monsters and other things.
 
 The scripts will only refer to attack options such as melee attack or
 ranged attack. For information about what type of ranged attack monsters
-have, see chapter 4.2.
+have, see CHAPTER_LINK_spell-casting-monsters.
 
 Finally note that although quite detailed, there might still be many
 special cases, exceptions and other smaller facts omitted. It is still
@@ -25178,13 +25178,13 @@ that will cover almost all cases.
 Some common abbreviations are used in this chapter:
 
 D Distance to target. A distance of 1 means the target is adjacent ( see
-chapter 6.1.9 for a description on how to calculate distance to a
+CHAPTER_LINK_possible-targets-of-attacks for a description on how to calculate distance to a
 walking target).
 
 R Usually a random number, the specific script will tell exactly how the
 random number is achieved.
 
-Intf Intelligence factor, see chapter 5.3.3 and 5.4.
+Intf Intelligence factor, see CHAPTER_LINK_attack-types and CHAPTER_LINK_unique-monsters.
 
 light Refers to the light radius of players.
 
@@ -25615,7 +25615,7 @@ Gargoyle
 By stone *state* is meant when in actual stone form. By stone *mode* is
 meant both when in stone state and while moving away from a target due
 to low HP. While in stone state, Gargoyles will heal faster than usual,
-see chapter 5.1.
+see CHAPTER_LINK_how-to-calculate-monster-data.
 
 When finishing a circle walk, a monster using the Gargoyle attack type
 will start walking towards the last seen position of the target.
@@ -25791,7 +25791,7 @@ Distance \> 2, in light
 7.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Due to using Rnd\[10000\], the random number will not be evenly
-distributed, see chapter 5.5.7. In the steps where a new R = Rnd\[100\]
+distributed, see CHAPTER_LINK_non-even-distributed-random-numbers. In the steps where a new R = Rnd\[100\]
 is calculated, it is not a typo of mine, but most likely a bug and
 should have read R = Rnd\[10000\]
 
@@ -25957,7 +25957,7 @@ Distance \> 2, in light
 7.  do delay for (Rnd\[10\] + 5)/20 seconds
 
 Due to using Rnd\[10000\], the random number will not be evenly
-distributed, see chapter 5.5.7. In the steps where a new R = Rnd\[100\]
+distributed, see CHAPTER_LINK_non-even-distributed-random-numbers. In the steps where a new R = Rnd\[100\]
 is calculated, it is not a typo of mine, but most likely a bug and
 should have read R = Rnd\[10000\]
 
@@ -26238,7 +26238,7 @@ This is a summary of the resistance’s and immunities of monsters, as
 well as on what level they appear. Good for a quick look when you first
 enter a level and see the monsters for the first time. It also lists on
 what level, if any, a unique monster might appear. For data on the
-unique monsters, see chapter 5.3. I have also added the ability to open
+unique monsters, see CHAPTER_LINK_monster-properties. I have also added the ability to open
 doors, *Door*, and to follow you around walls, *Follow*, for each
 monster.
 
@@ -27993,7 +27993,7 @@ a monster, as well as the formula for calculating how much you actually
 get depending on your current level. The tables below list the last
 level your character will receive full experience (200·clvl or the total
 experience points needed for advancing to the next clvl divided by 20,
-whichever is the lowest, see chapter 2.6 for more information) for
+whichever is the lowest, see CHAPTER_LINK_experience-points for more information) for
 killing a monster.. It will also list the last level you receive any
 experience at all for killing a monster (always at a level 9 higher than
 the monsters level). It gives you those levels for all three difficulty
@@ -29433,7 +29433,7 @@ The update is done once every 0.05 seconds which explains why all timing
 information is given in steps of 0.05 seconds.
 
 Some further infromation about combat, especially by monsters, can be
-found in chapter 5.5.
+found in CHAPTER_LINK_monster-ai.
 
 ### General information
 
@@ -29448,7 +29448,7 @@ monster’s current action, and if the damage is high enough, put the
 victim into hit recovery (or if even greater into dying mode). Players,
 but never monsters, can also be put into a blocking state if carrying a
 shield. For information about how long it takes to do various actions,
-see chapter 2.3 for players and chapter 5.3.4 for monsters.
+see CHAPTER_LINK_timing-information for players and CHAPTER_LINK_timing-information for monsters.
 
 The detailed information below will generally be given as a numbered
 list which one steps through, step by step. At some points there will be
@@ -29500,7 +29500,7 @@ Mana Shield is a spell that causes damage to your life to be taken
 instead from your mana. In the process it will also reduce the amount of
 damage taken. To avoid confusion on how the Mana Shield spell affects
 combat, it will be described in detail here. For information about such
-things like mana cost and requirements to read books, see chapter 4.
+things like mana cost and requirements to read books, see CHAPTER_LINK_magic.
 
 As already said, Mana Shield is a magical effect, and as such, it is
 handled in the step when all other magical effects are handled (see
@@ -29777,7 +29777,7 @@ Charge attacks.
     mean of transportation.
 
   - The base to hit of the monster charge attack is 500%, this is then
-    modified normally according to chapter 6.2.3.
+    modified normally according to CHAPTER_LINK_monster-versus-player.
 
   - Blocking is handled normally for a charge attack, and so is
     damage.
@@ -29823,7 +29823,7 @@ spell that can hit a target repeatedly.
 Sometimes a spell can actually consist of several effects. The Lightning
 spell is such an example. The main spell is totally invisible and starts
 at the position of the source and travels away at a certain speed (see
-chapter 4.1.2). Each time it enters a new location it will spawn a new
+CHAPTER_LINK_details-about-spells). Each time it enters a new location it will spawn a new
 effect, a non moving lighting bolt with a certain duration that will sit
 in the location and try to hit anything in the location until its
 duration is over at which time it is removed. As the individual bolts
@@ -29841,7 +29841,7 @@ which they will also be terminated. Most missile spells will also be
 terminated when they hit a wall or other dungeon feature. In addition to
 the above, each effect, when it attacks, can be set to be blockable or
 not. The check for blocking will only be done for those spells that are
-blockable. See chapter 4.1.2 for information about blockable spells.
+blockable. See CHAPTER_LINK_details-about-spells for information about blockable spells.
 Finally, each effect can be either Fire, Lightning, Magic, or other
 (arrows are special).
 
@@ -29931,7 +29931,7 @@ target can only be hit in the location it is entering, *none* means that
 it can’t be hit in any of the locations. Monsters attacking players are
 handled in a special way explained below.
 
-2 For the definition of north, see chapter 1.3.
+2 For the definition of north, see CHAPTER_LINK_general-remarks.
 
 3 A monster that attack another monster will always check for To Hit no
 matter where the target is at the time to check for To Hit. A monster
@@ -29963,7 +29963,7 @@ means if you walk downwards, you will in such cases always be ”pushed”
 downwards (regardless of the direction of the attacker) but when walking
 in other directions, you will be ”pushed” back into the location you
 were leaving. In addition, when deciding upon what action to perform,
-see chapter 5.5 the distance is similarly always calculated in the same
+see CHAPTER_LINK_monster-ai the distance is similarly always calculated in the same
 way. This result in the situation that when you are walking towards a
 monster it will only initiate a melee attack while you are walking, if
 you are walking SW, S or SE. If you walk in any other direction towards
@@ -30032,7 +30032,7 @@ second can thus easily be calculated as:
 Locations a missile travel per second: 25·speed/45.3
 
 As the distance penalty of an arrow is increased by 1 each frame, the
-total distance penalty per location (see chapter 2.1.4 and 5.1 for more
+total distance penalty per location (see CHAPTER_LINK_armor-class-and-to-hit and CHAPTER_LINK_how-to-calculate-monster-data for more
 information) can be calculated as:
 
 For characters: distance·distance/2 = (45.3/speed)·(45.3/speed)/2 = 1
@@ -30109,7 +30109,7 @@ FTH = 50 + Dex/2 + ToHit<sub>items</sub> + clvl + bonus<sub>player</sub>
     classes.
 
   - penalty<sub>quarter damage</sub> only apply to certain attacks in
-    Hellfire, see chapter 2.2.2 for more information.
+    Hellfire, see CHAPTER_LINK_damage-done for more information.
 
   - Note that if FTH is below 5 or above 95 it is adjusted to 5 and
     95. This is commonly referred to as the auto hit and auto miss of
@@ -30131,7 +30131,7 @@ Damage
     Rnd\[100\] \< clvl (critical hit)
 
 6.  if the monster is undead or an animal, adjust the damage according
-    to the table in chapter 5.1 under monster type, that is, under
+    to the table in CHAPTER_LINK_how-to-calculate-monster-data under monster type, that is, under
     certain circumstances multiply damage by 1.5 or divide damage by 2
 
 7.  if the monster is a demon, triple the damage if the player is
@@ -30223,11 +30223,11 @@ Hit consequences
 
 15. if the target was a Hidden type of monster and it was not
     resistant to the spell, put monster into hit recovery as well as
-    in retreat mode (see chapter 5.5.9 under Hidden).
+    in retreat mode (see CHAPTER_LINK_ai-scripts under Hidden).
 
-16. if the monster died, check for any item dropping (see chapter 3.8)
+16. if the monster died, check for any item dropping (see CHAPTER_LINK_item-creation-in-dungeon)
     and add any experience to the players that are eligible for it
-    (see chapter 2.6)
+    (see CHAPTER_LINK_experience-points)
 
 17. if the monster died and it was Diablo, terminate game and show
     ending movie for players on dlvl 16
@@ -30363,7 +30363,7 @@ Hit consequences
 6.  if the target blocked, put target player into block mode and check
     for durability loss on shield
 
-For the probabilities of durability losses, see chapter 3.7.1.
+For the probabilities of durability losses, see CHAPTER_LINK_losing-durability.
 
 #### Monster versus Player
 
@@ -30397,7 +30397,7 @@ FTH = 30 + ToHit<sub>base,monster</sub> + 2·(mlvl-clvl) - Dex/5 -
 Ac<sub>items,player</sub> - bonus<sub>player</sub>
 
   - ToHit<sub>base,monster</sub> is the value found in the tables for
-    each monster in chapter 5.2 and 5.4. For the second attack of
+    each monster in CHAPTER_LINK_monster-data and CHAPTER_LINK_unique-monsters. For the second attack of
     Magma Demons it is 10 higher, and for the second attack of
     Lightning Demons it is 20 lower. For charges the base value is
     always 500%.
@@ -30499,7 +30499,7 @@ Hit consequences
 7.  if the target blocked, put target player into block mode and check
     for durability loss on shield
 
-For the probabilities of durability losses, see chapter 3.7.1.
+For the probabilities of durability losses, see CHAPTER_LINK_losing-durability.
 
 #### Monster versus Monster
 
@@ -30540,9 +30540,9 @@ Hit consequences
     Digger will also be set in a mode to find a carcass to feast/dig
     upon
 
-4.  if the target died, check for any item dropping (see chapter 3.8)
+4.  if the target died, check for any item dropping (see CHAPTER_LINK_item-creation-in-dungeon)
     and add any experience to the players that are eligible for it
-    (see chapter 2.6)
+    (see CHAPTER_LINK_experience-points)
 
 5.  if the target died and it was Diablo, terminate game and show
     ending movie
@@ -30609,7 +30609,7 @@ FTH<sub>spell</sub> = 50 + Mag + bonus<sub>player</sub> - 2·mlvl
 Damage
 
 1.  for spells, the actual damage is calculated upon cast. For
-    information about damage ranges for spells, see chapter 4.1.2.
+    information about damage ranges for spells, see CHAPTER_LINK_details-about-spells.
 
 2.  if the effect is an arrow, calculate Rnd\[max<sub>base weapon
     damage</sub> - min<sub>base weapon damage</sub> + 1\] +
@@ -30658,15 +30658,15 @@ Hit consequences
 
 5.  if the target was a Hidden type of monster and it was not
     resistant to the spell, put monster into hit recovery as well as
-    in retreat mode (see chapter 5.5.9 under Hidden).
+    in retreat mode (see CHAPTER_LINK_ai-scripts under Hidden).
 
 6.  if the monster had no specific target before, set the player as
     the target, this basically activates a monster that gets hit
     regardless of distance
 
-7.  if the monster died, check for any item dropping (see chapter 3.8)
+7.  if the monster died, check for any item dropping (see CHAPTER_LINK_item-creation-in-dungeon)
     and add any experience to the players that are eligible for it
-    (see chapter 2.6)
+    (see CHAPTER_LINK_experience-points)
 
 8.  if the monster died and it was Diablo, terminate game and show
     ending movie
@@ -30777,7 +30777,7 @@ clvl<sub>attacker</sub>) + bonus<sub>target</sub>
 Damage
 
 1.  for spells, the actual damage is calculated upon cast. For
-    information about damage ranges for spells, see chapter 4.1.2.
+    information about damage ranges for spells, see CHAPTER_LINK_details-about-spells.
 
 2.  if the effect is an arrow, calculate Rnd\[max<sub>base weapon
     damage</sub> - min<sub>base weapon damage</sub> + 1\] +
@@ -30881,7 +30881,7 @@ FTH<sub>trap spell</sub> = 40
 FTH<sub>player spell</sub> = 40
 
   - ToHit<sub>base,monster</sub> is the value found in the tables for
-    each monster in chapter 5.2 and 5.4.
+    each monster in CHAPTER_LINK_monster-data and CHAPTER_LINK_unique-monsters.
 
   - Fire Wall, Flame Wave and Ring of Fire always attack players as if
     they were traps.
@@ -30947,8 +30947,8 @@ FB = Dex + 2·(clvl - mlvl) + bonus<sub>player</sub>
 Damage
 
 1.  for spells and traps, the actual damage is calculated upon cast.
-    For information about damage ranges for spells, see chapter 4.1.2
-    for traps and chapter 4.1.2 for spells from players.
+    For information about damage ranges for spells, see CHAPTER_LINK_details-about-spells
+    for traps and CHAPTER_LINK_details-about-spells for spells from players.
 
 2.  if the attacker is a trap and the player has an item of thieves,
     divide damage by 2
@@ -31023,7 +31023,7 @@ FTH<sub>spell</sub> = 90 - Ac<sub>target</sub>
 Damage
 
 1.  for spells and traps, the actual damage is calculated upon cast.
-    For information about damage ranges for spells, see chapter 4.1.2.
+    For information about damage ranges for spells, see CHAPTER_LINK_details-about-spells.
 
 2.  if the effect is a spell and the monster has resistance, divide
     damage by 4
@@ -31041,11 +31041,11 @@ Hit consequences
 
 2.  if the target was a Hidden type of monster and it was not
     resistant to the spell, put monster into hit recovery as well as
-    in retreat mode (see chapter 5.5.9).
+    in retreat mode (see CHAPTER_LINK_ai-scripts).
 
-3.  if the monster died, check for any item dropping (see chapter 3.8)
+3.  if the monster died, check for any item dropping (see CHAPTER_LINK_item-creation-in-dungeon)
     and add any experience to the players that are eligible for it
-    (see chapter 2.6)
+    (see CHAPTER_LINK_experience-points)
 
 4.  if the monster died and it was Diablo, terminate game and show
     ending movie
@@ -31428,10 +31428,10 @@ single player mode, but some are present in both single and multi
 player. The table below lists each quest and the unique item (if any)
 you receive when you complete the quest. Normally you get it from the
 person who initiated the quest. Those unique items are only available in
-single player and information about them can be found in chapter 3.5.
+single player and information about them can be found in CHAPTER_LINK_unique-items.
 Note that you don’t receive all quests in every game (although some are
 always present), as they are randomly selected for each game. For more
-information, see chapter 8.1.
+information, see CHAPTER_LINK_how-quests-are-chosen.
 
 <table>
 <tbody>
@@ -31630,7 +31630,7 @@ difficulty. The only place where you can see your dots is Battle.net.
 
 4 Not really a quest but appropriate to list here.
 
-5 Hidden quests, see chapter 1.2 for information on how to activate
+5 Hidden quests, see CHAPTER_LINK_hidden-quests-and-characters-in-hellfire for information on how to activate
 them.
 
 6 Never shows up in the Quest Log.
@@ -31921,14 +31921,14 @@ is treated like a normal monster by the game, he will sometimes drop an
 item. It can be anything from gold to a magical item.
 
 When Diablo dies, anyone currently on dlvl 16 will be awarded dots for
-the difficulty level in question. See chapter 9.4 for more information
+the difficulty level in question. See CHAPTER_LINK_character-icons for more information
 about dots.
 
 ### Quests in Hellfire
     
 #### Farmer’s Orchard
 
-If you have not activated the hidden quests, see chapter 1.2. You will
+If you have not activated the hidden quests, see CHAPTER_LINK_hidden-quests-and-characters-in-hellfire. You will
 find Lester the Farmer near the cows in the town. If your character is
 level 15 or above, Lester will give you the Rune Bomb. Take it to the
 bridge adjacent to where you start. Standing on the bridge, drop it on
@@ -31938,7 +31938,7 @@ Amulet.
 
 #### The Jersey’s Jersey
 
-If you have activated the hidden quests (see chapter 1.2), you will not
+If you have activated the hidden quests (see CHAPTER_LINK_hidden-quests-and-characters-in-hellfire), you will not
 find Lester the Farmer. Instead, you will find the Complete Nut, also
 standing by the cows. In the Hive you will find one gray suit lying on
 the ground somewhere on level 3, and one brown suit lying on the ground
@@ -31947,7 +31947,7 @@ will give you the Bovine Plate.
 
 #### Little Girl
 
-If you have activated the hidden quests (see chapter 1.2), you will find
+If you have activated the hidden quests (see CHAPTER_LINK_hidden-quests-and-characters-in-hellfire), you will find
 a little girl standing close to the bridge just above the one that leads
 to the Hive. She will only appear once you have been to the Hive. When
 you kill the Hork Demon on level 3 of the Nest, he will drop Theodore,
@@ -32016,7 +32016,7 @@ will never show up in the quest log.
 Na-Krul can be found in a small room on level 4 of the Crypt. If you
 open his room by pulling the lever he will be a very tough opponent.
 However, if you read the books outside his room in the correct order, he
-will come out severely weaker (see chapter 5.2.4 for the difference).
+will come out severely weaker (see CHAPTER_LINK_special-monsters-in-hellfire for the difference).
 The correct order is:
 
 1.  In Spiritu Sanctum
@@ -32085,7 +32085,7 @@ updated but most likely not all.
 Channels on Battle.net can be either public or private. In private ones
 there will usually exist an operator who has some extra commands at
 his/her disposal and can thus kick or ban people from the channel. For a
-list of such operator commands, see chapter 9.2.
+list of such operator commands, see CHAPTER_LINK_commands-available-in-chat-channels.
 
 Below is a list of all Diablo related public channels, most will be
 listed when you press the ”CHANNEL” button while on Battle.net. In
@@ -32413,7 +32413,7 @@ clan channel always begin with the word *Clan* followed by a username
 (that is an account name). The person using the account name (and thus
 in Diablo having a character named so), will always automatically gain
 operator status when joining the channel. Others can only gain operator
-status by the /designate command (see chapter 9.2 for more information).
+status by the /designate command (see CHAPTER_LINK_commands-available-in-chat-channels for more information).
 
 ### Commands available in chat channels
 
@@ -32430,7 +32430,7 @@ its commands.
 Basic commands
 
 These commands can be used by anyone in any channel or game. For
-exceptions to what commands that can be used in games, see chapter 9.3.
+exceptions to what commands that can be used in games, see CHAPTER_LINK_commands-available-in-games.
 
 /away \<reason\> *Example: /away chatting at ICQ.* Typing this and
 specifying a reason that you are away will tell anyone who does a /whois
@@ -32516,7 +32516,7 @@ Operator commands
 Operator commands only apply to private channels. The first person to
 create a private channel becomes the operator of that channel (except in
 special clan channels where the person using the clan account name
-automatically gains operator status upon entry, see chapter 9.1 for more
+automatically gains operator status upon entry, see CHAPTER_LINK_channels for more
 information). You can tell who is the operator of a channel by looking
 for the user with the gavel. When you list all persons in a channel with
 the /who command, the operator will have \[ \] around his/her name. It
@@ -32606,7 +32606,7 @@ the meaning is as follow:
 Blizzard The person is a representative of Blizzard. The name is in
 light blue and everything that person writes is also in light blue. Note
 that anyone *not* having the Blizzard logo and *not* posting in blue or
-red text (see chapter 9.6) does *not* represent Blizzard.
+red text (see CHAPTER_LINK_text) does *not* represent Blizzard.
 
 b.net The person is an official Battle.net administrator.
 
@@ -32617,7 +32617,7 @@ games, only chat. Such a person will always have a plug.
 Diablo The person is logged on to Battle.net using Diablo and you are
 using either a chat client or any game other than Diablo. You or anyone
 else will also get this icon whenever connecting to Battle.net with
-Diablo and getting the plug (see chapter 9.5).
+Diablo and getting the plug (see CHAPTER_LINK_lag-indicators).
 
 Diablo<sub>SW</sub> The person is logged on to Battle.net using the
 shareware or spawned version of the game. The <sub>SW</sub> is actually
@@ -32631,7 +32631,7 @@ Diablo II: Lord of Destruction. The EXPANSION is actually located below
 Diablo on the icon.
 
 Gavel The person is the operator of the channel and can use the operator
-commands, see chapter 9.1.
+commands, see CHAPTER_LINK_channels.
 
 Megaphone The person is someone special, invited to a moderated channel
 and can be heard by everyone (normally you can’t hear non Blizzard
@@ -32966,7 +32966,7 @@ In case you are worried of losing your character due to crashes or other
 computer problems, the easiest way to back up your character is to
 simply copy the save files to a safe place (a floppy disk for example).
 To restore it later, you simply copy the save file back to the proper
-folder. See chapter 10.2 for more information about the save files and
+folder. See CHAPTER_LINK_save-files for more information about the save files and
 where they are located.
 
 ### Daylight-saving time problems in Diablo 1.00
@@ -32998,7 +32998,7 @@ will also result in that you will not be able to see the introduction
 movies though. It seems the game will not be affected in any other way
 if you rename or move this file but be aware that if you get into any
 trouble, you may have to reinstall the game. If you do this, pay
-attention to the Daylight-saving time problem mentioned in chapter 10.5.
+attention to the Daylight-saving time problem mentioned in CHAPTER_LINK_daylight-saving-time-problems-in-diablo-.
 
 ### Meaningless information about this guide
 
