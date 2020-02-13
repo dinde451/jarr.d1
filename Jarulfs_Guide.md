@@ -30554,7 +30554,7 @@ and traps (which are either spells or arrows). As there are so many more
 possibilities and special cases, some sections have been divided up to
 handle specific cases.
 
-#### Player versus Monster
+#### Player versus Monster non melee
 
 To Hit
 
@@ -30671,7 +30671,7 @@ Hit consequences
 8.  if the monster died and it was Diablo, terminate game and show
     ending movie
     
-#### Player versus Player
+#### Player versus Player non melee
 
 To Hit
 
