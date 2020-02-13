@@ -1,5 +1,13 @@
 # Jarulf’s Guide to Diablo and Hellfire
-version 1.63 by Pedro Faria / Jarulf
+This guide is based on version 1.63 of Jarulf’s Guide, written by
+Pedro Faria / Jarulf in the 1990s. It has been resurrected here to be used
+as a modern reference for the [freeablo project](https://freeablo.org),
+and to update any omissions or errors.
+If you notice any errors or omissions, please feel free to submit your edits
+on [gitlab](https://gitlab.com/wheybags/jarulfs-guide).
+
+The original Introduction and changelog chapters are still included for
+historical reference, but will be left unmodified.
 
 # Table of contents
 TABLE_OF_CONTENTS_HERE
