@@ -76,7 +76,11 @@ def recursive_parse_sections(current_section_path, f, levels_dict, before_table_
 
 
 def generate_replacement_line(line: str, path):
-    return ("#" * (len(path)+1)) + " " + ".".join([str(i) for i in path]) + " " + line.lstrip("#") + "\n"
+    return "{} {} [{}](#{})\n".format(
+        ("#" * (len(path)+1)),
+        ".".join([str(i) for i in path]),
+        line.lstrip("#"),
+        generate_sublink_string(line))
 
 
 def generate_sublink_string(line: str):
