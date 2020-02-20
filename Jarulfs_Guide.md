@@ -1775,7 +1775,7 @@ faster hit time.
 
 3 The swing speed is of course the one for casting a spell.
 
-4 The Barbarian has built it *stability* while using an axe or a club on
+4 The Barbarian has built in *stability* while using an axe or a club on
 top of this unless wearing an item that affects the hit recovery in a
 better way.
 
@@ -29862,7 +29862,7 @@ player can occupy a location at any time (although, due to bug, at times
 a monster and a player may end up in the same location, this is usually
 due to using the Teleport or Phasing spell). As long as a monster or a
 player is not moving between locations, it is always attackable in the
-location it occupies, regardless of what it do. Some activities will
+location it occupies. Some activities will
 make the monster or player not hitable, but that is a different matter,
 examples of such things are an Illusion Weaver retreating, a player
 during the first 0.5 seconds upon entry of a new dungeon level. But what
