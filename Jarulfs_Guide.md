@@ -365,11 +365,11 @@ just print the selected pages where changes were made.
   - Corrected and clarified the tables of tables in CHAPTER_LINK_mana-cost-and-magic-requirements-for-spells.
 
   - Changed text about unknown information (as it is actually know and
-    explained in the guide) in CHAPTER_LINK_timing-information under *Hit recovery
+    explained in the guide) in CHAPTER_LINK_monster-timing-information under *Hit recovery
     time*.
 
   - Removed erroneous information about Arch-Bishop Lazarus regarding
-    Hit Recovery in CHAPTER_LINK_timing-information under *Hit recovery time* and in
+    Hit Recovery in CHAPTER_LINK_monster-timing-information under *Hit recovery time* and in
     footnote under table in CHAPTER_LINK_unique-monsters and CHAPTER_LINK_resistances-immunities-and-mob-for-unique-monsters .
 
   - Corrected the data for Deathshade Fleshmaul in CHAPTER_LINK_unique-monsters
@@ -1696,7 +1696,7 @@ speed, see CHAPTER_LINK_spell-and-arrow-speeds.
 1 Will only affect the arrow speed in Hellfire. In Diablo it will affect
 the weapon speed instead.
 
-### Timing information
+### Player timing information
 
 This chapter summarizes all timing information for players. For blocking
 and hit recovery, this information can also be found in CHAPTER_LINK_fighting, and
@@ -20678,7 +20678,7 @@ you.
 </tbody>
 </table>
 
-#### Timing information
+#### Monster timing information
 
 This chapter deals with the time it takes for different monsters to do
 different things. The data given is explained below. In almost every
@@ -24933,7 +24933,7 @@ monsters act in general. Basically one can say that a monster can do 3
 different things; move in some way, attack in some way or stand still in
 some way.
 
-#### General information
+#### Monster AI general information
 
 Just like a player, a monster will always have a specific action which
 it will be doing. Also, just as players, it must finish the current
@@ -25169,7 +25169,7 @@ immediately move to that line and continue from there. If it at any time
 says *exit*, the script has finished and you should not read any more.
 If you exit or reach the end without a new action being set, the monster
 will continue to stand and will check again 0.05 seconds later, that is
-during the next update, see CHAPTER_LINK_general-information for more information about how
+during the next update, see CHAPTER_LINK_monster-ai-general-information for more information about how
 the game updates monsters and other things.
 
 The scripts will only refer to attack options such as melee attack or
@@ -29441,7 +29441,7 @@ information is given in steps of 0.05 seconds.
 Some further infromation about combat, especially by monsters, can be
 found in CHAPTER_LINK_monster-ai.
 
-### General information
+### Battle general information
 
 Before we start discussing the actual combat, it is good to know some
 basic information about how players and monsters function. Each monster
@@ -29454,7 +29454,7 @@ monster’s current action, and if the damage is high enough, put the
 victim into hit recovery (or if even greater into dying mode). Players,
 but never monsters, can also be put into a blocking state if carrying a
 shield. For information about how long it takes to do various actions,
-see CHAPTER_LINK_timing-information for players and CHAPTER_LINK_timing-information for monsters.
+see CHAPTER_LINK_player-timing-information for players and CHAPTER_LINK_monster-timing-information for monsters.
 
 The detailed information below will generally be given as a numbered
 list which one steps through, step by step. At some points there will be

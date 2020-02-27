@@ -23,15 +23,22 @@ def get_section_level(line):
     return new_section_size
 
 
-def recursive_parse_sections(current_section_path, f, levels_dict, before_table_of_contents=True):
+def recursive_parse_sections(current_section_path,
+                             f,
+                             levels_dict,
+                             section_names_set: typing.Set[str],
+                             before_table_of_contents=True):
 
     def insert(insert_line, path):
-        if insert_line in levels_dict:
+        section_name = insert_line.lstrip("#").strip()
+
+        if section_name in section_names_set:
             raise Exception("Error, duplicate section name: '{}', this makes links break, so we don't allow it".format(
-                insert_line.lstrip("#").strip()
+                section_name
             ))
 
         levels_dict[insert_line] = path
+        section_names_set.add(section_name)
 
     while True:
         line = f.readline()
@@ -56,7 +63,7 @@ def recursive_parse_sections(current_section_path, f, levels_dict, before_table_
                 current_section_path.append(1)
                 insert(line, tuple(current_section_path))
 
-                back_up_line = recursive_parse_sections(current_section_path, f, levels_dict, False)
+                back_up_line = recursive_parse_sections(current_section_path, f, levels_dict, section_names_set, False)
                 del current_section_path[-1]
 
                 if back_up_line:
@@ -214,8 +221,9 @@ def generate_html():
 def __main__():
 
     levels_dict = {}
+    section_names_set = set()
     with open(markdown_in_path, "r", encoding="utf-8") as in_file:
-        recursive_parse_sections([], in_file, levels_dict)
+        recursive_parse_sections([], in_file, levels_dict, section_names_set)
 
         in_file.seek(0)
 
