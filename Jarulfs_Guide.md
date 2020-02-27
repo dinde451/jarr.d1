@@ -24928,7 +24928,7 @@ Advocates. Only appears in a quest in single player.
 
 In this chapter, a more detailed explanation of the monster’s AI,
 artificial intelligence, is given. That is, it will explain how the
-monster decide what to do. It will also explain in more detail how
+monster decides what to do. It will also explain in more detail how
 monsters act in general. Basically one can say that a monster can do 3
 different things; move in some way, attack in some way or stand still in
 some way.
@@ -24996,10 +24996,10 @@ exists, see CHAPTER_LINK_non-even-distributed-random-numbers. Examples of such e
 Succubi still being able to fire at golems or if a monster is attacked
 in any way. When a monster leaves the light radius of a player, it will
 continue to act for 12.75 seconds until it is set into non active status
-again unless it during that time, again enter the light radius of a
+again unless it during that time, again enters the light radius of a
 player or is ”activated” again. Some monsters with the capability of
 following players outside their current view will try to walk around
-possible obstacles to get to the former target when it get out of the
+possible obstacles to get to the former target when it leaves the
 light radius. See CHAPTER_LINK_attack-types for more information about which
 monsters have this capability.
 
@@ -25011,12 +25011,12 @@ detail. Some general comments is needed though. Below are given very
 general description of some common walk behavior. They are given as a
 general information. Changes and diversions may exists. Also, if while
 walking the path is blocked, monsters may behave slightly different.
-Some times it will try alternative paths and other times abort its walk
+Sometimes it will try alternative paths and other times abort its walk
 and reconsider its action. Some monsters have very specific walk
 behavior and those will be described within the actual AI script.
 
 Walking towards target: This means the monster will generally walk
-towards the target in the closes possible way. It will typically walk
+towards the target in the closest possible way. It will typically walk
 around smaller obstacles. Example of this walk type are The Hiddens and
 Skeletons.
 
