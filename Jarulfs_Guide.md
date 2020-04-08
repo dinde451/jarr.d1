@@ -10,7 +10,6 @@ The original Introduction and changelog chapters are still included for
 historical reference, but will be left unmodified.
 
 # Table of contents
-TABLE_OF_CONTENTS_HERE
 
 ## Introduction
 

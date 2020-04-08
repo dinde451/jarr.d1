@@ -17,7 +17,7 @@ body {
   padding: 10px 40px;
   padding-bottom: 20px;
   border-radius: 2px;
-  margin-left: auto;
+  margin-left: 22%;
   margin-right: auto;
   margin-top: 2em;
   margin-bottom: 2em;
@@ -184,3 +184,29 @@ h1, h2, h3 {
   border-bottom: 1px solid #eaecef;
   color: #111;
   /* Darker */ }
+
+
+.navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  overflow-y: scroll;
+  font-size: 11px;
+  padding: 20px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.navigation h2 {
+  margin: 1em 0 0;
+}
+
+.navigation h3 {
+  margin: 0.5em 0 0;
+}
+
+.navigation h4 {
+  margin: 0;
+}
+

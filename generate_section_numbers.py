@@ -46,8 +46,9 @@ def recursive_parse_sections(current_section_path,
         if not line:
             break
 
-        if line == "TABLE_OF_CONTENTS_HERE\n":
+        if line == "# Table of contents\n":
             before_table_of_contents = False
+            continue
 
         if before_table_of_contents:
             continue
@@ -154,8 +155,11 @@ def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dic
             if not line:
                 break
 
-            if line == "TABLE_OF_CONTENTS_HERE\n":
+            if line == "# Table of contents\n":
+                out_file.write("<div class='navigation'>\n");
+                out_file.write(line)
                 generate_table_of_contents(out_file, levels_dict)
+                out_file.write("</div>\n");
                 before_table_of_contents = False
                 continue
 
