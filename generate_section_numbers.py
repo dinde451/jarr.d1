@@ -16,7 +16,7 @@ include_html = [os.path.dirname(__file__) + "/fork_on_gitlab.html"]
 def get_section_level(line):
     new_section_size = 0
     for c in line:
-        if c is not '#':
+        if c != '#':
             break
         new_section_size += 1
 
@@ -156,10 +156,10 @@ def rewrite_with_sections(path: str, in_file: typing.IO, levels_dict: typing.Dic
                 break
 
             if line == "# Table of contents\n":
-                out_file.write("<div class='navigation'>\n");
+                out_file.write("<div class='navigation'>\n")
                 out_file.write(line)
                 generate_table_of_contents(out_file, levels_dict)
-                out_file.write("</div>\n");
+                out_file.write("</div>\n")
                 before_table_of_contents = False
                 continue
 
@@ -212,7 +212,8 @@ def generate_html():
     command = ["pandoc",
                markdown_out_path,
                "-o", html_out_path,
-               "--css", "style.css"]
+               "--css", "style.css",
+               "--metadata", "pagetitle=\"Jarulf's Guide to Diablo and Hellfire\""]
 
     for path in include_html:
         command.append("--include-in-header")
